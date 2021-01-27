@@ -24,3 +24,4 @@ title: About Me
 * 2021: Mercari's Women Tech ゲストLT
 
 ## メディア
+* https://www.morecareee.jp/trend/style027/
