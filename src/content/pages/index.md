@@ -1,8 +1,8 @@
 ---
 template: index-page
 slug: /
-title: yukamiya.me
-tagline: Yu Kamiya / Software Engineer / Women Tech
+title: Yu Kamiya
+tagline: Software Engineer / Women Tech
 featuredImage: /assets/bench-accounting-nvzvopqw0gc-unsplash.jpg
 cta:
   ctaText: Know more
