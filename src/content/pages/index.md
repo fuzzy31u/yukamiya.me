@@ -2,7 +2,7 @@
 template: index-page
 slug: /
 title: Yu Kamiya
-tagline: Software Engineer / Women Tech
+tagline: Software Engineer / Empower Women in Tech
 featuredImage: /assets/bench-accounting-nvzvopqw0gc-unsplash.jpg
 cta:
   ctaText: Know more
