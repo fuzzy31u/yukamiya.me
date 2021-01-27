@@ -4,7 +4,7 @@ title: EdTech エドテック テクノロジーで教育が変わり、人類�
 slug: /reading-edtech
 date: 2020-05-09T05:53:16.102Z
 description: EdTech エドテック テクノロジーで教育が変わり、人類は「進化」する
-featuredImage: ""
+featuredImage: /assets/awa.jpg
 ---
 <https://www.amazon.co.jp/exec/obidos/ASIN/4344926064/hatena-blog-22/>
 
