@@ -4,6 +4,7 @@ slug: /about
 title: About Me
 ---
 ## Profile
+
 * 2008: 株式会社サイバーエージェント新卒エンジニア職第一期生として入社
 * 2009: Ameba事業本部にて、Amebaなう、アメーバニュースなどサーバサイドエンジニアとして自社サービスの開発に従事
 * 2010: スマートフォン事業部にてAndroidエンジニアとして女性向け写真共有アプリ、女子中高生向けプロフアプリ開発立ち上げ
@@ -18,10 +19,12 @@ title: About Me
 * 2021: 女性向けプログラミングスクール（リカレント事業）の立ち上げ
 
 ## 登壇
+
 * 2019: Women Tech Terrace LT
 * 2020: Women Who Code LT
 * 2020: Women Leadership Webinar パネラー
-* 2021: Mercari's Women Tech ゲストLT
+* 2021: [Mercari’s Women in Tech Meetup Vol.03](https://connpass.com/event/201048/) ゲストLT
 
 ## メディア
+
 * https://www.morecareee.jp/trend/style027/
