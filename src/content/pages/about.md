@@ -22,6 +22,7 @@ title: About Me
 
 * 2021: [Mercari’s Women in Tech Meetup Vol.03](https://connpass.com/event/201048/) ゲストLT
 * 2020: [テクノロジー業界における女性の リーダーシップを支援するため](https://www.wahlandcase.com/jp/webinar/women-leaders-in-the-technology-industry)[](https://www.wahlandcase.com/jp/webinar/women-leaders-in-the-technology-industry) パネラー
+* 2020-2021: 女子中高生向けコーディングコース[Waffle Camp](https://www.camp.waffle-waffle.org/) キャリアトーク
 * 2020: Women Who Code presents [Remote Lightning 🌩 Talk Night オンラインライトニングトーク](https://www.meetup.com/Women-Who-Code-Tokyo/events/271072884/)
 * 2019: サイバーエージェント presents [Woman Tech Terrace](https://wtt.cyberagent.group/) LT
 * 2012/05/29: 駒澤大学 特殊講義Ⅰ ゲストスピーカー
