@@ -36,3 +36,14 @@ title: About Me
 * 女子高生のための理工系大学・学部の進学情報サイト[『Happy Technology 05』](http://hapiteku.com/)
 * 2011: [『WEB+DB PRESS vol.64』](http://gihyo.jp/dev/serial/01/cyberagent/0017)サイバーエージェントを支える技術者たち
 * 理系女子応援サービス[](http://www.rikejo.jp/)『リケジョ』デジタルで楽しませるリケジョブ
+
+## 執筆
+
+* 2015: サイバーエージェントテックブログ [ママエンジニアのワークライフ](https://ameblo.jp/principia-ca/entry-12071778409.html)
+* 2012: サイバーエージェントテックブログ [ハイブリッドAndroidアプリ開発7つの工夫](https://ameblo.jp/principia-ca/entry-11177133323.html)
+
+## Links
+
+* [はてなブログ](https://fuzzy31u.hatenablog.com/)
+* [はてなダイアリー](https://fuzzy31u.hatenadiary.org/)
+* [Qiita](https://qiita.com/fuzzy31u)
