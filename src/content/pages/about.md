@@ -20,11 +20,11 @@ title: About Me
 
 ## 登壇
 
-* 2019: Women Tech Terrace LT
-* 2020: Women Who Code LT
-* 2020: Women Leadership Webinar パネラー
 * 2021: [Mercari’s Women in Tech Meetup Vol.03](https://connpass.com/event/201048/) ゲストLT
+* 2020: [テクノロジー業界における女性の リーダーシップを支援するため](https://www.wahlandcase.com/jp/webinar/women-leaders-in-the-technology-industry)[](https://www.wahlandcase.com/jp/webinar/women-leaders-in-the-technology-industry) パネラー
+* 2020: Women Who Code presents [Remote Lightning 🌩 Talk Night オンラインライトニングトーク](https://www.meetup.com/Women-Who-Code-Tokyo/events/271072884/)
+* 2019: サイバーエージェント presents [Woman Tech Terrace](https://wtt.cyberagent.group/) LT
 
-## メディア
+## 掲載
 
-* https://www.morecareee.jp/trend/style027/
+* モアキャリー [Style#27｜仕事と大学院の両立、仕事と育児の両立。ライフステージが変わっても仕事とやりたいことを両立するサイバーエージェントのワーキングママ](https://www.morecareee.jp/trend/style027/)
