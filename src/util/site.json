@@ -4,8 +4,8 @@
     "titleTemplate": "%s",
     "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
     "siteUrl": "https://yukamiya.me",
-    "image": "/assets/profile.jpeg",
-    "iconimage": "/assets/profile.jpeg",
+    "image": "/assets/favicon.ico",
+    "iconimage": "/assets/favicon.ico",
     "twitterUsername": "@fuzzy31u"
   },
   "ga": "UA-188277291-1"
