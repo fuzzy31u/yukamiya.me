@@ -18,6 +18,8 @@ title: About Me
 * 2020: [一般社団法人Waffle](https://waffle-waffle.org/)にてプロボノとして技術アドバイス等
 * 2021: 女性向けプログラミングスクール（リカレント事業）の立ち上げ
 
+  ![profile](/assets/dsc_7752.jpg)
+
 ## 登壇
 
 * 2021: [Mercari’s Women in Tech Meetup Vol.03](https://connpass.com/event/201048/) ゲストLT
