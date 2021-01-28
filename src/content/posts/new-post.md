@@ -2,7 +2,7 @@
 template: blog-post
 title: EdTech エドテック テクノロジーで教育が変わり、人類は「進化」する
 slug: /reading-edtech
-date: 2020-05-09T05:53:16.102Z
+date: 2021-01-28 15:35
 description: EdTech エドテック テクノロジーで教育が変わり、人類は「進化」する
 featuredImage: /assets/awa.jpg
 ---
