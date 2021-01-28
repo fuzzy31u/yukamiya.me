@@ -49,3 +49,4 @@ title: About Me
 * [はてなブログ](https://fuzzy31u.hatenablog.com/)
 * [はてなダイアリー](https://fuzzy31u.hatenadiary.org/)
 * [Qiita](https://qiita.com/fuzzy31u)
+* [SpeakerDeck](https://speakerdeck.com/fuzzy31u)
