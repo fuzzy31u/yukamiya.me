@@ -24,7 +24,14 @@ title: About Me
 * 2020: [テクノロジー業界における女性の リーダーシップを支援するため](https://www.wahlandcase.com/jp/webinar/women-leaders-in-the-technology-industry)[](https://www.wahlandcase.com/jp/webinar/women-leaders-in-the-technology-industry) パネラー
 * 2020: Women Who Code presents [Remote Lightning 🌩 Talk Night オンラインライトニングトーク](https://www.meetup.com/Women-Who-Code-Tokyo/events/271072884/)
 * 2019: サイバーエージェント presents [Woman Tech Terrace](https://wtt.cyberagent.group/) LT
+* 2012/05/29: 駒澤大学 特殊講義Ⅰ ゲストスピーカー
+* 2011: 駒澤大学 青木ゼミ 女子就活生向けキャリアセミナー
+* 2011: パソナテック主催イベント[『WOMAN*IT』](http://www.pasonatech.co.jp/woman_it/event_report.jsp)パネラー→[広報ブログ](http://ameblo.jp/cair/entry-10907821776.html)
 
 ## 掲載
 
-* モアキャリー [Style#27｜仕事と大学院の両立、仕事と育児の両立。ライフステージが変わっても仕事とやりたいことを両立するサイバーエージェントのワーキングママ](https://www.morecareee.jp/trend/style027/)
+* 2019: モアキャリー [Style#27｜仕事と大学院の両立、仕事と育児の両立。ライフステージが変わっても仕事とやりたいことを両立するサイバーエージェントのワーキングママ](https://www.morecareee.jp/trend/style027/)
+* IT media News[](http://news.itmedia.co.jp/20130416/003760)今週のITガール：国境を超えるエンジニア 神谷優さん
+* 女子高生のための理工系大学・学部の進学情報サイト[『Happy Technology 05』](http://hapiteku.com/)
+* 2011: [『WEB+DB PRESS vol.64』](http://gihyo.jp/dev/serial/01/cyberagent/0017)サイバーエージェントを支える技術者たち
+* 理系女子応援サービス[](http://www.rikejo.jp/)『リケジョ』デジタルで楽しませるリケジョブ
