@@ -37,7 +37,7 @@ title: About Me
 * IT media News[](http://news.itmedia.co.jp/20130416/003760)今週のITガール：国境を超えるエンジニア 神谷優さん
 * 女子高生のための理工系大学・学部の進学情報サイト[『Happy Technology 05』](http://hapiteku.com/)
 * 2011: [『WEB+DB PRESS vol.64』](http://gihyo.jp/dev/serial/01/cyberagent/0017)サイバーエージェントを支える技術者たち
-* 理系女子応援サービス[](http://www.rikejo.jp/)『リケジョ』デジタルで楽しませるリケジョブ
+* 理系女子応援サービス[](http://www.rikejo.jp/)[『リケジョ』](https://www.rikejo.jp/)デジタルで楽しませるリケジョブ
 
 ## 執筆
 
