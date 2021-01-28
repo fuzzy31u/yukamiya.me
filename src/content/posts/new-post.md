@@ -6,13 +6,13 @@ date: 2020-05-09T05:53:16.102Z
 description: EdTech エドテック テクノロジーで教育が変わり、人類は「進化」する
 featuredImage: /assets/awa.jpg
 ---
+cross posted by https://fuzzy31u.hatenablog.com/entry/2020/09/07/131312
+
 <https://www.amazon.co.jp/exec/obidos/ASIN/4344926064/hatena-blog-22/>
 
 読んだ。
 
 小学生向けプログラミング教材を提供する株式会社キュレオへの異動に伴い前チームからいただいた送別の品。
-
-<figure class="figure-image figure-image-fotolife" title="5年半所属したAWAのサーバチーム恒例、技術書のプレゼント">\[f:id:fuzzy31u:20200731184134j:plain]<figcaption>5年半所属したAWAのサーバチーム恒例、技術書のプレゼント</figcaption></figure>
 
 Web業界でのエンジニアリング経験は気づけば10年ほど経つものの、教育分野に足を踏み入れるのは初めてのこと。ということで記録を残しておく。
 
