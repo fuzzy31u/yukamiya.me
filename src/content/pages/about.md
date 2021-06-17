@@ -16,7 +16,7 @@ title: About Me
 * 2016: 第二子出産
 * 2020: [株式会社QUREO](https://qureo.jp/player)（CA Tech Kidsとスプリックスの合弁会社）にて子ども向けプログラミング教材の開発に従事
 * 2020: [一般社団法人Waffle](https://waffle-waffle.org/)にてプロボノとして技術アドバイス等
-* 2021: 女性向けプログラミングスクール（リカレント事業）の立ち上げ
+* 2021: 女性向けプログラミングブートキャンプ[Ms.Engineer](https://ms-engineer.jp/) co-founder
 
   ![profile](/assets/dsc_7752.jpg)
 
