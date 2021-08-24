@@ -33,6 +33,7 @@ title: About Me
 
 ## 掲載
 
+* 2021: [NTTコムウェア C+](https://www.nttcom.co.jp/comware_plus/column/book_review/202107.html) コラム: デジタル人材のためのブックレビュー
 * 2021: 女性向けプログラミングブートキャンプMs.Engineer[プレスリリース](https://prtimes.jp/main/html/rd/p/000000004.000065982.html)
 * 2019: モアキャリー [Style#27｜仕事と大学院の両立、仕事と育児の両立。ライフステージが変わっても仕事とやりたいことを両立するサイバーエージェントのワーキングママ](https://www.morecareee.jp/trend/style027/)
 * IT media News[](http://news.itmedia.co.jp/20130416/003760)今週のITガール：国境を超えるエンジニア 神谷優さん
