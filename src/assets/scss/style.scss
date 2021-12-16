@@ -13,11 +13,29 @@
 .site-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  // align-items: center;
   position: relative;
-  padding: 30px 20px;
+  padding: 20px 20px;
+
+	background-image: url(/profile_top.png);
+	background-size: cover;
+	background-position-y: center;
+	height: 300px;
 }
+.site-header-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.site-header-theme {
+	z-index: 1;
+}
+
 .site-navigation {
+	z-index: 1;
   ul {
     list-style: none;
     margin: 0;
@@ -28,14 +46,14 @@
     margin-left: 20px;
   }
   a {
-    color: rgba(255,255,255,0.6);
+		color: var(--primary-color);
     text-decoration: none;
     &:hover {
       color: rgba(255,255,255,0.8);
     }
   }
   a[aria-current="page"] {
-    color: rgba(255,255,255,1)
+		color: var(--home-link-color);
   }
   .menu-trigger {
     display: none;
@@ -50,6 +68,8 @@
     .menu-trigger,
     .icon-menu-line {
       display: flex;
+			position: relative;
+			z-index: 10;
     }
 
     .icon-menu-close {
@@ -65,7 +85,11 @@
     }
     .menu-trigger.is-active + ul {
       display: block;
-    }
+			background: rgba(255,255,255, 0.8);			
+			position: absolute;
+			top: 0;
+			width: 180px;		
+			}
     ul {
       display: none;
       position: absolute;
@@ -94,6 +118,7 @@
 }
 .site-logo {
   font-weight: bold;
+	z-index: 1;
   a {
     color: #fff;
 		text-decoration: none;
