@@ -31,9 +31,10 @@ const Layout = ({children, className, props}) => {
   return (
     <div className="primary-container">
       <Header>
+        <div className={"site-header-overlay"}></div>
         <Logo title={siteTitle} />
         <Navigation/>
-        <div sx={layoutStyle.theme}>
+        <div sx={layoutStyle.theme} className={"site-header-theme"}>
           <Theme/>
         </div>
       </Header>

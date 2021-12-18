@@ -45,9 +45,8 @@ const themeStyles = {
   modeIcons: {
     display:"flex",
     alignItems:"center",
-    color:"#fff",
-    mt:"10px"
-
+    mt:"10px",
+    color: "#5C2941"  // TODO: specify primary color variable
   },
   modeText : {
     fontSize: "16px",
