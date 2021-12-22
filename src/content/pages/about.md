@@ -23,6 +23,8 @@ title: About Me
 
 ## 登壇
 
+* 2021/11/17: [Women Developers Summit『IT分野のジェンダーギャップの現在地とアクション』](https://event.shoeisha.jp/devsumi/20211117/session/3515/)
+* 2021/11/10: [BIT VALLEY 2021#06『副業・兼業でキャリアを広げる』](https://2021.bit-valley.jp/program/career/35)『副業で広がるキャリアの可能性と働き方の選択肢』パネラー
 * 2021: [Mercari’s Women in Tech Meetup Vol.03](https://connpass.com/event/201048/) ゲストLT
 * 2020: [テクノロジー業界における女性の リーダーシップを支援するため](https://www.wahlandcase.com/jp/webinar/women-leaders-in-the-technology-industry)[](https://www.wahlandcase.com/jp/webinar/women-leaders-in-the-technology-industry) パネラー
 * 2020-2021: 女子中高生向けコーディングコース[Waffle Camp](https://www.camp.waffle-waffle.org/) キャリアトーク
@@ -34,6 +36,7 @@ title: About Me
 
 ## 掲載
 
+* 2021/11: [エンジニア・クリエイター発 ダイバーシティ推進プロジェクト「CAlorful」が誕生](https://www.cyberagent.co.jp/way/features/list/detail/id=26859)
 * 2021: [NTTコムウェア C+](https://www.nttcom.co.jp/comware_plus/column/book_review/202107.html) コラム: デジタル人材のためのブックレビュー
 * 2021: 女性向けプログラミングブートキャンプMs.Engineer[プレスリリース](https://prtimes.jp/main/html/rd/p/000000004.000065982.html)
 * 2019: モアキャリー [Style#27｜仕事と大学院の両立、仕事と育児の両立。ライフステージが変わっても仕事とやりたいことを両立するサイバーエージェントのワーキングママ](https://www.morecareee.jp/trend/style027/)

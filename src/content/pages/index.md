@@ -8,14 +8,16 @@ cta:
   ctaText: Know more
   ctaLink: /about
 ---
-株式会社サイバーエージェント所属のソフトウェアエンジニア. 
-女性向けプログラミングブートキャンプ[Ms.Engineer](https://ms-engineer.jp/) co-founder.
-テック業界のジェンダーギャップ解消をミッションとする一般社団法人Waffleにてプロボノとして技術アドバイス等. 
-サイバーエージェントD&I事務局メンバー.
+株式会社サイバーエージェント所属のソフトウェアエンジニア.<br>
+女性向けプログラミングブートキャンプ『[Ms.Engineer](https://ms-engineer.jp/) 』co-founder.<br>
+テック業界のジェンダーギャップ解消をミッションとする『一般社団法人[Waffle](https://waffle-waffle.org/)』にてプロボノとして技術アドバイス等. <br>
+サイバーエージェントD&I推進プロジェクトCAlorfulメンバー.<br>
+IT企業で働く2人のママが子育てやテックについて話すPodcast『[momit.fm](https://momit.fm/)』配信中.<br>
 3児の母.
 
-Software engineer at CyberAgent, Inc. 
-[Ms. Engineer](https://ms-engineer.jp/) co-founder.
-Pro bono at Waffle, a general incorporated association whose mission is to close the gender gap in the tech industry, providing technical advice. 
-Member of CyberAgent D&I Office.
+Software Engineer at CyberAgent, Inc.<br>
+Co-founder at [Ms. Engineer](https://ms-engineer.jp/), Programming Boot Camp for Women.<br>
+Pro bono at [Waffle](https://waffle-waffle.org/), a general incorporated association whose mission is to close the gender gap in the tech industry, providing technical advice.<br>
+Member of CyberAgent D&I project.<br>
+Two moms working at an IT company talk about parenting and tech in the podcast "[momit.fm](https://momit.fm/)" now available.<br>
 Mother of 3 children.
