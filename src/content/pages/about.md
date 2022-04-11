@@ -21,8 +21,11 @@ title: About Me
 
   <!-- ![profile](/assets/dsc_7752.jpg) -->
 
-## 登壇
+## 登壇 / Public Speaking
 
+* 2022/05/10: フィガロジャポン presents BWAオンラインセミナー
+* 2022/04/14: Ms.Engineer presents 2期生寄附講座
+* 2022/03/27: 神山まるごと高専 presents [未来の学校FES](https://kamiyama-marugoto.com/miraino-gakko-fes/) 保護者向け授業｢理系女子のミライ｣パネラー
 * 2021/11/17: [Women Developers Summit『IT分野のジェンダーギャップの現在地とアクション』](https://event.shoeisha.jp/devsumi/20211117/session/3515/)
 * 2021/11/10: [BIT VALLEY 2021#06『副業・兼業でキャリアを広げる』](https://2021.bit-valley.jp/program/career/35)『副業で広がるキャリアの可能性と働き方の選択肢』パネラー
 * 2021: [Mercari’s Women in Tech Meetup Vol.03](https://connpass.com/event/201048/) ゲストLT
@@ -34,7 +37,7 @@ title: About Me
 * 2011: 駒澤大学 青木ゼミ 女子就活生向けキャリアセミナー
 * 2011: パソナテック主催イベント[『WOMAN*IT』](http://www.pasonatech.co.jp/woman_it/event_report.jsp)パネラー→[広報ブログ](http://ameblo.jp/cair/entry-10907821776.html)
 
-## 掲載
+## 掲載 / Interview
 
 * 2021/11: [エンジニア・クリエイター発 ダイバーシティ推進プロジェクト「CAlorful」が誕生](https://www.cyberagent.co.jp/way/features/list/detail/id=26859)
 * 2021: [NTTコムウェア C+](https://www.nttcom.co.jp/comware_plus/column/book_review/202107.html) コラム: デジタル人材のためのブックレビュー
@@ -45,7 +48,7 @@ title: About Me
 * 2011: [『WEB+DB PRESS vol.64』](http://gihyo.jp/dev/serial/01/cyberagent/0017)サイバーエージェントを支える技術者たち
 * 理系女子応援サービス[](http://www.rikejo.jp/)[『リケジョ』](https://www.rikejo.jp/)デジタルで楽しませるリケジョブ
 
-## 執筆
+## 執筆 / Writing
 
 * 2015: サイバーエージェントテックブログ [ママエンジニアのワークライフ](https://ameblo.jp/principia-ca/entry-12071778409.html)
 * 2012: サイバーエージェントテックブログ [ハイブリッドAndroidアプリ開発7つの工夫](https://ameblo.jp/principia-ca/entry-11177133323.html)
