@@ -18,14 +18,18 @@ title: About Me
 * 2020: [一般社団法人Waffle](https://waffle-waffle.org/)にてプロボノとして技術アドバイス等
 * 2021: 女性向けプログラミングブートキャンプ[Ms.Engineer](https://ms-engineer.jp/) co-founder
 * 2021: 第三子出産
+* 2022: [株式会社QUREO](https://qureo.jp/player)にて子ども向けプログラミング教材のプロジェクトマネジメントに従事
+* 2022: Google社が運営・支援する[Women Teckmakers](https://developers.google.com/womentechmakers)の[Ambassador](https://www.womentechmakers.com/ambassadors/profiles/628cd4beada63138cc0d0ee1/yu_kamiya)に選出
 
   <!-- ![profile](/assets/dsc_7752.jpg) -->
 
 ## 登壇 / Public Speaking
 
-* 2022/05/10: フィガロジャポン presents BWAオンラインセミナー
-* 2022/04/14: Ms.Engineer presents 2期生寄附講座
-* 2022/03/27: 神山まるごと高専 presents [未来の学校FES](https://kamiyama-marugoto.com/miraino-gakko-fes/) 保護者向け授業｢理系女子のミライ｣パネラー
+* 2022/05/10: フィガロジャポン presents Business with Attitudeオンラインセミナー[「文系女性の可能性を広げる、エンジニアという選択肢。」](https://madamefigaro.jp/society-business/220525-bwa-yu-kamiya.html)
+* 2022/04/24: 母親アップデートコミュニティ presents 母親アップデートラジオゲスト後編[プログラミング教育、エンジニアへの道　(神谷優さんゲスト回)](https://voicy.jp/channel/989/312990)
+* 2022/04/23: 母親アップデートコミュニティ presents 母親アップデートラジオゲスト前編[「エンジニアで、ワーママの神谷優さんをゲストにお話してます！」](https://voicy.jp/channel/989/312977)
+* 2022/04/14: Ms.Engineer presents [第2期生向け寄附講座](https://note.com/ms_engineer21/n/nfabec2292791)
+* 2022/03/27: 神山まるごと高専 presents [未来の学校FES](https://kamiyama-marugoto.com/miraino-gakko-fes/) 保護者向け授業[｢理系女子のミライ｣](https://www.youtube.com/watch?app=desktop&v=PQr7XGH0hOg)パネラー
 * 2021/11/17: [Women Developers Summit『IT分野のジェンダーギャップの現在地とアクション』](https://event.shoeisha.jp/devsumi/20211117/session/3515/)
 * 2021/11/10: [BIT VALLEY 2021#06『副業・兼業でキャリアを広げる』](https://2021.bit-valley.jp/program/career/35)『副業で広がるキャリアの可能性と働き方の選択肢』パネラー
 * 2021: [Mercari’s Women in Tech Meetup Vol.03](https://connpass.com/event/201048/) ゲストLT
