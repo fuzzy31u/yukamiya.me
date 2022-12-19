@@ -25,6 +25,7 @@ title: About Me
 
 ## 登壇 / Public Speaking
 
+* 2022/09: 技育展2022[「女性エンジニア」テーマ](https://talent.supporterz.jp/geekten/2022/)審査員
 * 2022/05/10: フィガロジャポン presents Business with Attitudeオンラインセミナー[「文系女性の可能性を広げる、エンジニアという選択肢。」](https://madamefigaro.jp/society-business/220525-bwa-yu-kamiya.html)
 * 2022/04/24: 母親アップデートコミュニティ presents 母親アップデートラジオゲスト後編[プログラミング教育、エンジニアへの道　(神谷優さんゲスト回)](https://voicy.jp/channel/989/312990)
 * 2022/04/23: 母親アップデートコミュニティ presents 母親アップデートラジオゲスト前編[「エンジニアで、ワーママの神谷優さんをゲストにお話してます！」](https://voicy.jp/channel/989/312977)
@@ -43,6 +44,7 @@ title: About Me
 
 ## 掲載 / Interview
 
+* 2021/06: [Women Techmakers Ambassador選出](https://www.cyberagent.co.jp/techinfo/news/detail/id=27684)
 * 2021/11: [エンジニア・クリエイター発 ダイバーシティ推進プロジェクト「CAlorful」が誕生](https://www.cyberagent.co.jp/way/features/list/detail/id=26859)
 * 2021: [NTTコムウェア C+](https://www.nttcom.co.jp/comware_plus/column/book_review/202107.html) コラム: デジタル人材のためのブックレビュー
 * 2021: 女性向けプログラミングブートキャンプMs.Engineer[プレスリリース](https://prtimes.jp/main/html/rd/p/000000004.000065982.html)
@@ -63,3 +65,4 @@ title: About Me
 * [はてなダイアリー](https://fuzzy31u.hatenadiary.org/)
 * [Qiita](https://qiita.com/fuzzy31u)
 * [SpeakerDeck](https://speakerdeck.com/fuzzy31u)
+* [Zenn](https://zenn.dev/yukamiya)
