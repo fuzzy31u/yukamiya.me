@@ -25,6 +25,8 @@ title: About Me
 
 ## 登壇 / Public Speaking
 
+* 2023/06: GitHub Galaxy Tokyo[- パネルディスカッション - CyberAgentにおける多様性の価値とは？](https://resources.github.com/galaxy/tokyo/)
+* 2023/04: WTM Tokyo - International Women's Day 2023 [My #DareToBe Story エンジニア組織のDE&I推進を目指して	](https://gdg-tokyo.connpass.com/event/277960/)
 * 2023/01: 第3回インダストリアルAIシンポジウム[《キャリアパスの多様性》](https://www.ai-gakkai.or.jp/siai/program/lecture)
 * 2022/09: 技育展2022[「女性エンジニア」テーマ](https://talent.supporterz.jp/geekten/2022/)審査員
 * 2022/05/10: フィガロジャポン presents Business with Attitudeオンラインセミナー[「文系女性の可能性を広げる、エンジニアという選択肢。」](https://madamefigaro.jp/society-business/220525-bwa-yu-kamiya.html)
@@ -45,6 +47,8 @@ title: About Me
 
 ## 掲載 / Interview
 
+* 2023/03: [多様性を受容する開発組織には、社会を変える力がある。「Tech DE&I プロジェクト」始動。](https://www.cyberagent.co.jp/way/list/detail/id=28637)
+* 2023/03: [「わたし×IT最強説」インタビュー章](http://www.littlemore.co.jp/store/products/detail.php?product_id=1072)
 * 2023/01: [「IT業界のジェンダーギャップ解消を」神谷優さんが思う、女性エンジニアが増えたほうが良い理由とは？ Equityを実現するために企業が取り組むべきこと](https://codezine.jp/article/detail/16896)
 * 2022/06: [Women Techmakers Ambassador選出](https://www.cyberagent.co.jp/techinfo/news/detail/id=27684)
 * 2021/11: [エンジニア・クリエイター発 ダイバーシティ推進プロジェクト「CAlorful」が誕生](https://www.cyberagent.co.jp/way/features/list/detail/id=26859)
