@@ -1,24 +1,28 @@
 {
   "socialIcons": [
     {
-      "icon": "twitter",
-      "url": "https://twitter.com/_yukamiya"
-    },
-    {
       "icon": "facebook",
-      "url": "https://www.facebook.com/kamiyaU"
-    },
-    {
-      "icon": "github",
-      "url": "https://github.com/fuzzy31u"
+      "url": "https://www.facebook.com/stackrolecom"
     },
     {
       "icon": "instagram",
-      "url": "https://www.instagram.com/_yukamiya/" 
+      "url": "https://www.instagram.com/stackrole/"
     },
     {
       "icon": "linkedin",
-      "url": "https://www.linkedin.com/in/yu-kamiya-0641952a/"
+      "url": "https://in.linkedin.com/company/stackrole"
+    },
+    {
+      "icon": "youtube",
+      "url": "https://www.youtube.com/channel/UCc1hYgIP_DzFMMzwLRcbDVQ"
+    },
+    {
+      "icon": "dribbble",
+      "url": "https://dribbble.com/stackrole"
+    },
+    {
+      "icon": "tiktok",
+      "url": "https://tiktok.com/"
     }
   ]
 }
