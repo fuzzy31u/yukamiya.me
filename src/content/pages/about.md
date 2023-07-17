@@ -1,51 +1,57 @@
 ---
 template: about-page
 slug: /about
-title: About Foundation
+title: About Me
 ---
 
-Thank you! Now say "nuclear wessels"! No! Don't jump! A sexy mistake. Anyone who laughs is a communist!
+## 登壇 / Public Speaking
 
-A true inspiration for the children. And when we woke up, we had these bodies. Moving along… Do a flip! Michelle, I don't regret this, but I bth rue and lament it.
+- 2023/06: GitHub Galaxy Tokyo[- パネルディスカッション - CyberAgent における多様性の価値とは？](https://resources.github.com/galaxy/tokyo/)
+- 2023/04: WTM Tokyo - International Women's Day 2023 [My #DareToBe Story エンジニア組織の DE&I 推進を目指して ](https://gdg-tokyo.connpass.com/event/277960/)
+- 2023/01: 第 3 回インダストリアル AI シンポジウム[《キャリアパスの多様性》](https://www.ai-gakkai.or.jp/siai/program/lecture)
+- 2022/09: 技育展 2022[「女性エンジニア」テーマ](https://talent.supporterz.jp/geekten/2022/)審査員
+- 2022/05/10: フィガロジャポン presents Business with Attitude オンラインセミナー[「文系女性の可能性を広げる、エンジニアという選択肢。」](https://madamefigaro.jp/society-business/220525-bwa-yu-kamiya.html)
+- 2022/04/24: 母親アップデートコミュニティ presents 母親アップデートラジオゲスト後編[プログラミング教育、エンジニアへの道　(神谷優さんゲスト回)](https://voicy.jp/channel/989/312990)
+- 2022/04/23: 母親アップデートコミュニティ presents 母親アップデートラジオゲスト前編[「エンジニアで、ワーママの神谷優さんをゲストにお話してます！」](https://voicy.jp/channel/989/312977)
+- 2022/04/14: Ms.Engineer presents [第 2 期生向け寄附講座](https://note.com/ms_engineer21/n/nfabec2292791)
+- 2022/03/27: 神山まるごと高専 presents [未来の学校 FES](https://kamiyama-marugoto.com/miraino-gakko-fes/) 保護者向け授業[｢理系女子のミライ｣](https://www.youtube.com/watch?app=desktop&v=PQr7XGH0hOg)パネラー
+- 2021/11/17: [Women Developers Summit『IT 分野のジェンダーギャップの現在地とアクション』](https://event.shoeisha.jp/devsumi/20211117/session/3515/)
+- 2021/11/10: [BIT VALLEY 2021#06『副業・兼業でキャリアを広げる』](https://2021.bit-valley.jp/program/career/35)『副業で広がるキャリアの可能性と働き方の選択肢』パネラー
+- 2021: [Mercari’s Women in Tech Meetup Vol.03](https://connpass.com/event/201048/) ゲスト LT
+- 2020: [テクノロジー業界における女性の リーダーシップを支援するため](https://www.wahlandcase.com/jp/webinar/women-leaders-in-the-technology-industry)[](https://www.wahlandcase.com/jp/webinar/women-leaders-in-the-technology-industry) パネラー
+- 2020-2021: 女子中高生向けコーディングコース[Waffle Camp](https://www.camp.waffle-waffle.org/) キャリアトーク
+- 2020: Women Who Code presents [Remote Lightning 🌩 Talk Night オンラインライトニングトーク](https://www.meetup.com/Women-Who-Code-Tokyo/events/271072884/)
+- 2019: サイバーエージェント presents [Woman Tech Terrace](https://wtt.cyberagent.group/) LT
+- 2012/05/29: 駒澤大学 特殊講義 Ⅰ ゲストスピーカー
+- 2011: 駒澤大学 青木ゼミ 女子就活生向けキャリアセミナー
+- 2011: パソナテック主催イベント[『WOMAN\*IT』](http://www.pasonatech.co.jp/woman_it/event_report.jsp)パネラー →[広報ブログ](http://ameblo.jp/cair/entry-10907821776.html)
 
-![Toys](/assets/vanessa-bucceri-gdirwiyama8-unsplash.jpg "Toys")
+![Me](/assets/site_profile_1.jpg "Me")
 
-Nay, I respect and admire Harold Zoid too much to beat him to death with his own Oscar. Well, then good news! It's a suppository. Then we'll go with that data file! **I've been there.** _My folks were always on me to groom myself and wear underpants._ What am I, the pope?
+## 掲載 / Interview
 
-Daddy Bender, we're hungry. We can't compete with Mom! Her company is big and evil! Ours is small and neutral! We're rescuing ya. We'll go deliver this crate like professionals, and then we'll go home.
+- 2023/03: [多様性を受容する開発組織には、社会を変える力がある。「Tech DE&I プロジェクト」始動。](https://www.cyberagent.co.jp/way/list/detail/id=28637)
+- 2023/03: [「わたし ×IT 最強説」インタビュー章](http://www.littlemore.co.jp/store/products/detail.php?product_id=1072)
+- 2023/01: [「IT 業界のジェンダーギャップ解消を」神谷優さんが思う、女性エンジニアが増えたほうが良い理由とは？ Equity を実現するために企業が取り組むべきこと](https://codezine.jp/article/detail/16896)
+- 2022/06: [Women Techmakers Ambassador 選出](https://www.cyberagent.co.jp/techinfo/news/detail/id=27684)
+- 2021/11: [エンジニア・クリエイター発 ダイバーシティ推進プロジェクト「CAlorful」が誕生](https://www.cyberagent.co.jp/way/features/list/detail/id=26859)
+- 2021: [NTT コムウェア C+](https://www.nttcom.co.jp/comware_plus/column/book_review/202107.html) コラム: デジタル人材のためのブックレビュー
+- 2021: 女性向けプログラミングブートキャンプ Ms.Engineer[プレスリリース](https://prtimes.jp/main/html/rd/p/000000004.000065982.html)
+- 2019: モアキャリー [Style#27 ｜仕事と大学院の両立、仕事と育児の両立。ライフステージが変わっても仕事とやりたいことを両立するサイバーエージェントのワーキングママ](https://www.morecareee.jp/trend/style027/)
+- IT media News[](http://news.itmedia.co.jp/20130416/003760)今週の IT ガール：国境を超えるエンジニア 神谷優さん
+- 女子高生のための理工系大学・学部の進学情報サイト[『Happy Technology 05』](http://hapiteku.com/)
+- 2011: [『WEB+DB PRESS vol.64』](http://gihyo.jp/dev/serial/01/cyberagent/0017)サイバーエージェントを支える技術者たち
+- 理系女子応援サービス[](http://www.rikejo.jp/)[『リケジョ』](https://www.rikejo.jp/)デジタルで楽しませるリケジョブ
 
-I didn't ask for a completely reasonable excuse! I asked you to get busy! I never loved you. OK, this has gotta stop. I'm going to remind Fry of his humanity the way only a woman can. With a warning label this big, you know they gotta be fun!
+## 執筆 / Writing
 
-1. And from now on you're all named Bender Jr.
-2. Ah, computer dating. It's like pimping, but you rarely have to use the phrase "upside your head."
-3. You wouldn't. Ask anyway!
+- 2015: サイバーエージェントテックブログ [ママエンジニアのワークライフ](Https://Ameblo.Jp/Principia-Ca/entry-12071778409.html)
+- 2012: サイバーエージェントテックブログ [ハイブリッド Android アプリ開発 7 つの工夫](https://ameblo.jp/principia-ca/entry-11177133323.html)
 
-Bender, quit destroying the universe! No! The cat shelter's on to me. Enough about your promiscuous mother, Hermes! We have bigger problems. Fatal. I guess if you want children beaten, you have to do it yourself.
+## Links
 
-I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money. You mean while I'm sleeping in it? I don't want to be rescued.
-
-- You know the worst thing about being a slave? They make you work, but they don't pay you or let you go.
-- And when we woke up, we had these bodies.
-- Spare me your space age technobabble, Attila the Hun!
-
-Hi, I'm a naughty nurse, and I really need someone to talk to. \$9.95 a minute. But, like most politicians, he promised more than he could deliver. I don't know what you did, Fry, but once again, you screwed up! Now all the planets are gonna start cracking wise about our mamas.
-
-You mean while I'm sleeping in it? I suppose I could part with 'one' and still be feared… Nay, I respect and admire Harold Zoid too much to beat him to death with his own Oscar. Negative, bossy meat creature!
-
-Oh God, what have I done? I don't 'need' to drink. I can quit anytime I want! Bender! Ship! Stop bickering or I'm going to come back there and change your opinions manually! Wow! A superpowers drug you can just rub onto your skin? You'd think it would be something you'd have to freebase.
-
-Ask her how her day was. In our darkest hour, we can stand erect, with proud upthrust bosoms. Why did you bring us here? I don't know what you did, Fry, but once again, you screwed up! Now all the planets are gonna start cracking wise about our mamas.
-
-Good news, everyone! I've taught the toaster to feel love! This opera's as lousy as it is brilliant! Your lyrics lack subtlety. You can't just have your characters announce how they feel. That makes me feel angry!
-
-Hello Morbo, how's the family? You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Oh Leela! You're the only person I could turn to; you're the only person who ever loved me.
-
-My fellow Earthicans, as I have explained in my book 'Earth in the Balance'', and the much more popular ''Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards. Incidentally, you have a dime up your nose.
-
-You are the last hope of the universe. You know the worst thing about being a slave? They make you work, but they don't pay you or let you go. I meant 'physically'. Look, perhaps you could let me work for a little food? I could clean the floors or paint a fence, or service you sexually?
-
-Hey, guess what you're accessories to. I feel like I was mauled by Jesus. Why would a robot need to drink? What are their names? Fry! Quit doing the right thing, you jerk! Doomsday device? Ah, now the ball's in Farnsworth's court!
-
-I saw you with those two "ladies of the evening" at Elzars. Explain that. Shinier than yours, meatbag. That's the ONLY thing about being a slave. Um, is this the boring, peaceful kind of taking to the streets?
-
-Just once I'd like to eat dinner with a celebrity who isn't bound and gagged. Daddy Bender, we're hungry. Kids don't turn rotten just from watching TV. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense.
+- [はてなブログ](https://fuzzy31u.hatenablog.com/)
+- [はてなダイアリー](https://fuzzy31u.hatenadiary.org/)
+- [Qiita](https://qiita.com/fuzzy31u)
+- [SpeakerDeck](https://speakerdeck.com/fuzzy31u)
+- [Zenn](https://zenn.dev/yukamiya)

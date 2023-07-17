@@ -164,7 +164,7 @@ collections:
           - label: "Google Analytics"
             name: ga
             widget: string
-            hint: "Add you tracking ID, for example UA-XXXXXXXXX-X"
+            hint: "Add you tracking ID, for example UA-188277291-1"
       - label: Social Icons
         name: socialIcons
         file: "src/util/socialmedia.json"
