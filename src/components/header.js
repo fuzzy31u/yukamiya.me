@@ -1,12 +1,12 @@
 /** @jsx jsx */
-import { jsx } from 'theme-ui'
+import { jsx } from "theme-ui"
 
-const Header = ({children}) => (
-  <header 
+const Header = ({ children }) => (
+  <header
     className="site-header"
-    // sx={{
-    //   bg: 'primary'
-    // }}
+    sx={{
+      bg: "siteColor",
+    }}
   >
     {children}
   </header>

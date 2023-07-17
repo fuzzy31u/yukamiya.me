@@ -2,11 +2,11 @@
   "meta": {
     "title": "yukamiya.me",
     "titleTemplate": "%s",
-    "description": "株式会社サイバーエージェント所属ソフトウェアエンジニア神谷優のWebsite | Personal Web site of Yu Kamiya, Software Engineer",
+    "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
     "siteUrl": "https://yukamiya.me",
-    "image": "/assets/favicon-32x32.png",
-    "iconimage": "/assets/favicon-32x32.png",
-    "twitterUsername": "@fuzzy31u"
+    "image": "/assets/site_logo.png",
+    "iconimage": "/assets/site_logo.png",
+    "twitterUsername": "@_yukamiya"
   },
   "ga": "UA-188277291-1"
 }

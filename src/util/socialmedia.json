@@ -9,16 +9,16 @@
       "url": "https://www.facebook.com/kamiyaU"
     },
     {
-      "icon": "github",
-      "url": "https://github.com/fuzzy31u"
-    },
-    {
       "icon": "instagram",
-      "url": "https://www.instagram.com/_yukamiya/" 
+      "url": "https://www.instagram.com/_yukamiya/"
     },
     {
       "icon": "linkedin",
-      "url": "https://www.linkedin.com/in/yu-kamiya-0641952a/"
+      "url": "https://in.linkedin.com/company/yu-kamiya-0641952a"
+    },
+    {
+      "icon": "github",
+      "url": "https://github.com/fuzzy31u"
     }
   ]
 }
