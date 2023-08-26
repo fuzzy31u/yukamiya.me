@@ -6,6 +6,7 @@ title: About Me
 
 ## 登壇 / Public Speaking
 
+- 2023/06: みんなのコード[生成 AI の話題にイマイチついていけない人のための ChatGPT 体験講座（女性対象）](https://code.or.jp/news/11485/)ゲスト
 - 2023/06: GitHub Galaxy Tokyo[- パネルディスカッション - CyberAgent における多様性の価値とは？](https://resources.github.com/galaxy/tokyo/)
 - 2023/04: WTM Tokyo - International Women's Day 2023 [My #DareToBe Story エンジニア組織の DE&I 推進を目指して ](https://gdg-tokyo.connpass.com/event/277960/)
 - 2023/01: 第 3 回インダストリアル AI シンポジウム[《キャリアパスの多様性》](https://www.ai-gakkai.or.jp/siai/program/lecture)
@@ -30,17 +31,20 @@ title: About Me
 
 ## 掲載 / Interview
 
-- 2023/03: [多様性を受容する開発組織には、社会を変える力がある。「Tech DE&I プロジェクト」始動。](https://www.cyberagent.co.jp/way/list/detail/id=28637)
-- 2023/03: [「わたし ×IT 最強説」インタビュー章](http://www.littlemore.co.jp/store/products/detail.php?product_id=1072)
-- 2023/01: [「IT 業界のジェンダーギャップ解消を」神谷優さんが思う、女性エンジニアが増えたほうが良い理由とは？ Equity を実現するために企業が取り組むべきこと](https://codezine.jp/article/detail/16896)
-- 2022/06: [Women Techmakers Ambassador 選出](https://www.cyberagent.co.jp/techinfo/news/detail/id=27684)
-- 2021/11: [エンジニア・クリエイター発 ダイバーシティ推進プロジェクト「CAlorful」が誕生](https://www.cyberagent.co.jp/way/features/list/detail/id=26859)
+- 2023/08: SELECK [IT 業界のジェンダーギャップ解消に挑む。サイバーエージェントの「Tech DE&I プロジェクト」とは](https://seleck.cc/1608)
+- 2023/07: CyberAgent Way [“女性にもエンジニアという選択肢を”「Women Go College」でプログラミングの機会を提供](https://www.cyberagent.co.jp/way/list/detail/id=29169)
+- 2023/07: Tech Team Journal [IT 業界の偏りを解消する「Tech DE&I プロジェクト」とは？](https://ttj.paiza.jp/archives/2023/07/28/9971/)
+- 2023/03: CyberAgent Way [多様性を受容する開発組織には、社会を変える力がある。「Tech DE&I プロジェクト」始動。](https://www.cyberagent.co.jp/way/list/detail/id=28637)
+- 2023/03: [「わたし ×IT 最強説」](http://www.littlemore.co.jp/store/products/detail.php?product_id=1072)インタビュー章
+- 2023/01: CodeZine [「IT 業界のジェンダーギャップ解消を」神谷優さんが思う、女性エンジニアが増えたほうが良い理由とは？ Equity を実現するために企業が取り組むべきこと](https://codezine.jp/article/detail/16896)
+- 2022/06: CyberAgent Way [Women Techmakers Ambassador 選出](https://www.cyberagent.co.jp/techinfo/news/detail/id=27684)
+- 2021/11: CyberAgent Way [エンジニア・クリエイター発 ダイバーシティ推進プロジェクト「CAlorful」が誕生](https://www.cyberagent.co.jp/way/features/list/detail/id=26859)
 - 2021: [NTT コムウェア C+](https://www.nttcom.co.jp/comware_plus/column/book_review/202107.html) コラム: デジタル人材のためのブックレビュー
-- 2021: 女性向けプログラミングブートキャンプ Ms.Engineer[プレスリリース](https://prtimes.jp/main/html/rd/p/000000004.000065982.html)
+- 2021: Ms.Engineer[プレスリリース](https://prtimes.jp/main/html/rd/p/000000004.000065982.html)
 - 2019: モアキャリー [Style#27 ｜仕事と大学院の両立、仕事と育児の両立。ライフステージが変わっても仕事とやりたいことを両立するサイバーエージェントのワーキングママ](https://www.morecareee.jp/trend/style027/)
-- IT media News[](http://news.itmedia.co.jp/20130416/003760)今週の IT ガール：国境を超えるエンジニア 神谷優さん
+- IT media News [今週の IT ガール](http://news.itmedia.co.jp/20130416/003760)：国境を超えるエンジニア 神谷優さん
 - 女子高生のための理工系大学・学部の進学情報サイト[『Happy Technology 05』](http://hapiteku.com/)
-- 2011: [『WEB+DB PRESS vol.64』](http://gihyo.jp/dev/serial/01/cyberagent/0017)サイバーエージェントを支える技術者たち
+- 2011: 『WEB+DB PRESS vol.64』サイバーエージェントを支える技術者たち(http://gihyo.jp/dev/serial/01/cyberagent/0017)
 - 理系女子応援サービス[](http://www.rikejo.jp/)[『リケジョ』](https://www.rikejo.jp/)デジタルで楽しませるリケジョブ
 
 ## 執筆 / Writing
