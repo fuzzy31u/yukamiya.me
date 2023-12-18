@@ -6,7 +6,7 @@ title: About Me
 
 ## 登壇 / Public Speaking
 
-- 2023/06: みんなのコード[生成 AI の話題にイマイチついていけない人のための ChatGPT 体験講座（女性対象）](https://code.or.jp/news/11485/)ゲスト
+- 2023/11: 経営情報学会 2023 年 全国研究発表大会[『IT 製品の開発に携わる従業員に対する、就労環境の包摂度調査について』](https://www.cyberagent.co.jp/techinfo/news/detail/id=29456)発表
 - 2023/06: GitHub Galaxy Tokyo[- パネルディスカッション - CyberAgent における多様性の価値とは？](https://resources.github.com/galaxy/tokyo/)
 - 2023/04: WTM Tokyo - International Women's Day 2023 [My #DareToBe Story エンジニア組織の DE&I 推進を目指して ](https://gdg-tokyo.connpass.com/event/277960/)
 - 2023/01: 第 3 回インダストリアル AI シンポジウム[《キャリアパスの多様性》](https://www.ai-gakkai.or.jp/siai/program/lecture)
@@ -51,6 +51,7 @@ title: About Me
 
 - 2015: サイバーエージェントテックブログ [ママエンジニアのワークライフ](Https://Ameblo.Jp/Principia-Ca/entry-12071778409.html)
 - 2012: サイバーエージェントテックブログ [ハイブリッド Android アプリ開発 7 つの工夫](https://ameblo.jp/principia-ca/entry-11177133323.html)
+- 2023: CyberAgent Developers Blog [子ども向けプログラミング学習サービスの多言語翻訳における生成 AI 活用の可能性](https://developers.cyberagent.co.jp/blog/archives/44530/)
 
 ## Links
 
