@@ -6,7 +6,11 @@ title: About Me
 
 ## 登壇 / Public Speaking
 
-- 2023/11: 経営情報学会 2023 年 全国研究発表大会[『IT 製品の開発に携わる従業員に対する、就労環境の包摂度調査について』](https://www.cyberagent.co.jp/techinfo/news/detail/id=29456)発表
+- 2023/08: WAKE Career 主催[テックカンファレンスに女性登壇者を増やす意義〜女性エンジニアの登壇・参加、全力応援！〜](https://wake-career.connpass.com/event/327617/)
+- 2023/07: [山田進太郎 D&I 財団と高校生新聞、共催イベント 「未来の仕事を知ろう：女子と保護者のための進路セミナー」を開催 ](https://www.shinfdn.org/posts/IqchcA6x)
+- 2024/04: Forkwell 主催[子育てエンジニアのためのキャリア会議](https://forkwell.connpass.com/event/313545/)
+- 2023/03: 日立社内向けセミナー「デジタル世界の DEI ～ AI バイアスのリアル～　未来を選択するために、じぶんはなにをするかシリーズ２」
+- 2023/07: みんなのコード主催 - [生成 AI の話題にイマイチついていけない人のための ChatGPT 体験講座（女性対象）](https://code.or.jp/event/20230615/)
 - 2023/06: GitHub Galaxy Tokyo[- パネルディスカッション - CyberAgent における多様性の価値とは？](https://resources.github.com/galaxy/tokyo/)
 - 2023/04: WTM Tokyo - International Women's Day 2023 [My #DareToBe Story エンジニア組織の DE&I 推進を目指して ](https://gdg-tokyo.connpass.com/event/277960/)
 - 2023/01: 第 3 回インダストリアル AI シンポジウム[《キャリアパスの多様性》](https://www.ai-gakkai.or.jp/siai/program/lecture)
@@ -31,6 +35,9 @@ title: About Me
 
 ## 掲載 / Interview
 
+- 2024/08: [「Women Tech Terrace 2024」で考える、IT 業界ジェンダーギャップ解消の未来地図と現在地](https://www.cyberagent.co.jp/way/list/detail/id=30579)
+- 2024/07: [女性エンジニアのための技術とキャリアのカンファレンス 「Women Tech Terrace 2024」開催レポート](https://www.cyberagent.co.jp/way/list/detail/id=30486)
+- 2024/03: [「あなたならできるよ、と背中を押す大人を増やしたい」Waffle と歩む、IT 業界のジェンダーギャップ解消への道のり](https://www.cyberagent.co.jp/way/list/detail/id=29926)
 - 2023/08: SELECK [IT 業界のジェンダーギャップ解消に挑む。サイバーエージェントの「Tech DE&I プロジェクト」とは](https://seleck.cc/1608)
 - 2023/07: CyberAgent Way [“女性にもエンジニアという選択肢を”「Women Go College」でプログラミングの機会を提供](https://www.cyberagent.co.jp/way/list/detail/id=29169)
 - 2023/07: Tech Team Journal [IT 業界の偏りを解消する「Tech DE&I プロジェクト」とは？](https://ttj.paiza.jp/archives/2023/07/28/9971/)
@@ -38,14 +45,19 @@ title: About Me
 - 2023/03: [「わたし ×IT 最強説」](http://www.littlemore.co.jp/store/products/detail.php?product_id=1072)インタビュー章
 - 2023/01: CodeZine [「IT 業界のジェンダーギャップ解消を」神谷優さんが思う、女性エンジニアが増えたほうが良い理由とは？ Equity を実現するために企業が取り組むべきこと](https://codezine.jp/article/detail/16896)
 - 2022/06: CyberAgent Way [Women Techmakers Ambassador 選出](https://www.cyberagent.co.jp/techinfo/news/detail/id=27684)
-- 2021/11: CyberAgent Way [エンジニア・クリエイター発 ダイバーシティ推進プロジェクト「CAlorful」が誕生](https://www.cyberagent.co.jp/way/features/list/detail/id=26859)
+- 2021/11: [エンジニア・クリエイター発 ダイバーシティ推進プロジェクト「CAlorful」が誕生](https://www.cyberagent.co.jp/way/features/list/detail/id=26859)
 - 2021: [NTT コムウェア C+](https://www.nttcom.co.jp/comware_plus/column/book_review/202107.html) コラム: デジタル人材のためのブックレビュー
 - 2021: Ms.Engineer[プレスリリース](https://prtimes.jp/main/html/rd/p/000000004.000065982.html)
 - 2019: モアキャリー [Style#27 ｜仕事と大学院の両立、仕事と育児の両立。ライフステージが変わっても仕事とやりたいことを両立するサイバーエージェントのワーキングママ](https://www.morecareee.jp/trend/style027/)
 - IT media News [今週の IT ガール](http://news.itmedia.co.jp/20130416/003760)：国境を超えるエンジニア 神谷優さん
 - 女子高生のための理工系大学・学部の進学情報サイト[『Happy Technology 05』](http://hapiteku.com/)
 - 2011: 『WEB+DB PRESS vol.64』サイバーエージェントを支える技術者たち(http://gihyo.jp/dev/serial/01/cyberagent/0017)
-- 理系女子応援サービス[](http://www.rikejo.jp/)[『リケジョ』](https://www.rikejo.jp/)デジタルで楽しませるリケジョブ
+- 理系女子応援サービス[『リケジョ』](https://www.rikejo.jp/)デジタルで楽しませるリケジョブ
+
+## 論文 / Paper
+
+- 2024/05: 人工知能学会全国大会（JSAI2024）発表[ソフトウェアエンジニア志望者における男女差: ロールモデル・会社選びの基準・興味関心](https://www.cyberagent.co.jp/techinfo/news/detail/id=30165)
+- 2023/11: 経営情報学会 2023 年 全国研究発表大会[『IT 製品の開発に携わる従業員に対する、就労環境の包摂度調査について』](https://www.cyberagent.co.jp/techinfo/news/detail/id=29456)発表
 
 ## 執筆 / Writing
 
