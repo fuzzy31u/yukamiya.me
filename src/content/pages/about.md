@@ -4,10 +4,18 @@ slug: /about
 title: About Me
 ---
 
+## 受賞 / Award
+
+- 2024: Forbes JAPAN [Women In Tech 30](https://forbesjapan.com/articles/detail/74347/)
+- 2024: CyberAgent2024 下半期総会 ベストコントリビューター賞
+
 ## 登壇 / Public Speaking
 
-- 2023/08: WAKE Career 主催[テックカンファレンスに女性登壇者を増やす意義〜女性エンジニアの登壇・参加、全力応援！〜](https://wake-career.connpass.com/event/327617/)
-- 2023/07: [山田進太郎 D&I 財団と高校生新聞、共催イベント 「未来の仕事を知ろう：女子と保護者のための進路セミナー」を開催 ](https://www.shinfdn.org/posts/IqchcA6x)
+- 2024/11: ユートラスト主催[プロダクトヒストリーカンファレンス]「多事業展開を成功させる横断開発の秘訣」セッションモデレーター(https://lp-a.youtrust.jp/phc2024/)
+- 2024/11: [アプリ甲子園]審査員(https://applikoshien.jp/2024result)
+- 2024/10: [グローバル展開を見据えたサービスにおける機械翻訳プラクティス | CADC 2024](https://cadc.cyberagent.co.jp/2024/sessions/dp-ai-translating/)
+- 2024/08: WAKE Career 主催[テックカンファレンスに女性登壇者を増やす意義〜女性エンジニアの登壇・参加、全力応援！〜](https://wake-career.connpass.com/event/327617/)
+- 2024/07: [山田進太郎 D&I 財団と高校生新聞、共催イベント 「未来の仕事を知ろう：女子と保護者のための進路セミナー」を開催 ](https://www.shinfdn.org/posts/IqchcA6x)
 - 2024/04: Forkwell 主催[子育てエンジニアのためのキャリア会議](https://forkwell.connpass.com/event/313545/)
 - 2023/03: 日立社内向けセミナー「デジタル世界の DEI ～ AI バイアスのリアル～　未来を選択するために、じぶんはなにをするかシリーズ２」
 - 2023/07: みんなのコード主催 - [生成 AI の話題にイマイチついていけない人のための ChatGPT 体験講座（女性対象）](https://code.or.jp/event/20230615/)
@@ -61,9 +69,10 @@ title: About Me
 
 ## 執筆 / Writing
 
+- 2024: CyberAgent Developers Blog [グローバル展開を見据えたサービスにおける機械翻訳プラクティス [CADC2024]](https://developers.cyberagent.co.jp/blog/archives/50516/) By AI 書き起こし
+- 2023: CyberAgent Developers Blog [子ども向けプログラミング学習サービスの多言語翻訳における生成 AI 活用の可能性](https://developers.cyberagent.co.jp/blog/archives/44530/)
 - 2015: サイバーエージェントテックブログ [ママエンジニアのワークライフ](Https://Ameblo.Jp/Principia-Ca/entry-12071778409.html)
 - 2012: サイバーエージェントテックブログ [ハイブリッド Android アプリ開発 7 つの工夫](https://ameblo.jp/principia-ca/entry-11177133323.html)
-- 2023: CyberAgent Developers Blog [子ども向けプログラミング学習サービスの多言語翻訳における生成 AI 活用の可能性](https://developers.cyberagent.co.jp/blog/archives/44530/)
 
 ## Links
 
