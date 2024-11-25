@@ -6,13 +6,13 @@ title: About Me
 
 ## 受賞 / Award
 
-- 2024: Forbes JAPAN [Women In Tech 30](https://forbesjapan.com/articles/detail/74347/)選出
-- 2024: CyberAgent総会2024 `ベストコントリビューター賞` 受賞
+- 2024: Forbes JAPAN `[Women In Tech 30](https://forbesjapan.com/articles/detail/74347/)` 選出
+- 2024: CyberAgent 総会 2024 `ベストコントリビューター賞` 受賞
 
 ## 登壇 / Public Speaking
 
-- 2024/11: ユートラスト主催[プロダクトヒストリーカンファレンス]「多事業展開を成功させる横断開発の秘訣」セッションモデレーター(https://lp-a.youtrust.jp/phc2024/)
-- 2024/11: [アプリ甲子園]審査員(https://applikoshien.jp/2024result)
+- 2024/11: ユートラスト主催[プロダクトヒストリーカンファレンス「多事業展開を成功させる横断開発の秘訣」](https://lp-a.youtrust.jp/phc2024/)セッションモデレーター
+- 2024/11: [アプリ甲子園](https://applikoshien.jp/2024result)審査員
 - 2024/10: [グローバル展開を見据えたサービスにおける機械翻訳プラクティス | CADC 2024](https://cadc.cyberagent.co.jp/2024/sessions/dp-ai-translating/)
 - 2024/08: WAKE Career 主催[テックカンファレンスに女性登壇者を増やす意義〜女性エンジニアの登壇・参加、全力応援！〜](https://wake-career.connpass.com/event/327617/)
 - 2024/07: [山田進太郎 D&I 財団と高校生新聞、共催イベント 「未来の仕事を知ろう：女子と保護者のための進路セミナー」を開催 ](https://www.shinfdn.org/posts/IqchcA6x)
