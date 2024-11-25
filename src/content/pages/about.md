@@ -6,8 +6,8 @@ title: About Me
 
 ## 受賞 / Award
 
-- 2024: Forbes JAPAN [Women In Tech 30](https://forbesjapan.com/articles/detail/74347/)
-- 2024: CyberAgent2024 下半期総会 ベストコントリビューター賞
+- 2024: Forbes JAPAN [Women In Tech 30](https://forbesjapan.com/articles/detail/74347/)選出
+- 2024: CyberAgent総会2024 `ベストコントリビューター賞` 受賞
 
 ## 登壇 / Public Speaking
 
