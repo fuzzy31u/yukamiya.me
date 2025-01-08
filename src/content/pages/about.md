@@ -69,6 +69,7 @@ title: About Me
 
 ## 執筆 / Writing
 
+- 2025: CyberAgent Developers Blog [サイバーエージェントのディベロッパーコミュニティ活性化と DE&I の取り組み](https://developers.cyberagent.co.jp/blog/archives/51796/)
 - 2024: CyberAgent Developers Blog [グローバル展開を見据えたサービスにおける機械翻訳プラクティス [CADC2024]](https://developers.cyberagent.co.jp/blog/archives/50516/) By AI 書き起こし
 - 2023: CyberAgent Developers Blog [子ども向けプログラミング学習サービスの多言語翻訳における生成 AI 活用の可能性](https://developers.cyberagent.co.jp/blog/archives/44530/)
 - 2015: サイバーエージェントテックブログ [ママエンジニアのワークライフ](Https://Ameblo.Jp/Principia-Ca/entry-12071778409.html)
