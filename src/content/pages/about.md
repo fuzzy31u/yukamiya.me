@@ -11,6 +11,7 @@ title: About Me
 
 ## 登壇 / Public Speaking
 
+- 2025/04: IWD [International Women's Day 2025 - OutSystems Japan Community](https://usergroups.outsystems.com/events/details/outsystems-inc-tokyo-presents-iwd-international-womens-day-2025-outsystems-japan-community/)
 - 2024/11: ユートラスト主催[プロダクトヒストリーカンファレンス「多事業展開を成功させる横断開発の秘訣」](https://lp-a.youtrust.jp/phc2024/)セッションモデレーター
 - 2024/11: [アプリ甲子園](https://applikoshien.jp/2024result)審査員
 - 2024/10: [グローバル展開を見据えたサービスにおける機械翻訳プラクティス | CADC 2024](https://cadc.cyberagent.co.jp/2024/sessions/dp-ai-translating/)
@@ -41,8 +42,18 @@ title: About Me
 
 ![Me](/assets/site_profile_1.jpg "Me")
 
+## 主催イベント / Organized Events
+
+- 2025/03: [「CA Women Tech Meetup」開催レポート](https://developers.cyberagent.co.jp/blog/archives/55660/)
+- 2024/6: 女性エンジニアのための技術とキャリアのカンファレンス [Women Tech Terrace 2024](https://www.cyberagent.co.jp/way/list/detail/id=30486)
+- 2024/3: 女性エンジニアのための技術とキャリアのカンファレンス [Women Tech Terrace 2023](https://www.cyberagent.co.jp/way/list/detail/id=28827)
+
 ## 掲載 / Interview
 
+- 2025/03: CyberAgent Way [発足から 2 年、サイバーエージェント Tech DE&I プロジェクトの今](https://www.cyberagent.co.jp/way/list/detail/id=31500)
+- 2025/01: [多事業展開を成功させる横断開発の秘訣｜プロダクトヒストリーカンファレンス 2024](https://youtrust.jp/articles/categories/career_development/phc2024-report04)
+- 2025/01: [「デジタルプラクティス」に論文が採択されました](https://www.cyberagent.co.jp/techinfo/news/detail/id=31309)
+- 2024/09: Forbes JAPAN Women In Tech 30 [サイバーエージェントが挑む「Tech DE&I」の舞台裏：神谷優](https://forbesjapan.com/articles/detail/74649)
 - 2024/08: [「Women Tech Terrace 2024」で考える、IT 業界ジェンダーギャップ解消の未来地図と現在地](https://www.cyberagent.co.jp/way/list/detail/id=30579)
 - 2024/07: [女性エンジニアのための技術とキャリアのカンファレンス 「Women Tech Terrace 2024」開催レポート](https://www.cyberagent.co.jp/way/list/detail/id=30486)
 - 2024/03: [「あなたならできるよ、と背中を押す大人を増やしたい」Waffle と歩む、IT 業界のジェンダーギャップ解消への道のり](https://www.cyberagent.co.jp/way/list/detail/id=29926)
@@ -64,6 +75,7 @@ title: About Me
 
 ## 論文 / Paper
 
+- 2024/07: 情報処理学会デジタルプラクティス [IT 技術者のジェンダーギャップ解消のための志望者・現役技術者に対する調査](https://www.ipsj.or.jp/dp/contents/publication/61/TR0601-13.html)
 - 2024/05: 人工知能学会全国大会（JSAI2024）発表[ソフトウェアエンジニア志望者における男女差: ロールモデル・会社選びの基準・興味関心](https://www.cyberagent.co.jp/techinfo/news/detail/id=30165)
 - 2023/11: 経営情報学会 2023 年 全国研究発表大会[『IT 製品の開発に携わる従業員に対する、就労環境の包摂度調査について』](https://www.cyberagent.co.jp/techinfo/news/detail/id=29456)発表
 
