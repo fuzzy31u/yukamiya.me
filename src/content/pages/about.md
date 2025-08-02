@@ -6,11 +6,14 @@ title: About Me
 
 ## 受賞 / Award
 
+- 2025: [神谷優が「Women Developers Summit 2025 」のベストスピーカー賞1位を受賞](https://www.cyberagent.co.jp/techinfo/news/detail/id=32274)
 - 2024: Forbes JAPAN [Women In Tech 30](https://forbesjapan.com/articles/detail/74347/) 選出
 - 2024: CyberAgent 総会 2024 `ベストコントリビューター賞` 受賞
 
 ## 登壇 / Public Speaking
 
+- 2025: [女性エンジニアの学びと活躍を応援するカンファレンス「Women Developers Summit 2025」](https://codezine.jp/article/detail/22006)
+- 2025: [BoxWorks TOKYO 2025](https://www.box-events.jp/boxworks2025_tokyo/day1_speaker)
 - 2025/04: IWD [International Women's Day 2025 - OutSystems Japan Community](https://usergroups.outsystems.com/events/details/outsystems-inc-tokyo-presents-iwd-international-womens-day-2025-outsystems-japan-community/)
 - 2024/11: ユートラスト主催[プロダクトヒストリーカンファレンス「多事業展開を成功させる横断開発の秘訣」](https://lp-a.youtrust.jp/phc2024/)セッションモデレーター
 - 2024/11: [アプリ甲子園](https://applikoshien.jp/2024result)審査員
@@ -44,12 +47,14 @@ title: About Me
 
 ## 主催イベント / Organized Events
 
+- 2025: [AIエージェントの力で切り拓く、誰もが活躍できるインクルーシブな未来 - Women Tech Terrace 2025](https://event.shoeisha.jp/devsumi/20250627/session/5829)
 - 2025/03: [「CA Women Tech Meetup」開催レポート](https://developers.cyberagent.co.jp/blog/archives/55660/)
 - 2024/6: 女性エンジニアのための技術とキャリアのカンファレンス [Women Tech Terrace 2024](https://www.cyberagent.co.jp/way/list/detail/id=30486)
 - 2024/3: 女性エンジニアのための技術とキャリアのカンファレンス [Women Tech Terrace 2023](https://www.cyberagent.co.jp/way/list/detail/id=28827)
 
 ## 掲載 / Interview
 
+- 2025: [朝日新聞](https://www.asahi.com/articles/DA3S16241559.html)
 - 2025/03: CyberAgent Way [発足から 2 年、サイバーエージェント Tech DE&I プロジェクトの今](https://www.cyberagent.co.jp/way/list/detail/id=31500)
 - 2025/01: [多事業展開を成功させる横断開発の秘訣｜プロダクトヒストリーカンファレンス 2024](https://youtrust.jp/articles/categories/career_development/phc2024-report04)
 - 2025/01: [「デジタルプラクティス」に論文が採択されました](https://www.cyberagent.co.jp/techinfo/news/detail/id=31309)
@@ -86,6 +91,13 @@ title: About Me
 - 2023: CyberAgent Developers Blog [子ども向けプログラミング学習サービスの多言語翻訳における生成 AI 活用の可能性](https://developers.cyberagent.co.jp/blog/archives/44530/)
 - 2015: サイバーエージェントテックブログ [ママエンジニアのワークライフ](Https://Ameblo.Jp/Principia-Ca/entry-12071778409.html)
 - 2012: サイバーエージェントテックブログ [ハイブリッド Android アプリ開発 7 つの工夫](https://ameblo.jp/principia-ca/entry-11177133323.html)
+
+## Podcast
+
+- [fukabori.fm #129. Tech業界のDE&Iの現状と課題、その解決に向けた活動事例 w/ kamiyaU](https://fukabori.fm/episode/129)
+- SKO radio ゲスト出演
+  - [Part1](https://open.spotify.com/episode/40E0B50d4s8qg9YSrvfFak)
+  - [Part2](https://open.spotify.com/episode/43LcwLt7qKsZG6ev4qAdMZ)
 
 ## Links
 
