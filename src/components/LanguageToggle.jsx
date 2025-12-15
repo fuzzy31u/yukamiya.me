@@ -15,11 +15,6 @@ const LanguageToggle = () => {
   useEffect(() => {
     localStorage.setItem('lang', lang)
     document.body.classList.toggle('lang-en', lang === 'en')
-
-    // Cleanup on unmount
-    return () => {
-      document.body.classList.remove('lang-en')
-    }
   }, [lang])
 
   return (

@@ -24,6 +24,11 @@ const TimelineSection = () => {
   const filteredItems = filterItems(speaking)
   const displayedItems = showAll ? filteredItems : filteredItems.slice(0, 10)
 
+  const handleFilterChange = (newFilter) => {
+    setFilter(newFilter)
+    setShowAll(false)
+  }
+
   return (
     <div className="timeline-section">
       <div className="filter-tabs">
@@ -31,7 +36,7 @@ const TimelineSection = () => {
           <button
             key={f.value}
             className={filter === f.value ? 'active' : ''}
-            onClick={() => setFilter(f.value)}
+            onClick={() => handleFilterChange(f.value)}
             data-filter={f.value}
           >
             <span data-lang="ja">{f.label.ja}</span>
