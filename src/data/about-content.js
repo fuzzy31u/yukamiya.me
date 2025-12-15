@@ -32,8 +32,7 @@ export const awards = [
       ja: 'CyberAgent 総会 2024 ベストコントリビューター賞',
       en: 'CyberAgent 2024 Best Contributor Award'
     },
-    org: 'CyberAgent',
-    url: ''
+    org: 'CyberAgent'
   },
 ]
 
@@ -166,8 +165,7 @@ export const speaking = [
       ja: 'デジタル世界のDEI ～AIバイアスのリアル～',
       en: 'DEI in Digital World: AI Bias Reality'
     },
-    venue: '日立社内セミナー',
-    url: ''
+    venue: '日立社内セミナー'
   },
   {
     year: '2023',
