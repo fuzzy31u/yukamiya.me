@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from 'react'
 
 const LanguageToggle = () => {
-  const [lang, setLang] = useState(() => {
-    if (typeof window !== 'undefined') {
-      return localStorage.getItem('lang') || 'ja'
-    }
-    return 'ja'
-  })
+  const [lang, setLang] = useState('ja')
 
+  // Load saved language preference on mount (client-side only)
   useEffect(() => {
-    // Persist language preference
-    if (typeof window !== 'undefined') {
-      localStorage.setItem('lang', lang)
+    const savedLang = localStorage.getItem('lang')
+    if (savedLang && savedLang !== lang) {
+      setLang(savedLang)
     }
-    // Apply language class to body
+  }, [])
+
+  // Persist language preference and apply body class
+  useEffect(() => {
+    localStorage.setItem('lang', lang)
     document.body.classList.toggle('lang-en', lang === 'en')
 
     // Cleanup on unmount
