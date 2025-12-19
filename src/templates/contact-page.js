@@ -1,5 +1,4 @@
-/** @jsx jsx */
-import { jsx } from "theme-ui"
+import React from "react"
 import { graphql } from "gatsby"
 import { RiSendPlane2Line } from "react-icons/ri"
 
@@ -26,13 +25,13 @@ export const pageQuery = graphql`
 
 const Contact = ({ data }) => {
   const { markdownRemark, site } = data // data.markdownRemark holds your post data
-  const { frontmatter, html } = markdownRemark
+  const { frontmatter, html, excerpt } = markdownRemark
 
   return (
-    <Layout className="contact-page" sx={contactStyles.contactPage}>
+    <Layout className="contact-page">
       <Seo
         title={frontmatter.title}
-        description={frontmatter.title + " " + site.siteMetadata.title}
+        description={excerpt}
       />
       <div className="wrapper">
         <h1>{frontmatter.title}</h1>
@@ -75,9 +74,6 @@ const Contact = ({ data }) => {
           <p className="text-align-right">
             <button
               className="button"
-              sx={{
-                variant: "variants.button",
-              }}
               type="submit"
             >
               Send Message{" "}
@@ -93,20 +89,3 @@ const Contact = ({ data }) => {
 }
 
 export default Contact
-
-const contactStyles = {
-  contactPage: {
-    input: {
-      border: "6px solid",
-      borderColor: "inputBorder",
-      bg: "inputBackground",
-      outline: "none",
-    },
-    textarea: {
-      border: "6px solid",
-      borderColor: "inputBorder",
-      bg: "inputBackground",
-      outline: "none",
-    },
-  },
-}
