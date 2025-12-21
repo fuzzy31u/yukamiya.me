@@ -12,7 +12,11 @@ const LanguageToggle = () => {
       : "en"
     setLanguage(savedLanguage)
     if (typeof document !== "undefined") {
-      document.body.className = document.body.className.replace(/lang-\w+/, "") + ` lang-${savedLanguage}`
+      document.body.className = document.body.className.replace(/lang-\w+/g, "") + ` lang-${savedLanguage}`
+      // Dispatch initial language event
+      if (typeof window !== "undefined") {
+        window.dispatchEvent(new CustomEvent("languageChange", { detail: { language: savedLanguage } }))
+      }
     }
   }, [])
 
@@ -21,9 +25,11 @@ const LanguageToggle = () => {
     setLanguage(newLanguage)
     if (typeof window !== "undefined") {
       localStorage.setItem("language", newLanguage)
+      // Dispatch custom event to notify other components
+      window.dispatchEvent(new CustomEvent("languageChange", { detail: { language: newLanguage } }))
     }
     if (typeof document !== "undefined") {
-      document.body.className = document.body.className.replace(/lang-\w+/, "") + ` lang-${newLanguage}`
+      document.body.className = document.body.className.replace(/lang-\w+/g, "") + ` lang-${newLanguage}`
     }
   }
 

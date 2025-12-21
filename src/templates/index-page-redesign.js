@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import { graphql } from "gatsby"
+import { useState, useEffect } from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -36,15 +37,30 @@ const IndexPageRedesign = ({ data }) => {
     ? frontmatter.featuredImage.childImageSharp.gatsbyImageData
     : null
 
-  // Get current language from body class (default to 'en')
-  const getCurrentLanguage = () => {
-    if (typeof document !== "undefined") {
-      return document.body.classList.contains("lang-ja") ? "ja" : "en"
-    }
-    return "en"
-  }
+  // Track current language with state
+  const [currentLanguage, setCurrentLanguage] = useState("en")
 
-  const currentLanguage = getCurrentLanguage()
+  useEffect(() => {
+    // Listen for language change events
+    const handleLanguageChange = (event) => {
+      setCurrentLanguage(event.detail.language)
+    }
+
+    if (typeof window !== "undefined") {
+      window.addEventListener("languageChange", handleLanguageChange)
+
+      // Set initial language from localStorage
+      const savedLanguage = localStorage.getItem("language") || "en"
+      setCurrentLanguage(savedLanguage)
+    }
+
+    return () => {
+      if (typeof window !== "undefined") {
+        window.removeEventListener("languageChange", handleLanguageChange)
+      }
+    }
+  }, [])
+
   const highlights = homeContent.highlights[currentLanguage]
 
   return (

@@ -103,7 +103,7 @@ const HomeHero = ({ content, image, socialIcons }) => {
                   aria-label={`link to ${icons.icon}`}
                   rel="noopener noreferrer"
                 >
-                  <IconComponent alt={`${icons.icon} icon`} />
+                  <IconComponent />
                 </a>
               )
             })}
