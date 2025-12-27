@@ -39,10 +39,6 @@ export const pageQuery = graphql`
             gatsbyImageData(layout: CONSTRAINED, width: 585, height: 439)
           }
         }
-        cta {
-          ctaText
-          ctaLink
-        }
       }
     }
     posts: allMarkdownRemark(
@@ -220,13 +216,13 @@ const HomePage = ({ data }) => {
             dangerouslySetInnerHTML={{ __html: html }}
           />
           <Link
-            to={frontmatter.cta.ctaLink}
+            to="/about"
             className="button"
             sx={{
               variant: "variants.button",
             }}
           >
-            {frontmatter.cta.ctaText}
+            Learn More
             <span className="icon -right">
               <RiArrowRightSLine />
             </span>

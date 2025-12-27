@@ -2,6 +2,11 @@
 import { jsx } from "theme-ui"
 
 const HighlightsBanner = ({ highlights }) => {
+  // Return null if no highlights provided
+  if (!highlights || !Array.isArray(highlights) || highlights.length === 0) {
+    return null
+  }
+
   // Duplicate items for infinite scroll effect
   const duplicatedHighlights = [...highlights, ...highlights]
 
