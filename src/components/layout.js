@@ -10,6 +10,7 @@ import "../assets/scss/style.scss"
 import Footer from "./footer"
 import Theme from "../components/theme"
 import Search from "../components/search"
+import LanguageToggle from "../components/LanguageToggle"
 
 const query = graphql`
   query LayoutQuery {
@@ -41,6 +42,7 @@ const Layout = ({ children, className, props }) => {
         <div sx={layoutStyle.appearance}>
           <Search searchIndex={siteSearchIndex.index} />
           <Theme />
+          <LanguageToggle />
         </div>
       </Header>
       <main className={"container " + className}>{children}</main>

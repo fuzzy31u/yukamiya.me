@@ -1,0 +1,276 @@
+// Home Page Redesign Styles
+
+// Design Tokens
+:root {
+  --home-hero-gap: 3rem;
+  --home-section-padding: 4rem 2rem;
+  --home-border-radius: 12px;
+  --home-transition: all 0.3s ease;
+}
+
+// Language Toggle Visibility
+body.lang-en .lang-ja {
+  display: none !important;
+}
+
+body.lang-ja .lang-en {
+  display: none !important;
+}
+
+// Default to English
+body:not(.lang-ja) .lang-ja {
+  display: none !important;
+}
+
+// Home Hero Section
+.home-hero {
+  padding: var(--home-section-padding);
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+
+  &-grid {
+    gap: var(--home-hero-gap);
+    align-items: center;
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  &-title {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 0;
+    background: linear-gradient(135deg, var(--primary-color, #5C2941) 0%, var(--secondary-color, #8B4367) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  &-tagline {
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+    font-weight: 600;
+    opacity: 0.8;
+    margin: 0;
+  }
+
+  &-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    opacity: 0.9;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  &-cta {
+    margin-top: 1rem;
+    align-self: flex-start;
+  }
+
+  &-social {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+
+    a {
+      font-size: 1.5rem;
+      transition: var(--home-transition);
+      opacity: 0.8;
+
+      &:hover {
+        opacity: 1;
+        transform: translateY(-2px);
+      }
+    }
+  }
+
+  &-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .featured-image {
+      border-radius: var(--home-border-radius);
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+      transition: var(--home-transition);
+
+      &:hover {
+        transform: scale(1.02);
+        box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
+      }
+    }
+  }
+}
+
+// Highlights Banner Section
+.highlights-banner {
+  background: linear-gradient(90deg, rgba(92, 41, 65, 0.05) 0%, rgba(139, 67, 103, 0.05) 100%);
+  padding: 2rem 0;
+  overflow: hidden;
+  position: relative;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    z-index: 2;
+  }
+
+  &::before {
+    left: 0;
+    background: linear-gradient(to right, var(--background-color, #fff) 0%, transparent 100%);
+  }
+
+  &::after {
+    right: 0;
+    background: linear-gradient(to left, var(--background-color, #fff) 0%, transparent 100%);
+  }
+}
+
+.highlights-scroll {
+  width: 100%;
+  overflow: hidden;
+}
+
+.highlights-track {
+  display: flex;
+  gap: 3rem;
+  animation: scroll 40s linear infinite;
+  width: fit-content;
+
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+.highlight-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  white-space: nowrap;
+  padding: 0.75rem 1.5rem;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50px;
+  backdrop-filter: blur(10px);
+  transition: var(--home-transition);
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .highlight-icon {
+    font-size: 1.5rem;
+  }
+
+  .highlight-text {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+// Responsive Design
+@media screen and (max-width: 768px) {
+  :root {
+    --home-hero-gap: 2rem;
+    --home-section-padding: 2rem 1rem;
+  }
+
+  .home-hero {
+    min-height: auto;
+
+    &-grid {
+      grid-template-columns: 1fr;
+    }
+
+    &-image {
+      order: -1;
+      margin-bottom: 2rem;
+    }
+
+    &-cta {
+      align-self: stretch;
+      text-align: center;
+    }
+
+    &-social {
+      justify-content: center;
+    }
+  }
+
+  .highlight-item {
+    padding: 0.5rem 1rem;
+
+    .highlight-icon {
+      font-size: 1.25rem;
+    }
+
+    .highlight-text {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home-hero {
+    &-title {
+      font-size: 2rem;
+    }
+
+    &-tagline {
+      font-size: 1rem;
+    }
+
+    &-description {
+      font-size: 0.95rem;
+    }
+  }
+
+  .highlights-track {
+    gap: 2rem;
+  }
+
+  .highlight-item {
+    .highlight-text {
+      font-size: 0.85rem;
+    }
+  }
+}
+
+// Dark Mode Support
+@media (prefers-color-scheme: dark) {
+  .highlights-banner {
+    background: linear-gradient(90deg, rgba(92, 41, 65, 0.1) 0%, rgba(139, 67, 103, 0.1) 100%);
+
+    &::before {
+      background: linear-gradient(to right, var(--background-color, #1a1a1a) 0%, transparent 100%);
+    }
+
+    &::after {
+      background: linear-gradient(to left, var(--background-color, #1a1a1a) 0%, transparent 100%);
+    }
+  }
+
+  .highlight-item {
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
