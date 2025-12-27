@@ -61,7 +61,7 @@ const IndexPageRedesign = ({ data }) => {
     }
   }, [])
 
-  const highlights = homeContent.highlights[currentLanguage]
+  const highlights = homeContent.highlights?.[currentLanguage] || homeContent.highlights?.en || []
 
   return (
     <Layout>

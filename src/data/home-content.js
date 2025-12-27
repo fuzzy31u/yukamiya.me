@@ -4,12 +4,12 @@ export const homeContent = {
     en: {
       title: "Yu Kamiya",
       tagline: "Software Engineer",
-      description: "Software Engineer, PjM, Tech DE&I Lead @CyberAgent / Podcaster @momit.fm / Women Techmakers Ambassador / Forbes JAPAN Women In Tech 30 / CoFounder @Ms.Engineer / Advisor @Waffle / 3 児の母",
+      description: "Software Engineer, PjM, Tech DE&I Lead @CyberAgent / Podcaster @momit.fm / Women Techmakers Ambassador / Forbes JAPAN Women In Tech 30 / CoFounder @Ms.Engineer / Advisor @Waffle / Mother of 3",
       ctaText: "Know more",
       ctaLink: "/about"
     },
     ja: {
-      title: "神谷 有",
+      title: "神谷 優",
       tagline: "ソフトウェアエンジニア",
       description: "ソフトウェアエンジニア、PjM、Tech DE&I リード @CyberAgent / ポッドキャスター @momit.fm / Women Techmakers アンバサダー / Forbes JAPAN Women In Tech 30 / 共同創設者 @Ms.Engineer / アドバイザー @Waffle / 3 児の母",
       ctaText: "詳しく見る",
