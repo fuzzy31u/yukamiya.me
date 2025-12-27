@@ -5,7 +5,6 @@ import { useState, useEffect } from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import LanguageToggle from "../components/LanguageToggle"
 import HomeHero from "../components/HomeHero"
 import HighlightsBanner from "../components/HighlightsBanner"
 import homeContent from "../data/home-content"
@@ -66,7 +65,6 @@ const IndexPageRedesign = ({ data }) => {
   return (
     <Layout>
       <Seo title={frontmatter.title} />
-      <LanguageToggle />
       <HomeHero
         content={homeContent.hero}
         image={Image}

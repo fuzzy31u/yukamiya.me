@@ -39,10 +39,6 @@ const LanguageToggle = () => {
       className="language-toggle"
       aria-label={`Switch to ${language === "en" ? "Japanese" : "English"}`}
       sx={{
-        position: "fixed",
-        top: "20px",
-        right: "20px",
-        zIndex: 1000,
         padding: "8px 16px",
         borderRadius: "20px",
         border: "2px solid",

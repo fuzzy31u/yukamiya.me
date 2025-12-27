@@ -4,6 +4,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri"
 import Theme from "../components/theme"
+import LanguageToggle from "../components/LanguageToggle"
 
 const MenuItems = [
   {
@@ -69,6 +70,9 @@ class Navigation extends React.Component {
           <div sx={navStyle.theme}>
             <Theme />
           </div>
+          <div sx={navStyle.language}>
+            <LanguageToggle />
+          </div>
         </ul>
       </nav>
     )
@@ -86,6 +90,10 @@ const navStyle = {
   theme: {
     display: ["block", "block", "block", "none"],
     p: " 25px 20px 20px",
+  },
+  language: {
+    display: ["block", "block", "block", "none"],
+    p: "0 20px 20px",
   },
   border: {
     bg: "borderColor",
