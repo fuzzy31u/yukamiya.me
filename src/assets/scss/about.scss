@@ -396,6 +396,37 @@ body.lang-en .bilingual .en { display: inline; }
   }
 }
 
+// Certifications List
+.certifications-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+
+  .certification-item {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-md) var(--spacing-lg);
+    background: white;
+    border: 2px solid var(--color-accent-light);
+    border-radius: 12px;
+    transition: var(--transition);
+    font-weight: 500;
+    color: var(--color-text);
+
+    &:hover {
+      border-color: var(--color-accent);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transform: translateY(-2px);
+    }
+
+    &::before {
+      content: '🏅';
+      font-size: 1.5rem;
+    }
+  }
+}
+
 // Compact List (Research, Writing, Media)
 .compact-list {
   display: grid;

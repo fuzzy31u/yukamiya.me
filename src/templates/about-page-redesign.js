@@ -9,7 +9,7 @@ import CardGrid from "../components/CardGrid"
 import CompactList from "../components/CompactList"
 import TimelineSection from "../components/TimelineSection"
 
-import { awards, organizedEvents, research, writing, media, podcasts, links } from "../data/about-content"
+import { awards, certifications, organizedEvents, research, writing, media, podcasts, links } from "../data/about-content"
 import "../assets/scss/about.scss"
 
 export const pageQuery = graphql`
@@ -45,6 +45,28 @@ const AboutPageRedesign = ({ data }) => {
             <span data-lang="en">Awards</span>
           </h2>
           <CardGrid items={awards} />
+        </section>
+
+        {/* Certifications Section */}
+        <section className="about-section">
+          <h2>
+            <span data-lang="ja">資格 / Certifications</span>
+            <span data-lang="en">Certifications</span>
+          </h2>
+          <div className="certifications-list">
+            {certifications.map((cert, index) => (
+              <a
+                key={index}
+                href={cert.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="certification-item"
+              >
+                <span data-lang="ja">{cert.title.ja}</span>
+                <span data-lang="en">{cert.title.en}</span>
+              </a>
+            ))}
+          </div>
         </section>
 
         {/* Speaking Section */}
