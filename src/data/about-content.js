@@ -3,7 +3,7 @@ export const highlights = [
   { ja: 'Women Developers Summit 2025 ベストスピーカー賞 1位', en: 'Best Speaker Award #1, Women Developers Summit 2025' },
   { ja: 'Forbes JAPAN Women In Tech 30 選出', en: 'Forbes JAPAN Women In Tech 30' },
   { ja: 'Women Techmakers Ambassador', en: 'Women Techmakers Ambassador' },
-  { ja: 'Tech DE&I プロジェクト リード', en: 'Tech DE&I Project Lead' },
+  { ja: 'AIドリブン推進室 マネージャー 兼 Tech DE&I リード', en: 'AI-Driven Office Manager & Tech DE&I Lead' },
   { ja: '情報処理学会デジタルプラクティス論文採択', en: 'Published in IPSJ Digital Practice' },
 ]
 
@@ -552,5 +552,98 @@ export const links = [
     },
     url: 'https://zenn.dev/yukamiya',
     icon: 'zenn'
+  },
+]
+
+export const workHistory = [
+  {
+    period: '2025 - 現在',
+    periodEn: '2025 - Present',
+    title: {
+      ja: 'AIドリブン推進室 マネージャー',
+      en: 'Manager, AI Driven Office'
+    },
+    company: 'CyberAgent, Inc.'
+  },
+  {
+    period: '2024 - 2025',
+    periodEn: '2024 - 2025',
+    title: {
+      ja: 'DevRel Team Manager',
+      en: 'DevRel Team Manager'
+    },
+    company: 'CyberAgent, Inc.'
+  },
+  {
+    period: '2023 - 現在',
+    periodEn: '2023 - Present',
+    title: {
+      ja: 'Tech DE&I Lead',
+      en: 'Tech DE&I Lead'
+    },
+    company: 'CyberAgent, Inc.'
+  },
+  {
+    period: '2020 - 2025',
+    periodEn: '2020 - 2025',
+    title: {
+      ja: 'Technical Assistant（pro bono）',
+      en: 'Technical Assistant (pro bono)'
+    },
+    company: 'Waffle.org NPO'
+  },
+  {
+    period: '2020 - 2023',
+    periodEn: '2020 - 2023',
+    title: {
+      ja: 'Project Manager',
+      en: 'Project Manager'
+    },
+    company: 'QUREO, Inc.'
+  },
+  {
+    period: '2020 - 2021',
+    periodEn: '2020 - 2021',
+    title: {
+      ja: 'Co-Founder',
+      en: 'Co-Founder'
+    },
+    company: 'Ms.Engineer'
+  },
+  {
+    period: '2014 - 2019',
+    periodEn: '2014 - 2019',
+    title: {
+      ja: 'Data Management Engineer',
+      en: 'Data Management Engineer'
+    },
+    company: 'AWA Co. Ltd.'
+  },
+  {
+    period: '2008 - 2013',
+    periodEn: '2008 - 2013',
+    title: {
+      ja: 'Engineer → Lead Engineer',
+      en: 'Engineer → Lead Engineer'
+    },
+    company: 'CyberAgent, Inc.'
+  },
+]
+
+export const education = [
+  {
+    period: '2011 - 2013',
+    degree: {
+      ja: '修士課程',
+      en: "Master's Degree"
+    },
+    field: {
+      ja: '国際情報通信研究科',
+      en: 'Global Information and Telecommunication Studies'
+    },
+    school: {
+      ja: '早稲田大学 大学院',
+      en: 'Waseda University'
+    }
   },
 ]

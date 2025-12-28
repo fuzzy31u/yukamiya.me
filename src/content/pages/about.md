@@ -109,6 +109,20 @@ title: About Me
   - [Part1](https://open.spotify.com/episode/40E0B50d4s8qg9YSrvfFak)
   - [Part2](https://open.spotify.com/episode/43LcwLt7qKsZG6ev4qAdMZ)
 
+## 職歴 / Work History
+
+- 2024 - 現在: **DevRel Team Manager** @ CyberAgent, Inc.
+- 2023 - 現在: **Tech DE&I Lead** @ CyberAgent, Inc.
+- 2020 - 2025: **Technical Assistant** @ Waffle.org NPO（pro bono）
+- 2020 - 2023: **Project Manager** @ QUREO, Inc.
+- 2020 - 2021: **Co-Founder** @ Ms.Engineer
+- 2014 - 2019: **Data Management Engineer** @ AWA Co. Ltd.
+- 2008 - 2013: **Engineer → Lead Engineer** @ CyberAgent, Inc.
+
+## 学歴 / Education
+
+- 2011 - 2013: 早稲田大学 大学院 国際情報通信研究科 修士課程 / Waseda University, Master's in Global Information and Telecommunication Studies
+
 ## Links
 
 - [はてなブログ](https://fuzzy31u.hatenablog.com/)

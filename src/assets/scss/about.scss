@@ -471,6 +471,95 @@ body.lang-en .bilingual .en { display: inline; }
   }
 }
 
+// Work History List
+.work-history-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+
+  .work-history-item {
+    display: grid;
+    grid-template-columns: 140px 1fr auto;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md);
+    background: white;
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    transition: var(--transition);
+    align-items: center;
+
+    &:hover {
+      border-color: var(--color-accent);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .work-period {
+      font-weight: 600;
+      color: var(--color-text-muted);
+      font-size: 0.9rem;
+    }
+
+    .work-title {
+      font-weight: 600;
+      font-size: 1rem;
+      color: var(--color-text);
+    }
+
+    .work-company {
+      color: var(--color-accent);
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+  }
+}
+
+// Education List
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+
+  .education-item {
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr 1fr;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md);
+    background: white;
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    transition: var(--transition);
+    align-items: center;
+
+    &:hover {
+      border-color: var(--color-accent);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .edu-period {
+      font-weight: 600;
+      color: var(--color-text-muted);
+      font-size: 0.9rem;
+    }
+
+    .edu-degree {
+      font-weight: 600;
+      color: var(--color-accent);
+      font-size: 0.95rem;
+    }
+
+    .edu-field {
+      color: var(--color-text);
+      font-size: 0.95rem;
+    }
+
+    .edu-school {
+      font-weight: 500;
+      color: var(--color-text);
+      font-size: 0.95rem;
+    }
+  }
+}
+
 // Links Section (Footer)
 .links-section {
   background: var(--color-text);
@@ -571,6 +660,20 @@ body.lang-en .bilingual .en { display: inline; }
 
   .links-section .links-grid {
     grid-template-columns: 1fr;
+  }
+
+  .work-history-list .work-history-item {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xs);
+
+    .work-company {
+      margin-top: var(--spacing-xs);
+    }
+  }
+
+  .education-list .education-item {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xs);
   }
 
   :root {

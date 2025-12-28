@@ -9,7 +9,7 @@ import CardGrid from "../components/CardGrid"
 import CompactList from "../components/CompactList"
 import TimelineSection from "../components/TimelineSection"
 
-import { awards, certifications, organizedEvents, research, writing, media, podcasts, links } from "../data/about-content"
+import { awards, certifications, organizedEvents, research, writing, media, podcasts, links, workHistory, education } from "../data/about-content"
 import "../assets/scss/about.scss"
 
 export const pageQuery = graphql`
@@ -121,6 +121,56 @@ const AboutPageRedesign = ({ data }) => {
             <span data-lang="en">Podcasts</span>
           </h2>
           <CardGrid items={podcasts} />
+        </section>
+
+        {/* Work History Section */}
+        <section className="about-section">
+          <h2>
+            <span data-lang="ja">職歴 / Work History</span>
+            <span data-lang="en">Work History</span>
+          </h2>
+          <div className="work-history-list">
+            {workHistory.map((job, index) => (
+              <div key={index} className="work-history-item">
+                <span className="work-period">
+                  <span data-lang="ja">{job.period}</span>
+                  <span data-lang="en">{job.periodEn}</span>
+                </span>
+                <span className="work-title">
+                  <span data-lang="ja">{job.title.ja}</span>
+                  <span data-lang="en">{job.title.en}</span>
+                </span>
+                <span className="work-company">@ {job.company}</span>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Education Section */}
+        <section className="about-section">
+          <h2>
+            <span data-lang="ja">学歴 / Education</span>
+            <span data-lang="en">Education</span>
+          </h2>
+          <div className="education-list">
+            {education.map((edu, index) => (
+              <div key={index} className="education-item">
+                <span className="edu-period">{edu.period}</span>
+                <span className="edu-degree">
+                  <span data-lang="ja">{edu.degree.ja}</span>
+                  <span data-lang="en">{edu.degree.en}</span>
+                </span>
+                <span className="edu-field">
+                  <span data-lang="ja">{edu.field.ja}</span>
+                  <span data-lang="en">{edu.field.en}</span>
+                </span>
+                <span className="edu-school">
+                  <span data-lang="ja">{edu.school.ja}</span>
+                  <span data-lang="en">{edu.school.en}</span>
+                </span>
+              </div>
+            ))}
+          </div>
         </section>
 
         {/* Links Section */}
