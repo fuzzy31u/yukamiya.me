@@ -554,3 +554,87 @@ export const links = [
     icon: 'zenn'
   },
 ]
+
+export const workHistory = [
+  {
+    period: '2024 - 現在',
+    periodEn: '2024 - Present',
+    title: {
+      ja: 'DevRel Team Manager',
+      en: 'DevRel Team Manager'
+    },
+    company: 'CyberAgent, Inc.'
+  },
+  {
+    period: '2023 - 現在',
+    periodEn: '2023 - Present',
+    title: {
+      ja: 'Tech DE&I Lead',
+      en: 'Tech DE&I Lead'
+    },
+    company: 'CyberAgent, Inc.'
+  },
+  {
+    period: '2020 - 2025',
+    periodEn: '2020 - 2025',
+    title: {
+      ja: 'Technical Assistant（pro bono）',
+      en: 'Technical Assistant (pro bono)'
+    },
+    company: 'Waffle.org NPO'
+  },
+  {
+    period: '2020 - 2023',
+    periodEn: '2020 - 2023',
+    title: {
+      ja: 'Project Manager',
+      en: 'Project Manager'
+    },
+    company: 'QUREO, Inc.'
+  },
+  {
+    period: '2020 - 2021',
+    periodEn: '2020 - 2021',
+    title: {
+      ja: 'Co-Founder',
+      en: 'Co-Founder'
+    },
+    company: 'Ms.Engineer'
+  },
+  {
+    period: '2014 - 2019',
+    periodEn: '2014 - 2019',
+    title: {
+      ja: 'Data Management Engineer',
+      en: 'Data Management Engineer'
+    },
+    company: 'AWA Co. Ltd.'
+  },
+  {
+    period: '2008 - 2013',
+    periodEn: '2008 - 2013',
+    title: {
+      ja: 'Engineer → Lead Engineer',
+      en: 'Engineer → Lead Engineer'
+    },
+    company: 'CyberAgent, Inc.'
+  },
+]
+
+export const education = [
+  {
+    period: '2011 - 2013',
+    degree: {
+      ja: '修士課程',
+      en: "Master's Degree"
+    },
+    field: {
+      ja: '国際情報通信研究科',
+      en: 'Global Information and Telecommunication Studies'
+    },
+    school: {
+      ja: '早稲田大学 大学院',
+      en: 'Waseda University'
+    }
+  },
+]
