@@ -3,7 +3,7 @@ export const highlights = [
   { ja: 'Women Developers Summit 2025 ベストスピーカー賞 1位', en: 'Best Speaker Award #1, Women Developers Summit 2025' },
   { ja: 'Forbes JAPAN Women In Tech 30 選出', en: 'Forbes JAPAN Women In Tech 30' },
   { ja: 'Women Techmakers Ambassador', en: 'Women Techmakers Ambassador' },
-  { ja: 'AIドリブン推進室 マネージャー 兼 Tech DE&I リード', en: 'AI-Driven Promotion Office Manager & Tech DE&I Lead' },
+  { ja: 'AIドリブン推進室 マネージャー 兼 Tech DE&I リード', en: 'AI-Driven Office Manager & Tech DE&I Lead' },
   { ja: '情報処理学会デジタルプラクティス論文採択', en: 'Published in IPSJ Digital Practice' },
 ]
 

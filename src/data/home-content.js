@@ -4,7 +4,7 @@ export const homeContent = {
     en: {
       title: "Yu Kamiya",
       tagline: "Software Engineer",
-      description: "AI-Driven Promotion Office Manager & Tech DE&I Lead @CyberAgent / Podcaster @momit.fm / Women Techmakers Ambassador / Forbes JAPAN Women In Tech 30 / CoFounder @Ms.Engineer / Advisor @Waffle / Mother of 3",
+      description: "AI-Driven Office Manager & Tech DE&I Lead @CyberAgent / Podcaster @momit.fm / Women Techmakers Ambassador / Forbes JAPAN Women In Tech 30 / CoFounder @Ms.Engineer / Advisor @Waffle / Mother of 3",
       ctaText: "Know more",
       ctaLink: "/about"
     },
@@ -18,7 +18,7 @@ export const homeContent = {
   },
   highlights: {
     en: [
-      { text: "AI-Driven Promotion Office Manager & Tech DE&I Lead", icon: "💼" },
+      { text: "AI-Driven Office Manager & Tech DE&I Lead", icon: "💼" },
       { text: "Women Techmakers Ambassador", icon: "🌟" },
       { text: "Forbes JAPAN Women In Tech 30", icon: "🏆" },
       { text: "Podcaster at momit.fm", icon: "🎙️" },
