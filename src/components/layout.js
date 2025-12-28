@@ -8,7 +8,6 @@ import Navigation from "./navigation"
 
 import "../assets/scss/style.scss"
 import Footer from "./footer"
-import Theme from "../components/theme"
 import Search from "../components/search"
 import LanguageToggle from "../components/LanguageToggle"
 
@@ -41,7 +40,6 @@ const Layout = ({ children, className, props }) => {
         </div>
         <div sx={layoutStyle.appearance}>
           <Search searchIndex={siteSearchIndex.index} />
-          <Theme />
           <LanguageToggle />
         </div>
       </Header>
