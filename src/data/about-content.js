@@ -557,8 +557,17 @@ export const links = [
 
 export const workHistory = [
   {
-    period: '2024 - 現在',
-    periodEn: '2024 - Present',
+    period: '2025 - 現在',
+    periodEn: '2025 - Present',
+    title: {
+      ja: 'AIドリブン推進室 マネージャー',
+      en: 'Manager, AI Driven Office'
+    },
+    company: 'CyberAgent, Inc.'
+  },
+  {
+    period: '2024 - 2025',
+    periodEn: '2024 - 2025',
     title: {
       ja: 'DevRel Team Manager',
       en: 'DevRel Team Manager'
