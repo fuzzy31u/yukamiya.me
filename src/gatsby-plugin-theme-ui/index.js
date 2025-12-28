@@ -2,10 +2,8 @@ import defaultColors from "../util/default-colors.json"
 import darkColors from "../util/dark-theme-colors.json"
 import { lightness } from "@theme-ui/color"
 const theme = {
-  config: {
-    useColorSchemeMediaQuery: false,
-    initialColorModeName: "light",
-  },
+  useColorSchemeMediaQuery: false,
+  initialColorModeName: "light",
   colors: {
     ...defaultColors,
     text: "#000",
