@@ -59,10 +59,10 @@ export const speaking = [
   },
   {
     year: '2025',
-    month: '00',
+    month: '11',
     title: {
-      ja: 'アプリ甲子園2025 AI開発部門 審査員',
-      en: 'App Koshien 2025 AI Development Judge'
+      ja: 'アプリ甲子園2025 審査員',
+      en: 'App Koshien 2025 Judge'
     },
     venue: 'アプリ甲子園',
     url: 'https://applikoshien.jp/ai_development'
@@ -394,8 +394,8 @@ export const writing = [
   {
     icon: '📚',
     title: {
-      ja: '技術書典19「わたしのすごいAI活用技術大全」（20章担当）',
-      en: 'TechBookFest19: "My Amazing AI Techniques" (Chapter 20)'
+      ja: '技術書典19「わたしのすごいAI活用技術大全」（第20章「AI エージェント協働入門：Claude Code で実現する新しいワークフロー」担当）',
+      en: 'TechBookFest19: "My Amazing AI Techniques" (Chapter 20: "Intro to AI Agent Collaboration: New Workflows with Claude Code")'
     },
     year: '2025',
     url: 'https://techbookfest.org/product/iJBWBGsy6UW6sNuZyxEbzJ?productVariantID=4x8B2dQg8M7btZs11s2GXX'
