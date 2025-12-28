@@ -72,3 +72,6 @@ This is a personal website built with Gatsby v4 using the gatsby-starter-foundat
 - When updating content with URLs (especially in about.md), always check each site and put the site title correctly, not only user's memo format
 - Use WebFetch tool to get proper page titles and article names from actual websites
 - Ensure all links have accurate, descriptive titles that match the source content
+- **Important**: Check the details of the title, datetime on the links respectively before adding them to any section
+- The about page uses `src/data/about-content.js` for structured data, NOT the markdown file `src/content/pages/about.md`
+- When adding new content to the about page, update `about-content.js` with proper bilingual titles (ja/en), dates, and URLs
