@@ -7,6 +7,16 @@ export const highlights = [
   { ja: '情報処理学会デジタルプラクティス論文採択', en: 'Published in IPSJ Digital Practice' },
 ]
 
+export const certifications = [
+  {
+    title: {
+      ja: 'GoogleCloud "Generative AI Leader"',
+      en: 'GoogleCloud "Generative AI Leader"'
+    },
+    url: 'https://www.credly.com/badges/13e8956d-6ff4-4bb1-990b-f1a835965d0c/public_url'
+  },
+]
+
 export const awards = [
   {
     year: '2025',
@@ -37,6 +47,26 @@ export const awards = [
 ]
 
 export const speaking = [
+  {
+    year: '2025',
+    month: '11',
+    title: {
+      ja: 'AIエージェント時代のチームコラボレーション 働き方を変えるツール最前線2025',
+      en: 'Team Collaboration in the AI Agent Era: Cutting-edge Tools Transforming Work 2025'
+    },
+    venue: 'ビジネス＋IT',
+    url: 'https://www.sbbit.jp/eventinfo/86199'
+  },
+  {
+    year: '2025',
+    month: '11',
+    title: {
+      ja: 'アプリ甲子園2025 審査員',
+      en: 'App Koshien 2025 Judge'
+    },
+    venue: 'アプリ甲子園',
+    url: 'https://applikoshien.jp/ai_development'
+  },
   {
     year: '2025',
     month: '06',
@@ -353,6 +383,24 @@ export const research = [
 
 export const writing = [
   {
+    icon: '📝',
+    title: {
+      ja: 'Findy media：コンテキストスイッチを減らすために、3児の母エンジニアが辿り着いた"やらないこと"',
+      en: 'Findy media: What a mother engineer of 3 kids stopped doing to reduce context switching'
+    },
+    year: '2025',
+    url: 'https://findy-code.io/media/articles/list-_yukamiya'
+  },
+  {
+    icon: '📚',
+    title: {
+      ja: '技術書典19「わたしのすごいAI活用技術大全」（第20章「AI エージェント協働入門：Claude Code で実現する新しいワークフロー」担当）',
+      en: 'TechBookFest19: "My Amazing AI Techniques" (Chapter 20: "Intro to AI Agent Collaboration: New Workflows with Claude Code")'
+    },
+    year: '2025',
+    url: 'https://techbookfest.org/product/iJBWBGsy6UW6sNuZyxEbzJ?productVariantID=4x8B2dQg8M7btZs11s2GXX'
+  },
+  {
     icon: '✍️',
     title: {
       ja: 'サイバーエージェントのディベロッパーコミュニティ活性化とDE&Iの取り組み',
@@ -391,6 +439,15 @@ export const writing = [
 ]
 
 export const media = [
+  {
+    icon: '👩‍💼',
+    title: {
+      ja: '日経クロスウーマン：「頑張りたいのに」育休復帰後に悩み…技術職で男女格差なくすには',
+      en: 'Nikkei xWoman: Struggles after parental leave - Eliminating gender gap in tech'
+    },
+    year: '2025',
+    url: 'https://woman.nikkei.com/atcl/column/22/061800109/092400021/'
+  },
   {
     icon: '📰',
     title: {

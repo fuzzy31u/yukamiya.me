@@ -10,8 +10,15 @@ title: About Me
 - 2024: Forbes JAPAN [Women In Tech 30](https://forbesjapan.com/articles/detail/74347/) 選出
 - 2024: CyberAgent 総会 2024 `ベストコントリビューター賞` 受賞
 
+## 資格 / Certifications
+
+- GoogleCloud "Generative AI Leader"
+  - [Google Developers Profile](https://developers.google.com/profile/u/107747480466670641397)
+
 ## 登壇 / Public Speaking
 
+- 2025/11: [AIエージェント時代のチームコラボレーション 働き方を変えるツール最前線2025](https://www.sbbit.jp/eventinfo/86199)
+- 2025: [アプリ甲子園2025 AI開発部門](https://applikoshien.jp/ai_development)審査員
 - 2025/06: 女性エンジニアの学びと活躍を応援するカンファレンス「Women Developers Summit 2025」[AIエージェントの力で切り拓く、誰もが活躍できるインクルーシブな未来](https://event.shoeisha.jp/devsumi/20250627/session/5829)
 - 2025/06: BoxWorks TOKYO 2025 [ジェンダーギャップの“今”と“これから” 〜テック業界で私たちが切り拓く新しい未来〜](https://www.box-events.jp/boxworks2025_tokyo/day1_timetable)
 - 2025/04: IWD [International Women's Day 2025 - OutSystems Japan Community](https://usergroups.outsystems.com/events/details/outsystems-inc-tokyo-presents-iwd-international-womens-day-2025-outsystems-japan-community/)
@@ -54,6 +61,7 @@ title: About Me
 
 ## 掲載 / Interview
 
+- 2025/09: 日経クロスウーマン[「頑張りたいのに」育休復帰後に悩み…技術職で男女格差なくすには](https://woman.nikkei.com/atcl/column/22/061800109/092400021/)
 - 2025/06: 朝日新聞[（凄腕ものがたり）神谷優さん　エンジニアの男女格差解消に挑む](https://www.asahi.com/articles/DA3S16241559.html)
 - 2025/03: CyberAgent Way [発足から 2 年、サイバーエージェント Tech DE&I プロジェクトの今](https://www.cyberagent.co.jp/way/list/detail/id=31500)
 - 2025/01: [多事業展開を成功させる横断開発の秘訣｜プロダクトヒストリーカンファレンス 2024](https://youtrust.jp/articles/categories/career_development/phc2024-report04)
@@ -86,6 +94,8 @@ title: About Me
 
 ## 執筆 / Writing
 
+- 2025/12: Findy media [コンテキストスイッチを減らすために、3児の母エンジニアが辿り着いた"やらないこと"](https://findy-code.io/media/articles/list-_yukamiya)
+- 2025/11: 技術書典19 [わたしのすごいAI活用技術大全（20章担当）](https://techbookfest.org/product/iJBWBGsy6UW6sNuZyxEbzJ?productVariantID=4x8B2dQg8M7btZs11s2GXX)
 - 2025/01: CyberAgent Developers Blog [サイバーエージェントのディベロッパーコミュニティ活性化と DE&I の取り組み](https://developers.cyberagent.co.jp/blog/archives/51796/)
 - 2024: CyberAgent Developers Blog [グローバル展開を見据えたサービスにおける機械翻訳プラクティス [CADC2024]](https://developers.cyberagent.co.jp/blog/archives/50516/) By AI 書き起こし
 - 2023: CyberAgent Developers Blog [子ども向けプログラミング学習サービスの多言語翻訳における生成 AI 活用の可能性](https://developers.cyberagent.co.jp/blog/archives/44530/)
