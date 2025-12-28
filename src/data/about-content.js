@@ -13,7 +13,7 @@ export const certifications = [
       ja: 'GoogleCloud "Generative AI Leader"',
       en: 'GoogleCloud "Generative AI Leader"'
     },
-    url: 'https://developers.google.com/profile/u/107747480466670641397'
+    url: 'https://www.credly.com/badges/13e8956d-6ff4-4bb1-990b-f1a835965d0c/public_url'
   },
 ]
 
