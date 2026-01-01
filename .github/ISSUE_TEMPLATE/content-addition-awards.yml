@@ -1,0 +1,63 @@
+name: "Add Award"
+description: "受賞歴を About ページに追加"
+title: "@claude Add Award: [受賞名]"
+labels: ["content-addition", "awards"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 受賞歴の追加
+        以下のフォームに入力してください。Claude が自動で PR を作成します。
+
+  - type: input
+    id: year
+    attributes:
+      label: Year
+      description: "受賞年 (例: 2025)"
+      placeholder: "2025"
+    validations:
+      required: true
+
+  - type: input
+    id: title_ja
+    attributes:
+      label: Award Name (Japanese)
+      description: "受賞名（日本語）"
+      placeholder: "Women Developers Summit 2025 ベストスピーカー賞 1位"
+    validations:
+      required: true
+
+  - type: input
+    id: title_en
+    attributes:
+      label: Award Name (English)
+      description: "受賞名（英語）"
+      placeholder: "Women Developers Summit 2025 Best Speaker Award #1"
+    validations:
+      required: true
+
+  - type: input
+    id: org
+    attributes:
+      label: Organization
+      description: "授与組織"
+      placeholder: "Shoeisha"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: "発表ページの URL（任意）"
+      placeholder: "https://example.com/award"
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: "その他の補足情報（任意）"
+    validations:
+      required: false
