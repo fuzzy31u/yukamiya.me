@@ -467,6 +467,24 @@ export const media = [
     url: 'https://www.cyberagent.co.jp/way/list/detail/id=31500'
   },
   {
+    icon: '🎤',
+    title: {
+      ja: 'YOUTRUST: 多事業展開を成功させる横断開発の秘訣｜プロダクトヒストリーカンファレンス 2024',
+      en: 'YOUTRUST: Secrets of Cross-Functional Development for Multi-Business Success'
+    },
+    year: '2025',
+    url: 'https://youtrust.jp/articles/categories/career_development/phc2024-report04'
+  },
+  {
+    icon: '📄',
+    title: {
+      ja: 'サイバーエージェント: 「デジタルプラクティス」に論文が採択されました',
+      en: 'CyberAgent: Paper Accepted in Digital Practice'
+    },
+    year: '2025',
+    url: 'https://www.cyberagent.co.jp/techinfo/news/detail/id=31309'
+  },
+  {
     icon: '🏆',
     title: {
       ja: 'Forbes: サイバーエージェントが挑む「Tech DE&I」の舞台裏',
@@ -474,6 +492,24 @@ export const media = [
     },
     year: '2024',
     url: 'https://forbesjapan.com/articles/detail/74649'
+  },
+  {
+    icon: '🎯',
+    title: {
+      ja: 'CyberAgent Way: 「Women Tech Terrace 2024」で考える、IT業界ジェンダーギャップ解消の未来地図と現在地',
+      en: 'CyberAgent Way: Future Map and Current State of Gender Gap in IT at Women Tech Terrace 2024'
+    },
+    year: '2024',
+    url: 'https://www.cyberagent.co.jp/way/list/detail/id=30579'
+  },
+  {
+    icon: '🤝',
+    title: {
+      ja: 'CyberAgent Way: 「あなたならできるよ、と背中を押す大人を増やしたい」Waffleと歩む、IT業界のジェンダーギャップ解消への道のり',
+      en: 'CyberAgent Way: Walking with Waffle to Close the Gender Gap in IT'
+    },
+    year: '2024',
+    url: 'https://www.cyberagent.co.jp/way/list/detail/id=29926'
   },
   {
     icon: '📖',
@@ -485,6 +521,42 @@ export const media = [
     url: 'https://seleck.cc/1608'
   },
   {
+    icon: '👩‍🎓',
+    title: {
+      ja: 'CyberAgent Way: "女性にもエンジニアという選択肢を"「Women Go College」でプログラミングの機会を提供',
+      en: 'CyberAgent Way: Providing Programming Opportunities through Women Go College'
+    },
+    year: '2023',
+    url: 'https://www.cyberagent.co.jp/way/list/detail/id=29169'
+  },
+  {
+    icon: '💻',
+    title: {
+      ja: 'Tech Team Journal: IT業界の偏りを解消する「Tech DE&I プロジェクト」とは？',
+      en: 'Tech Team Journal: What is the Tech DE&I Project?'
+    },
+    year: '2023',
+    url: 'https://ttj.paiza.jp/archives/2023/07/28/9971/'
+  },
+  {
+    icon: '🌈',
+    title: {
+      ja: 'CyberAgent Way: 多様性を受容する開発組織には、社会を変える力がある。「Tech DE&I プロジェクト」始動。',
+      en: 'CyberAgent Way: Tech DE&I Project Launch'
+    },
+    year: '2023',
+    url: 'https://www.cyberagent.co.jp/way/list/detail/id=28637'
+  },
+  {
+    icon: '📚',
+    title: {
+      ja: '「わたし×IT 最強説」インタビュー',
+      en: 'Interview in "Me x IT: The Strongest Theory"'
+    },
+    year: '2023',
+    url: 'http://www.littlemore.co.jp/store/products/detail.php?product_id=1072'
+  },
+  {
     icon: '📝',
     title: {
       ja: 'CodeZine: 女性エンジニアが増えたほうが良い理由とは？',
@@ -492,6 +564,69 @@ export const media = [
     },
     year: '2023',
     url: 'https://codezine.jp/article/detail/16896'
+  },
+  {
+    icon: '🌐',
+    title: {
+      ja: 'CyberAgent: Women Techmakers Ambassador 選出',
+      en: 'CyberAgent: Selected as Women Techmakers Ambassador'
+    },
+    year: '2022',
+    url: 'https://www.cyberagent.co.jp/techinfo/news/detail/id=27684'
+  },
+  {
+    icon: '🎨',
+    title: {
+      ja: 'CyberAgent Way: エンジニア・クリエイター発 ダイバーシティ推進プロジェクト「CAlorful」が誕生',
+      en: 'CyberAgent Way: Launch of CAlorful Diversity Project'
+    },
+    year: '2021',
+    url: 'https://www.cyberagent.co.jp/way/features/list/detail/id=26859'
+  },
+  {
+    icon: '📖',
+    title: {
+      ja: 'NTT コムウェア C+: デジタル人材のためのブックレビュー',
+      en: 'NTT Comware C+: Book Review for Digital Talent'
+    },
+    year: '2021',
+    url: 'https://www.nttcom.co.jp/comware_plus/column/book_review/202107.html'
+  },
+  {
+    icon: '🚀',
+    title: {
+      ja: 'Ms.Engineer プレスリリース',
+      en: 'Ms.Engineer Press Release'
+    },
+    year: '2021',
+    url: 'https://prtimes.jp/main/html/rd/p/000000004.000065982.html'
+  },
+  {
+    icon: '💼',
+    title: {
+      ja: 'モアキャリー: ライフステージが変わっても仕事とやりたいことを両立するワーキングママ',
+      en: 'MoreCareer: Working Mom Balancing Work and Life Through Life Stage Changes'
+    },
+    year: '2019',
+    url: 'https://www.morecareee.jp/trend/style027/'
+  },
+  {
+    icon: '👩‍💻',
+    title: {
+      ja: 'IT media News 今週のITガール: 国境を超えるエンジニア 神谷優さん',
+      en: 'IT media News: Engineer Crossing Borders - Yu Kamiya'
+    },
+    year: '2013',
+    url: 'http://news.itmedia.co.jp/20130416/003760'
+  },
+  {
+    icon: '📰',
+    title: {
+      ja: 'WEB+DB PRESS vol.64: サイバーエージェントを支える技術者たち',
+      en: 'WEB+DB PRESS vol.64: Engineers Supporting CyberAgent'
+    },
+    year: '2011',
+    url: 'http://gihyo.jp/dev/serial/01/cyberagent/0017'
   },
 ]
 

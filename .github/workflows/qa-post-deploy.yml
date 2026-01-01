@@ -1,0 +1,97 @@
+name: QA Post Deploy
+
+on:
+  # Netlify デプロイ完了後に実行（webhook経由）
+  repository_dispatch:
+    types: [netlify-deploy-succeeded]
+
+  # 手動実行
+  workflow_dispatch:
+    inputs:
+      target_url:
+        description: 'QA対象URL (デフォルト: https://yukamiya.me)'
+        required: false
+        default: 'https://yukamiya.me'
+      create_issues:
+        description: '問題発見時にIssueを作成するか'
+        required: false
+        default: 'true'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
+
+  # 定期実行（毎週月曜 18:00 JST = 09:00 UTC）
+  schedule:
+    - cron: '0 9 * * 1'
+
+jobs:
+  qa-checks:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      id-token: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Run Claude Code QA
+        id: qa
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            yukamiya.me の QA チェックを実行してください。
+
+            ## 対象サイト
+            ${{ github.event.inputs.target_url || 'https://yukamiya.me' }}
+
+            ## Issue 作成
+            ${{ github.event.inputs.create_issues || 'true' }}
+
+            ## 実行するチェック
+
+            ### 1. コンテンツ整合性チェック
+            1. src/data/about-content.js を読み込む
+            2. src/content/pages/about.md を読み込む
+            3. 各セクションの件数を比較（特に media セクション）
+            4. バイリンガルタイトル（ja/en）の存在確認
+            5. セクションタイトルの冗長性チェック（例: 「掲載/Media」）
+
+            ### 2. リンク検証
+            1. about-content.js 内の全 URL を抽出
+            2. 各 URL に対して Playwright で GET リクエスト
+            3. 404 や到達不能なリンクを報告
+
+            ### 3. UI/UX チェック
+            1. https://yukamiya.me/about に Playwright でアクセス
+            2. Desktop (1280x720) でスクリーンショット取得
+            3. Mobile (iPhone 13) でスクリーンショット取得
+            4. コンソールエラーをチェック
+
+            ## 結果報告
+            問題が見つかり、Issue 作成が true の場合は、以下のコマンドで GitHub Issue を作成:
+
+            ```bash
+            gh issue create \
+              --title "[QA] {問題の概要}" \
+              --body "{詳細}" \
+              --label "qa,automated,{カテゴリ}"
+            ```
+
+            チェック完了後、サマリーを出力してください。
+
+          claude_args: '--allowed-tools "Read,Grep,Glob,Bash(gh issue create:*),Bash(gh issue list:*),mcp__playwright-mcp__playwright_navigate,mcp__playwright-mcp__playwright_screenshot,mcp__playwright-mcp__playwright_get,mcp__playwright-mcp__playwright_resize,mcp__playwright-mcp__playwright_console_logs,mcp__playwright-mcp__playwright_get_visible_html,mcp__playwright-mcp__playwright_close"'
+
+      - name: Post results summary
+        if: always()
+        run: |
+          echo "## QA Check Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Target URL**: ${{ github.event.inputs.target_url || 'https://yukamiya.me' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Completed at**: $(date)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Trigger**: ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY

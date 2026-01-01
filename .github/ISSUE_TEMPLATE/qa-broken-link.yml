@@ -1,0 +1,46 @@
+name: QA Broken Link
+description: リンク切れを報告
+title: "[QA Link] "
+labels: ["qa", "broken-link"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## リンク切れの報告
+
+        このテンプレートは QA スキルによって自動生成されるか、手動で使用できます。
+
+  - type: input
+    id: url
+    attributes:
+      label: 問題のあるURL
+      placeholder: https://example.com/broken-page
+    validations:
+      required: true
+
+  - type: input
+    id: status-code
+    attributes:
+      label: HTTPステータスコード
+      placeholder: "404"
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: リンクの場所
+      description: このリンクが存在するファイルや場所
+      placeholder: src/data/about-content.js (media セクション)
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 追加情報
+      description: リンク切れに関する追加情報
+      placeholder: |
+        このリンクは以前は有効でしたが、2024年にサイトがリニューアルされた際に変更されたようです。
+    validations:
+      required: false
