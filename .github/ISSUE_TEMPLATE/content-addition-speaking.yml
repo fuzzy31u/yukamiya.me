@@ -1,0 +1,81 @@
+name: "Add Speaking Content"
+description: "登壇情報を About ページに追加"
+title: "@claude Add Speaking: [イベント名]"
+labels: ["content-addition", "speaking"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 登壇情報の追加
+        以下のフォームに入力してください。Claude が自動で PR を作成します。
+
+  - type: input
+    id: year
+    attributes:
+      label: Year
+      description: "イベントの年 (例: 2025)"
+      placeholder: "2025"
+    validations:
+      required: true
+
+  - type: input
+    id: month
+    attributes:
+      label: Month
+      description: "月 (01-12、不明な場合は 00)"
+      placeholder: "06"
+    validations:
+      required: true
+
+  - type: input
+    id: title_ja
+    attributes:
+      label: Title (Japanese)
+      description: "登壇タイトル（日本語）"
+      placeholder: "AIエージェント時代のチームコラボレーション"
+    validations:
+      required: true
+
+  - type: input
+    id: title_en
+    attributes:
+      label: Title (English)
+      description: "登壇タイトル（英語）"
+      placeholder: "Team Collaboration in the AI Agent Era"
+    validations:
+      required: true
+
+  - type: input
+    id: venue
+    attributes:
+      label: Venue/Event Name
+      description: "イベント名または会場名"
+      placeholder: "Women Developers Summit 2025"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: "イベントページの URL（任意）"
+      placeholder: "https://example.com/event"
+    validations:
+      required: false
+
+  - type: input
+    id: role
+    attributes:
+      label: Role
+      description: "役割（任意、例: モデレーター、審査員）"
+      placeholder: "モデレーター"
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: "その他の補足情報（任意）"
+    validations:
+      required: false

@@ -1,0 +1,69 @@
+name: "Add Media Coverage"
+description: "メディア掲載を About ページに追加"
+title: "@claude Add Media: [メディア名]"
+labels: ["content-addition", "media"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## メディア掲載の追加
+        以下のフォームに入力してください。Claude が自動で PR を作成します。
+
+  - type: input
+    id: year
+    attributes:
+      label: Year
+      description: "掲載年 (例: 2025)"
+      placeholder: "2025"
+    validations:
+      required: true
+
+  - type: input
+    id: title_ja
+    attributes:
+      label: Title (Japanese)
+      description: "記事タイトル（日本語）"
+      placeholder: "日経クロスウーマン：記事タイトル"
+    validations:
+      required: true
+
+  - type: input
+    id: title_en
+    attributes:
+      label: Title (English)
+      description: "記事タイトル（英語）"
+      placeholder: "Nikkei xWoman: Article Title"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: "記事の URL"
+      placeholder: "https://example.com/article"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: icon
+    attributes:
+      label: Icon
+      description: "アイコンを選択"
+      options:
+        - "📰 新聞・ニュース"
+        - "📖 雑誌・書籍"
+        - "👩‍💼 インタビュー"
+        - "💼 ビジネス"
+        - "🎙️ ラジオ・音声"
+        - "📺 テレビ・動画"
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: "その他の補足情報（任意）"
+    validations:
+      required: false
