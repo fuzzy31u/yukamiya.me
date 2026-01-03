@@ -1,0 +1,134 @@
+name: QA Post Deploy
+
+# ============================================================
+# yukamiya.me QA Automation Workflow
+# ============================================================
+#
+# このワークフローは Claude Code Action を使用して QA チェックを自動実行します。
+#
+# ## セットアップ手順
+#
+# ### 1. Claude Code Action の認証設定
+#    - Repository Settings → Secrets and variables → Actions
+#    - 以下のいずれかのシークレットを追加:
+#      - ANTHROPIC_API_KEY: Anthropic API キー (sk-ant-...)
+#      - CLAUDE_CODE_OAUTH_TOKEN: `claude setup-token` で生成したトークン
+#
+# ### 2. Netlify Webhook 設定（オプション）
+#    デプロイ完了後に自動実行したい場合:
+#    1. Netlify Dashboard → Site settings → Build & deploy → Deploy notifications
+#    2. "Add notification" → "Outgoing webhook"
+#    3. Event: "Deploy succeeded"
+#    4. URL: https://api.github.com/repos/{owner}/{repo}/dispatches
+#    5. Headers:
+#       - Authorization: token {GITHUB_PAT}
+#       - Accept: application/vnd.github.v3+json
+#    6. Payload: {"event_type": "netlify-deploy-succeeded"}
+#
+# ### 3. GitHub App のインストール
+#    - https://github.com/apps/claude をリポジトリにインストール
+#
+# ## 実行方法
+#    - 手動: Actions タブ → "QA Post Deploy" → "Run workflow"
+#    - 自動: Netlify デプロイ完了後、または毎週月曜 18:00 JST
+#
+# ============================================================
+
+on:
+  # Netlify デプロイ完了後に実行（webhook経由）
+  repository_dispatch:
+    types: [netlify-deploy-succeeded]
+
+  # 手動実行
+  workflow_dispatch:
+    inputs:
+      target_url:
+        description: 'QA対象URL (デフォルト: https://yukamiya.me)'
+        required: false
+        default: 'https://yukamiya.me'
+      create_issues:
+        description: '問題発見時にIssueを作成するか'
+        required: false
+        default: 'true'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
+
+  # 定期実行（毎週月曜 18:00 JST = 09:00 UTC）
+  schedule:
+    - cron: '0 9 * * 1'
+
+jobs:
+  qa-checks:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      id-token: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Run Claude Code QA
+        id: qa
+        uses: anthropics/claude-code-action@v1
+        env:
+          GH_TOKEN: ${{ github.token }}
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            yukamiya.me の QA チェックを実行してください。
+
+            ## 対象サイト
+            ${{ github.event.inputs.target_url || 'https://yukamiya.me' }}
+
+            ## Issue 作成
+            ${{ github.event.inputs.create_issues || 'true' }}
+
+            ## 実行するチェック
+
+            ### 1. コンテンツ整合性チェック
+            1. src/data/about-content.js を読み込む
+            2. src/content/pages/about.md を読み込む
+            3. 各セクションの件数を比較（特に media セクション）
+            4. バイリンガルタイトル（ja/en）の存在確認
+            5. セクションタイトルの冗長性チェック（例: 「掲載/Media」）
+
+            ### 2. リンク検証
+            1. about-content.js 内の全 URL を抽出
+            2. 各 URL に対して WebFetch で HTTP リクエスト
+            3. 404 や到達不能なリンクを報告
+
+            ### 3. UI/UX チェック（CI環境では限定的）
+            - CI 環境では Playwright MCP が利用できないため、
+              コンテンツチェックとリンク検証を優先
+            - 詳細な UI/UX チェックは `/qa` コマンドでローカル実行
+
+            ## 結果報告
+            問題が見つかり、Issue 作成が true の場合は、以下のコマンドで GitHub Issue を作成:
+
+            ```bash
+            gh issue create \
+              --title "[QA] {問題の概要}" \
+              --body "{詳細}" \
+              --label "qa,automated,{カテゴリ}"
+            ```
+
+            チェック完了後、サマリーを出力してください。
+
+          # CI環境で利用可能なツールのみ指定
+          # Note: Playwright MCP は CI では利用不可、ローカル /qa コマンドで利用可能
+          claude_args: '--allowed-tools "Read,Grep,Glob,WebFetch,Bash(gh issue create:*),Bash(gh issue list:*)"'
+
+      - name: Post results summary
+        if: always()
+        run: |
+          echo "## QA Check Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Target URL**: ${{ github.event.inputs.target_url || 'https://yukamiya.me' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Completed at**: $(date)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Trigger**: ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY

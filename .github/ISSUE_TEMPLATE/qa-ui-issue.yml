@@ -1,0 +1,68 @@
+name: QA UI/UX Issue
+description: UI/UX の問題を報告
+title: "[QA UI] "
+labels: ["qa", "ui-ux"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## UI/UX 問題の報告
+
+        このテンプレートは QA スキルによって自動生成されるか、手動で使用できます。
+
+  - type: dropdown
+    id: device
+    attributes:
+      label: 検出デバイス
+      options:
+        - Desktop (1280x720)
+        - Mobile (iPhone 13)
+        - Tablet (iPad)
+        - Multiple
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: 問題の種類
+      options:
+        - レスポンシブレイアウト
+        - テーマ切替
+        - 言語切替
+        - コンソールエラー
+        - パフォーマンス
+        - アクセシビリティ
+        - ナビゲーション
+        - その他
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 問題の詳細
+      description: 問題の内容を具体的に記述してください
+    validations:
+      required: true
+
+  - type: textarea
+    id: console-errors
+    attributes:
+      label: コンソールエラー（該当する場合）
+      description: ブラウザコンソールに表示されたエラー
+      render: shell
+    validations:
+      required: false
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: 再現手順
+      description: 問題を再現するための手順
+      placeholder: |
+        1. https://yukamiya.me/about にアクセス
+        2. モバイルビューに切り替え
+        3. ナビゲーションメニューをタップ
+    validations:
+      required: false

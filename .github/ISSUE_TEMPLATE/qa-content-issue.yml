@@ -1,0 +1,62 @@
+name: QA Content Issue
+description: コンテンツ整合性の問題を報告
+title: "[QA Content] "
+labels: ["qa", "content"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## コンテンツ整合性問題の報告
+
+        このテンプレートは QA スキルによって自動生成されるか、手動で使用できます。
+
+  - type: dropdown
+    id: section
+    attributes:
+      label: 影響を受けるセクション
+      options:
+        - awards
+        - certifications
+        - speaking
+        - organizedEvents
+        - research
+        - writing
+        - media
+        - podcasts
+        - workHistory
+        - education
+        - links
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 問題の詳細
+      description: 不整合の内容を具体的に記述してください
+      placeholder: |
+        例: media セクションで about-content.js に 6 件、about.md に 11 件のアイテムがあり、5 件が欠損しています。
+    validations:
+      required: true
+
+  - type: textarea
+    id: missing-items
+    attributes:
+      label: 欠損/不整合アイテム
+      description: 具体的な欠損アイテムをリストアップ
+      placeholder: |
+        - YOUTRUST プロダクトヒストリー記事
+        - Women Tech Terrace 2024 記事
+    validations:
+      required: false
+
+  - type: textarea
+    id: recommended-actions
+    attributes:
+      label: 推奨アクション
+      description: 問題を解決するための推奨アクション
+      placeholder: |
+        - [ ] about-content.js にアイテムを追加
+        - [ ] URL の有効性を確認
+    validations:
+      required: false
