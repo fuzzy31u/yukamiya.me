@@ -554,7 +554,7 @@ export const media = [
       en: 'Interview in "Me x IT: The Strongest Theory"'
     },
     year: '2023',
-    url: 'http://www.littlemore.co.jp/store/products/detail.php?product_id=1072'
+    url: 'https://www.hanmoto.com/bd/isbn/9784898155707'
   },
   {
     icon: '📝',
@@ -608,7 +608,7 @@ export const media = [
       en: 'MoreCareer: Working Mom Balancing Work and Life Through Life Stage Changes'
     },
     year: '2019',
-    url: 'https://www.morecareee.jp/trend/style027/'
+    url: 'https://web.archive.org/web/20200215010838/https://www.morecareee.jp/trend/style027/'
   },
   {
     icon: '👩‍💻',
@@ -617,7 +617,7 @@ export const media = [
       en: 'IT media News: Engineer Crossing Borders - Yu Kamiya'
     },
     year: '2013',
-    url: 'http://news.itmedia.co.jp/20130416/003760'
+    url: 'https://web.archive.org/web/20140627190411/http://news.itmedia.co.jp/20130416/003760'
   },
   {
     icon: '📰',
@@ -626,7 +626,7 @@ export const media = [
       en: 'WEB+DB PRESS vol.64: Engineers Supporting CyberAgent'
     },
     year: '2011',
-    url: 'http://gihyo.jp/dev/serial/01/cyberagent/0017'
+    url: 'https://gihyo.jp/dev/serial/01/cyberagent/0017'
   },
 ]
 

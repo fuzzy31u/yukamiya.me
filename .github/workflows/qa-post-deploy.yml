@@ -1,5 +1,39 @@
 name: QA Post Deploy
 
+# ============================================================
+# yukamiya.me QA Automation Workflow
+# ============================================================
+#
+# このワークフローは Claude Code Action を使用して QA チェックを自動実行します。
+#
+# ## セットアップ手順
+#
+# ### 1. Claude Code Action の認証設定
+#    - Repository Settings → Secrets and variables → Actions
+#    - 以下のいずれかのシークレットを追加:
+#      - ANTHROPIC_API_KEY: Anthropic API キー (sk-ant-...)
+#      - CLAUDE_CODE_OAUTH_TOKEN: `claude setup-token` で生成したトークン
+#
+# ### 2. Netlify Webhook 設定（オプション）
+#    デプロイ完了後に自動実行したい場合:
+#    1. Netlify Dashboard → Site settings → Build & deploy → Deploy notifications
+#    2. "Add notification" → "Outgoing webhook"
+#    3. Event: "Deploy succeeded"
+#    4. URL: https://api.github.com/repos/{owner}/{repo}/dispatches
+#    5. Headers:
+#       - Authorization: token {GITHUB_PAT}
+#       - Accept: application/vnd.github.v3+json
+#    6. Payload: {"event_type": "netlify-deploy-succeeded"}
+#
+# ### 3. GitHub App のインストール
+#    - https://github.com/apps/claude をリポジトリにインストール
+#
+# ## 実行方法
+#    - 手動: Actions タブ → "QA Post Deploy" → "Run workflow"
+#    - 自動: Netlify デプロイ完了後、または毎週月曜 18:00 JST
+#
+# ============================================================
+
 on:
   # Netlify デプロイ完了後に実行（webhook経由）
   repository_dispatch:
@@ -64,14 +98,13 @@ jobs:
 
             ### 2. リンク検証
             1. about-content.js 内の全 URL を抽出
-            2. 各 URL に対して Playwright で GET リクエスト
+            2. 各 URL に対して WebFetch で HTTP リクエスト
             3. 404 や到達不能なリンクを報告
 
-            ### 3. UI/UX チェック
-            1. https://yukamiya.me/about に Playwright でアクセス
-            2. Desktop (1280x720) でスクリーンショット取得
-            3. Mobile (iPhone 13) でスクリーンショット取得
-            4. コンソールエラーをチェック
+            ### 3. UI/UX チェック（CI環境では限定的）
+            - CI 環境では Playwright MCP が利用できないため、
+              コンテンツチェックとリンク検証を優先
+            - 詳細な UI/UX チェックは `/qa` コマンドでローカル実行
 
             ## 結果報告
             問題が見つかり、Issue 作成が true の場合は、以下のコマンドで GitHub Issue を作成:
@@ -85,7 +118,9 @@ jobs:
 
             チェック完了後、サマリーを出力してください。
 
-          claude_args: '--allowed-tools "Read,Grep,Glob,Bash(gh issue create:*),Bash(gh issue list:*),mcp__playwright-mcp__playwright_navigate,mcp__playwright-mcp__playwright_screenshot,mcp__playwright-mcp__playwright_get,mcp__playwright-mcp__playwright_resize,mcp__playwright-mcp__playwright_console_logs,mcp__playwright-mcp__playwright_get_visible_html,mcp__playwright-mcp__playwright_close"'
+          # CI環境で利用可能なツールのみ指定
+          # Note: Playwright MCP は CI では利用不可、ローカル /qa コマンドで利用可能
+          claude_args: '--allowed-tools "Read,Grep,Glob,WebFetch,Bash(gh issue create:*),Bash(gh issue list:*)"'
 
       - name: Post results summary
         if: always()
