@@ -3,8 +3,6 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import AboutHero from "../components/AboutHero"
-import HighlightsBanner from "../components/HighlightsBanner"
 import CardGrid from "../components/CardGrid"
 import CompactList from "../components/CompactList"
 import TimelineSection from "../components/TimelineSection"
@@ -32,12 +30,6 @@ const AboutPageRedesign = ({ data }) => {
     <Layout className="page">
       <Seo title={frontmatter.title} description={excerpt} />
       <div className="about-page-redesign">
-        <div className="container">
-          <AboutHero />
-        </div>
-
-        <HighlightsBanner />
-
         {/* Awards Section */}
         <section className="about-section">
           <h2>

@@ -208,6 +208,10 @@ body.lang-en .bilingual .en { display: inline; }
   margin: 0 auto;
   padding: var(--spacing-lg) var(--spacing-md);
 
+  &:first-child {
+    padding-top: var(--spacing-xl);
+  }
+
   .section-header {
     display: flex;
     justify-content: space-between;
