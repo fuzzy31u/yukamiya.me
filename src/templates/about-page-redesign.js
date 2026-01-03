@@ -41,7 +41,7 @@ const AboutPageRedesign = ({ data }) => {
         {/* Awards Section */}
         <section className="about-section">
           <h2>
-            <span data-lang="ja">受賞 / Awards</span>
+            <span data-lang="ja">受賞</span>
             <span data-lang="en">Awards</span>
           </h2>
           <CardGrid items={awards} />
@@ -50,7 +50,7 @@ const AboutPageRedesign = ({ data }) => {
         {/* Certifications Section */}
         <section className="about-section">
           <h2>
-            <span data-lang="ja">資格 / Certifications</span>
+            <span data-lang="ja">資格</span>
             <span data-lang="en">Certifications</span>
           </h2>
           <div className="certifications-list">
@@ -72,7 +72,7 @@ const AboutPageRedesign = ({ data }) => {
         {/* Speaking Section */}
         <section className="about-section">
           <h2>
-            <span data-lang="ja">登壇 / Public Speaking</span>
+            <span data-lang="ja">登壇</span>
             <span data-lang="en">Public Speaking</span>
           </h2>
           <TimelineSection />
@@ -81,7 +81,7 @@ const AboutPageRedesign = ({ data }) => {
         {/* Organized Events Section */}
         <section className="about-section">
           <h2>
-            <span data-lang="ja">主催イベント / Organized Events</span>
+            <span data-lang="ja">主催イベント</span>
             <span data-lang="en">Organized Events</span>
           </h2>
           <CardGrid items={organizedEvents} />
@@ -90,7 +90,7 @@ const AboutPageRedesign = ({ data }) => {
         {/* Research Section */}
         <section className="about-section">
           <h2>
-            <span data-lang="ja">論文 / Research</span>
+            <span data-lang="ja">論文</span>
             <span data-lang="en">Research</span>
           </h2>
           <CompactList items={research} />
@@ -99,7 +99,7 @@ const AboutPageRedesign = ({ data }) => {
         {/* Writing Section */}
         <section className="about-section">
           <h2>
-            <span data-lang="ja">執筆 / Writing</span>
+            <span data-lang="ja">執筆</span>
             <span data-lang="en">Writing</span>
           </h2>
           <CompactList items={writing} />
@@ -108,7 +108,7 @@ const AboutPageRedesign = ({ data }) => {
         {/* Media Section */}
         <section className="about-section">
           <h2>
-            <span data-lang="ja">掲載 / Media</span>
+            <span data-lang="ja">掲載</span>
             <span data-lang="en">Media</span>
           </h2>
           <CompactList items={media} />
@@ -117,7 +117,7 @@ const AboutPageRedesign = ({ data }) => {
         {/* Podcast Section */}
         <section className="about-section">
           <h2>
-            <span data-lang="ja">ポッドキャスト / Podcasts</span>
+            <span data-lang="ja">ポッドキャスト</span>
             <span data-lang="en">Podcasts</span>
           </h2>
           <CardGrid items={podcasts} />
@@ -126,7 +126,7 @@ const AboutPageRedesign = ({ data }) => {
         {/* Work History Section */}
         <section className="about-section">
           <h2>
-            <span data-lang="ja">職歴 / Work History</span>
+            <span data-lang="ja">職歴</span>
             <span data-lang="en">Work History</span>
           </h2>
           <div className="work-history-list">
@@ -149,7 +149,7 @@ const AboutPageRedesign = ({ data }) => {
         {/* Education Section */}
         <section className="about-section">
           <h2>
-            <span data-lang="ja">学歴 / Education</span>
+            <span data-lang="ja">学歴</span>
             <span data-lang="en">Education</span>
           </h2>
           <div className="education-list">
@@ -176,7 +176,7 @@ const AboutPageRedesign = ({ data }) => {
         {/* Links Section */}
         <section className="links-section">
           <h2>
-            <span data-lang="ja">リンク / Links</span>
+            <span data-lang="ja">リンク</span>
             <span data-lang="en">Links</span>
           </h2>
           <div className="links-grid">
