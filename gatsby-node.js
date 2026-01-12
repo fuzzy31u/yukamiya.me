@@ -73,6 +73,15 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       },
     })
   })
+
+  // Create about page statically (uses data from about-content.js)
+  createPage({
+    path: '/about',
+    component: path.resolve('./src/templates/about-page-redesign.js'),
+    context: {
+      title: 'About Me',
+    },
+  })
 }
 
 exports.onCreateNode = ({ node, getNode, actions }) => {

@@ -1,5 +1,4 @@
 import React from "react"
-import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -10,25 +9,15 @@ import TimelineSection from "../components/TimelineSection"
 import { awards, certifications, organizedEvents, research, writing, media, podcasts, links, workHistory, education } from "../data/about-content"
 import "../assets/scss/about.scss"
 
-export const pageQuery = graphql`
-  query AboutRedesignQuery($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      id
-      excerpt(pruneLength: 140)
-      frontmatter {
-        title
-      }
-    }
-  }
-`
-
-const AboutPageRedesign = ({ data }) => {
-  const { markdownRemark } = data
-  const { frontmatter, excerpt } = markdownRemark
+const AboutPageRedesign = ({ pageContext }) => {
+  const { title } = pageContext
 
   return (
     <Layout className="page">
-      <Seo title={frontmatter.title} description={excerpt} />
+      <Seo
+        title={title}
+        description="Software engineer Yu Kamiya's about page - awards, speaking engagements, publications, and career history."
+      />
       <div className="about-page-redesign">
         {/* Awards Section */}
         <section className="about-section">
