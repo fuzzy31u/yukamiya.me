@@ -36,16 +36,29 @@ const AboutPageRedesign = ({ pageContext }) => {
           </h2>
           <div className="certifications-list">
             {certifications.map((cert, index) => (
-              <a
-                key={index}
-                href={cert.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="certification-item"
-              >
-                <span data-lang="ja">{cert.title.ja}</span>
-                <span data-lang="en">{cert.title.en}</span>
-              </a>
+              <div key={index} className={`certification-entry${cert.embedUrl ? ' has-embed' : ''}`}>
+                <a
+                  href={cert.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="certification-item"
+                >
+                  <span data-lang="ja">{cert.title.ja}</span>
+                  <span data-lang="en">{cert.title.en}</span>
+                </a>
+                {cert.embedUrl && (
+                  <div className="certification-embed">
+                    <iframe
+                      src={cert.embedUrl}
+                      width="100%"
+                      height="500"
+                      frameBorder="0"
+                      allowFullScreen
+                      title={cert.title.en}
+                    />
+                  </div>
+                )}
+              </div>
             ))}
           </div>
         </section>

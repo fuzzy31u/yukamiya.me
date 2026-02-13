@@ -403,8 +403,18 @@ body.lang-en .bilingual .en { display: inline; }
 // Certifications List
 .certifications-list {
   display: flex;
-  flex-wrap: wrap;
-  gap: var(--spacing-md);
+  flex-direction: column;
+  gap: var(--spacing-lg);
+
+  .certification-entry {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-md);
+
+    &.has-embed {
+      flex-direction: column;
+    }
+  }
 
   .certification-item {
     display: inline-flex;
@@ -427,6 +437,20 @@ body.lang-en .bilingual .en { display: inline; }
     &::before {
       content: '🏅';
       font-size: 1.5rem;
+    }
+  }
+
+  .certification-embed {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid var(--color-border);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+
+    iframe {
+      display: block;
+      border: none;
     }
   }
 }
