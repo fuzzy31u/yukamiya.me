@@ -10,6 +10,13 @@ export const highlights = [
 export const certifications = [
   {
     title: {
+      ja: 'Google Cloud "Cloud Technical Series - OnBoard Edition"',
+      en: 'Google Cloud "Cloud Technical Series - OnBoard Edition"'
+    },
+    url: 'https://googlecloudapac.accredible.com/29ef7949-e74c-4f17-8137-f8de969c8e4a'
+  },
+  {
+    title: {
       ja: 'GoogleCloud "Generative AI Leader"',
       en: 'GoogleCloud "Generative AI Leader"'
     },
