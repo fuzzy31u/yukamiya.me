@@ -7,6 +7,7 @@ const TimelineSection = () => {
 
   const filters = [
     { value: 'all', label: { ja: 'すべて', en: 'All' } },
+    { value: '2026', label: { ja: '2026', en: '2026' } },
     { value: '2025', label: { ja: '2025', en: '2025' } },
     { value: '2024', label: { ja: '2024', en: '2024' } },
     { value: '2023', label: { ja: '2023', en: '2023' } },

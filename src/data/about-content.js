@@ -55,6 +55,16 @@ export const awards = [
 
 export const speaking = [
   {
+    year: '2026',
+    month: '03',
+    title: {
+      ja: 'AIフレンドリーな組織を創る。変革を促す推進室の試行錯誤',
+      en: 'Building an AI-Friendly Organization: Trial and Error in Driving Change'
+    },
+    venue: '@IT Architect Live 2026 冬',
+    url: 'https://members05.live.itmedia.co.jp/library/OTg4Mjg%253D?group=2603_Architect2026w'
+  },
+  {
     year: '2025',
     month: '11',
     title: {
