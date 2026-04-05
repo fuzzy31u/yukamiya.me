@@ -21,6 +21,13 @@ This repository is a bilingual personal website built with Gatsby v4. It uses Ne
 - Blog posts: add or update Markdown files in `src/content/posts/`
 - Static pages managed by CMS live in `src/content/pages/`
 
+## Content Update Guidelines
+
+- When adding URLs (especially to the about page), use a tool to fetch the actual page and verify the correct title — do not rely solely on user notes or memory.
+- All links should have accurate, descriptive titles that match the source content.
+- Check both the title and publication date of linked articles before adding them.
+- The about page is driven by `src/data/about-content.js`. New entries must include bilingual titles (`ja`/`en`), a date, and a URL. Do **not** edit `src/content/pages/about.md` for about page content.
+
 ## Deployment Notes
 
 - Netlify build command: `npm run build`
