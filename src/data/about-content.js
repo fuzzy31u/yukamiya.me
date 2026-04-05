@@ -82,7 +82,7 @@ export const speaking = [
       en: 'App Koshien 2025 Judge'
     },
     venue: 'アプリ甲子園',
-    url: 'https://applikoshien.jp/ai_development'
+    url: 'https://applikoshien.jp/'
   },
   {
     year: '2025',
@@ -123,7 +123,7 @@ export const speaking = [
     },
     venue: 'プロダクトヒストリーカンファレンス',
     role: 'モデレーター',
-    url: 'https://lp-a.youtrust.jp/phc2024/'
+    url: 'https://lp-prohis.youtrust.jp/'
   },
   {
     year: '2024',
@@ -133,7 +133,7 @@ export const speaking = [
       en: 'App Koshien Judge'
     },
     venue: 'アプリ甲子園',
-    url: 'https://applikoshien.jp/2024result'
+    url: 'https://applikoshien.jp/'
   },
   {
     year: '2024',
@@ -163,7 +163,7 @@ export const speaking = [
       en: 'Career Seminar for Girls and Parents'
     },
     venue: '山田進太郎 D&I 財団',
-    url: 'https://www.shinfdn.org/posts/IqchcA6x'
+    url: 'https://web.archive.org/web/2024/https://www.shinfdn.org/posts/IqchcA6x'
   },
   {
     year: '2024',
@@ -193,7 +193,7 @@ export const speaking = [
       en: 'The Value of Diversity at CyberAgent'
     },
     venue: 'GitHub Galaxy Tokyo',
-    url: 'https://resources.github.com/galaxy/tokyo/'
+    url: 'https://web.archive.org/web/2023/https://resources.github.com/galaxy/tokyo/'
   },
   {
     year: '2023',
@@ -282,11 +282,11 @@ export const speaking = [
       en: 'Career Possibilities Through Side Jobs'
     },
     venue: 'BIT VALLEY 2021',
-    url: 'https://2021.bit-valley.jp/program/career/35'
+    url: 'https://web.archive.org/web/2022/https://2021.bit-valley.jp/program/career/35'
   },
   {
     year: '2021',
-    month: '00',
+    month: '02',
     title: {
       ja: 'Women in Tech Meetup Vol.03',
       en: 'Women in Tech Meetup Vol.03'
@@ -296,13 +296,13 @@ export const speaking = [
   },
   {
     year: '2020',
-    month: '00',
+    month: '12',
     title: {
       ja: 'テクノロジー業界における女性のリーダーシップを支援するため',
       en: 'Supporting Women\'s Leadership in Technology Industry'
     },
     venue: 'Wahl & Case',
-    url: 'https://www.wahlandcase.com/jp/webinar/women-leaders-in-the-technology-industry'
+    url: 'https://buildplus.io/jp/webinar/women-leaders-in-the-technology-industry'
   },
   {
     year: '2020',
@@ -316,7 +316,7 @@ export const speaking = [
   },
   {
     year: '2019',
-    month: '00',
+    month: '06',
     title: {
       ja: 'Woman Tech Terrace LT',
       en: 'Woman Tech Terrace LT'
@@ -535,7 +535,7 @@ export const media = [
       en: 'SELECK: Tackling Gender Gap in IT Industry'
     },
     year: '2023',
-    url: 'https://seleck.cc/1608'
+    url: 'https://web.archive.org/web/2023/https://seleck.cc/1608'
   },
   {
     icon: '👩‍🎓',
@@ -589,7 +589,7 @@ export const media = [
       en: 'CyberAgent: Selected as Women Techmakers Ambassador'
     },
     year: '2022',
-    url: 'https://www.cyberagent.co.jp/techinfo/news/detail/id=27684'
+    url: 'https://web.archive.org/web/2023/https://www.cyberagent.co.jp/techinfo/news/detail/id=27684'
   },
   {
     icon: '🎨',
@@ -598,7 +598,7 @@ export const media = [
       en: 'CyberAgent Way: Launch of CAlorful Diversity Project'
     },
     year: '2021',
-    url: 'https://www.cyberagent.co.jp/way/features/list/detail/id=26859'
+    url: 'https://web.archive.org/web/2023/https://www.cyberagent.co.jp/way/features/list/detail/id=26859'
   },
   {
     icon: '📖',
