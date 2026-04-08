@@ -55,9 +55,9 @@ on:
           - 'true'
           - 'false'
 
-  # 定期実行（毎週月曜 18:00 JST = 09:00 UTC）
-  schedule:
-    - cron: '0 9 * * 1'
+  # 定期実行を無効化（毎週月曜 18:00 JST = 09:00 UTC）
+  # schedule:
+  #   - cron: '0 9 * * 1'
 
 jobs:
   qa-checks:
