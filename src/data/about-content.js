@@ -38,6 +38,14 @@ export const certifications = [
 
 export const awards = [
   {
+    year: "2026",
+    title: {
+      ja: "サイバーエージェントグループ総会 最優秀ベストプロジェクト賞「AI番付」",
+      en: 'CyberAgent Group General Meeting Best Project Award "AI Banzuke"',
+    },
+    org: "CyberAgent",
+  },
+  {
     year: "2025",
     title: {
       ja: "Women Developers Summit 2025 ベストスピーカー賞 1位",
@@ -58,8 +66,8 @@ export const awards = [
   {
     year: "2024",
     title: {
-      ja: "CyberAgent 総会 2024 ベストコントリビューター賞",
-      en: "CyberAgent 2024 Best Contributor Award",
+      ja: "サイバーエージェントグループ総会 ベストコントリビューター賞",
+      en: "CyberAgent Group General Meeting Best Contributor Award",
     },
     org: "CyberAgent",
   },
