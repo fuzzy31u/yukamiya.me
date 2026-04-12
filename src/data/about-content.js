@@ -66,8 +66,8 @@ export const awards = [
   {
     year: "2024",
     title: {
-      ja: "CyberAgent 総会 2024 ベストコントリビューター賞",
-      en: "CyberAgent 2024 Best Contributor Award",
+      ja: "サイバーエージェントグループ総会 ベストコントリビューター賞",
+      en: "CyberAgent Group General Meeting Best Contributor Award",
     },
     org: "CyberAgent",
   },
