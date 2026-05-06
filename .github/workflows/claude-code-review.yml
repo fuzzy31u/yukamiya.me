@@ -49,9 +49,15 @@ jobs:
 
             Use the repository's CLAUDE.md for guidance on style and conventions. Be constructive and helpful in your feedback.
 
-            Use `gh pr comment` with your Bash tool to leave your review as a comment on the PR.
+            Leave exactly one PR comment for this review run using `gh pr comment`.
+            If you have actionable findings, list them clearly. If you have no actionable findings, say that explicitly.
+
+            End the final line of the comment with exactly one machine-readable merge gate marker:
+            - `AUTO_REVIEW_STATUS: pass`
+            - `AUTO_REVIEW_STATUS: needs-fix`
+
+            Use `AUTO_REVIEW_STATUS: needs-fix` if you found any bug, regression risk, missing test, security concern, or other issue that should block merge. Use `AUTO_REVIEW_STATUS: pass` only when no actionable findings remain.
 
           # See https://github.com/anthropics/claude-code-action/blob/main/docs/usage.md
           # or https://code.claude.com/docs/en/cli-reference for available options
           claude_args: '--allowed-tools "Bash(gh issue view:*),Bash(gh search:*),Bash(gh issue list:*),Bash(gh pr comment:*),Bash(gh pr diff:*),Bash(gh pr view:*),Bash(gh pr list:*)"'
-
