@@ -46,6 +46,10 @@ on:
         description: 'QA対象URL (デフォルト: https://yukamiya.me)'
         required: false
         default: 'https://yukamiya.me'
+      source_pr_url:
+        description: '関連PR URL (任意)'
+        required: false
+        default: ''
       create_issues:
         description: '問題発見時にIssueを作成するか'
         required: false
@@ -65,6 +69,7 @@ jobs:
     permissions:
       contents: read
       issues: write
+      pull-requests: read
       id-token: write
 
     steps:
@@ -89,6 +94,9 @@ jobs:
             ## Issue 作成
             ${{ github.event.inputs.create_issues || 'true' }}
 
+            ## Source PR
+            ${{ github.event.inputs.source_pr_url || github.event.client_payload.source_pr_url || '' }}
+
             ## 実行するチェック
 
             ### 1. コンテンツ整合性チェック
@@ -108,17 +116,31 @@ jobs:
               コンテンツチェックとリンク検証を優先
             - 詳細な UI/UX チェックは `/qa` コマンドでローカル実行
 
-            ## 結果報告
-            問題が見つかり、Issue 作成が true の場合は、以下のコマンドで GitHub Issue を作成:
+            ## Issue 運用ルール
+            - 問題が見つかり、Issue 作成が true の場合は、`.github/ISSUE_TEMPLATE/` の既存 QA テンプレートに合わせて Issue を作成してください。
+            - 汎用的な `[QA] ...` Issue は作成せず、以下のいずれかに分類してください:
+              - `qa-broken-link.yml`
+              - `qa-content-issue.yml`
+              - `qa-ui-issue.yml`
+            - 作成前に open な QA Issue を確認し、同じ問題が未解決なら重複作成しないでください。
+            - Source PR が分かる場合は、Issue 本文に `Source PR: <url>` を含めてください。
 
-            ```bash
-            gh issue create \
-              --title "[QA] {問題の概要}" \
-              --body "{詳細}" \
-              --label "qa,automated,{カテゴリ}"
-            ```
+            ### Broken Link Issue
+            - title: `[QA Link] <要約>`
+            - labels: `qa`, `broken-link`
+            - body: 問題URL、HTTP status または到達不能、リンクの場所、追加情報
 
-            チェック完了後、サマリーを出力してください。
+            ### Content Issue
+            - title: `[QA Content] <section>`
+            - labels: `qa`, `content`
+            - body: 影響セクション、問題詳細、欠損/不整合アイテム、推奨アクション
+
+            ### UI/UX Issue
+            - title: `[QA UI] <要約>`
+            - labels: `qa`, `ui-ux`
+            - body: device、issue type、description、console errors、steps to reproduce
+
+            チェック完了後、作成または再利用した Issue と未解決事項を含むサマリーを出力してください。
 
           # CI環境で利用可能なツールのみ指定
           # Note: Playwright MCP は CI では利用不可、ローカル /qa コマンドで利用可能
@@ -130,5 +152,6 @@ jobs:
           echo "## QA Check Results" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "- **Target URL**: ${{ github.event.inputs.target_url || 'https://yukamiya.me' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Source PR**: ${{ github.event.inputs.source_pr_url || github.event.client_payload.source_pr_url || 'N/A' }}" >> $GITHUB_STEP_SUMMARY
           echo "- **Completed at**: $(date)" >> $GITHUB_STEP_SUMMARY
           echo "- **Trigger**: ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY

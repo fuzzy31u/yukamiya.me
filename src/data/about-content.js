@@ -477,6 +477,15 @@ export const writing = [
 
 export const media = [
   {
+    icon: "📺",
+    title: {
+      ja: "ビジネス+IT：生成AIを会社の競争力に。サイバーエージェントの全社をあげた取り組み",
+      en: "Business+IT: Turning Generative AI into a Competitive Advantage Across CyberAgent",
+    },
+    year: "2026",
+    url: "https://www.sbbit.jp/movie/sp/15810",
+  },
+  {
     icon: "📰",
     title: {
       ja: 'ビジネス+IT：サイバーエージェント流「AI活用組織」の作り方、開発"完全自動化"へのロードマップ',
