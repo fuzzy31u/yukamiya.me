@@ -501,7 +501,7 @@ export const media = [
       en: "CyberAgent Way: New Connections Among Women Engineers Fostered by the Tech DE&I Project in Its Fourth Year",
     },
     year: "2026",
-    url: "https://www.cyberagent.co.jp/way/list/detail/",
+    url: "https://www.cyberagent.co.jp/way/list/detail/id=33323",
   },
   {
     icon: "👩‍💼",
