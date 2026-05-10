@@ -495,6 +495,15 @@ export const media = [
     url: "https://www.sbbit.jp/article/sp/176481",
   },
   {
+    icon: "💼",
+    title: {
+      ja: "CyberAgent Way: 発足4年目のTech DE&I プロジェクトが紡ぐ、女性エンジニアの新たな繋がり",
+      en: "CyberAgent Way: New Connections Among Women Engineers Fostered by the Tech DE&I Project in Its Fourth Year",
+    },
+    year: "2026",
+    url: "https://www.cyberagent.co.jp/way/list/detail/",
+  },
+  {
     icon: "👩‍💼",
     title: {
       ja: "日経クロスウーマン：「頑張りたいのに」育休復帰後に悩み…技術職で男女格差なくすには",
@@ -636,7 +645,7 @@ export const media = [
       en: "CyberAgent Way: Launch of CAlorful Diversity Project",
     },
     year: "2021",
-    url: "https://web.archive.org/web/2023/https://www.cyberagent.co.jp/way/features/list/detail/id=26859",
+    url: "https://web.archive.org/web/20211127203307/https://www.cyberagent.co.jp/way/features/list/detail/id=26859",
   },
   {
     icon: "📖",
