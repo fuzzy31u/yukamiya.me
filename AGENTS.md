@@ -17,9 +17,11 @@ This repository is a bilingual personal website built with Gatsby v4. It uses Ne
 ## Repo Workflows
 
 - Local Netlify CMS editing: run `npx netlify-cms-proxy-server`, then start Gatsby in another terminal and open `/admin/`
+- If local CMS auth/content editing does not work, uncomment `local_backend: true` in `static/admin/config.yml` while running the proxy server
 - About page updates: edit `src/data/about-content.js`; the About page does not use `src/content/pages/about.md`
 - Blog posts: add or update Markdown files in `src/content/posts/`
 - Static pages managed by CMS live in `src/content/pages/`
+- CMS-managed site settings live in `src/util/site.json`, `src/util/socialmedia.json`, `src/util/default-colors.json`, and `src/util/dark-theme-colors.json`
 
 ## Content Update Guidelines
 
