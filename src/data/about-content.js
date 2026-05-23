@@ -420,6 +420,15 @@ export const research = [
 
 export const writing = [
   {
+    icon: "✍️",
+    title: {
+      ja: "開発組織のAI活用レベルを可視化する「エンジニア版AI番付」の設計と運営",
+      en: "Designing and Operating the Engineering AI Banzuke to Visualize AI Utilization Levels in Development Organizations",
+    },
+    year: "2026",
+    url: "https://developers.cyberagent.co.jp/blog/archives/63720/",
+  },
+  {
     icon: "📝",
     title: {
       ja: 'Findy media：コンテキストスイッチを減らすために、3児の母エンジニアが辿り着いた"やらないこと"',
