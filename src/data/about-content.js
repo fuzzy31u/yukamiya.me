@@ -477,6 +477,15 @@ export const writing = [
 
 export const media = [
   {
+    icon: "💼",
+    title: {
+      ja: "CyberAgent Way: 全社のAI活用レベルを可視化して底上げする、サイバーエージェント流「AI番付」とは",
+      en: "CyberAgent Way: What Is CyberAgent's AI Banzuke, Visualizing and Raising AI Utilization Levels Across the Company?",
+    },
+    year: "2026",
+    url: "https://www.cyberagent.co.jp/way/list/detail/id=33333",
+  },
+  {
     icon: "📺",
     title: {
       ja: "ビジネス+IT：生成AIを会社の競争力に。サイバーエージェントの全社をあげた取り組み",
