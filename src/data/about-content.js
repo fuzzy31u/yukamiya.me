@@ -452,7 +452,7 @@ export const writing = [
       ja: "サイバーエージェントのディベロッパーコミュニティ活性化とDE&Iの取り組み",
       en: "CyberAgent Developer Community and DE&I Initiatives",
     },
-    year: "2025",
+    year: "2024",
     url: "https://developers.cyberagent.co.jp/blog/archives/51796/",
   },
   {
