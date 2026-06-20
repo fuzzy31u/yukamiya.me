@@ -102,7 +102,7 @@ export const speaking = [
       en: "App Koshien 2025 Judge",
     },
     venue: "アプリ甲子園",
-    url: "https://applikoshien.jp/",
+    url: "https://techkoshien.jp/",
   },
   {
     year: "2025",
@@ -153,7 +153,7 @@ export const speaking = [
       en: "App Koshien Judge",
     },
     venue: "アプリ甲子園",
-    url: "https://applikoshien.jp/",
+    url: "https://techkoshien.jp/",
   },
   {
     year: "2024",
@@ -163,7 +163,7 @@ export const speaking = [
       en: "Machine Translation Practices for Global Services",
     },
     venue: "CADC 2024",
-    url: "https://cadc.cyberagent.co.jp/2024/sessions/dp-ai-translating/",
+    url: "https://cadc.cyberagent.co.jp/2024/",
   },
   {
     year: "2024",
