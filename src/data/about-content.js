@@ -495,6 +495,15 @@ export const media = [
     url: "https://www.cyberagent.co.jp/way/list/detail/id=33333",
   },
   {
+    icon: "👩‍💼",
+    title: {
+      ja: "CyberAgent Way: 「競争ではなく共闘」AIドリブン推進室が語る、エンジニア版「AI番付」の熱量と裏側",
+      en: "CyberAgent Way: The AI-Driven Office on the Momentum and Inside Story of the Engineering AI Banzuke",
+    },
+    year: "2026",
+    url: "https://www.cyberagent.co.jp/way/list/detail/id=33439",
+  },
+  {
     icon: "📺",
     title: {
       ja: "ビジネス+IT：生成AIを会社の競争力に。サイバーエージェントの全社をあげた取り組み",
