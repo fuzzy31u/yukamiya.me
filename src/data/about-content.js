@@ -76,6 +76,16 @@ export const awards = [
 export const speaking = [
   {
     year: "2026",
+    month: "06",
+    title: {
+      ja: "開発組織のAI活用レベルを可視化する「エンジニア版AI番付」の取り組み",
+      en: 'Initiatives Behind the "Engineering AI Banzuke" for Visualizing AI Utilization in Development Organizations',
+    },
+    venue: "プロダクトヒストリーカンファレンス 2026",
+    url: "https://lp-prohis.youtrust.jp/",
+  },
+  {
+    year: "2026",
     month: "03",
     title: {
       ja: "AIフレンドリーな組織を創る。変革を促す推進室の試行錯誤",
