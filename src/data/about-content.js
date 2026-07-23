@@ -76,6 +76,17 @@ export const awards = [
 export const speaking = [
   {
     year: "2026",
+    month: "07",
+    title: {
+      ja: "WOMAN×AI「私たちはどうAIと向き合う？」〜AIエキスパートたちに聞く、キャリアが変わる60分〜",
+      en: "WOMAN×AI: How Should We Engage with AI? — 60 Minutes with AI Experts That Can Change Your Career",
+    },
+    venue: "Ms.Engineerオンラインイベント",
+    role: "ゲスト",
+    url: "https://peatix.com/event/5090126",
+  },
+  {
+    year: "2026",
     month: "06",
     title: {
       ja: "開発組織のAI活用レベルを可視化する「エンジニア版AI番付」の取り組み",
