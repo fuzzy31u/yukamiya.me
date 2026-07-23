@@ -81,7 +81,7 @@ export const speaking = [
       ja: "DX&AI Forum 2026 秋 東京",
       en: "DX&AI Forum 2026 Autumn Tokyo",
     },
-    venue: "ビジネス+IT",
+    venue: "ビジネス＋IT",
     role: "事例講演",
     url: "https://www.sbbit.jp/eventinfo/dx-ai",
   },
