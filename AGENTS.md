@@ -33,7 +33,7 @@ This repository is a bilingual personal website built with Gatsby v4. It uses Ne
 
 - Treat a Greptile score below 5/5 as feedback that must be reviewed, even if the review otherwise says the PR is safe to merge.
 - Verify every Greptile finding against the source and local code. Fix confirmed issues; retain correct canonical data when a finding is disproven, and record the evidence in the PR.
-- After each fix, push the updated PR and re-trigger or wait for a new Greptile review. Repeat until the latest Greptile review reports 5/5 and has no actionable findings.
+- After each fix, push the updated PR and comment `@greptileai` on the PR to force a new review. Repeat until the latest Greptile review reports 5/5 and has no actionable findings.
 - Do not merge until this Greptile gate, required GitHub checks, and the Claude review marker `AUTO_REVIEW_STATUS: pass` have all passed.
 
 ## Deployment Notes

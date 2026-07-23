@@ -81,5 +81,5 @@ This is a personal website built with Gatsby v4 using the gatsby-starter-foundat
 
 - A Greptile score below 5/5 requires review and remediation, even when the review says the change is otherwise safe to merge.
 - Check each Greptile finding against the fetched source and local code. Fix confirmed problems; keep verified canonical data when a finding is incorrect, and document the evidence in the PR.
-- After each fix, push the PR and re-trigger or wait for a new Greptile review. Continue until the latest review reports 5/5 with no actionable findings.
+- After each fix, push the PR and comment `@greptileai` to force a new review. Continue until the latest review reports 5/5 with no actionable findings.
 - Merge only when the Greptile gate, all required GitHub checks, and `AUTO_REVIEW_STATUS: pass` are satisfied.
