@@ -76,6 +76,17 @@ export const awards = [
 export const speaking = [
   {
     year: "2026",
+    month: "09",
+    title: {
+      ja: "DX&AI Forum 2026 秋 東京",
+      en: "DX&AI Forum 2026 Autumn Tokyo",
+    },
+    venue: "ビジネス+IT",
+    role: "事例講演",
+    url: "https://www.sbbit.jp/eventinfo/dx-ai",
+  },
+  {
+    year: "2026",
     month: "07",
     title: {
       ja: "WOMAN×AI「私たちはどうAIと向き合う？」〜AIエキスパートたちに聞く、キャリアが変わる60分〜",
