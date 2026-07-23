@@ -26,7 +26,15 @@ This repository is a bilingual personal website built with Gatsby v4. It uses Ne
 - When adding URLs (especially to the about page), use a tool to fetch the actual page and verify the correct title — do not rely solely on user notes or memory.
 - All links should have accurate, descriptive titles that match the source content.
 - Check both the title and publication date of linked articles before adding them.
+- Use the source page's canonical URL (or `og:url`) after fetching it. Do not replace a verified canonical URL with a guessed numeric or path-based alternative.
 - The about page is driven by `src/data/about-content.js`. New entries must include bilingual titles (`ja`/`en`), a date, and a URL. Do **not** edit `src/content/pages/about.md` for about page content.
+
+## Automated Review Gate
+
+- Treat a Greptile score below 5/5 as feedback that must be reviewed, even if the review otherwise says the PR is safe to merge.
+- Verify every Greptile finding against the source and local code. Fix confirmed issues; retain correct canonical data when a finding is disproven, and record the evidence in the PR.
+- After each fix, push the updated PR and comment `@greptileai` on the PR to force a new review. Repeat until the latest Greptile review reports 5/5 and has no actionable findings.
+- Do not merge until this Greptile gate, required GitHub checks, and the Claude review marker `AUTO_REVIEW_STATUS: pass` have all passed.
 
 ## Deployment Notes
 

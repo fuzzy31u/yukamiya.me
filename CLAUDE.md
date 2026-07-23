@@ -73,5 +73,13 @@ This is a personal website built with Gatsby v4 using the gatsby-starter-foundat
 - Use WebFetch tool to get proper page titles and article names from actual websites
 - Ensure all links have accurate, descriptive titles that match the source content
 - **Important**: Check the details of the title, datetime on the links respectively before adding them to any section
+- Use the canonical URL or `og:url` verified from the fetched source page. Do not replace a verified canonical URL with a guessed numeric or path-based alternative.
 - The about page uses `src/data/about-content.js` for structured data, NOT the markdown file `src/content/pages/about.md`
 - When adding new content to the about page, update `about-content.js` with proper bilingual titles (ja/en), dates, and URLs
+
+## Automated Review Gate
+
+- A Greptile score below 5/5 requires review and remediation, even when the review says the change is otherwise safe to merge.
+- Check each Greptile finding against the fetched source and local code. Fix confirmed problems; keep verified canonical data when a finding is incorrect, and document the evidence in the PR.
+- After each fix, push the PR and comment `@greptileai` to force a new review. Continue until the latest review reports 5/5 with no actionable findings.
+- Merge only when the Greptile gate, all required GitHub checks, and `AUTO_REVIEW_STATUS: pass` are satisfied.

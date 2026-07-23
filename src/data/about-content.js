@@ -81,7 +81,7 @@ export const speaking = [
       ja: "DX&AI Forum 2026 秋 東京",
       en: "DX&AI Forum 2026 Autumn Tokyo",
     },
-    venue: "ビジネス+IT",
+    venue: "ビジネス＋IT",
     role: "事例講演",
     url: "https://www.sbbit.jp/eventinfo/dx-ai",
   },
@@ -538,7 +538,7 @@ export const media = [
   {
     icon: "📺",
     title: {
-      ja: "ビジネス+IT：生成AIを会社の競争力に。サイバーエージェントの全社をあげた取り組み",
+      ja: "ビジネス＋IT：生成AIを会社の競争力に。サイバーエージェントの全社をあげた取り組み",
       en: "Business+IT: Turning Generative AI into a Competitive Advantage Across CyberAgent",
     },
     year: "2026",
@@ -547,7 +547,7 @@ export const media = [
   {
     icon: "📰",
     title: {
-      ja: 'ビジネス+IT：サイバーエージェント流「AI活用組織」の作り方、開発"完全自動化"へのロードマップ',
+      ja: 'ビジネス＋IT：サイバーエージェント流「AI活用組織」の作り方、開発"完全自動化"へのロードマップ',
       en: "Business+IT: CyberAgent's Approach to Building an AI-Driven Organization: Roadmap to Complete Development Automation",
     },
     year: "2026",
