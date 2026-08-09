@@ -228,6 +228,16 @@ export const speaking = [
     url: "https://forkwell.connpass.com/event/313545/",
   },
   {
+    year: "2024",
+    month: "00",
+    title: {
+      ja: "Women Techmakers Ambassador -Empowering the Next Generation of Global Tech Leaders-",
+      en: "Women Techmakers Ambassador - Empowering the Next Generation of Global Tech Leaders",
+    },
+    venue: "LT event for Women in Tech",
+    url: "https://developers.cyberagent.co.jp/blog/archives/52578/",
+  },
+  {
     year: "2023",
     month: "07",
     title: {
