@@ -294,18 +294,6 @@
       "merged_at": null,
       "blocker": "Not actionable as a site edit: Zenn is represented in about-content.js `links` as a profile link and 0 of the author's 16 Zenn articles are enumerated individually. Adding one arbitrarily is an editorial/taxonomy decision, not a deterministic content change. Escalate to the site owner if individual Zenn articles should be listed."
     },
-    "qa-broken-link:cadc-2024": {
-      "content_type": "qa-broken-link",
-      "title": "cadc.cyberagent.co.jp/2024/ が 404 Not Found を返す",
-      "canonical_url": "https://cadc.cyberagent.co.jp/2024/",
-      "detected_at": "2026-08-09T13:25:07Z",
-      "status": "merged",
-      "issue_number": 96,
-      "pr_number": null,
-      "last_review_status": null,
-      "merged_at": "2026-08-09T13:25:07Z",
-      "blocker": "No longer reproduces: re-verified this run at 200 both with and without a browser User-Agent, no redirect. Issue closed as not planned; no code change was required."
-    },
     "qa-broken-link:fukabori-129": {
       "content_type": "qa-broken-link",
       "title": "fukabori.fm が 403 Forbidden を返す",
@@ -330,18 +318,6 @@
       "merged_at": "2026-08-09T13:25:07Z",
       "blocker": "No longer reproduces: re-verified this run at 200 both with and without a browser User-Agent, no redirect. Issue closed as not planned; no code change was required."
     },
-    "qa-broken-link:cadc-2024-qa-run-102": {
-      "content_type": "qa-broken-link",
-      "title": "CADC 2024 event page returns 404 (QA Post Deploy false positive)",
-      "canonical_url": "https://cadc.cyberagent.co.jp/2024/",
-      "detected_at": "2026-08-10T00:00:00Z",
-      "status": "merged",
-      "issue_number": 102,
-      "pr_number": null,
-      "last_review_status": null,
-      "merged_at": "2026-08-10T00:00:00Z",
-      "blocker": "Environment-dependent false positive from the `QA Post Deploy` workflow (GitHub Actions, US cloud egress). Re-verified from a Japanese consumer connection: 200 on 3 consecutive requests with a browser User-Agent, no redirect, real page content and matching og:url. Closed as not planned; no code change required."
-    },
     "qa-broken-link:code-or-jp-20230615": {
       "content_type": "qa-broken-link",
       "title": "code.or.jp event page unreachable (QA Post Deploy false positive)",
@@ -353,6 +329,32 @@
       "last_review_status": null,
       "merged_at": "2026-08-10T00:00:00Z",
       "blocker": "Environment-dependent false positive from the `QA Post Deploy` workflow (GitHub Actions, US cloud egress). Re-verified from a Japanese consumer connection: 200 on 3 consecutive requests with a browser User-Agent, no redirect, real page content and matching og:url. Closed as not planned; no code change required."
+    },
+    "qa-broken-link:cadc-2024": {
+      "content_type": "qa-broken-link",
+      "title": "cadc.cyberagent.co.jp/2024/ reported unreachable (recurring false positive)",
+      "canonical_url": "https://cadc.cyberagent.co.jp/2024/",
+      "detected_at": "2026-08-09T13:25:07Z",
+      "status": "merged",
+      "issue_number": 96,
+      "pr_number": null,
+      "last_review_status": null,
+      "merged_at": "2026-08-09T13:25:07Z",
+      "blocker": null,
+      "recurrences": [
+        {
+          "issue_number": 96,
+          "reported_as": "404 Not Found",
+          "resolved_at": "2026-08-09T13:25:07Z",
+          "resolution": "Did not reproduce: 200 with and without a browser User-Agent, no redirect. Closed as not planned."
+        },
+        {
+          "issue_number": 102,
+          "reported_as": "404 Not Found (QA Post Deploy run 31315858254)",
+          "resolved_at": "2026-08-10T00:00:00Z",
+          "resolution": "Did not reproduce: 200 on 3 consecutive requests, real page content, og:url matches. Environment-dependent false positive from GitHub Actions US egress. Closed as not planned."
+        }
+      ]
     }
   },
   "runs": {

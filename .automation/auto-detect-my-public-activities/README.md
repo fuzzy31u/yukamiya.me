@@ -20,3 +20,7 @@ The automation runs as a **cloud routine**, which gets a fresh checkout of this 
 Valid `status` values: `detected`, `issue_opened`, `implemented`, `pr_opened`, `review_passed`, `merged`, `blocked`.
 
 Only stamp `sources[query].last_checked_at` for queries that **actually ran**. If a sweep is cut short, record the blocker and leave the unrun queries stale — a falsely stamped timestamp is worse than a missing one, because it silently hides a coverage gap.
+
+### Recurring findings
+
+One canonical URL gets **one** `activities` entry. When a finding recurs — most often a `QA Post Deploy` link report that does not reproduce — append to that entry's `recurrences` array rather than minting a new key. `QA Post Deploy` re-reports the same handful of Japanese hosts indefinitely, so keying per occurrence would grow this file without bound and break the "one key per canonical URL" dedup guarantee.
