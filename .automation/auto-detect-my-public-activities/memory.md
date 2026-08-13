@@ -28,7 +28,13 @@
 - **`/about` static HTML contains only the first 10 speaking entries** (`TimelineSection.jsx` `slice(0, 10)`); the rest live in the JS bundle and render via the year filter / "もっと見る". Grepping `public/about/index.html` for a newly added entry gives a false negative — verify via the bundle plus a browser filter click.
 - **The `QA Post Deploy` workflow generates false broken-link reports.** It runs on GitHub Actions (US cloud egress) and several Japanese hosts block cloud IPs. Issues #96, #93, #88, #102, #103 were all non-reproducing — every URL returned 200 from a normal connection, with real page content and matching `og:url`. **Always re-verify a link finding yourself, with and without a browser User-Agent, before treating it as real.**
 
+## Cloud environment constraints
+
+- **Some cloud runs have no external egress at all.** On 2026-08-13 the environment's network policy answered `403` to `CONNECT` for every external host — `developers.cyberagent.co.jp`, `zenn.dev`, `cyberagent.co.jp`, `yukamiya.me`, even `google.com` — so both `WebFetch` and `curl` were dead. `WebSearch` still works (it runs server-side, not through the egress proxy), as does GitHub via MCP and npm via the registry bypass. Check `$HTTPS_PROXY/__agentproxy/status` to confirm.
+- Consequence: the sweep can still run, but **source-page validation and link verification cannot**. In that state, never promote a candidate on search-summary evidence alone — record it as `detected` with the egress blocker and leave its validation to a run with egress. Leave `last_checked_at` stale for the author-page sources, and skip `QA Post Deploy` (its link findings would be unverifiable).
+
 ## History
 
 - Detection has found roughly one genuine new item per several weeks. An hourly cadence was tried and produced 11 consecutive empty sweeps before exhausting the session search budget; weekly matches the real rate.
 - Last shipped change: PR #101 (merged 2026-08-09) added the Women in Tech LT 2024 speaking entry. Verified live in production.
+- 2026-08-13: empty sweep (18 queries, 0 new). Every hit was already in `about-content.js` or a known collision.
