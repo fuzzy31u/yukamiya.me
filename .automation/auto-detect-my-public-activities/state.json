@@ -8,22 +8,22 @@
       "last_checked_at": "2026-07-23T11:00:45Z"
     },
     "サイバーエージェント 神谷優": {
-      "last_checked_at": "2026-08-10T15:37:00Z"
+      "last_checked_at": "2026-08-13T09:13:56Z"
     },
     "神谷優 登壇 記事 インタビュー 受賞": {
       "last_checked_at": "2026-05-23T05:26:17Z"
     },
     "神谷優 登壇": {
-      "last_checked_at": "2026-08-10T15:37:00Z"
+      "last_checked_at": "2026-08-13T09:13:56Z"
     },
     "神谷優 記事": {
-      "last_checked_at": "2026-08-10T15:37:00Z"
+      "last_checked_at": "2026-08-13T09:13:56Z"
     },
     "神谷優 インタビュー": {
-      "last_checked_at": "2026-08-10T14:37:00Z"
+      "last_checked_at": "2026-08-13T09:13:56Z"
     },
     "神谷優 受賞": {
-      "last_checked_at": "2026-08-10T14:37:00Z"
+      "last_checked_at": "2026-08-13T09:13:56Z"
     },
     "神谷優 インタビュー OR 神谷優 受賞": {
       "last_checked_at": "2026-06-21T00:11:09Z"
@@ -38,40 +38,40 @@
       "last_checked_at": "2026-05-23T05:26:17Z"
     },
     "fuzzy31u": {
-      "last_checked_at": "2026-08-10T14:37:00Z"
+      "last_checked_at": "2026-08-13T09:13:56Z"
     },
     "yukamiya": {
-      "last_checked_at": "2026-08-10T14:37:00Z"
+      "last_checked_at": "2026-08-13T09:13:56Z"
     },
     "Yu Kamiya fuzzy31u": {
-      "last_checked_at": "2026-08-10T14:37:00Z"
+      "last_checked_at": "2026-08-13T09:13:56Z"
     },
     "\"Yu Kamiya\" fuzzy31u": {
       "last_checked_at": "2026-05-31T00:03:28Z"
     },
     "神谷優 fuzzy31u": {
-      "last_checked_at": "2026-08-10T14:37:00Z"
+      "last_checked_at": "2026-08-13T09:13:56Z"
     },
     "\"神谷優\" fuzzy31u OR yukamiya": {
       "last_checked_at": "2026-06-21T00:11:09Z"
     },
     "神谷優 yukamiya": {
-      "last_checked_at": "2026-08-10T14:37:00Z"
+      "last_checked_at": "2026-08-13T09:13:56Z"
     },
     "site:developers.cyberagent.co.jp/blog fuzzy31u": {
-      "last_checked_at": "2026-08-10T14:37:00Z"
+      "last_checked_at": "2026-08-13T09:13:56Z"
     },
     "site:developers.cyberagent.co.jp/blog yukamiya": {
-      "last_checked_at": "2026-08-10T14:37:00Z"
+      "last_checked_at": "2026-08-13T09:13:56Z"
     },
     "site:developers.cyberagent.co.jp/blog 神谷優": {
-      "last_checked_at": "2026-08-10T14:37:00Z"
+      "last_checked_at": "2026-08-13T09:13:56Z"
     },
     "site:developers.cyberagent.co.jp/blog \"Yu Kamiya\" OR developers.cyberagent.co.jp/blog/archives/63720": {
       "last_checked_at": "2026-07-26T13:13:15Z"
     },
     "site:developers.cyberagent.co.jp/blog \"Yu Kamiya\"": {
-      "last_checked_at": "2026-08-10T14:37:00Z"
+      "last_checked_at": "2026-08-13T09:13:56Z"
     },
     "fuzzy31u CyberAgent": {
       "last_checked_at": "2026-07-12T00:43:03Z"
@@ -80,10 +80,10 @@
       "last_checked_at": "2026-07-12T00:43:03Z"
     },
     "developers.cyberagent.co.jp/blog/archives/63720": {
-      "last_checked_at": "2026-08-10T14:37:00Z"
+      "last_checked_at": "2026-08-13T09:13:56Z"
     },
     "site:developers.cyberagent.co.jp/blog/archives/ CyberAgent Developers Blog 神谷優": {
-      "last_checked_at": "2026-08-10T14:37:00Z"
+      "last_checked_at": "2026-08-13T09:13:56Z"
     },
     "\"神谷優\" \"2026/05\" OR \"2026-05\"": {
       "last_checked_at": "2026-05-31T00:03:28Z"
@@ -159,6 +159,12 @@
     },
     "\"CA BASE NEXT 2022\" サイバーエージェント若手流を轟かせる開発チームの裏側 マネジメント編": {
       "last_checked_at": "2026-08-10T05:37:00Z"
+    },
+    "\"神谷優\" サイバーエージェント 2026年8月": {
+      "last_checked_at": "2026-08-13T09:13:56Z"
+    },
+    "\"神谷優\" AIドリブン推進室 登壇 OR 講演 OR イベント": {
+      "last_checked_at": "2026-08-13T09:13:56Z"
     }
   },
   "activities": {
@@ -358,20 +364,20 @@
     }
   },
   "runs": {
-    "last_checked_at": "2026-08-13T08:57:27Z",
-    "last_status": "merged",
-    "last_blocker": null,
-    "last_result": "State migrated from the local machine into this repository so the weekly cloud routine can read and write it. The prior 'blocked' status was a local-session WebSearch budget artifact and does not apply to cloud runs, which start with a fresh budget.",
+    "last_checked_at": "2026-08-13T09:13:56Z",
+    "last_status": "no_new_activity",
+    "last_blocker": "Partial coverage: all 18 WebSearch queries ran and surfaced nothing new, but the two authoritative author-page fetches could NOT run. This cloud environment's network egress policy denies every external host (CONNECT returns 403 for developers.cyberagent.co.jp, zenn.dev, cyberagent.co.jp, forbesjapan.com, yukamiya.me and google.com alike), so WebFetch and curl are both unusable. Source-page validation and link verification were therefore impossible this run; their last_checked_at stamps were deliberately left stale. No candidate needed validation, so this gap did not suppress any finding — but a future run in the same environment could not validate one if it appeared.",
+    "last_result": "Weekly sweep found no new public activity. Every hit across the 18 queries is already represented in src/data/about-content.js (forbesjapan/74649, way id=28637, techinfo id=27684, codezine/16896, archives 50516 / 51796 / 52578 / 63720, SKO radio, Speaker Deck profile) or is a known name collision. The `site:...blog yukamiya` summary again misattributed archives/39730 (CA BASE NEXT 2022) to yukamiya — already in rejected_candidates, skipped. No issue, no content change; state-only commit.",
     "last_deploy_verification": {
       "url": "https://yukamiya.me/about/",
       "verified_at": "2026-08-10T04:37:30Z",
       "result": "PR #101 entry is live in production: 2024 filter renders 'Women Techmakers Ambassador - Empowering the Next Generation of Global Tech Leaders' with year-only date and href https://developers.cyberagent.co.jp/blog/archives/52578/. 0 console errors/warnings."
     },
     "qa_post_deploy": {
-      "run_id": 31315858254,
-      "conclusion": "success",
-      "source_pr_url": "https://github.com/fuzzy31u/yukamiya.me/pull/101",
-      "note": "Opened issues #102/#103; both re-verified as environment false positives and closed. Link checking from GitHub Actions US egress is unreliable for these Japanese hosts."
+      "run_id": null,
+      "conclusion": "not_triggered",
+      "source_pr_url": null,
+      "note": "Deliberately not triggered: no content change shipped this run, and with all external egress blocked this session could not re-verify any link finding the workflow reported. Triggering it would have produced unresolvable false positives."
     }
   },
   "rejected_candidates": {
