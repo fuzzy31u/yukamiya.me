@@ -1,0 +1,387 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "https://www.sbbit.jp/eventinfo/dx-ai": {
+      "last_checked_at": "2026-07-23T12:08:53Z"
+    },
+    "https://peatix.com/event/5090126": {
+      "last_checked_at": "2026-07-23T11:00:45Z"
+    },
+    "サイバーエージェント 神谷優": {
+      "last_checked_at": "2026-08-10T15:37:00Z"
+    },
+    "神谷優 登壇 記事 インタビュー 受賞": {
+      "last_checked_at": "2026-05-23T05:26:17Z"
+    },
+    "神谷優 登壇": {
+      "last_checked_at": "2026-08-10T15:37:00Z"
+    },
+    "神谷優 記事": {
+      "last_checked_at": "2026-08-10T15:37:00Z"
+    },
+    "神谷優 インタビュー": {
+      "last_checked_at": "2026-08-10T14:37:00Z"
+    },
+    "神谷優 受賞": {
+      "last_checked_at": "2026-08-10T14:37:00Z"
+    },
+    "神谷優 インタビュー OR 神谷優 受賞": {
+      "last_checked_at": "2026-06-21T00:11:09Z"
+    },
+    "Yu Kamiya CyberAgent interview award speaking": {
+      "last_checked_at": "2026-05-23T05:26:17Z"
+    },
+    "神谷優 Tech DE&I 2026": {
+      "last_checked_at": "2026-05-23T05:26:17Z"
+    },
+    "\"神谷優\" \"2026/05\"": {
+      "last_checked_at": "2026-05-23T05:26:17Z"
+    },
+    "fuzzy31u": {
+      "last_checked_at": "2026-08-10T14:37:00Z"
+    },
+    "yukamiya": {
+      "last_checked_at": "2026-08-10T14:37:00Z"
+    },
+    "Yu Kamiya fuzzy31u": {
+      "last_checked_at": "2026-08-10T14:37:00Z"
+    },
+    "\"Yu Kamiya\" fuzzy31u": {
+      "last_checked_at": "2026-05-31T00:03:28Z"
+    },
+    "神谷優 fuzzy31u": {
+      "last_checked_at": "2026-08-10T14:37:00Z"
+    },
+    "\"神谷優\" fuzzy31u OR yukamiya": {
+      "last_checked_at": "2026-06-21T00:11:09Z"
+    },
+    "神谷優 yukamiya": {
+      "last_checked_at": "2026-08-10T14:37:00Z"
+    },
+    "site:developers.cyberagent.co.jp/blog fuzzy31u": {
+      "last_checked_at": "2026-08-10T14:37:00Z"
+    },
+    "site:developers.cyberagent.co.jp/blog yukamiya": {
+      "last_checked_at": "2026-08-10T14:37:00Z"
+    },
+    "site:developers.cyberagent.co.jp/blog 神谷優": {
+      "last_checked_at": "2026-08-10T14:37:00Z"
+    },
+    "site:developers.cyberagent.co.jp/blog \"Yu Kamiya\" OR developers.cyberagent.co.jp/blog/archives/63720": {
+      "last_checked_at": "2026-07-26T13:13:15Z"
+    },
+    "site:developers.cyberagent.co.jp/blog \"Yu Kamiya\"": {
+      "last_checked_at": "2026-08-10T14:37:00Z"
+    },
+    "fuzzy31u CyberAgent": {
+      "last_checked_at": "2026-07-12T00:43:03Z"
+    },
+    "yukamiya CyberAgent": {
+      "last_checked_at": "2026-07-12T00:43:03Z"
+    },
+    "developers.cyberagent.co.jp/blog/archives/63720": {
+      "last_checked_at": "2026-08-10T14:37:00Z"
+    },
+    "site:developers.cyberagent.co.jp/blog/archives/ CyberAgent Developers Blog 神谷優": {
+      "last_checked_at": "2026-08-10T14:37:00Z"
+    },
+    "\"神谷優\" \"2026/05\" OR \"2026-05\"": {
+      "last_checked_at": "2026-05-31T00:03:28Z"
+    },
+    "site:www.cyberagent.co.jp/way/list/detail/ 神谷優": {
+      "last_checked_at": "2026-06-21T00:11:09Z"
+    },
+    "site:www.sbbit.jp 神谷優": {
+      "last_checked_at": "2026-07-05T00:04:42Z"
+    },
+    "site:event.shoeisha.jp 神谷優": {
+      "last_checked_at": "2026-06-21T00:11:09Z"
+    },
+    "site:cyberagent.co.jp/techinfo/news 神谷優": {
+      "last_checked_at": "2026-06-14T00:12:54Z"
+    },
+    "site:cyberagent.co.jp/way/list/detail 神谷優 \"2026\"": {
+      "last_checked_at": "2026-07-05T00:04:42Z"
+    },
+    "site:cyberagent.co.jp 神谷優 AI番付": {
+      "last_checked_at": "2026-05-31T00:03:28Z"
+    },
+    "site:cyberagent.co.jp 神谷優 Women Tech Terrace OR Tech DE&I": {
+      "last_checked_at": "2026-05-31T00:03:28Z"
+    },
+    "site:sbbit.jp/article/sp 神谷優": {
+      "last_checked_at": "2026-05-31T00:03:28Z"
+    },
+    "site:sbbit.jp/movie/sp 神谷優": {
+      "last_checked_at": "2026-05-31T00:03:28Z"
+    },
+    "site:sbbit.jp/eventinfo 神谷優": {
+      "last_checked_at": "2026-05-31T00:03:28Z"
+    },
+    "site:findy-code.io/media 神谷優": {
+      "last_checked_at": "2026-06-14T00:12:54Z"
+    },
+    "\"神谷優\"": {
+      "last_checked_at": "2026-07-05T00:04:42Z"
+    },
+    "\"神谷優\" サイバーエージェント": {
+      "last_checked_at": "2026-07-05T00:04:42Z"
+    },
+    "\"神谷優\" AI": {
+      "last_checked_at": "2026-07-05T00:04:42Z"
+    },
+    "\"神谷優\" 登壇 OR 記事 OR インタビュー OR 受賞": {
+      "last_checked_at": "2026-07-05T00:04:42Z"
+    },
+    "\"Yu Kamiya\" CyberAgent": {
+      "last_checked_at": "2026-07-05T00:04:42Z"
+    },
+    "\"神谷優\" \"サイバーエージェント\" \"AIドリブン推進室\"": {
+      "last_checked_at": "2026-07-05T00:04:42Z"
+    },
+    "\"fuzzy31u\" CyberAgent": {
+      "last_checked_at": "2026-07-05T00:04:42Z"
+    },
+    "\"yukamiya\" CyberAgent": {
+      "last_checked_at": "2026-07-05T00:04:42Z"
+    },
+    "https://developers.cyberagent.co.jp/blog/archives/author/yukamiya/": {
+      "last_checked_at": "2026-08-10T16:37:00Z"
+    },
+    "https://zenn.dev/yukamiya": {
+      "last_checked_at": "2026-08-10T16:37:00Z"
+    },
+    "\"LT event for Women in Tech\" GitHub SmartNews ウエディングパーク サイバーエージェント": {
+      "last_checked_at": "2026-08-09T13:25:07Z"
+    },
+    "\"LT event for Women in Tech\" connpass 2024": {
+      "last_checked_at": "2026-08-09T13:25:07Z"
+    },
+    "\"CA BASE NEXT 2022\" サイバーエージェント若手流を轟かせる開発チームの裏側 マネジメント編": {
+      "last_checked_at": "2026-08-10T05:37:00Z"
+    }
+  },
+  "activities": {
+    "qa-content:production-about-stale-2026-07-26": {
+      "content_type": "qa-content",
+      "title": "Production About page omits merged 2026 updates",
+      "canonical_url": "https://yukamiya.me/about/",
+      "detected_at": "2026-07-26T13:13:15Z",
+      "status": "merged",
+      "issue_number": 99,
+      "pr_number": null,
+      "last_review_status": "pass",
+      "merged_at": "2026-08-09T00:05:50Z",
+      "blocker": "Resolved without a PR: production https://yukamiya.me/about/ was re-verified this run and now serves the merged 2026 updates (DX&AI Forum 2026, WOMAN×AI, エンジニア版AI番付). Issue #99 closed 2026-08-09T00:05:50Z."
+    },
+    "qa-content:greptile-review-loop-2026-07-23": {
+      "content_type": "qa-content",
+      "title": "Greptile review loop for Business+IT content",
+      "canonical_url": "https://www.sbbit.jp/eventinfo/dx-ai",
+      "detected_at": "2026-07-23T12:08:53Z",
+      "status": "merged",
+      "issue_number": 97,
+      "pr_number": 98,
+      "last_review_status": "pass",
+      "merged_at": "2026-07-23T03:07:36Z",
+      "blocker": null
+    },
+    "https://www.sbbit.jp/eventinfo/dx-ai": {
+      "content_type": "speaking",
+      "title": "DX&AI Forum 2026 秋 東京",
+      "canonical_url": "https://www.sbbit.jp/eventinfo/dx-ai",
+      "detected_at": "2026-07-23T11:41:07Z",
+      "status": "merged",
+      "issue_number": 94,
+      "pr_number": 95,
+      "last_review_status": "pass",
+      "merged_at": "2026-07-23T02:40:13Z",
+      "blocker": null
+    },
+    "https://peatix.com/event/5090126": {
+      "content_type": "speaking",
+      "title": "WOMAN×AI「私たちはどうAIと向き合う？」〜AIエキスパートたちに聞く、キャリアが変わる60分〜",
+      "canonical_url": "https://peatix.com/event/5090126",
+      "detected_at": "2026-07-23T11:00:45Z",
+      "status": "merged",
+      "issue_number": 91,
+      "pr_number": 92,
+      "last_review_status": "pass",
+      "merged_at": "2026-07-23T01:59:57Z",
+      "blocker": null
+    },
+    "https://www.cyberagent.co.jp/way/list/detail/id=33323": {
+      "content_type": "media",
+      "title": "CyberAgent Way: 発足4年目のTech DE&I プロジェクトが紡ぐ、女性エンジニアの新たな繋がり",
+      "canonical_url": "https://www.cyberagent.co.jp/way/list/detail/id=33323",
+      "detected_at": "2026-05-10T01:30:52Z",
+      "status": "merged",
+      "issue_number": 69,
+      "pr_number": 71,
+      "last_review_status": "pass",
+      "merged_at": "2026-05-10T02:08:45Z",
+      "blocker": null
+    },
+    "https://www.cyberagent.co.jp/way/list/detail/id=33333": {
+      "content_type": "media",
+      "title": "CyberAgent Way: 全社のAI活用レベルを可視化して底上げする、サイバーエージェント流「AI番付」とは",
+      "canonical_url": "https://www.cyberagent.co.jp/way/list/detail/id=33333",
+      "detected_at": "2026-05-17T00:16:22Z",
+      "status": "merged",
+      "issue_number": 74,
+      "pr_number": 75,
+      "last_review_status": "pass",
+      "merged_at": "2026-05-23T05:25:54Z",
+      "blocker": null
+    },
+    "https://developers.cyberagent.co.jp/blog/archives/63720/": {
+      "content_type": "writing",
+      "title": "開発組織のAI活用レベルを可視化する「エンジニア版AI番付」の設計と運営",
+      "canonical_url": "https://developers.cyberagent.co.jp/blog/archives/63720/",
+      "detected_at": "2026-05-23T05:55:16Z",
+      "status": "merged",
+      "issue_number": 79,
+      "pr_number": 80,
+      "last_review_status": "pass",
+      "merged_at": "2026-05-23T05:54:47Z",
+      "blocker": null
+    },
+    "qa-content:writing-year-51796": {
+      "content_type": "qa-content",
+      "title": "Writing section year mismatch for CyberAgent Developers Blog 51796",
+      "canonical_url": "https://developers.cyberagent.co.jp/blog/archives/51796/",
+      "detected_at": "2026-06-14T00:12:54Z",
+      "status": "merged",
+      "issue_number": 82,
+      "pr_number": 83,
+      "last_review_status": "pass",
+      "merged_at": "2026-06-14T00:12:20Z",
+      "blocker": null
+    },
+    "https://www.cyberagent.co.jp/way/list/detail/id=33439": {
+      "content_type": "media",
+      "title": "CyberAgent Way: 「競争ではなく共闘」AIドリブン推進室が語る、エンジニア版「AI番付」の熱量と裏側",
+      "canonical_url": "https://www.cyberagent.co.jp/way/list/detail/id=33439",
+      "detected_at": "2026-06-21T00:11:09Z",
+      "status": "merged",
+      "issue_number": 86,
+      "pr_number": 87,
+      "last_review_status": "pass",
+      "merged_at": "2026-06-21T00:10:32Z",
+      "blocker": null
+    },
+    "https://developers.cyberagent.co.jp/blog/archives/52578/": {
+      "content_type": "speaking",
+      "title": "Women Techmakers Ambassador -Empowering the Next Generation of Global Tech Leaders-（LT event for Women in Tech）",
+      "canonical_url": "https://developers.cyberagent.co.jp/blog/archives/52578/",
+      "detected_at": "2026-08-09T13:25:07Z",
+      "status": "merged",
+      "issue_number": 100,
+      "pr_number": 101,
+      "last_review_status": "pass",
+      "merged_at": "2026-08-09T13:26:40Z",
+      "blocker": null
+    },
+    "https://zenn.dev/yukamiya/articles/baf9872a13a176": {
+      "content_type": "writing",
+      "title": "【おしゃべりを資産に】ADKマルチエージェントで叶えるポッドキャスト記事化ツールChatter 2 Chapter",
+      "canonical_url": "https://zenn.dev/yukamiya/articles/baf9872a13a176",
+      "detected_at": "2026-08-09T13:25:07Z",
+      "status": "detected",
+      "issue_number": null,
+      "pr_number": null,
+      "last_review_status": null,
+      "merged_at": null,
+      "blocker": "Not actionable as a site edit: Zenn is represented in about-content.js `links` as a profile link and 0 of the author's 16 Zenn articles are enumerated individually. Adding one arbitrarily is an editorial/taxonomy decision, not a deterministic content change. Escalate to the site owner if individual Zenn articles should be listed."
+    },
+    "qa-broken-link:cadc-2024": {
+      "content_type": "qa-broken-link",
+      "title": "cadc.cyberagent.co.jp/2024/ が 404 Not Found を返す",
+      "canonical_url": "https://cadc.cyberagent.co.jp/2024/",
+      "detected_at": "2026-08-09T13:25:07Z",
+      "status": "merged",
+      "issue_number": 96,
+      "pr_number": null,
+      "last_review_status": null,
+      "merged_at": "2026-08-09T13:25:07Z",
+      "blocker": "No longer reproduces: re-verified this run at 200 both with and without a browser User-Agent, no redirect. Issue closed as not planned; no code change was required."
+    },
+    "qa-broken-link:fukabori-129": {
+      "content_type": "qa-broken-link",
+      "title": "fukabori.fm が 403 Forbidden を返す",
+      "canonical_url": "https://fukabori.fm/episode/129",
+      "detected_at": "2026-08-09T13:25:07Z",
+      "status": "merged",
+      "issue_number": 93,
+      "pr_number": null,
+      "last_review_status": null,
+      "merged_at": "2026-08-09T13:25:07Z",
+      "blocker": "No longer reproduces: re-verified this run at 200 both with and without a browser User-Agent, no redirect. Issue closed as not planned; no code change was required."
+    },
+    "qa-broken-link:accredible-badge": {
+      "content_type": "qa-broken-link",
+      "title": "googlecloudapac.accredible.com が 403 Forbidden を返す",
+      "canonical_url": "https://googlecloudapac.accredible.com/29ef7949-e74c-4f17-8137-f8de969c8e4a",
+      "detected_at": "2026-08-09T13:25:07Z",
+      "status": "merged",
+      "issue_number": 88,
+      "pr_number": null,
+      "last_review_status": null,
+      "merged_at": "2026-08-09T13:25:07Z",
+      "blocker": "No longer reproduces: re-verified this run at 200 both with and without a browser User-Agent, no redirect. Issue closed as not planned; no code change was required."
+    },
+    "qa-broken-link:cadc-2024-qa-run-102": {
+      "content_type": "qa-broken-link",
+      "title": "CADC 2024 event page returns 404 (QA Post Deploy false positive)",
+      "canonical_url": "https://cadc.cyberagent.co.jp/2024/",
+      "detected_at": "2026-08-10T00:00:00Z",
+      "status": "merged",
+      "issue_number": 102,
+      "pr_number": null,
+      "last_review_status": null,
+      "merged_at": "2026-08-10T00:00:00Z",
+      "blocker": "Environment-dependent false positive from the `QA Post Deploy` workflow (GitHub Actions, US cloud egress). Re-verified from a Japanese consumer connection: 200 on 3 consecutive requests with a browser User-Agent, no redirect, real page content and matching og:url. Closed as not planned; no code change required."
+    },
+    "qa-broken-link:code-or-jp-20230615": {
+      "content_type": "qa-broken-link",
+      "title": "code.or.jp event page unreachable (QA Post Deploy false positive)",
+      "canonical_url": "https://code.or.jp/event/20230615/",
+      "detected_at": "2026-08-10T00:00:00Z",
+      "status": "merged",
+      "issue_number": 103,
+      "pr_number": null,
+      "last_review_status": null,
+      "merged_at": "2026-08-10T00:00:00Z",
+      "blocker": "Environment-dependent false positive from the `QA Post Deploy` workflow (GitHub Actions, US cloud egress). Re-verified from a Japanese consumer connection: 200 on 3 consecutive requests with a browser User-Agent, no redirect, real page content and matching og:url. Closed as not planned; no code change required."
+    }
+  },
+  "runs": {
+    "last_checked_at": "2026-08-13T08:57:27Z",
+    "last_status": "merged",
+    "last_blocker": null,
+    "last_result": "State migrated from the local machine into this repository so the weekly cloud routine can read and write it. The prior 'blocked' status was a local-session WebSearch budget artifact and does not apply to cloud runs, which start with a fresh budget.",
+    "last_deploy_verification": {
+      "url": "https://yukamiya.me/about/",
+      "verified_at": "2026-08-10T04:37:30Z",
+      "result": "PR #101 entry is live in production: 2024 filter renders 'Women Techmakers Ambassador - Empowering the Next Generation of Global Tech Leaders' with year-only date and href https://developers.cyberagent.co.jp/blog/archives/52578/. 0 console errors/warnings."
+    },
+    "qa_post_deploy": {
+      "run_id": 31315858254,
+      "conclusion": "success",
+      "source_pr_url": "https://github.com/fuzzy31u/yukamiya.me/pull/101",
+      "note": "Opened issues #102/#103; both re-verified as environment false positives and closed. Link checking from GitHub Actions US egress is unreliable for these Japanese hosts."
+    }
+  },
+  "rejected_candidates": {
+    "https://developers.cyberagent.co.jp/blog/archives/39730/": {
+      "title": "【CA BASE NEXT 2022】 サイバーエージェント若手流を轟かせる開発チームの裏側 -マネジメント編-",
+      "rejected_at": "2026-08-10T05:37:00Z",
+      "reason": "Not Yu Kamiya. Verified from source: <meta name=\"author\" content=\"syuta\">, byline 'WRITER: syuta' (菅原シュウタ @sugawara_syuta), author link /author/syuta/, and 0 occurrences of 神谷 / yukamiya / fuzzy31u in the page. Web-search summaries repeatedly misattribute this post to yukamiya — it is a search-engine hallucination. Do not re-investigate."
+    }
+  },
+  "state_location": {
+    "path": ".automation/auto-detect-my-public-activities/",
+    "migrated_at": "2026-08-13T08:57:27Z",
+    "note": "Canonical as of 2026-08-13. Previously ~/.codex/automations/auto-detect-my-public-activities/ on the owner's laptop, which cloud routines cannot reach. Commit changes to this file every run."
+  }
+}
