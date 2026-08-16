@@ -8,22 +8,22 @@
       "last_checked_at": "2026-07-23T11:00:45Z"
     },
     "サイバーエージェント 神谷優": {
-      "last_checked_at": "2026-08-13T09:13:56Z"
+      "last_checked_at": "2026-08-16T12:21:05Z"
     },
     "神谷優 登壇 記事 インタビュー 受賞": {
       "last_checked_at": "2026-05-23T05:26:17Z"
     },
     "神谷優 登壇": {
-      "last_checked_at": "2026-08-13T09:13:56Z"
+      "last_checked_at": "2026-08-16T12:21:05Z"
     },
     "神谷優 記事": {
-      "last_checked_at": "2026-08-13T09:13:56Z"
+      "last_checked_at": "2026-08-16T12:21:05Z"
     },
     "神谷優 インタビュー": {
-      "last_checked_at": "2026-08-13T09:13:56Z"
+      "last_checked_at": "2026-08-16T12:21:05Z"
     },
     "神谷優 受賞": {
-      "last_checked_at": "2026-08-13T09:13:56Z"
+      "last_checked_at": "2026-08-16T12:21:05Z"
     },
     "神谷優 インタビュー OR 神谷優 受賞": {
       "last_checked_at": "2026-06-21T00:11:09Z"
@@ -38,40 +38,40 @@
       "last_checked_at": "2026-05-23T05:26:17Z"
     },
     "fuzzy31u": {
-      "last_checked_at": "2026-08-13T09:13:56Z"
+      "last_checked_at": "2026-08-16T12:21:05Z"
     },
     "yukamiya": {
-      "last_checked_at": "2026-08-13T09:13:56Z"
+      "last_checked_at": "2026-08-16T12:21:05Z"
     },
     "Yu Kamiya fuzzy31u": {
-      "last_checked_at": "2026-08-13T09:13:56Z"
+      "last_checked_at": "2026-08-16T12:21:05Z"
     },
     "\"Yu Kamiya\" fuzzy31u": {
       "last_checked_at": "2026-05-31T00:03:28Z"
     },
     "神谷優 fuzzy31u": {
-      "last_checked_at": "2026-08-13T09:13:56Z"
+      "last_checked_at": "2026-08-16T12:21:05Z"
     },
     "\"神谷優\" fuzzy31u OR yukamiya": {
       "last_checked_at": "2026-06-21T00:11:09Z"
     },
     "神谷優 yukamiya": {
-      "last_checked_at": "2026-08-13T09:13:56Z"
+      "last_checked_at": "2026-08-16T12:21:05Z"
     },
     "site:developers.cyberagent.co.jp/blog fuzzy31u": {
-      "last_checked_at": "2026-08-13T09:13:56Z"
+      "last_checked_at": "2026-08-16T12:21:05Z"
     },
     "site:developers.cyberagent.co.jp/blog yukamiya": {
-      "last_checked_at": "2026-08-13T09:13:56Z"
+      "last_checked_at": "2026-08-16T12:21:05Z"
     },
     "site:developers.cyberagent.co.jp/blog 神谷優": {
-      "last_checked_at": "2026-08-13T09:13:56Z"
+      "last_checked_at": "2026-08-16T12:21:05Z"
     },
     "site:developers.cyberagent.co.jp/blog \"Yu Kamiya\" OR developers.cyberagent.co.jp/blog/archives/63720": {
       "last_checked_at": "2026-07-26T13:13:15Z"
     },
     "site:developers.cyberagent.co.jp/blog \"Yu Kamiya\"": {
-      "last_checked_at": "2026-08-13T09:13:56Z"
+      "last_checked_at": "2026-08-16T12:21:05Z"
     },
     "fuzzy31u CyberAgent": {
       "last_checked_at": "2026-07-12T00:43:03Z"
@@ -80,10 +80,10 @@
       "last_checked_at": "2026-07-12T00:43:03Z"
     },
     "developers.cyberagent.co.jp/blog/archives/63720": {
-      "last_checked_at": "2026-08-13T09:13:56Z"
+      "last_checked_at": "2026-08-16T12:21:05Z"
     },
     "site:developers.cyberagent.co.jp/blog/archives/ CyberAgent Developers Blog 神谷優": {
-      "last_checked_at": "2026-08-13T09:13:56Z"
+      "last_checked_at": "2026-08-16T12:21:05Z"
     },
     "\"神谷優\" \"2026/05\" OR \"2026-05\"": {
       "last_checked_at": "2026-05-31T00:03:28Z"
@@ -165,6 +165,25 @@
     },
     "\"神谷優\" AIドリブン推進室 登壇 OR 講演 OR イベント": {
       "last_checked_at": "2026-08-13T09:13:56Z"
+    },
+    "日経xwoman 神谷優 サイバーエージェント woman.nikkei.com author 02667": {
+      "last_checked_at": "2026-08-16T12:21:05Z"
+    },
+    "site:woman.nikkei.com 神谷優 サイバーエージェント": {
+      "last_checked_at": "2026-08-16T12:21:05Z"
+    },
+    "\"神谷優\" サイバーエージェント 2026年 登壇 OR 講演 OR イベント OR 記事": {
+      "last_checked_at": "2026-08-16T12:21:05Z"
+    },
+    "site:cyberagent.co.jp/techinfo/news 神谷優 登壇 2026": {
+      "last_checked_at": "2026-08-16T12:21:05Z"
+    },
+    "\"神谷優\" AIドリブン推進室 2026年7月 OR 2026年8月": {
+      "last_checked_at": "2026-08-16T12:21:05Z"
+    },
+    "https://woman.nikkei.com/atcl/author/02667/": {
+      "last_checked_at": null,
+      "note": "Third authoritative author/enumeration page for the target person, identified 2026-08-16 from search-result bios that match exactly (AIドリブン推進室 Enabling Group マネージャー, Tech DE&I Project 発足 2023-01, Women Techmakers Ambassador, Forbes JAPAN Women In Tech 30 2024, 現職 2025-08). Never fetched: external egress was blocked on the run that found it. A run with egress must enumerate it — about-content.js currently carries only one 日経xwoman article (atcl/column/22/061800109/092400021/), so this page may list untracked articles."
     }
   },
   "activities": {
@@ -364,10 +383,10 @@
     }
   },
   "runs": {
-    "last_checked_at": "2026-08-13T09:13:56Z",
+    "last_checked_at": "2026-08-16T12:21:05Z",
     "last_status": "no_new_activity",
-    "last_blocker": "Partial coverage: all 18 WebSearch queries ran and surfaced nothing new, but the two authoritative author-page fetches could NOT run. This cloud environment's network egress policy denies every external host (CONNECT returns 403 for developers.cyberagent.co.jp, zenn.dev, cyberagent.co.jp, forbesjapan.com, yukamiya.me and google.com alike), so WebFetch and curl are both unusable. Source-page validation and link verification were therefore impossible this run; their last_checked_at stamps were deliberately left stale. No candidate needed validation, so this gap did not suppress any finding — but a future run in the same environment could not validate one if it appeared.",
-    "last_result": "Weekly sweep found no new public activity. Every hit across the 18 queries is already represented in src/data/about-content.js (forbesjapan/74649, way id=28637, techinfo id=27684, codezine/16896, archives 50516 / 51796 / 52578 / 63720, SKO radio, Speaker Deck profile) or is a known name collision. The `site:...blog yukamiya` summary again misattributed archives/39730 (CA BASE NEXT 2022) to yukamiya — already in rejected_candidates, skipped. No issue, no content change; state-only commit.",
+    "last_blocker": "Partial coverage, same egress failure as 2026-08-13: all 21 WebSearch queries ran, but the two authoritative author-page fetches could NOT run. This cloud environment's egress proxy blocks every external host (WebFetch returns EGRESS_BLOCKED for developers.cyberagent.co.jp; curl returns 000 for zenn.dev, yukamiya.me and google.com alike), so source-page validation and link verification were impossible. Their last_checked_at stamps were deliberately left stale. No candidate required validation this run, so the gap suppressed no finding — but the newly identified 日経xwoman author page (sources → https://woman.nikkei.com/atcl/author/02667/) could not be enumerated and needs a run with egress.",
+    "last_result": "Weekly sweep found no new public activity. Every hit across the 21 queries is already represented in src/data/about-content.js (forbesjapan/74649, way id=28637, techinfo id=27684, codezine/16896, archives 50516 / 51796 / 52578 / 63720, woman.nikkei atcl/column/22/061800109/092400021/, devsumi 20211117 session 3515, SKO Radio, Speaker Deck and Zenn profile links) or is a known name collision (神奈川大 日本音響学会 学生優秀発表賞, 神谷優太, 神谷浩史, 神谷優里, Yuu Kamiya). techinfo id=27174 (Women Developers Summit 2021) surfaced as an apparently new URL but is the CyberAgent announcement for the already-tracked event.shoeisha.jp/devsumi/20211117/session/3515/ speaking entry — same activity, not a new one. One durable discovery: woman.nikkei.com/atcl/author/02667/ is a third authoritative author page for the target person; recorded unstamped for a future run with egress. No issue, no content change; state-only commit.",
     "last_deploy_verification": {
       "url": "https://yukamiya.me/about/",
       "verified_at": "2026-08-10T04:37:30Z",
