@@ -10,6 +10,7 @@
 - Authoritative enumerations, better than any search:
   - `https://developers.cyberagent.co.jp/blog/archives/author/yukamiya/` — 3 posts as of 2026-08. Page 2 is empty.
   - `https://zenn.dev/yukamiya` — 16 articles as of 2026-08.
+  - `https://woman.nikkei.com/atcl/author/02667/` — 日経xwoman author page, identified 2026-08-16. **Confirmed the right 神谷優**: the bio matches on every specific — AIドリブン推進室 Enabling Group マネージャー, Tech DE&I Project 発足 2023-01, Women Techmakers Ambassador, Forbes JAPAN Women In Tech 30 2024, 現職 2025-08. Not yet enumerated (the run that found it had no egress); `about-content.js` carries only one 日経xwoman article, so this page may list untracked ones. Fetch it on the next run with egress.
 
 ## Known false positives — do not re-investigate
 
@@ -38,3 +39,8 @@
 - Detection has found roughly one genuine new item per several weeks. An hourly cadence was tried and produced 11 consecutive empty sweeps before exhausting the session search budget; weekly matches the real rate.
 - Last shipped change: PR #101 (merged 2026-08-09) added the Women in Tech LT 2024 speaking entry. Verified live in production.
 - 2026-08-13: empty sweep (18 queries, 0 new). Every hit was already in `about-content.js` or a known collision.
+- 2026-08-16: empty sweep (21 queries, 0 new), egress blocked again — the no-egress cloud environment is now the norm, not a one-off. Only durable output was the 日経xwoman author page above.
+
+## Same activity, different URL
+
+- CyberAgent announces its own people's talks on `cyberagent.co.jp/techinfo/news/`, so one talk often has both a CA announcement URL and an organizer URL. `about-content.js` links the organizer page. Dedup by **event**, not by URL, or the announcement looks like a second activity. Seen 2026-08-16: `techinfo/news/detail/id=27174` (Women Developers Summit 登壇) is the announcement for the already-tracked `event.shoeisha.jp/devsumi/20211117/session/3515/`.
