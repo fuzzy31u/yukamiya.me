@@ -18,6 +18,7 @@
 - A **different** 神谷優 — a Kanagawa University graduate student in architectural acoustics — won the 日本音響学会 学生優秀発表賞 (`https://www.kanagawa-u.ac.jp/news/details_25836.html`). Surfaces on `神谷優 受賞`. Never add to `awards`.
 - Other name collisions that recur: 神谷優太 (footballer), 神谷浩史 (voice actor), Yuu Kamiya (novelist, *No Game No Life*), 神谷優里 (actress), 神谷康司 (designer), 神谷智仁 (Zenn author `densan_kamiyat`).
 - **The `site:developers.cyberagent.co.jp/blog yukamiya` summary invents author attributions.** It returns the blog top page and then narrates "posts by yukamiya" assembled from whatever is listed there — the newest post on the blog plus the known-false CA BASE NEXT 2022 one. Seen 2026-08-23 attributing a 2026-08-17 post on 新旧MetricKitの共存 (iOS 27 / タップル) to her. She has exactly 3 posts (50516, 51796, 63720). Treat any post from this query's prose as unvalidated until the author page or `<meta name="author">` confirms it; never open an issue off it.
+- **Park an unvalidated candidate as an `activities` entry, not in `runs.last_result`.** `last_result` is overwritten every run, so a candidate recorded only there is lost. Give it a `status: detected` entry with the blocker and the next step — a normalized fallback key when no canonical URL was returned. The MetricKit candidate above is the precedent (`unvalidated:ca-devblog-metrickit-2026-08-17`).
 
 ## Content rules
 

@@ -404,6 +404,18 @@
           "resolution": "Did not reproduce: 200 on 3 consecutive requests, real page content, og:url matches. Environment-dependent false positive from GitHub Actions US egress. Closed as not planned."
         }
       ]
+    },
+    "unvalidated:ca-devblog-metrickit-2026-08-17": {
+      "content_type": "writing",
+      "title": "新旧MetricKitの共存 – iOS 27を見据えたタップルの戦略 (attribution unvalidated)",
+      "canonical_url": null,
+      "detected_at": "2026-08-23T12:14:38Z",
+      "status": "detected",
+      "issue_number": null,
+      "pr_number": null,
+      "last_review_status": null,
+      "merged_at": null,
+      "blocker": "Unvalidated attribution, parked for a run with egress. The `site:developers.cyberagent.co.jp/blog yukamiya` search summary on 2026-08-23 named a 2026-08-17 CyberAgent Developers Blog post about 新旧MetricKitの共存 (iOS 27 / タップル) as hers. No canonical URL was returned, so this entry uses a normalized fallback key. Two reasons to expect a false positive: the same summary also attributed the already-verified-false CA BASE NEXT 2022 post (archives/39730, see rejected_candidates) to her, and the topic (iOS metrics for タップル) is far outside her subject area — she has exactly 3 Developers Blog posts (50516, 51796, 63720). It could not be checked because external egress was blocked all run (proxy 403 on CONNECT), so it was neither promoted nor rejected. NEXT RUN: locate the post's canonical URL, read its <meta name=\"author\"> and byline; if it is not her, move this to rejected_candidates with that evidence and delete this entry."
     }
   },
   "runs": {
