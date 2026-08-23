@@ -21,6 +21,10 @@ Valid `status` values: `detected`, `issue_opened`, `implemented`, `pr_opened`, `
 
 Only stamp `sources[query].last_checked_at` for queries that **actually ran**. If a sweep is cut short, record the blocker and leave the unrun queries stale — a falsely stamped timestamp is worse than a missing one, because it silently hides a coverage gap.
 
+### `runs.pr_gate` is transient
+
+When a run's PR cannot be merged because a review gate has not cleared, the run records the gate state under `runs.pr_gate` so the next run can resume instead of re-deriving it. That object is **scratch space, not history**: it holds a PR number, commit SHAs and workflow run IDs, and the run that resolves the PR must delete it. Durable history of what shipped belongs in `activities[].pr_number` / `merged_at`. Without this rule the file would accumulate one stale CI-metadata object per blocked PR.
+
 ### Recurring findings
 
 One canonical URL gets **one** `activities` entry. When a finding recurs — most often a `QA Post Deploy` link report that does not reproduce — append to that entry's `recurrences` array rather than minting a new key. `QA Post Deploy` re-reports the same handful of Japanese hosts indefinitely, so keying per occurrence would grow this file without bound and break the "one key per canonical URL" dedup guarantee.
