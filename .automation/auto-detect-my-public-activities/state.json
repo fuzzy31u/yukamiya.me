@@ -420,7 +420,7 @@
   },
   "runs": {
     "last_checked_at": "2026-08-23T12:14:38Z",
-    "last_status": "no_new_activity",
+    "last_status": "no_new_activity_pr_open",
     "last_blocker": "Partial coverage — third consecutive run with no external egress (2026-08-13, 2026-08-16, 2026-08-23). All 24 WebSearch queries ran (WebSearch is server-side), but every direct fetch was impossible: the egress proxy returns 403 to CONNECT for every external host (curl exit 56 for zenn.dev, developers.cyberagent.co.jp, woman.nikkei.com and yukamiya.me alike; WebFetch returns EGRESS_BLOCKED). So source-page validation, link verification and author-page enumeration could not run, and the last_checked_at stamps for the three author pages (developers.cyberagent.co.jp/blog/archives/author/yukamiya/, zenn.dev/yukamiya, woman.nikkei.com/atcl/author/02667/) were deliberately left stale. No candidate required validation to be accepted or rejected this run, so the gap suppressed no finding. One unvalidated candidate was surfaced and parked (see last_result).",
     "last_result": "Weekly sweep found no new public activity. Every hit across the 24 queries is already represented in src/data/about-content.js (forbesjapan/74649 and /74347, way id=28637 / 33323 / 33333 / 33439, techinfo id=27684 / 29456, codezine/16896, archives 50516 / 51796 / 52578 / 63720, sbbit movie/sp/15810, woman.nikkei atcl/column/22/061800109/092400021/, devsumi 20211117 session 3515 and 20250627 session 5829, youtrust phc2024-report04, ai-gakkai siai, SKO Radio, Speaker Deck and Zenn profile links) or is a known name collision (神奈川大 日本音響学会 学生優秀発表賞, 神谷優太, 神谷浩史, 神谷優里, Yuu Kamiya, 神谷康司, 神谷智仁). Two apparently-new CyberAgent announcement URLs are same-activity duplicates of tracked entries, not new activities: techinfo id=31073 (プロダクトヒストリーカンファレンス2024) is the announcement for youtrust.jp/.../phc2024-report04, and techinfo id=28413 (SIAI2023) is the announcement for ai-gakkai.or.jp/siai/program/lecture. Speaker Deck decks surfacing under fuzzy31u map to already tracked events (the AI番付 deck to devsumi 20250627 session 5829) and Speaker Deck is a profile link only, like Zenn. One unvalidated candidate parked: the `site:...blog yukamiya` search summary attributed a 2026-08-17 CyberAgent Developers Blog post about 新旧MetricKitの共存 (iOS 27 / タップル) to yukamiya. The same summary also attributed the known-false CA BASE NEXT 2022 post to her, and the topic is far from her subject area, so it is almost certainly the same listing-page hallucination — but egress was blocked, so it could not be checked and was NOT promoted or rejected. No issue, no content change; state-only commit.",
     "last_deploy_verification": {
@@ -433,6 +433,16 @@
       "conclusion": "not_triggered",
       "source_pr_url": null,
       "note": "Deliberately not triggered, same reasoning as 2026-08-13 and 2026-08-16: no content change shipped, and with all external egress blocked this session could not re-verify any link finding the workflow reported. Triggering it would only have produced unresolvable false positives."
+    },
+    "pr_gate": {
+      "pr_number": 107,
+      "pr_url": "https://github.com/fuzzy31u/yukamiya.me/pull/107",
+      "state": "open_gates_unresolved",
+      "netlify_deploy_preview": "success",
+      "claude_code_review": "AUTO_REVIEW_STATUS: pass on the first commit d7dfde2 (run 32638927058, no actionable findings, verified the JSON parses and cross-checked every 'already tracked' ID against about-content.js). The re-run on the fix commit c4251d9 (run 32639050800) never finished — its 'Run Claude Code Review' step stayed in_progress for the whole session with no comment posted.",
+      "greptile": "First review 4/5 with one actionable finding on d7dfde2: the unvalidated candidate was parked only in runs.last_result, which every run overwrites. The finding was correct and was fixed in c4251d9. Greptile then commented that the fix 'addresses the concern precisely' and is 'Good to go', but did not post a fresh SCORED review — its summary still reads 'Last reviewed commit: d7dfde2 / 4/5'. A second explicit @greptileai request for a scored pass on c4251d9 was acknowledged (eyes reaction) but produced nothing.",
+      "blocker": "Not merged. The AGENTS.md/CLAUDE.md gate requires the LATEST Greptile review to report 5/5 with no actionable findings, and a final Claude Code Review carrying AUTO_REVIEW_STATUS: pass. Both exist only for the pre-fix commit; on the current head one bot never re-scored and the other's workflow never finished. No self-certification was made from Greptile's prose 'Good to go'. NEXT RUN: re-check PR #107 first — if the review workflow has since posted pass on the head and Greptile has re-scored 5/5, merge it as-is; if the workflow is still wedged, an empty-diff nudge is NOT allowed, so re-request both reviews and escalate to the owner if they stay silent.",
+      "qa_post_deploy": "Still correctly not triggered — nothing merged and no content shipped."
     }
   },
   "rejected_candidates": {
