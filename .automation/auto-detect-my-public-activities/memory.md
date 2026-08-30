@@ -49,7 +49,7 @@
 - Last shipped change: PR #101 (merged 2026-08-09) added the Women in Tech LT 2024 speaking entry. Verified live in production.
 - 2026-08-13: empty sweep (18 queries, 0 new). Every hit was already in `about-content.js` or a known collision.
 - 2026-08-16: empty sweep (21 queries, 0 new), egress blocked again — the no-egress cloud environment is now the norm, not a one-off. Only durable output was the 日経xwoman author page above.
-- 2026-08-30: empty sweep (25 queries, 0 new), egress blocked for the fourth run running. `gh` is not installed in the cloud image either — GitHub access is MCP-only, so plan around that rather than treating a missing `gh` as a preflight failure. Durable output: the MetricKit candidate narrowed to `archives/65298`, `archives/55718` rejected, a second Zenn article parked.
+- 2026-08-30: empty sweep (25 queries, 0 new), egress blocked for the fourth run running. `gh` is not installed in the cloud image either — GitHub access is MCP-only, so plan around that rather than treating a missing `gh` as a preflight failure. Durable output: the MetricKit candidate narrowed to `archives/65298`, `archives/55718` parked as a probable non-match pending source verification (**not** rejected — nothing was verified this run, since egress was blocked), a second Zenn article parked.
 - 2026-08-23: empty sweep (24 queries, 0 new), egress blocked for the third run running. Assume no egress and plan the run around `WebSearch` + GitHub MCP; check `$HTTPS_PROXY/__agentproxy/status` and one `curl` before assuming otherwise. Note the status endpoint reports `enabled: true` with no relay failures even while every `CONNECT` is refused — it is not a usable egress signal.
 
 ## Same activity, different URL
