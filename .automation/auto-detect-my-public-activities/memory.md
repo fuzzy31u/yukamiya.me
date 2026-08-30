@@ -32,6 +32,9 @@
 
 - **Greptile edits its existing summary comment in place on re-review** — the `Reviews (N): Last reviewed commit` footer increments and the score is rewritten; it does not post a new comment. Polling for *new* comments therefore makes a finished re-review look like silence. On 2026-08-23 this run twice concluded Greptile had "never re-scored" while its summary already read 5/5. **Re-read the existing Greptile comment and check its score and footer commit, not the comment list.**
 - A Claude Code Review run can take far longer than the first one on the same PR; a step sitting at `in_progress` is not a wedged workflow. Never push an empty commit to kick it.
+- **Never pre-write `runs.last_review_gate`.** On 2026-08-30 it was written as "no PR opened this run" *before* the state PR was opened; the gate then ran, and the false claim shipped in the merge and needed a follow-up PR. Fill it in from the observed result, after the gate reports.
+- **A state-only diff still deserves the gate.** PR #108 changed no code and the reviewers still found three real defects, two of which would have corrupted future sweeps.
+- **When a candidate's classification changes, grep every file for the old wording.** "Rejected" for `archives/55718` lived in `state.json`, the `memory.md` topic bullet *and* the `memory.md` History line; fixing the first two left the third contradicting them, and both reviewers caught it.
 
 ## QA gotchas
 
@@ -49,7 +52,7 @@
 - Last shipped change: PR #101 (merged 2026-08-09) added the Women in Tech LT 2024 speaking entry. Verified live in production.
 - 2026-08-13: empty sweep (18 queries, 0 new). Every hit was already in `about-content.js` or a known collision.
 - 2026-08-16: empty sweep (21 queries, 0 new), egress blocked again — the no-egress cloud environment is now the norm, not a one-off. Only durable output was the 日経xwoman author page above.
-- 2026-08-30: empty sweep (25 queries, 0 new), egress blocked for the fourth run running. `gh` is not installed in the cloud image either — GitHub access is MCP-only, so plan around that rather than treating a missing `gh` as a preflight failure. Durable output: the MetricKit candidate narrowed to `archives/65298`, `archives/55718` parked as a probable non-match pending source verification (**not** rejected — nothing was verified this run, since egress was blocked), a second Zenn article parked.
+- 2026-08-30: empty sweep (25 queries, 0 new), egress blocked for the fourth run running. `gh` is not installed in the cloud image either — GitHub access is MCP-only, so plan around that rather than treating a missing `gh` as a preflight failure. Durable output: the MetricKit candidate narrowed to `archives/65298`, `archives/55718` parked as a probable non-match pending source verification (**not** rejected — nothing was verified this run, since egress was blocked), a second Zenn article parked. Shipped as PR #108 (state-only, merged), which needed three review rounds.
 - 2026-08-23: empty sweep (24 queries, 0 new), egress blocked for the third run running. Assume no egress and plan the run around `WebSearch` + GitHub MCP; check `$HTTPS_PROXY/__agentproxy/status` and one `curl` before assuming otherwise. Note the status endpoint reports `enabled: true` with no relay failures even while every `CONNECT` is refused — it is not a usable egress signal.
 
 ## Same activity, different URL
