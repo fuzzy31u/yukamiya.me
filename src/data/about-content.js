@@ -464,6 +464,15 @@ export const writing = [
   {
     icon: "✍️",
     title: {
+      ja: "参加者約 5,000 人が UC Berkeley に集結 — Agentic AI Summit 2026 参加レポート",
+      en: "Nearly 5,000 Attendees Gathered at UC Berkeley — Agentic AI Summit 2026 Report",
+    },
+    year: "2026",
+    url: "https://developers.cyberagent.co.jp/blog/archives/65345/",
+  },
+  {
+    icon: "✍️",
+    title: {
       ja: "開発組織のAI活用レベルを可視化する「エンジニア版AI番付」の設計と運営",
       en: "Designing and Operating the Engineering AI Banzuke to Visualize AI Utilization Levels in Development Organizations",
     },

@@ -28,3 +28,30 @@ When a run's PR cannot be merged because a review gate has not cleared, the run 
 ### Recurring findings
 
 One canonical URL gets **one** `activities` entry. When a finding recurs — most often a `QA Post Deploy` link report that does not reproduce — append to that entry's `recurrences` array rather than minting a new key. `QA Post Deploy` re-reports the same handful of Japanese hosts indefinitely, so keying per occurrence would grow this file without bound and break the "one key per canonical URL" dedup guarantee.
+
+## Network access the routine needs
+
+The routine inherits its cloud environment's network policy on every run. The **Default** environment uses **Trusted** access, which allows only Anthropic's default package-registry allowlist — so every host below is refused with `403` and `x-deny-reason: host_not_allowed`, and the sweep degrades to search-summary evidence it is not allowed to promote on. See the *Cloud environment constraints* section of `memory.md`.
+
+Set the environment's **Network access** to **Custom**, check *Also include default list of common package managers*, and paste this list into **Allowed domains**:
+
+```text
+developers.cyberagent.co.jp
+*.cyberagent.co.jp
+zenn.dev
+woman.nikkei.com
+*.sbbit.jp
+event.shoeisha.jp
+findy-code.io
+forbesjapan.com
+codezine.jp
+techbookfest.org
+peatix.com
+connpass.com
+speakerdeck.com
+youtrust.jp
+fukabori.fm
+yukamiya.me
+```
+
+Derived from the hosts in `state.json` `sources` and from the canonical URLs already tracked in `activities`. GitHub traffic goes through its own proxy and does not need an entry. Add a host here whenever a new source is added to `sources`, otherwise the next run silently loses that source.
