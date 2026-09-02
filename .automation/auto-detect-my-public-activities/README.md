@@ -33,7 +33,7 @@ One canonical URL gets **one** `activities` entry. When a finding recurs — mos
 
 The routine inherits its cloud environment's network policy on every run. The **Default** environment uses **Trusted** access, which allows only Anthropic's default package-registry allowlist — so every host below is refused with `403` and `x-deny-reason: host_not_allowed`, and the sweep degrades to search-summary evidence it is not allowed to promote on. See the *Cloud environment constraints* section of `memory.md`.
 
-Set the environment's **Network access** to **Custom**, check *Also include default list of common package managers*, and paste this list into **Allowed domains**:
+The routine's environment is named **`aid`** (not `Default`). It was switched to **Custom** on 2026-09-02 with the list below and *Also include default list of common package managers* checked. To change it: claude.ai/code → the routine → **Edit routine** → the cloud icon under **Instructions** → the environment row's settings icon → **Allowed domains**.
 
 ```text
 developers.cyberagent.co.jp
