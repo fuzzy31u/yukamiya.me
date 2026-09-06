@@ -31,27 +31,6 @@ One canonical URL gets **one** `activities` entry. When a finding recurs — mos
 
 ## Network access the routine needs
 
-The routine inherits its cloud environment's network policy on every run. The **Default** environment uses **Trusted** access, which allows only Anthropic's default package-registry allowlist — so every host below is refused with `403` and `x-deny-reason: host_not_allowed`, and the sweep degrades to search-summary evidence it is not allowed to promote on. See the *Cloud environment constraints* section of `memory.md`.
+The routine inherits its cloud environment's network policy on every run. The **Default** environment uses **Trusted** access, which allows only Anthropic's default package-registry allowlist. Public activity sources outside that list are refused with `403` and `x-deny-reason: host_not_allowed`, and the sweep degrades to search-summary evidence it is not allowed to promote. See the *Cloud environment constraints* section of `memory.md`.
 
-The routine's environment is named **`aid`** (not `Default`). It was switched to **Custom** on 2026-09-02 with the list below and *Also include default list of common package managers* checked. To change it: claude.ai/code → the routine → **Edit routine** → the cloud icon under **Instructions** → the environment row's settings icon → **Allowed domains**.
-
-```text
-developers.cyberagent.co.jp
-*.cyberagent.co.jp
-zenn.dev
-woman.nikkei.com
-*.sbbit.jp
-event.shoeisha.jp
-findy-code.io
-forbesjapan.com
-codezine.jp
-techbookfest.org
-peatix.com
-connpass.com
-speakerdeck.com
-youtrust.jp
-fukabori.fm
-yukamiya.me
-```
-
-Derived from the hosts in `state.json` `sources` and from the canonical URLs already tracked in `activities`. GitHub traffic goes through its own proxy and does not need an entry. Add a host here whenever a new source is added to `sources`, otherwise the next run silently loses that source.
+The routine's environment is named **`aid`** (not `Default`). It was switched from **Trusted** to **Custom** on 2026-09-02, then to **Full** on 2026-09-06 at the owner's direction so new public-source domains do not require repeated allowlist maintenance. This is intentional for the non-production research routine and permits outbound access to any domain. Changes apply to new sessions. To review or change it: claude.ai/code → the routine → **Edit routine** → the cloud icon under **Instructions** → the environment row's settings icon → **Network access**.

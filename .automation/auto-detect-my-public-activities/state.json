@@ -237,13 +237,26 @@
       "title": "参加者約 5,000 人が UC Berkeley に集結 — Agentic AI Summit 2026 参加レポート",
       "canonical_url": "https://developers.cyberagent.co.jp/blog/archives/65345/",
       "detected_at": "2026-08-31T00:00:00Z",
-      "status": "detected",
+      "status": "pr_opened",
       "issue_number": null,
-      "pr_number": null,
+      "pr_number": 110,
       "last_review_status": null,
       "merged_at": null,
       "blocker": null,
       "evidence": "Verified from source with egress restored: og:url https://developers.cyberagent.co.jp/blog/archives/65345/, <meta name=\"author\" content=\"yukamiya\">, author link /blog/archives/author/yukamiya/, published 2026-08-19T08:00:55+09:00 (entry-date published). Also enumerated on the author page alongside 44530 / 51796 / 63720."
+    },
+    "https://2026.droidkaigi.jp/timetable/1304891/": {
+      "content_type": "speaking",
+      "title": "変革を、一部の人の熱量で終わらせないために ― 開発組織のAI活用推進とDE&I推進を率いて学んだこと",
+      "canonical_url": "https://2026.droidkaigi.jp/timetable/1304891/",
+      "detected_at": "2026-09-06T00:00:00Z",
+      "status": "pr_opened",
+      "issue_number": null,
+      "pr_number": 110,
+      "last_review_status": null,
+      "merged_at": null,
+      "blocker": null,
+      "evidence": "Provided by the site owner and verified on the official DroidKaigi 2026 session page: speaker Yu Kamiya, scheduled 2026-09-03 12:20–13:00, venue Narwhal."
     },
     "qa-content:production-about-stale-2026-07-26": {
       "content_type": "qa-content",
