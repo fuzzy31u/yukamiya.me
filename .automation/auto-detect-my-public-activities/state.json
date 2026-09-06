@@ -146,10 +146,10 @@
       "last_checked_at": "2026-07-05T00:04:42Z"
     },
     "https://developers.cyberagent.co.jp/blog/archives/author/yukamiya/": {
-      "last_checked_at": "2026-08-10T16:37:00Z"
+      "last_checked_at": "2026-08-31T00:00:00Z"
     },
     "https://zenn.dev/yukamiya": {
-      "last_checked_at": "2026-08-10T16:37:00Z"
+      "last_checked_at": "2026-08-31T00:00:00Z"
     },
     "\"LT event for Women in Tech\" GitHub SmartNews ウエディングパーク サイバーエージェント": {
       "last_checked_at": "2026-08-09T13:25:07Z"
@@ -232,6 +232,32 @@
     }
   },
   "activities": {
+    "https://developers.cyberagent.co.jp/blog/archives/65345/": {
+      "content_type": "writing",
+      "title": "参加者約 5,000 人が UC Berkeley に集結 — Agentic AI Summit 2026 参加レポート",
+      "canonical_url": "https://developers.cyberagent.co.jp/blog/archives/65345/",
+      "detected_at": "2026-08-31T00:00:00Z",
+      "status": "pr_opened",
+      "issue_number": null,
+      "pr_number": 110,
+      "last_review_status": null,
+      "merged_at": null,
+      "blocker": null,
+      "evidence": "Verified from source with egress restored: og:url https://developers.cyberagent.co.jp/blog/archives/65345/, <meta name=\"author\" content=\"yukamiya\">, author link /blog/archives/author/yukamiya/, published 2026-08-19T08:00:55+09:00 (entry-date published). Also enumerated on the author page alongside 44530 / 51796 / 63720."
+    },
+    "https://2026.droidkaigi.jp/timetable/1304891/": {
+      "content_type": "speaking",
+      "title": "変革を、一部の人の熱量で終わらせないために ― 開発組織のAI活用推進とDE&I推進を率いて学んだこと",
+      "canonical_url": "https://2026.droidkaigi.jp/timetable/1304891/",
+      "detected_at": "2026-09-06T00:00:00Z",
+      "status": "pr_opened",
+      "issue_number": null,
+      "pr_number": 110,
+      "last_review_status": null,
+      "merged_at": null,
+      "blocker": null,
+      "evidence": "Provided by the site owner and verified on the official DroidKaigi 2026 session page: speaker Yu Kamiya, scheduled 2026-09-03 12:20–13:00, venue Narwhal."
+    },
     "qa-content:production-about-stale-2026-07-26": {
       "content_type": "qa-content",
       "title": "Production About page omits merged 2026 updates",
@@ -426,18 +452,6 @@
         }
       ]
     },
-    "unvalidated:ca-devblog-metrickit-2026-08-17": {
-      "content_type": "writing",
-      "title": "新旧MetricKitの共存 – iOS 27を見据えたタップルの戦略 (attribution unvalidated)",
-      "canonical_url": "https://developers.cyberagent.co.jp/blog/archives/65298",
-      "detected_at": "2026-08-23T12:14:38Z",
-      "status": "detected",
-      "issue_number": null,
-      "pr_number": null,
-      "last_review_status": null,
-      "merged_at": null,
-      "blocker": "Still unvalidated, but materially narrowed on 2026-08-30. The canonical URL is now known: https://developers.cyberagent.co.jp/blog/archives/65298 (published 2026-08-12, not 2026-08-17 as the original hallucinated summary claimed), and an independent targeted search attributes it to Kanta Oikawa, not to yukamiya. That matches every prior expectation: the attribution came from the `site:developers.cyberagent.co.jp/blog yukamiya` query, whose summaries are documented to invent author attributions (it repeated the known-false CA BASE NEXT 2022 claim again on 2026-08-30); the topic (iOS metrics for タップル) is far outside her subject area; and she has exactly 3 Developers Blog posts (50516, 51796, 63720) per the author-page enumeration. NOT moved to rejected_candidates because egress was blocked for the fourth run running, so <meta name=\"author\"> could not be read — search prose is exactly the evidence class that created this false positive, so it cannot also retire it. The key stays the normalized fallback rather than the canonical URL: keying it like a tracked activity would imply an attribution that is still unproven. NEXT RUN WITH EGRESS: one fetch of archives/65298; read <meta name=\"author\"> and the byline; if it is not her, move to rejected_candidates with that evidence and delete this entry."
-    },
     "https://zenn.dev/yukamiya/articles/pm-ssot-claude-skills": {
       "content_type": "writing",
       "title": "プロンプトを書く前に、リポジトリを『AIが働きやすい形』に整えた — PMがClaude SkillsでプロジェクトをSSOT化した話",
@@ -449,25 +463,13 @@
       "last_review_status": null,
       "merged_at": null,
       "blocker": "Not actionable as a site edit, for the same reason as zenn.dev/yukamiya/articles/baf9872a13a176: Zenn is represented in about-content.js `links` as a profile link and 0 of the author's Zenn articles are enumerated individually. Adding one arbitrarily is an editorial/taxonomy decision, not a deterministic content change. Title and date are from search results only (egress blocked), so they would need source verification before any edit. Escalate to the site owner if individual Zenn articles should be listed."
-    },
-    "https://developers.cyberagent.co.jp/blog/archives/55718/": {
-      "content_type": "writing",
-      "title": "中高生のアプリ開発を支援！Tech DE&Iの活動でTechnovation Girls のTeaching Assistantを担当してみました",
-      "canonical_url": "https://developers.cyberagent.co.jp/blog/archives/55718/",
-      "detected_at": "2026-08-30T12:17:17Z",
-      "status": "detected",
-      "issue_number": null,
-      "pr_number": null,
-      "last_review_status": null,
-      "merged_at": null,
-      "blocker": "Parked as an unvalidated non-match, NOT rejected. Surfaced by `site:developers.cyberagent.co.jp/blog 神谷優` on 2026-08-30 because it is a Tech DE&I project post — the project Kamiya leads — not because she wrote or presented it. A targeted search attributes it to 清水 良一 (技術広報ユニット), who describes serving as the Technovation Girls TA himself, and it is absent from her author-page enumeration (she has exactly 3 Developers Blog posts: 50516, 51796, 63720). That is the familiar 'byline is not the speaker, and a project mention is not an activity' pattern, so it is almost certainly not hers. It is kept here rather than in rejected_candidates because the evidence is search-level only — egress was blocked, so <meta name=\"author\"> was never read, and search prose is exactly the evidence class this automation does not trust. NEXT RUN WITH EGRESS: fetch the page, read <meta name=\"author\"> and the byline; if it is not her, move to rejected_candidates with that evidence and delete this entry."
     }
   },
   "runs": {
-    "last_checked_at": "2026-08-30T12:17:17Z",
-    "last_status": "no_new_activity",
-    "last_blocker": "Partial coverage — fourth consecutive run with no external egress (2026-08-13, -16, -23, -30). All 25 WebSearch queries ran (WebSearch is server-side), but every direct fetch was impossible: the egress proxy returns 403 to CONNECT for every external host (curl exit 56 for zenn.dev, developers.cyberagent.co.jp, woman.nikkei.com, yukamiya.me and even google.com; WebFetch returns EGRESS_BLOCKED). So source-page validation, link verification and author-page enumeration could not run, and the last_checked_at stamps for the three author pages (developers.cyberagent.co.jp/blog/archives/author/yukamiya/, zenn.dev/yukamiya, woman.nikkei.com/atcl/author/02667/) were deliberately left stale. No candidate required source validation to be accepted this run, so the gap suppressed no finding; it only prevented retiring the parked MetricKit candidate, which was narrowed instead (canonical URL and a competing author attribution identified). `gh` is not installed in this environment — GitHub access is via MCP — but no issue or PR was needed.",
-    "last_result": "Weekly sweep found no new public activity. Every hit across the 25 queries is already represented in src/data/about-content.js (forbesjapan/74649 and /74347, way id=28637 / 28827 / 31500 / 33323 / 33333 / 33439, techinfo id=27684 / 29456, codezine/16896, archives 44530 / 50516 / 51796 / 52578 / 55660 / 63720, sbbit movie/sp/15810, woman.nikkei atcl/column/22/061800109/092400021/, devsumi 20211117 session 3515 and 20250627 session 5829, youtrust phc2024-report04, ai-gakkai siai, SKO Radio, Speaker Deck and Zenn profile links) or is a known name collision (神奈川大 日本音響学会 学生優秀発表賞, 神谷優太, 神谷浩史, 神谷優里, Yuu Kamiya, 神谷康司, 神谷智仁, plus 神谷和也 — an economist/researcher newly seen on `神谷優 受賞` this run and added to the memory.md collision list). Three things worth recording. (1) The parked MetricKit candidate was narrowed but not retired: its canonical URL is archives/65298, published 2026-08-12, and an independent search attributes it to Kanta Oikawa — see the activities entry; it needs one metadata fetch from a run with egress. (2) A new probable non-match, archives/55718 (Technovation Girls TA), was parked in activities as `detected`: it is a Tech DE&I project post attributed by search to 清水 良一 of 技術広報, surfacing because Kamiya leads the project, not because it is her activity. It is deliberately NOT in rejected_candidates — that bucket is for non-matches verified from page metadata, and egress was blocked, so one fetch from a run with egress is still owed. (3) A second Zenn article (articles/pm-ssot-claude-skills) was detected and parked as not-actionable under the existing Zenn-is-a-profile-link-only policy. Also confirmed same-activity duplicates, not new activities: way id=28794 (Women Tech Terrace 2023) is a second CyberAgent Way article about the already-tracked id=28827 event, and techinfo id=31073 / id=28413 remain announcements for tracked organizer pages. The `site:...blog yukamiya` query again produced invented attributions (both the MetricKit post and the known-false CA BASE NEXT 2022 post). No issue, no content change; state-only commit.",
+    "last_checked_at": "2026-08-31T00:00:00Z",
+    "last_status": "completed",
+    "last_blocker": null,
+    "last_result": "Sweep run locally with working egress after diagnosing the four-run 'no egress' blocker as a cloud-environment configuration, not an outage (see memory.md). ONE NEW ACTIVITY: developers.cyberagent.co.jp/blog/archives/65345/, 'Agentic AI Summit 2026 参加レポート', published 2026-08-19, verified from page metadata (<meta name=\"author\" content=\"yukamiya\">) and from the author-page enumeration. Added to the `writing` section of src/data/about-content.js. Both parked candidates were retired on the page metadata that the blocked egress had been withholding: archives/65298 is by Kanta Oikawa and archives/55718 is by 清水 良一 — each moved from `activities` to `rejected_candidates` with its <meta name=\"author\"> quoted. The author page now enumerates exactly four posts: 44530, 51796, 63720, 65345. Zenn enumerates 16 articles and remains represented by a profile link only, per existing policy.",
     "last_deploy_verification": {
       "url": "https://yukamiya.me/about/",
       "verified_at": "2026-08-10T04:37:30Z",
@@ -486,6 +488,16 @@
       "title": "【CA BASE NEXT 2022】 サイバーエージェント若手流を轟かせる開発チームの裏側 -マネジメント編-",
       "rejected_at": "2026-08-10T05:37:00Z",
       "reason": "Not Yu Kamiya. Verified from source: <meta name=\"author\" content=\"syuta\">, byline 'WRITER: syuta' (菅原シュウタ @sugawara_syuta), author link /author/syuta/, and 0 occurrences of 神谷 / yukamiya / fuzzy31u in the page. Web-search summaries repeatedly misattribute this post to yukamiya — it is a search-engine hallucination. Do not re-investigate."
+    },
+    "https://developers.cyberagent.co.jp/blog/archives/65298/": {
+      "title": "新旧MetricKitの共存 – iOS 27を見据えたタップルの戦略",
+      "rejected_at": "2026-08-31T00:00:00Z",
+      "reason": "Not Yu Kamiya. Verified from source with egress restored: <meta name=\"author\" content=\"Kanta Oikawa\">, og:url https://developers.cyberagent.co.jp/blog/archives/65298/. Absent from /blog/archives/author/yukamiya/, which enumerates 44530 / 51796 / 63720 / 65345 and nothing else. The attribution came only from `site:developers.cyberagent.co.jp/blog yukamiya` search prose, the evidence class documented to invent author attributions. Do not re-investigate."
+    },
+    "https://developers.cyberagent.co.jp/blog/archives/55718/": {
+      "title": "中高生のアプリ開発を支援！Tech DE&Iの活動でTechnovation Girls のTeaching Assistantを担当してみました",
+      "rejected_at": "2026-08-31T00:00:00Z",
+      "reason": "Not Yu Kamiya's activity. Verified from source with egress restored: <meta name=\"author\" content=\"清水 良一\">, og:url https://developers.cyberagent.co.jp/blog/archives/55718/. A Tech DE&I project post written by the technical-PR author who served as the TA himself; it surfaces on `site:...blog 神谷優` only because Kamiya leads that project, and a project mention is not an activity. Do not re-investigate."
     }
   },
   "state_location": {

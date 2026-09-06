@@ -87,6 +87,16 @@ export const speaking = [
   },
   {
     year: "2026",
+    month: "09",
+    title: {
+      ja: "変革を、一部の人の熱量で終わらせないために ― 開発組織のAI活用推進とDE&I推進を率いて学んだこと",
+      en: "Making Transformation More Than the Passion of a Few — Lessons from Leading AI Adoption and DE&I in Engineering Organizations",
+    },
+    venue: "DroidKaigi 2026",
+    url: "https://2026.droidkaigi.jp/timetable/1304891/",
+  },
+  {
+    year: "2026",
     month: "07",
     title: {
       ja: "WOMAN×AI「私たちはどうAIと向き合う？」〜AIエキスパートたちに聞く、キャリアが変わる60分〜",
@@ -461,6 +471,15 @@ export const research = [
 ];
 
 export const writing = [
+  {
+    icon: "✍️",
+    title: {
+      ja: "参加者約 5,000 人が UC Berkeley に集結 — Agentic AI Summit 2026 参加レポート",
+      en: "Nearly 5,000 Attendees Gathered at UC Berkeley — Agentic AI Summit 2026 Report",
+    },
+    year: "2026",
+    url: "https://developers.cyberagent.co.jp/blog/archives/65345/",
+  },
   {
     icon: "✍️",
     title: {
