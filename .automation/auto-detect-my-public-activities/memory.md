@@ -10,7 +10,8 @@
 - Authoritative enumerations, better than any search:
   - `https://developers.cyberagent.co.jp/blog/archives/author/yukamiya/` — 4 posts as of 2026-08-31: 44530, 51796, 63720, and 65345. Page 2 is empty.
   - `https://zenn.dev/yukamiya` — 16 articles as of 2026-08.
-  - `https://woman.nikkei.com/atcl/author/02667/` — 日経xwoman author page, identified 2026-08-16. **Confirmed the right 神谷優**: the bio matches on every specific — AIドリブン推進室 Enabling Group マネージャー, Tech DE&I Project 発足 2023-01, Women Techmakers Ambassador, Forbes JAPAN Women In Tech 30 2024, 現職 2025-08. Not yet enumerated (the run that found it had no egress); `about-content.js` carries only one 日経xwoman article, so this page may list untracked ones. Fetch it on the next run with egress.
+  - `https://woman.nikkei.com/atcl/author/02667/` — 日経xwoman author page, identified 2026-08-16, fetched directly for the first time 2026-09-06. **Confirmed the right 神谷優**: the bio matches on every specific — AIドリブン推進室 Enabling Group マネージャー, Tech DE&I Project 発足 2023-01, Women Techmakers Ambassador, Forbes JAPAN Women In Tech 30 2024, 現職 2025-08. Enumerates exactly one article, already tracked in `about-content.js` (atcl/column/22/061800109/092400021/). No untracked articles here.
+  - Zenn's public JSON API, `https://zenn.dev/api/articles?username=yukamiya`, works with a plain `curl` (no browser rendering needed, unlike the profile page itself) and enumerates every article with title, slug and published date. Still doesn't change the profile-link-only policy below, but is the reliable way to check the count/list going forward instead of WebFetch on the JS-rendered profile page.
 
 ## Known false positives — do not re-investigate
 
@@ -50,6 +51,8 @@
 - If network access regresses, the sweep can still search, but **source-page validation and link verification cannot**. Never promote a candidate on search-summary evidence alone — record it as `detected` with the blocker and leave its validation to a run that can fetch. Leave `last_checked_at` stale for the author-page sources, and skip `QA Post Deploy` (its link findings would be unverifiable).
 
 ## History
+
+- 2026-09-06 (this run): empty sweep — every hit was already tracked or a known collision. Found `state.json` out of sync with the repo: PR #110 (archives/65345 + the DroidKaigi 2026 session, both already live in `about-content.js`) had been merged directly by the site owner at 07:28:37Z with Greptile 5/5 and Claude Code Review pass, but the two `activities` entries still read `pr_opened` / `merged_at: null`. Corrected to `merged`. Also fetched `woman.nikkei.com/atcl/author/02667/` for the first time (see above) and confirmed the Zenn API enumeration (16 articles, no change to the profile-link-only policy). PR #112 (separate, already merged before this run started) reverted the `aid` environment from the briefly-approved `Full` back to `Custom` with the documented allowlist — this file's network-access section already reflects that.
 
 - Detection has found roughly one genuine new item per several weeks. An hourly cadence was tried and produced 11 consecutive empty sweeps before exhausting the session search budget; weekly matches the real rate.
 - Last shipped change: PR #101 (merged 2026-08-09) added the Women in Tech LT 2024 speaking entry. Verified live in production.

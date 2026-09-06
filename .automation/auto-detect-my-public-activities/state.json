@@ -146,10 +146,10 @@
       "last_checked_at": "2026-07-05T00:04:42Z"
     },
     "https://developers.cyberagent.co.jp/blog/archives/author/yukamiya/": {
-      "last_checked_at": "2026-08-31T00:00:00Z"
+      "last_checked_at": "2026-09-06T12:15:45Z"
     },
     "https://zenn.dev/yukamiya": {
-      "last_checked_at": "2026-08-31T00:00:00Z"
+      "last_checked_at": "2026-09-06T12:15:45Z"
     },
     "\"LT event for Women in Tech\" GitHub SmartNews ウエディングパーク サイバーエージェント": {
       "last_checked_at": "2026-08-09T13:25:07Z"
@@ -182,8 +182,8 @@
       "last_checked_at": "2026-08-16T12:21:05Z"
     },
     "https://woman.nikkei.com/atcl/author/02667/": {
-      "last_checked_at": null,
-      "note": "Third authoritative author/enumeration page for the target person, identified 2026-08-16 from search-result bios that match exactly (AIドリブン推進室 Enabling Group マネージャー, Tech DE&I Project 発足 2023-01, Women Techmakers Ambassador, Forbes JAPAN Women In Tech 30 2024, 現職 2025-08). Still never fetched: external egress has now been blocked for four consecutive runs (2026-08-13, -16, -23, -30; proxy 403 on CONNECT for every host). A site:-restricted search on 2026-08-30 again surfaced only the already-tracked atcl/column/22/061800109/092400021/ from this author, so no untracked article is indexed — but that is search evidence, not enumeration. A run with egress must still fetch the page directly."
+      "last_checked_at": "2026-09-06T12:15:45Z",
+      "note": "Fetched directly for the first time 2026-09-06 (egress reachable). Enumerates exactly one article: atcl/column/22/061800109/092400021/, already tracked in about-content.js. No untracked articles on this author page."
     },
     "site:woman.nikkei.com 神谷優 サイバーエージェント AIドリブン": {
       "last_checked_at": "2026-08-23T12:14:38Z"
@@ -229,6 +229,30 @@
     },
     "\"神谷優\" OR \"kamiyaU\" サイバーエージェント 新着 記事 インタビュー 2026年8月下旬": {
       "last_checked_at": "2026-08-30T12:17:17Z"
+    },
+    "サイバーエージェント 神谷優 2026年9月": {
+      "last_checked_at": "2026-09-06T12:15:45Z"
+    },
+    "神谷優 登壇 2026": {
+      "last_checked_at": "2026-09-06T12:15:45Z"
+    },
+    "神谷優 記事 2026": {
+      "last_checked_at": "2026-09-06T12:15:45Z"
+    },
+    "神谷優 インタビュー 2026": {
+      "last_checked_at": "2026-09-06T12:15:45Z"
+    },
+    "\"神谷優\" AIドリブン推進室 登壇 セッション 2026年9月": {
+      "last_checked_at": "2026-09-06T12:15:45Z"
+    },
+    "\"神谷優\" サイバーエージェント 2026年9月 記事 OR インタビュー OR イベント": {
+      "last_checked_at": "2026-09-06T12:15:45Z"
+    },
+    "speakerdeck.com/fuzzy31u 2026年9月 新着": {
+      "last_checked_at": "2026-09-06T12:15:45Z"
+    },
+    "DroidKaigi 2026 神谷優 レポート": {
+      "last_checked_at": "2026-09-06T12:15:45Z"
     }
   },
   "activities": {
@@ -237,24 +261,24 @@
       "title": "参加者約 5,000 人が UC Berkeley に集結 — Agentic AI Summit 2026 参加レポート",
       "canonical_url": "https://developers.cyberagent.co.jp/blog/archives/65345/",
       "detected_at": "2026-08-31T00:00:00Z",
-      "status": "pr_opened",
+      "status": "merged",
       "issue_number": null,
       "pr_number": 110,
-      "last_review_status": null,
-      "merged_at": null,
+      "last_review_status": "pass",
+      "merged_at": "2026-09-06T07:28:37Z",
       "blocker": null,
-      "evidence": "Verified from source with egress restored: og:url https://developers.cyberagent.co.jp/blog/archives/65345/, <meta name=\"author\" content=\"yukamiya\">, author link /blog/archives/author/yukamiya/, published 2026-08-19T08:00:55+09:00 (entry-date published). Also enumerated on the author page alongside 44530 / 51796 / 63720."
+      "evidence": "Verified from source with egress restored: og:url https://developers.cyberagent.co.jp/blog/archives/65345/, <meta name=\"author\" content=\"yukamiya\">, author link /blog/archives/author/yukamiya/, published 2026-08-19T08:00:55+09:00 (entry-date published). Also enumerated on the author page alongside 44530 / 51796 / 63720. Re-confirmed live on the author page 2026-09-06."
     },
     "https://2026.droidkaigi.jp/timetable/1304891/": {
       "content_type": "speaking",
       "title": "変革を、一部の人の熱量で終わらせないために ― 開発組織のAI活用推進とDE&I推進を率いて学んだこと",
       "canonical_url": "https://2026.droidkaigi.jp/timetable/1304891/",
       "detected_at": "2026-09-06T00:00:00Z",
-      "status": "pr_opened",
+      "status": "merged",
       "issue_number": null,
       "pr_number": 110,
-      "last_review_status": null,
-      "merged_at": null,
+      "last_review_status": "pass",
+      "merged_at": "2026-09-06T07:28:37Z",
       "blocker": null,
       "evidence": "Provided by the site owner and verified on the official DroidKaigi 2026 session page: speaker Yu Kamiya, scheduled 2026-09-03 12:20–13:00, venue Narwhal."
     },
@@ -466,22 +490,22 @@
     }
   },
   "runs": {
-    "last_checked_at": "2026-08-31T00:00:00Z",
+    "last_checked_at": "2026-09-06T12:15:45Z",
     "last_status": "completed",
     "last_blocker": null,
-    "last_result": "Sweep run locally with working egress after diagnosing the four-run 'no egress' blocker as a cloud-environment configuration, not an outage (see memory.md). ONE NEW ACTIVITY: developers.cyberagent.co.jp/blog/archives/65345/, 'Agentic AI Summit 2026 参加レポート', published 2026-08-19, verified from page metadata (<meta name=\"author\" content=\"yukamiya\">) and from the author-page enumeration. Added to the `writing` section of src/data/about-content.js. Both parked candidates were retired on the page metadata that the blocked egress had been withholding: archives/65298 is by Kanta Oikawa and archives/55718 is by 清水 良一 — each moved from `activities` to `rejected_candidates` with its <meta name=\"author\"> quoted. The author page now enumerates exactly four posts: 44530, 51796, 63720, 65345. Zenn enumerates 16 articles and remains represented by a profile link only, per existing policy.",
+    "last_result": "Empty sweep (state.json/about-content.js reconciliation only). Ran all required minimum queries plus several 2026-09 variants and re-fetched both author pages; every hit was either already tracked in about-content.js or a known name collision (soccer player 神谷優太, voice actor 神谷浩史, novelist Yuu Kamiya, actress 神谷優里, economist 神谷和也). No new activity. Fetched https://woman.nikkei.com/atcl/author/02667/ directly for the first time (egress reachable): it enumerates exactly one article, the already-tracked atcl/column/22/061800109/092400021/, closing the open question in memory.md. Confirmed developers.cyberagent.co.jp/blog/archives/author/yukamiya/ still enumerates exactly 44530/51796/63720/65345, and the Zenn public API (zenn.dev/api/articles?username=yukamiya) still enumerates 16 articles, none newly actionable under the existing profile-link-only policy. Found this run's state.json out of sync with the repository: PR #110 (adding archives/65345 and the DroidKaigi 2026 session, and retiring archives/65298 / archives/55718 to rejected_candidates) was already merged 2026-09-06T07:28:37Z directly by the site owner, with Greptile 5/5 and Claude Code Review AUTO_REVIEW_STATUS: pass, but the two activities entries still read status: pr_opened / merged_at: null. Corrected both to status: merged with the observed merged_at and last_review_status: pass. No code change needed this run — about-content.js already has both entries live.",
     "last_deploy_verification": {
       "url": "https://yukamiya.me/about/",
       "verified_at": "2026-08-10T04:37:30Z",
-      "result": "Unchanged from the 2026-08-10 verification (PR #101 entry live, 0 console errors). Could not be re-verified on 2026-08-30: egress blocked, curl to https://yukamiya.me/about/ fails at the proxy CONNECT. No content shipped this run, so nothing new needed verifying."
+      "result": "Not re-verified this run: no content change shipped (about-content.js already carries the PR #110 entries from the owner's merge), so nothing new needed live verification."
     },
     "qa_post_deploy": {
       "run_id": null,
       "conclusion": "not_triggered",
       "source_pr_url": null,
-      "note": "Deliberately not triggered, same reasoning as 2026-08-13, -16 and -23: no content change shipped, and with all external egress blocked this session could not re-verify any link finding the workflow reported. Triggering it would only have produced unresolvable false positives."
+      "note": "Not triggered: no content PR opened this run, only a state-bookkeeping correction."
     },
-    "last_review_gate": "Cleared on PR #108 (state-only, merged 2026-08-30 as cf9bf86): Greptile 5/5 'appears safe to merge, no blocking failure remains' with its footer confirming it re-reviewed the final commit, and AUTO_REVIEW_STATUS: pass. It took three rounds, and the gate earned its keep on a diff that changed no code: round 1 caught two real errors — a search-only non-match filed in rejected_candidates (the 'verified' bucket future sweeps skip outright, so it would have retired archives/55718 on untrusted evidence) and a silent substitution of 神谷和也 for 神谷康司 in the collision list; round 2 caught the History line in memory.md still calling 55718 'rejected' after the state file had been corrected. LESSONS. (1) Do not pre-write this field before the gate actually runs — it was first written as 'no PR opened this run', which the review round made false, and that error shipped in the merge and needed a follow-up PR to correct. Write it from the observed result. (2) When a classification changes, grep every file for the old wording: state.json, the memory.md topic bullet AND the memory.md History line each carried it, and the reviewers found the one that was missed. (3) Greptile EDITS its existing summary comment in place on re-review (the 'Reviews (N)' footer increments) rather than posting a new one — re-read that comment and check its score and footer commit, never the comment list."
+    "last_review_gate": "PR #110 (content, merged 2026-09-06T07:28:37Z by the site owner, not this run): took 3 Claude Code Review rounds plus Greptile, final score 5/5 ('appears safe to merge, no blocking failure remains') and AUTO_REVIEW_STATUS: pass. Two rounds flagged the network-access widening from Custom to Full for the aid environment as a security concern; the owner made and recorded an explicit accepted-risk decision to keep Full, then a later run (PR #112) reverted to Custom with the documented allowlist anyway. This run's own PR is state-only (state.json reconciliation); its gate result will be recorded on its next check-in."
   },
   "rejected_candidates": {
     "https://developers.cyberagent.co.jp/blog/archives/39730/": {
