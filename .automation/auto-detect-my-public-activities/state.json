@@ -523,7 +523,7 @@
       "source_pr_url": null,
       "note": "Not triggered: no content PR opened this run, only this state update."
     },
-    "last_review_gate": "Pending: this run opens a small dedicated PR for the state-only update, per the memory.md rule that a state-only diff still deserves the gate. Result to be filled in once Greptile/Claude Code Review report back."
+    "last_review_gate": "PR #114 (state-only, merged 2026-09-13T12:22Z via merge commit df98cc9): 3 review rounds. Greptile went 4/5 -> 5/5 -> 5/5 across commits d33e042/08d9f22/4b05260, catching two real defects in the first pass (non-canonical rejection key missing the trailing slash for archives/66153, and wording that wrongly implied archives/50516 was also rejected) plus Codex independently catching a third (two sources entries duplicated as new keys instead of updating the existing 2026-09-06 ones). All three were fixed and pushed before the final 5/5. Claude Code Review (claude-review check) reported AUTO_REVIEW_STATUS: pass on every round, with only non-blocking notes (T00:00:00Z timestamp precision). Final head 4b05260: Greptile 5/5, Claude Code Review pass, all Netlify checks green, no merge conflict."
   },
   "rejected_candidates": {
     "https://developers.cyberagent.co.jp/blog/archives/39730/": {
