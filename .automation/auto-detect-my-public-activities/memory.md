@@ -30,6 +30,8 @@
 - **Zenn is represented as a profile link only.** `about-content.js → links` carries the Zenn profile; 0 of 16 individual articles are enumerated (same treatment as the Findy list page). Adding one article is an editorial decision for the owner, not a deterministic automation change.
 - About-page data lives in `src/data/about-content.js`, never `src/content/pages/about.md`.
 
+- **A dated variant of a required query is not the query.** On 2026-10-04 the run summary claimed every required minimum query had run verbatim, but the bare `yukamiya`, `Yu Kamiya fuzzy31u`, `神谷優 fuzzy31u`, and `神谷優 yukamiya` forms had actually been replaced with `...2026年10月` variants, leaving their `sources[].last_checked_at` stale and the completeness claim false. Greptile caught it in round 1. When the task lists specific literal queries as the minimum, run those exact strings — a dated variant is an addition, never a substitute.
+
 ## Review gate gotchas
 
 - **Greptile edits its existing summary comment in place on re-review** — the `Reviews (N): Last reviewed commit` footer increments and the score is rewritten; it does not post a new comment. Polling for *new* comments therefore makes a finished re-review look like silence. On 2026-08-23 this run twice concluded Greptile had "never re-scored" while its summary already read 5/5. **Re-read the existing Greptile comment and check its score and footer commit, not the comment list.**

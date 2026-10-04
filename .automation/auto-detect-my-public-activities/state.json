@@ -584,9 +584,9 @@
       "run_id": null,
       "conclusion": "not_triggered",
       "source_pr_url": null,
-      "note": "Not triggered: no content PR opened this run, only this state update."
+      "note": "Not triggered: PR #118 this run was state-only (no src/data/about-content.js change), so there is no content change to validate."
     },
-    "last_review_gate": "PR #114 (state-only, merged 2026-09-13T12:22Z via merge commit df98cc9): 3 review rounds. Greptile went 4/5 -> 5/5 -> 5/5 across commits d33e042/08d9f22/4b05260, catching two real defects in the first pass (non-canonical rejection key missing the trailing slash for archives/66153, and wording that wrongly implied archives/50516 was also rejected) plus Codex independently catching a third (two sources entries duplicated as new keys instead of updating the existing 2026-09-06 ones). All three were fixed and pushed before the final 5/5. Claude Code Review (claude-review check) reported AUTO_REVIEW_STATUS: pass on every round, with only non-blocking notes (T00:00:00Z timestamp precision). Final head 4b05260: Greptile 5/5, Claude Code Review pass, all Netlify checks green, no merge conflict."
+    "last_review_gate": "PR #118 (state-only, merged 2026-10-04T12:21:58Z via squash commit 34f6c1f): 2 review rounds. Greptile went 4/5 -> 5/5 across commits 104cb00/da1ff95: round 1 correctly flagged that the run summary claimed every minimum query ran verbatim while `yukamiya`, `Yu Kamiya fuzzy31u`, `神谷優 fuzzy31u`, and `神谷優 yukamiya` still carried stale 2026-09-27 timestamps (the first commit had substituted 2026年10月-dated variants for these bare queries instead of actually running them). Fixed by running the four missing bare queries, confirming no new results, and correcting the summary wording before pushing da1ff95. Claude Code Review (claude-review check) reported AUTO_REVIEW_STATUS: pass on both rounds. Codex review completed with no findings. Final head da1ff95: Greptile 5/5, Claude Code Review pass, Netlify check green, mergeable_state clean."
   },
   "rejected_candidates": {
     "https://developers.cyberagent.co.jp/blog/archives/39730/": {
