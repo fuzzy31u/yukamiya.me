@@ -41,22 +41,22 @@
       "last_checked_at": "2026-10-04T00:00:00Z"
     },
     "yukamiya": {
-      "last_checked_at": "2026-09-27T00:00:00Z"
+      "last_checked_at": "2026-10-04T00:00:00Z"
     },
     "Yu Kamiya fuzzy31u": {
-      "last_checked_at": "2026-09-27T00:00:00Z"
+      "last_checked_at": "2026-10-04T00:00:00Z"
     },
     "\"Yu Kamiya\" fuzzy31u": {
       "last_checked_at": "2026-05-31T00:03:28Z"
     },
     "神谷優 fuzzy31u": {
-      "last_checked_at": "2026-09-27T00:00:00Z"
+      "last_checked_at": "2026-10-04T00:00:00Z"
     },
     "\"神谷優\" fuzzy31u OR yukamiya": {
       "last_checked_at": "2026-06-21T00:11:09Z"
     },
     "神谷優 yukamiya": {
-      "last_checked_at": "2026-09-27T00:00:00Z"
+      "last_checked_at": "2026-10-04T00:00:00Z"
     },
     "site:developers.cyberagent.co.jp/blog fuzzy31u": {
       "last_checked_at": "2026-10-04T00:00:00Z"
@@ -574,7 +574,7 @@
     "last_checked_at": "2026-10-04T12:13:53Z",
     "last_status": "completed",
     "last_blocker": null,
-    "last_result": "Empty sweep, no code change. Ran every required minimum query verbatim plus 2026年10月-dated variants. Author page https://developers.cyberagent.co.jp/blog/archives/author/yukamiya/ still enumerates exactly 44530/51796/63720/65345, unchanged since 2026-08-31 (bio confirmed: 'AIドリブン推進室マネージャー / AI Adoption / Tech DE&I Lead'). Zenn API (zenn.dev/api/articles?username=yukamiya) still enumerates exactly 16 articles, unchanged since 2026-08-30, none newly actionable under the profile-link-only policy. New trap caught and resolved: a WebSearch summary for 'site:developers.cyberagent.co.jp/blog \"Yu Kamiya\" OR yukamiya OR 神谷優' invented a second 'yukamiya' author bio ('2024 new graduate PM ... at Tapple'); fetching https://developers.cyberagent.co.jp/blog/authors/ directly disproved it — there is exactly one yukamiya author and its bio matches our target verbatim. This is the same class of search-summary hallucination already documented for archives/39730 and archives/65298, now confirmed to also apply to author-bio claims, not just article attribution. Every other hit was already tracked (archives/63720, 51796, 50516, 52578) or a known name collision (footballer 神谷優太, voice actor 神谷浩史, architectural-acoustics award recipient 神谷優 at Kanagawa University) or an already-rejected candidate (archives/66153 DroidKaigi 2026 sponsor-booth report, archives/55718, archives/65298). No open GitHub issues or PRs existed at run start and none were needed. npm install + npm run build both succeeded cleanly (2064 packages, fresh node_modules, no prior install present).",
+    "last_result": "Empty sweep, no code change. Ran every required minimum query verbatim (including the bare, unmodified `yukamiya`, `Yu Kamiya fuzzy31u`, `神谷優 fuzzy31u`, and `神谷優 yukamiya` forms, missed in the first commit of this run and added after Greptile round 1 flagged the coverage gap) plus 2026年10月-dated variants. Author page https://developers.cyberagent.co.jp/blog/archives/author/yukamiya/ still enumerates exactly 44530/51796/63720/65345, unchanged since 2026-08-31 (bio confirmed: 'AIドリブン推進室マネージャー / AI Adoption / Tech DE&I Lead'). Zenn API (zenn.dev/api/articles?username=yukamiya) still enumerates exactly 16 articles, unchanged since 2026-08-30, none newly actionable under the profile-link-only policy. New trap caught and resolved: a WebSearch summary for 'site:developers.cyberagent.co.jp/blog \"Yu Kamiya\" OR yukamiya OR 神谷優' invented a second 'yukamiya' author bio ('2024 new graduate PM ... at Tapple'); fetching https://developers.cyberagent.co.jp/blog/authors/ directly disproved it — there is exactly one yukamiya author and its bio matches our target verbatim. This is the same class of search-summary hallucination already documented for archives/39730 and archives/65298, now confirmed to also apply to author-bio claims, not just article attribution. Every other hit was already tracked (archives/63720, 51796, 50516, 52578) or a known name collision (footballer 神谷優太, voice actor 神谷浩史, architectural-acoustics award recipient 神谷優 at Kanagawa University) or an already-rejected candidate (archives/66153 DroidKaigi 2026 sponsor-booth report, archives/55718, archives/65298). No open GitHub issues or PRs existed at run start and none were needed. npm install + npm run build both succeeded cleanly (2064 packages, fresh node_modules, no prior install present).",
     "last_deploy_verification": {
       "url": "https://yukamiya.me/about/",
       "verified_at": "2026-08-10T04:37:30Z",
