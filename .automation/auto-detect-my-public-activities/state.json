@@ -291,7 +291,7 @@
       "last_checked_at": "2026-09-27T00:00:00Z"
     },
     "\"神谷優\" AIドリブン推進室 登壇 セッション 2026年10月": {
-      "last_checked_at": "2026-09-27T00:00:00Z"
+      "last_checked_at": "2026-10-11T12:12:15Z"
     },
     "神谷優 fuzzy31u yukamiya": {
       "last_checked_at": "2026-09-27T00:00:00Z"
@@ -330,9 +330,6 @@
       "last_checked_at": "2026-10-11T12:12:15Z"
     },
     "神谷優 CyberAgent 2026年10月": {
-      "last_checked_at": "2026-10-11T12:12:15Z"
-    },
-    "\"神谷優\" AIドリブン推進室 登壇 セッション 2026年10月": {
       "last_checked_at": "2026-10-11T12:12:15Z"
     }
   },
@@ -592,7 +589,7 @@
       "source_pr_url": null,
       "note": "Not triggered: this run was state-only (no src/data/about-content.js change), so there is no content change to validate."
     },
-    "last_review_gate": "Pending: state-only PR for this run not yet opened/merged as of this entry. Will be filled in once the gate reports, per the 'never pre-write last_review_gate' rule."
+    "last_review_gate": "PR #118 (state-only, merged 2026-10-04T12:21:58Z via squash commit 34f6c1f): 2 review rounds. Greptile went 4/5 -> 5/5 across commits 104cb00/da1ff95: round 1 correctly flagged that the run summary claimed every minimum query ran verbatim while `yukamiya`, `Yu Kamiya fuzzy31u`, `神谷優 fuzzy31u`, and `神谷優 yukamiya` still carried stale 2026-09-27 timestamps (the first commit had substituted 2026年10月-dated variants for these bare queries instead of actually running them). Fixed by running the four missing bare queries, confirming no new results, and correcting the summary wording before pushing da1ff95. Claude Code Review (claude-review check) reported AUTO_REVIEW_STATUS: pass on both rounds. Codex review completed with no findings. Final head da1ff95: Greptile 5/5, Claude Code Review pass, Netlify check green, mergeable_state clean. (PR #120, this run's own state-only PR, has not yet reported its review-gate result; will be recorded once observed, per the 'never pre-write last_review_gate' rule.)"
   },
   "rejected_candidates": {
     "https://developers.cyberagent.co.jp/blog/archives/39730/": {
