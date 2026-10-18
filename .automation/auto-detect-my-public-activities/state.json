@@ -632,7 +632,7 @@
       "source_pr_url": null,
       "note": "Not triggered: this run was state-only (no src/data/about-content.js change), so there is no content change to validate."
     },
-    "last_review_gate": "PR not yet opened this run; will be recorded once the state-only PR's review gate reports, per the 'never pre-write last_review_gate' rule."
+    "last_review_gate": "PR #120 (state-only, merged 2026-10-11T12:25:23Z via merge commit b5e3c69): 2 review rounds. Round 1 Codex flagged two P2 findings (a duplicate query key, and this exact 'last_review_gate overwritten instead of restored' defect); both fixed in commit b8f3aef. Greptile: 5/5 ('Low impact, appears safe to merge'). Claude Code Review: AUTO_REVIEW_STATUS: pass on both rounds. Codex review completed with no outstanding findings on the final commit. Final head b8f3aef: Greptile 5/5, Claude Code Review pass, Netlify check green. (PR #121, this run's own state-only PR, has not yet reported its review-gate result; will be recorded once observed, per the 'never pre-write last_review_gate' rule.)"
   },
   "rejected_candidates": {
     "https://developers.cyberagent.co.jp/blog/archives/39730/": {
