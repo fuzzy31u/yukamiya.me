@@ -8,22 +8,22 @@
       "last_checked_at": "2026-07-23T11:00:45Z"
     },
     "サイバーエージェント 神谷優": {
-      "last_checked_at": "2026-10-11T12:12:15Z"
+      "last_checked_at": "2026-10-18T12:13:16Z"
     },
     "神谷優 登壇 記事 インタビュー 受賞": {
       "last_checked_at": "2026-05-23T05:26:17Z"
     },
     "神谷優 登壇": {
-      "last_checked_at": "2026-10-11T12:12:15Z"
+      "last_checked_at": "2026-10-18T12:13:16Z"
     },
     "神谷優 記事": {
-      "last_checked_at": "2026-10-11T12:12:15Z"
+      "last_checked_at": "2026-10-18T12:13:16Z"
     },
     "神谷優 インタビュー": {
-      "last_checked_at": "2026-10-11T12:12:15Z"
+      "last_checked_at": "2026-10-18T12:13:16Z"
     },
     "神谷優 受賞": {
-      "last_checked_at": "2026-10-11T12:12:15Z"
+      "last_checked_at": "2026-10-18T12:13:16Z"
     },
     "神谷優 インタビュー OR 神谷優 受賞": {
       "last_checked_at": "2026-06-21T00:11:09Z"
@@ -38,40 +38,40 @@
       "last_checked_at": "2026-05-23T05:26:17Z"
     },
     "fuzzy31u": {
-      "last_checked_at": "2026-10-11T12:12:15Z"
+      "last_checked_at": "2026-10-18T12:13:16Z"
     },
     "yukamiya": {
-      "last_checked_at": "2026-10-11T12:12:15Z"
+      "last_checked_at": "2026-10-18T12:13:16Z"
     },
     "Yu Kamiya fuzzy31u": {
-      "last_checked_at": "2026-10-11T12:12:15Z"
+      "last_checked_at": "2026-10-18T12:13:16Z"
     },
     "\"Yu Kamiya\" fuzzy31u": {
       "last_checked_at": "2026-05-31T00:03:28Z"
     },
     "神谷優 fuzzy31u": {
-      "last_checked_at": "2026-10-11T12:12:15Z"
+      "last_checked_at": "2026-10-18T12:13:16Z"
     },
     "\"神谷優\" fuzzy31u OR yukamiya": {
       "last_checked_at": "2026-06-21T00:11:09Z"
     },
     "神谷優 yukamiya": {
-      "last_checked_at": "2026-10-11T12:12:15Z"
+      "last_checked_at": "2026-10-18T12:13:16Z"
     },
     "site:developers.cyberagent.co.jp/blog fuzzy31u": {
-      "last_checked_at": "2026-10-11T12:12:15Z"
+      "last_checked_at": "2026-10-18T12:13:16Z"
     },
     "site:developers.cyberagent.co.jp/blog yukamiya": {
-      "last_checked_at": "2026-10-11T12:12:15Z"
+      "last_checked_at": "2026-10-18T12:13:16Z"
     },
     "site:developers.cyberagent.co.jp/blog 神谷優": {
-      "last_checked_at": "2026-10-11T12:12:15Z"
+      "last_checked_at": "2026-10-18T12:13:16Z"
     },
     "site:developers.cyberagent.co.jp/blog \"Yu Kamiya\" OR developers.cyberagent.co.jp/blog/archives/63720": {
       "last_checked_at": "2026-07-26T13:13:15Z"
     },
     "site:developers.cyberagent.co.jp/blog \"Yu Kamiya\"": {
-      "last_checked_at": "2026-10-11T12:12:15Z"
+      "last_checked_at": "2026-10-18T12:13:16Z"
     },
     "site:developers.cyberagent.co.jp/blog \"Yu Kamiya\" OR yukamiya OR 神谷優": {
       "last_checked_at": "2026-10-04T00:00:00Z"
@@ -83,10 +83,10 @@
       "last_checked_at": "2026-09-20T00:00:00Z"
     },
     "developers.cyberagent.co.jp/blog/archives/63720": {
-      "last_checked_at": "2026-10-11T12:12:15Z"
+      "last_checked_at": "2026-10-18T12:13:16Z"
     },
     "site:developers.cyberagent.co.jp/blog/archives/ CyberAgent Developers Blog 神谷優": {
-      "last_checked_at": "2026-10-11T12:12:15Z"
+      "last_checked_at": "2026-10-18T12:13:16Z"
     },
     "\"神谷優\" \"2026/05\" OR \"2026-05\"": {
       "last_checked_at": "2026-05-31T00:03:28Z"
@@ -149,10 +149,11 @@
       "last_checked_at": "2026-07-05T00:04:42Z"
     },
     "https://developers.cyberagent.co.jp/blog/archives/author/yukamiya/": {
-      "last_checked_at": "2026-10-11T12:12:15Z"
+      "last_checked_at": "2026-10-18T12:13:16Z"
     },
     "https://zenn.dev/yukamiya": {
-      "last_checked_at": "2026-10-11T12:12:15Z"
+      "last_checked_at": "2026-10-18T12:13:16Z",
+      "note": "Checked via zenn.dev/api/articles?username=yukamiya (reliable JSON enumeration, per memory.md). 19 articles as of 2026-10-18, up from 16 as of 2026-08-30. The 3 new ones (claude-harness-engineering-three-repos, reduce-review-cost-human-in-loop-ai, meeting-watcher-architecture; all published 2026-10-16) were parked as `detected` activities under the existing profile-link-only policy, same as the two already-parked Zenn entries."
     },
     "\"LT event for Women in Tech\" GitHub SmartNews ウエディングパーク サイバーエージェント": {
       "last_checked_at": "2026-08-09T13:25:07Z"
@@ -331,6 +332,12 @@
     },
     "神谷優 CyberAgent 2026年10月": {
       "last_checked_at": "2026-10-11T12:12:15Z"
+    },
+    "神谷優 CyberAgent 2026年10月 登壇 OR 記事": {
+      "last_checked_at": "2026-10-18T12:13:16Z"
+    },
+    "サイバーエージェント AIドリブン推進室 神谷優 2026年10月": {
+      "last_checked_at": "2026-10-18T12:13:16Z"
     }
   },
   "activities": {
@@ -571,13 +578,49 @@
       "last_review_status": null,
       "merged_at": null,
       "blocker": "Not actionable as a site edit, for the same reason as zenn.dev/yukamiya/articles/baf9872a13a176: Zenn is represented in about-content.js `links` as a profile link and 0 of the author's Zenn articles are enumerated individually. Adding one arbitrarily is an editorial/taxonomy decision, not a deterministic content change. Title and date are from search results only (egress blocked), so they would need source verification before any edit. Escalate to the site owner if individual Zenn articles should be listed."
+    },
+    "https://zenn.dev/yukamiya/articles/claude-harness-engineering-three-repos": {
+      "content_type": "writing",
+      "title": "AI前提の開発組織をつくる — 3つの個人リポジトリで検証した権限設計・マージ条件・ガードレール",
+      "canonical_url": "https://zenn.dev/yukamiya/articles/claude-harness-engineering-three-repos",
+      "detected_at": "2026-10-18T12:13:16Z",
+      "status": "detected",
+      "issue_number": null,
+      "pr_number": null,
+      "last_review_status": null,
+      "merged_at": null,
+      "blocker": "Not actionable as a site edit, for the same reason as the other parked Zenn articles (zenn.dev/yukamiya/articles/baf9872a13a176, .../pm-ssot-claude-skills): Zenn is represented in about-content.js `links` as a profile link only, and individual articles are not enumerated. Adding one arbitrarily is an editorial/taxonomy decision, not a deterministic content change. Published 2026-10-16 per zenn.dev/api/articles?username=yukamiya. Escalate to the site owner if individual Zenn articles should be listed."
+    },
+    "https://zenn.dev/yukamiya/articles/reduce-review-cost-human-in-loop-ai": {
+      "content_type": "writing",
+      "title": "レビュー工数50%削減を目指す、LLMベンチマークとHuman-in-the-loop設計",
+      "canonical_url": "https://zenn.dev/yukamiya/articles/reduce-review-cost-human-in-loop-ai",
+      "detected_at": "2026-10-18T12:13:16Z",
+      "status": "detected",
+      "issue_number": null,
+      "pr_number": null,
+      "last_review_status": null,
+      "merged_at": null,
+      "blocker": "Not actionable as a site edit, for the same reason as the other parked Zenn articles (zenn.dev/yukamiya/articles/baf9872a13a176, .../pm-ssot-claude-skills): Zenn is represented in about-content.js `links` as a profile link only, and individual articles are not enumerated. Adding one arbitrarily is an editorial/taxonomy decision, not a deterministic content change. Published 2026-10-16 per zenn.dev/api/articles?username=yukamiya. Escalate to the site owner if individual Zenn articles should be listed."
+    },
+    "https://zenn.dev/yukamiya/articles/meeting-watcher-architecture": {
+      "content_type": "writing",
+      "title": "議事録から開発タスクへ。人の承認を挟む meeting-watcher の設計",
+      "canonical_url": "https://zenn.dev/yukamiya/articles/meeting-watcher-architecture",
+      "detected_at": "2026-10-18T12:13:16Z",
+      "status": "detected",
+      "issue_number": null,
+      "pr_number": null,
+      "last_review_status": null,
+      "merged_at": null,
+      "blocker": "Not actionable as a site edit, for the same reason as the other parked Zenn articles (zenn.dev/yukamiya/articles/baf9872a13a176, .../pm-ssot-claude-skills): Zenn is represented in about-content.js `links` as a profile link only, and individual articles are not enumerated. Adding one arbitrarily is an editorial/taxonomy decision, not a deterministic content change. Published 2026-10-16 per zenn.dev/api/articles?username=yukamiya. Escalate to the site owner if individual Zenn articles should be listed."
     }
   },
   "runs": {
-    "last_checked_at": "2026-10-11T12:12:15Z",
+    "last_checked_at": "2026-10-18T12:13:16Z",
     "last_status": "completed",
     "last_blocker": null,
-    "last_result": "Empty sweep, no code change. Ran every required minimum query verbatim (サイバーエージェント 神谷優 / 神谷優 登壇 / 神谷優 記事 / 神谷優 インタビュー / 神谷優 受賞 / fuzzy31u / yukamiya / Yu Kamiya fuzzy31u / 神谷優 fuzzy31u / 神谷優 yukamiya / the five site:developers.cyberagent.co.jp/blog variants / developers.cyberagent.co.jp/blog/archives/63720) plus the two authoritative author pages and five 2026年10月-dated supplementary queries. Author page https://developers.cyberagent.co.jp/blog/archives/author/yukamiya/ still enumerates exactly 44530/51796/63720/65345, unchanged since 2026-08-31. Zenn API (zenn.dev/api/articles?username=yukamiya) still enumerates exactly 16 articles, unchanged since 2026-08-30, none newly actionable under the profile-link-only policy. Every other hit was already tracked (SIAI 2023 at cyberagent.co.jp/techinfo/news/detail/id=28413, the gihyo.jp Android-engineer interview series at gihyo.jp/dev/serial/01/cyberagent/0017) or a known name collision (footballer 神谷優太, voice actor 神谷浩史, novelist Yuu Kamiya/No Game No Life, architectural-acoustics award recipient 神谷優 at Kanagawa University). No open GitHub issues or PRs existed at run start and none were needed. Preflight: the previous designated branch's PR (#119, carrying the 2026-10-04 state) was already merged to main, so the branch was restarted from origin/main per the merged-branch procedure. npm install (fresh node_modules, no prior install present) and npm run build both succeeded cleanly.",
+    "last_result": "Empty sweep for actionable site changes, but 3 new Zenn articles discovered. Ran every required minimum query verbatim (サイバーエージェント 神谷優 / 神谷優 登壇 / 神谷優 記事 / 神谷優 インタビュー / 神谷優 受賞 / fuzzy31u / yukamiya / Yu Kamiya fuzzy31u / 神谷優 fuzzy31u / 神谷優 yukamiya / the five site:developers.cyberagent.co.jp/blog variants / developers.cyberagent.co.jp/blog/archives/63720) plus the two authoritative author pages and two supplementary 2026年10月-dated queries. Author page https://developers.cyberagent.co.jp/blog/archives/author/yukamiya/ still enumerates exactly 44530/51796/63720/65345, unchanged since 2026-08-31. Zenn's API (zenn.dev/api/articles?username=yukamiya) now enumerates 19 articles, up from 16 as of 2026-08-30: the 3 new ones (claude-harness-engineering-three-repos, reduce-review-cost-human-in-loop-ai, meeting-watcher-architecture; all published 2026-10-16) were parked as `detected` activities under the existing profile-link-only policy -- same non-actionable treatment as the two already-parked Zenn entries, not opened as issues or site edits. Two techinfo/news links that surfaced under a dated query (id=33491: AWS Summit Japan speakers, Jun 2026; id=32271: AIドリブン推進室 founding release, Aug 2025) were fetched and confirmed to not mention Kamiya -- not candidates, not recorded as rejected since no search ever attributed them to her. Every other hit was already tracked (SIAI 2023, gihyo.jp Android-engineer interview series) or a known name collision (footballer 神谷優太, voice actor 神谷浩史, novelist Yuu Kamiya/No Game No Life, Kanagawa University acoustics award recipient). No open GitHub issues or PRs existed at run start. Branch claude/zen-cori-xec6jx was already in sync with main (previous run's PR #120 already merged), so no restart was needed. npm install (fresh node_modules, 2064 packages) succeeded; no content change this run, so npm run build / QA were not required for a content diff -- only the state-file commit needed a PR.",
     "last_deploy_verification": {
       "url": "https://yukamiya.me/about/",
       "verified_at": "2026-08-10T04:37:30Z",
@@ -589,7 +632,7 @@
       "source_pr_url": null,
       "note": "Not triggered: this run was state-only (no src/data/about-content.js change), so there is no content change to validate."
     },
-    "last_review_gate": "PR #118 (state-only, merged 2026-10-04T12:21:58Z via squash commit 34f6c1f): 2 review rounds. Greptile went 4/5 -> 5/5 across commits 104cb00/da1ff95: round 1 correctly flagged that the run summary claimed every minimum query ran verbatim while `yukamiya`, `Yu Kamiya fuzzy31u`, `神谷優 fuzzy31u`, and `神谷優 yukamiya` still carried stale 2026-09-27 timestamps (the first commit had substituted 2026年10月-dated variants for these bare queries instead of actually running them). Fixed by running the four missing bare queries, confirming no new results, and correcting the summary wording before pushing da1ff95. Claude Code Review (claude-review check) reported AUTO_REVIEW_STATUS: pass on both rounds. Codex review completed with no findings. Final head da1ff95: Greptile 5/5, Claude Code Review pass, Netlify check green, mergeable_state clean. (PR #120, this run's own state-only PR, has not yet reported its review-gate result; will be recorded once observed, per the 'never pre-write last_review_gate' rule.)"
+    "last_review_gate": "PR not yet opened this run; will be recorded once the state-only PR's review gate reports, per the 'never pre-write last_review_gate' rule."
   },
   "rejected_candidates": {
     "https://developers.cyberagent.co.jp/blog/archives/39730/": {
