@@ -1,0 +1,118 @@
+---
+import { Image } from "astro:assets";
+import portrait from "../assets/portrait.jpg";
+import { getProfile, getActivities } from "../lib/content";
+import { pathFor, ui, type Locale } from "../lib/i18n";
+import WorkList from "./WorkList.astro";
+import ActivityList from "./ActivityList.astro";
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const t = ui[locale];
+const p = await getProfile();
+const all = await getActivities();
+const selected = p.featuredActivities
+  .map((id) => all.find((a) => a.id === id))
+  .filter((a): a is NonNullable<typeof a> => !!a);
+---
+
+<section class="hero shell">
+  <div class="hero-copy">
+    <p class="eyebrow">
+      <span class="small-line"></span>
+      {locale === "en"
+        ? "Applied AI / Technical leadership"
+        : "Applied AI / テクニカルリーダーシップ"}
+    </p>
+    <h1>{p.headline[locale]}</h1>
+    <p class="hero-intro">{p.intro[locale]}</p>
+    <div class="hero-actions">
+      <a class="button" href="#selected-work">
+        {t.work}
+        <span aria-hidden="true">↓</span>
+      </a>
+      <a class="text-link" href={pathFor(locale, "about")}>
+        {locale === "en" ? "A little about me" : "プロフィール"}{" "}
+        <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+    <p class="current-role">{p.role[locale]}</p>
+  </div>
+  <figure class="hero-portrait">
+    <Image
+      src={portrait}
+      alt={locale === "en" ? "Yu Kamiya in conversation" : "対話する神谷 優"}
+      widths={[400, 600, 900]}
+      sizes="(max-width: 760px) 100vw, 40vw"
+      width={900}
+      format="webp"
+      quality={80}
+      loading="eager"
+      fetchpriority="high"
+    />
+    <figcaption>
+      <span>{locale === "en" ? "Yu Kamiya" : "神谷 優"}</span>
+      <span>
+        {locale === "en"
+          ? "Technology, with people in mind."
+          : "技術の先に、人を。"}
+      </span>
+    </figcaption>
+  </figure>
+</section>
+<section id="selected-work" class="section shell">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">01 / {t.selected}</p>
+      <h2>{t.work}</h2>
+    </div>
+    <p>
+      {locale === "en"
+        ? "From organizational practice to the decisions inside a system."
+        : "組織の仕組みから、システムの中にある一つひとつの判断まで。"}
+    </p>
+  </div>
+  <WorkList locale={locale} />
+</section>
+<section class="perspective">
+  <div class="shell perspective-inner">
+    <p class="eyebrow">{t.practice}</p>
+    <div>
+      <h2>{p.philosophy[locale]}</h2>
+      <p>{p.philosophyBody[locale]}</p>
+      <a class="text-link" href={pathFor(locale, "about")}>
+        {t.about} <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </div>
+</section>
+<section class="section shell">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">
+        02 / {locale === "en" ? "Ideas in public" : "知見をひらく"}
+      </p>
+      <h2>{t.notes}</h2>
+    </div>
+    <a class="text-link" href={pathFor(locale, "speaking-writing")}>
+      {locale === "en" ? "Explore the collection" : "登壇・執筆を見る"}{" "}
+      <span aria-hidden="true">↗</span>
+    </a>
+  </div>
+  <ActivityList items={selected} locale={locale} />
+</section>
+<section class="contact-band shell">
+  <p class="eyebrow">
+    {locale === "en" ? "Start a conversation" : "対話から、次の一歩へ"}
+  </p>
+  <h2>
+    {locale === "en"
+      ? "What are you working on?"
+      : "いま、どんな課題に向き合っていますか。"}
+  </h2>
+  <a href={pathFor(locale, "contact")} class="large-link">
+    {t.contact}
+    <span aria-hidden="true">↗</span>
+  </a>
+</section>

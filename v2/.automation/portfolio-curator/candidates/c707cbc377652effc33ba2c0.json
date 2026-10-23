@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "c707cbc377652effc33ba2c0",
+  "canonicalUrl": "https://zenn.dev/yukamiya/articles/85a270ffc131f3",
+  "aliases": [],
+  "occurrenceKey": "artifact",
+  "sourceId": "zenn-author",
+  "title": "Claude × LinearでPM体験が劇的に改善した話",
+  "detectedAt": "2026-10-23T08:39:26.265Z",
+  "status": "verified",
+  "attempts": 0,
+  "nextRetryAt": null,
+  "blocker": null,
+  "evidence": {
+    "url": "https://zenn.dev/yukamiya/articles/85a270ffc131f3",
+    "checkedAt": "2026-10-23T08:42:22.601Z",
+    "sha256": "bac655a28fc978244a4e1df43a84366fb3da5a5f9b6c2c09fcae44bb91c50373",
+    "sourceTitle": "Claude × LinearでPM体験が劇的に改善した話",
+    "sourceDate": {
+      "value": "2025-09-21",
+      "precision": "day"
+    },
+    "identity": "yukamiya",
+    "identityMethod": "author-metadata",
+    "canonicalMethod": "canonical",
+    "adapter": "zenn-author"
+  }
+}

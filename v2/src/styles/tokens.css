@@ -1,0 +1,17 @@
+:root {
+  --paper: #f7f5f0;
+  --ink: #202522;
+  --muted: #59635d;
+  --green: #234c42;
+  --sage: #dfe7d8;
+  --line: #d3d6cc;
+  --white: #fffefa;
+  --serif: "Instrument Serif", Georgia, serif;
+  --sans:
+    "DM Sans", -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN",
+    "Yu Gothic", Meiryo, sans-serif;
+  --max: 1240px;
+  --gutter: clamp(24px, 5vw, 80px);
+  --space: clamp(64px, 8vw, 112px);
+  --focus: #7a3d22;
+}

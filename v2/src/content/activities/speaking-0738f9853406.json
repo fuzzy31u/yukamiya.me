@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "Women in Tech Meetup Vol.03",
+    "en": "Women in Tech Meetup Vol.03"
+  },
+  "date": {
+    "value": "2021-02",
+    "precision": "month"
+  },
+  "url": "https://connpass.com/event/201048/",
+  "venue": "Mercari",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[28]"
+}

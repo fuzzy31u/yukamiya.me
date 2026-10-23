@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "organizedEvents",
+  "title": {
+    "ja": "Women Tech Terrace 2024",
+    "en": "Women Tech Terrace 2024"
+  },
+  "date": {
+    "value": "2024",
+    "precision": "year"
+  },
+  "url": "https://www.cyberagent.co.jp/way/list/detail/id=30486",
+  "venue": "CyberAgent",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#organizedEvents[2]"
+}

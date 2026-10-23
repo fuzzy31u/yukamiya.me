@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "cba7b06a3d5a7f36ab81a65a",
+  "canonicalUrl": "https://zenn.dev/yukamiya/articles/pm-ssot-claude-skills",
+  "aliases": [],
+  "occurrenceKey": "artifact",
+  "sourceId": "zenn-author",
+  "title": "プロンプトを書く前に、リポジトリを『AIが働きやすい形』に整えた — PMがClaude SkillsでプロジェクトをSSOT化した話",
+  "detectedAt": "2026-08-30T12:17:17Z",
+  "status": "verified",
+  "attempts": 1,
+  "nextRetryAt": null,
+  "blocker": null,
+  "evidence": {
+    "url": "https://zenn.dev/yukamiya/articles/pm-ssot-claude-skills",
+    "checkedAt": "2026-10-23T08:48:08.878Z",
+    "sha256": "278ea830264c862c5cfd2473e71fd9df486e01dbc523386f7ca57e66561620e1",
+    "sourceTitle": "プロンプトを書く前に、リポジトリを『AIが働きやすい形』に整えた — PMがClaude SkillsでプロジェクトをSSOT化した話",
+    "sourceDate": {
+      "value": "2026-04-19",
+      "precision": "day"
+    },
+    "identity": "yukamiya",
+    "identityMethod": "author-metadata",
+    "canonicalMethod": "canonical",
+    "adapter": "zenn-author"
+  },
+  "legacy": {
+    "key": "https://zenn.dev/yukamiya/articles/pm-ssot-claude-skills",
+    "status": "detected",
+    "record": {
+      "content_type": "writing",
+      "title": "プロンプトを書く前に、リポジトリを『AIが働きやすい形』に整えた — PMがClaude SkillsでプロジェクトをSSOT化した話",
+      "canonical_url": "https://zenn.dev/yukamiya/articles/pm-ssot-claude-skills",
+      "detected_at": "2026-08-30T12:17:17Z",
+      "status": "detected",
+      "issue_number": null,
+      "pr_number": null,
+      "last_review_status": null,
+      "merged_at": null,
+      "blocker": "Not actionable as a site edit, for the same reason as zenn.dev/yukamiya/articles/baf9872a13a176: Zenn is represented in about-content.js `links` as a profile link and 0 of the author's Zenn articles are enumerated individually. Adding one arbitrarily is an editorial/taxonomy decision, not a deterministic content change. Title and date are from search results only (egress blocked), so they would need source verification before any edit. Escalate to the site owner if individual Zenn articles should be listed."
+    }
+  }
+}

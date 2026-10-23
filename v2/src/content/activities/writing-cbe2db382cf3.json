@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "writing",
+  "title": {
+    "ja": "グローバル展開を見据えたサービスにおける機械翻訳プラクティス",
+    "en": "Machine Translation Practices for Global Services"
+  },
+  "date": {
+    "value": "2024",
+    "precision": "year"
+  },
+  "url": "https://developers.cyberagent.co.jp/blog/archives/50516/",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#writing[5]"
+}

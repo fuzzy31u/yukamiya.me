@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "media",
+  "title": {
+    "ja": "WEB+DB PRESS vol.64: サイバーエージェントを支える技術者たち",
+    "en": "WEB+DB PRESS vol.64: Engineers Supporting CyberAgent"
+  },
+  "date": {
+    "value": "2011",
+    "precision": "year"
+  },
+  "url": "https://gihyo.jp/dev/serial/01/cyberagent/0017",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#media[25]"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "eab74041290aebc38cfab094",
+  "legacyKey": "qa-content:writing-year-51796",
+  "title": "Writing section year mismatch for CyberAgent Developers Blog 51796",
+  "status": "resolved",
+  "firstSeen": "2026-06-14T00:12:54Z",
+  "lastSeen": "2026-06-14T00:12:20Z",
+  "recurrenceCount": 0,
+  "recentRecurrences": [],
+  "legacy": {
+    "content_type": "qa-content",
+    "title": "Writing section year mismatch for CyberAgent Developers Blog 51796",
+    "canonical_url": "https://developers.cyberagent.co.jp/blog/archives/51796/",
+    "detected_at": "2026-06-14T00:12:54Z",
+    "status": "merged",
+    "issue_number": 82,
+    "pr_number": 83,
+    "last_review_status": "pass",
+    "merged_at": "2026-06-14T00:12:20Z",
+    "blocker": null
+  }
+}

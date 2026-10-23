@@ -1,0 +1,46 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { categoryLabels, ui, type Locale } from "../lib/i18n";
+interface Props {
+  items: CollectionEntry<"activities">[];
+  locale: Locale;
+  compact?: boolean;
+}
+const { items, locale, compact = false } = Astro.props;
+---
+
+<div class:list={["activity-list", { compact }]}>
+  {items.map(({ data: d, id }) => (
+    <article class="activity-row" data-activity-id={id}>
+      <div class="activity-meta">
+        <span>{categoryLabels[d.kind][locale]}</span>
+        {d.date.value && (
+          <time datetime={d.date.value}>
+            {d.date.value.replace("-", " / ")}
+          </time>
+        )}
+      </div>
+      <div>
+        <h3>
+          {d.url ? (
+            <a href={d.url}>
+              {d.title[locale]}{" "}
+              <span class="inline-arrow" aria-hidden="true">
+                ↗
+              </span>
+            </a>
+          ) : (
+            d.title[locale]
+          )}
+        </h3>
+        {d.summary && <p>{d.summary[locale]}</p>}
+        <div class="activity-source">
+          {d.venue && <span>{d.venue}</span>}
+          {d.originalLanguage === "ja" && locale === "en" && (
+            <span>{ui[locale].original}</span>
+          )}
+        </div>
+      </div>
+    </article>
+  ))}
+</div>

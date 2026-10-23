@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "697ce32916e159ea3853c04c",
+  "legacyKey": "qa-broken-link:accredible-badge",
+  "title": "googlecloudapac.accredible.com が 403 Forbidden を返す",
+  "status": "resolved",
+  "firstSeen": "2026-08-09T13:25:07Z",
+  "lastSeen": "2026-08-09T13:25:07Z",
+  "recurrenceCount": 0,
+  "recentRecurrences": [],
+  "legacy": {
+    "content_type": "qa-broken-link",
+    "title": "googlecloudapac.accredible.com が 403 Forbidden を返す",
+    "canonical_url": "https://googlecloudapac.accredible.com/29ef7949-e74c-4f17-8137-f8de969c8e4a",
+    "detected_at": "2026-08-09T13:25:07Z",
+    "status": "merged",
+    "issue_number": 88,
+    "pr_number": null,
+    "last_review_status": null,
+    "merged_at": "2026-08-09T13:25:07Z",
+    "blocker": "No longer reproduces: re-verified this run at 200 both with and without a browser User-Agent, no redirect. Issue closed as not planned; no code change was required."
+  }
+}

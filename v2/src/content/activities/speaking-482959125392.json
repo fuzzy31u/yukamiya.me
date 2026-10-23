@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "技育展 2022「女性エンジニア」テーマ審査員",
+    "en": "Geekten 2022 \"Female Engineers\" Theme Judge"
+  },
+  "date": {
+    "value": "2022-09",
+    "precision": "month"
+  },
+  "url": "https://talent.supporterz.jp/geekten/2022/",
+  "venue": "技育展",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[22]"
+}

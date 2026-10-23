@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "Woman Tech Terrace LT",
+    "en": "Woman Tech Terrace LT"
+  },
+  "date": {
+    "value": "2019-06",
+    "precision": "month"
+  },
+  "url": "https://wtt.cyberagent.group/",
+  "venue": "CyberAgent",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[31]"
+}

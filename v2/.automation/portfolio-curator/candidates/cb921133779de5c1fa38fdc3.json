@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "cb921133779de5c1fa38fdc3",
+  "canonicalUrl": "https://zenn.dev/yukamiya/articles/0ab7c6ad093307",
+  "aliases": [],
+  "occurrenceKey": "artifact",
+  "sourceId": "zenn-author",
+  "title": "Claude Code + gog CLI で Google Spreadsheet から Drive フォルダを一括作成する",
+  "detectedAt": "2026-10-23T08:39:26.265Z",
+  "status": "verified",
+  "attempts": 0,
+  "nextRetryAt": null,
+  "blocker": null,
+  "evidence": {
+    "url": "https://zenn.dev/yukamiya/articles/0ab7c6ad093307",
+    "checkedAt": "2026-10-23T08:42:22.601Z",
+    "sha256": "191970f7d050af7022aa63f1b954f6a212074c6fa10a6604fdc6b8fddd5b7774",
+    "sourceTitle": "Claude Code + gog CLI で Google Spreadsheet から Drive フォルダを一括作成する",
+    "sourceDate": {
+      "value": "2026-02-03",
+      "precision": "day"
+    },
+    "identity": "yukamiya",
+    "identityMethod": "author-metadata",
+    "canonicalMethod": "canonical",
+    "adapter": "zenn-author"
+  }
+}

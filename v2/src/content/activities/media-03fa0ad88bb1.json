@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "media",
+  "title": {
+    "ja": "CyberAgent Way: 「Women Tech Terrace 2024」で考える、IT業界ジェンダーギャップ解消の未来地図と現在地",
+    "en": "CyberAgent Way: Future Map and Current State of Gender Gap in IT at Women Tech Terrace 2024"
+  },
+  "date": {
+    "value": "2024",
+    "precision": "year"
+  },
+  "url": "https://www.cyberagent.co.jp/way/list/detail/id=30579",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#media[11]"
+}

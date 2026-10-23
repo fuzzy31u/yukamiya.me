@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "3f3ec50e56acb116b506ff05",
+  "canonicalUrl": "https://zenn.dev/yukamiya/articles/baf9872a13a176",
+  "aliases": [],
+  "occurrenceKey": "artifact",
+  "sourceId": "zenn-author",
+  "title": "【おしゃべりを資産に】ADKマルチエージェントで叶えるポッドキャスト記事化ツールChatter 2 Chapter",
+  "detectedAt": "2026-08-09T13:25:07Z",
+  "status": "verified",
+  "attempts": 1,
+  "nextRetryAt": null,
+  "blocker": null,
+  "evidence": {
+    "url": "https://zenn.dev/yukamiya/articles/baf9872a13a176",
+    "checkedAt": "2026-10-23T08:48:08.878Z",
+    "sha256": "52aa406e6eb1d0914ad368863a71527796a3c6f88d9c159d0a826a4a9f0f7c5b",
+    "sourceTitle": "【おしゃべりを資産に】ADKマルチエージェントで叶えるポッドキャスト記事化ツールChatter 2 Chapter",
+    "sourceDate": {
+      "value": "2026-02-15",
+      "precision": "day"
+    },
+    "identity": "yukamiya",
+    "identityMethod": "author-metadata",
+    "canonicalMethod": "canonical",
+    "adapter": "zenn-author"
+  },
+  "legacy": {
+    "key": "https://zenn.dev/yukamiya/articles/baf9872a13a176",
+    "status": "detected",
+    "record": {
+      "content_type": "writing",
+      "title": "【おしゃべりを資産に】ADKマルチエージェントで叶えるポッドキャスト記事化ツールChatter 2 Chapter",
+      "canonical_url": "https://zenn.dev/yukamiya/articles/baf9872a13a176",
+      "detected_at": "2026-08-09T13:25:07Z",
+      "status": "detected",
+      "issue_number": null,
+      "pr_number": null,
+      "last_review_status": null,
+      "merged_at": null,
+      "blocker": "Not actionable as a site edit: Zenn is represented in about-content.js `links` as a profile link and 0 of the author's 16 Zenn articles are enumerated individually. Adding one arbitrarily is an editorial/taxonomy decision, not a deterministic content change. Escalate to the site owner if individual Zenn articles should be listed."
+    }
+  }
+}

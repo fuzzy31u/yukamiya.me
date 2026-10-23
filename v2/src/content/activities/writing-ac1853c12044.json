@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "writing",
+  "title": {
+    "ja": "子ども向けプログラミング学習サービスの多言語翻訳における生成AI活用の可能性",
+    "en": "Potential of Generative AI in Multilingual Translation for Kids' Programming Services"
+  },
+  "date": {
+    "value": "2023",
+    "precision": "year"
+  },
+  "url": "https://developers.cyberagent.co.jp/blog/archives/44530/",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#writing[6]"
+}

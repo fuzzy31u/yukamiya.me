@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "d13e415cfac00b350d5653a0",
+  "legacyKey": "qa-content:greptile-review-loop-2026-07-23",
+  "title": "Greptile review loop for Business+IT content",
+  "status": "resolved",
+  "firstSeen": "2026-07-23T12:08:53Z",
+  "lastSeen": "2026-07-23T03:07:36Z",
+  "recurrenceCount": 0,
+  "recentRecurrences": [],
+  "legacy": {
+    "content_type": "qa-content",
+    "title": "Greptile review loop for Business+IT content",
+    "canonical_url": "https://www.sbbit.jp/eventinfo/dx-ai",
+    "detected_at": "2026-07-23T12:08:53Z",
+    "status": "merged",
+    "issue_number": 97,
+    "pr_number": 98,
+    "last_review_status": "pass",
+    "merged_at": "2026-07-23T03:07:36Z",
+    "blocker": null
+  }
+}

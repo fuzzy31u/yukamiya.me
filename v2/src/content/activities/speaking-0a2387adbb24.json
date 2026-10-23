@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "My #DareToBe Story エンジニア組織のDE&I推進を目指して",
+    "en": "My #DareToBe Story: Promoting DE&I in Engineering Organizations"
+  },
+  "date": {
+    "value": "2023-04",
+    "precision": "month"
+  },
+  "url": "https://gdg-tokyo.connpass.com/event/277960/",
+  "venue": "WTM Tokyo - IWD 2023",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[19]"
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "文系女性の可能性を広げる、エンジニアという選択肢。",
+    "en": "Engineering as a Career Choice for Liberal Arts Women"
+  },
+  "date": {
+    "value": "2022-05",
+    "precision": "month"
+  },
+  "url": "https://madamefigaro.jp/society-business/220525-bwa-yu-kamiya.html",
+  "venue": "Business with Attitude",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[23]"
+}

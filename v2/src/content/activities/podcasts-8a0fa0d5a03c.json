@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "podcasts",
+  "title": {
+    "ja": "fukabori.fm #129: Tech業界のDE&Iの現状と課題",
+    "en": "fukabori.fm #129: DE&I in Tech Industry"
+  },
+  "date": {
+    "value": null,
+    "precision": "unknown"
+  },
+  "url": "https://fukabori.fm/episode/129",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#podcasts[0]"
+}

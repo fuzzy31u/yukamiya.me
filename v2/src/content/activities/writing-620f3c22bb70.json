@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "writing",
+  "title": {
+    "ja": "Findy media：コンテキストスイッチを減らすために、3児の母エンジニアが辿り着いた\"やらないこと\"",
+    "en": "Findy media: What a mother engineer of 3 kids stopped doing to reduce context switching"
+  },
+  "date": {
+    "value": "2025",
+    "precision": "year"
+  },
+  "url": "https://findy-code.io/media/articles/list-_yukamiya",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#writing[2]"
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "副業で広がるキャリアの可能性と働き方の選択肢",
+    "en": "Career Possibilities Through Side Jobs"
+  },
+  "date": {
+    "value": "2021-11",
+    "precision": "month"
+  },
+  "url": "https://web.archive.org/web/2022/https://2021.bit-valley.jp/program/career/35",
+  "venue": "BIT VALLEY 2021",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[27]"
+}

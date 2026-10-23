@@ -10,5 +10,20 @@
   [headers.values]
     X-Frame-Options = "SAMEORIGIN"
 
-[[plugins]]
+[[context.production.plugins]]
   package = "@netlify/plugin-gatsby"
+
+# Keep legacy branch deployments on Gatsby until production cutover.
+[[context.branch-deploy.plugins]]
+  package = "@netlify/plugin-gatsby"
+
+# Review Astro in PR deploys without switching the production application.
+[context.deploy-preview]
+  base = "v2"
+  publish = "dist"
+  command = "npm run validate"
+
+[context.deploy-preview.environment]
+  NODE_VERSION = "24"
+  ASTRO_TELEMETRY_DISABLED = "1"
+  PUBLIC_RELEASE = "preview"

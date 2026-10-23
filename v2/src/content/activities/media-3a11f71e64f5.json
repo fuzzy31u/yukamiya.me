@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "media",
+  "title": {
+    "ja": "YOUTRUST: 多事業展開を成功させる横断開発の秘訣｜プロダクトヒストリーカンファレンス 2024",
+    "en": "YOUTRUST: Secrets of Cross-Functional Development for Multi-Business Success"
+  },
+  "date": {
+    "value": "2025",
+    "precision": "year"
+  },
+  "url": "https://youtrust.jp/articles/categories/career_development/phc2024-report04",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#media[8]"
+}

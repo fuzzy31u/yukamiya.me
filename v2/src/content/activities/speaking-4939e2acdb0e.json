@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "変革を、一部の人の熱量で終わらせないために ― 開発組織のAI活用推進とDE&I推進を率いて学んだこと",
+    "en": "Making Transformation More Than the Passion of a Few — Lessons from Leading AI Adoption and DE&I in Engineering Organizations"
+  },
+  "date": {
+    "value": "2026-09",
+    "precision": "month"
+  },
+  "url": "https://2026.droidkaigi.jp/timetable/1304891/",
+  "venue": "DroidKaigi 2026",
+  "originalLanguage": "ja",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "selected",
+  "publicationStatus": "published",
+  "legacyRef": "src/data/about-content.js#speaking[1]",
+  "summary": {
+    "en": "Why organizational change needs more than individual enthusiasm.",
+    "ja": "変革を、一部の人の熱量で終わらせないために。"
+  }
+}

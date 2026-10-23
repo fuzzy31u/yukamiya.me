@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "d08bf565506de5c1ba01f89a",
+  "canonicalUrl": "https://www.cyberagent.co.jp/way/list/detail/id=33333",
+  "occurrenceKey": "legacy-unspecified",
+  "decision": "legacy-merged",
+  "legacyKey": "https://www.cyberagent.co.jp/way/list/detail/id=33333",
+  "legacy": {
+    "content_type": "media",
+    "title": "CyberAgent Way: 全社のAI活用レベルを可視化して底上げする、サイバーエージェント流「AI番付」とは",
+    "canonical_url": "https://www.cyberagent.co.jp/way/list/detail/id=33333",
+    "detected_at": "2026-05-17T00:16:22Z",
+    "status": "merged",
+    "issue_number": 74,
+    "pr_number": 75,
+    "last_review_status": "pass",
+    "merged_at": "2026-05-23T05:25:54Z",
+    "blocker": null
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 3,
+  "kind": "writing",
+  "title": {
+    "en": "Toward a 50% reduction in review effort: LLM benchmarking and human-in-the-loop design",
+    "ja": "レビュー工数50%削減を目指す、LLMベンチマークとHuman-in-the-loop設計"
+  },
+  "date": {
+    "value": "2026-10-16",
+    "precision": "day"
+  },
+  "url": "https://zenn.dev/yukamiya/articles/reduce-review-cost-human-in-loop-ai",
+  "originalLanguage": "ja",
+  "verificationStatus": "verified",
+  "editorialStatus": "hold",
+  "publicationStatus": "draft",
+  "summary": {
+    "en": "Comparing models and designing review assistance with people retaining the final decision. The 50% reduction is a target, not a measured result.",
+    "ja": "複数モデルの評価と、人が最終判断を担うレビュー支援の設計。50%削減は目標であり、実測された成果ではありません。"
+  },
+  "canonicalUrl": "https://zenn.dev/yukamiya/articles/reduce-review-cost-human-in-loop-ai",
+  "aliases": [],
+  "occurrenceKey": "artifact",
+  "sourceId": "zenn-author",
+  "detectedAt": "2026-10-18T12:13:16Z",
+  "evidence": {
+    "url": "https://zenn.dev/yukamiya/articles/reduce-review-cost-human-in-loop-ai",
+    "checkedAt": "2026-10-23T08:44:24.061Z",
+    "sha256": "df7773b392089fb0b60b60b30e41d97dbabaaec113b25d4544bba73f3829b236",
+    "sourceTitle": "レビュー工数50%削減を目指す、LLMベンチマークとHuman-in-the-loop設計",
+    "sourceDate": {
+      "value": "2026-10-16",
+      "precision": "day"
+    },
+    "identity": "yukamiya",
+    "identityMethod": "author-metadata",
+    "canonicalMethod": "canonical",
+    "adapter": "zenn-author"
+  },
+  "relevance": {
+    "policyVersion": 1,
+    "contribution": 2,
+    "substance": 2,
+    "fit": 2,
+    "evidence": 2,
+    "distinctness": 1,
+    "rationale": "An authored, substantive evaluation article directly relevant to applied AI and workflow design. It supports the existing evaluation case study rather than representing a new accomplishment; keep it out of homepage selection unless the owner chooses otherwise. English title and summary are editorial translations requiring human review."
+  }
+}

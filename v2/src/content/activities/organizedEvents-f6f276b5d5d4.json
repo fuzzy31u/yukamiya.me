@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "organizedEvents",
+  "title": {
+    "ja": "CA Women Tech Meetup",
+    "en": "CA Women Tech Meetup"
+  },
+  "date": {
+    "value": "2025",
+    "precision": "year"
+  },
+  "url": "https://developers.cyberagent.co.jp/blog/archives/55660/",
+  "venue": "CyberAgent",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#organizedEvents[1]"
+}

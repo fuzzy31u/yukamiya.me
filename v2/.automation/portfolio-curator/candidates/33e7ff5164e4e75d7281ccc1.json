@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "33e7ff5164e4e75d7281ccc1",
+  "canonicalUrl": "https://zenn.dev/yukamiya/articles/321ab2fc937f0d",
+  "aliases": [],
+  "occurrenceKey": "artifact",
+  "sourceId": "zenn-author",
+  "title": "失敗ゼロを目指す！複数モデルで作り込むGammaスライド必勝法",
+  "detectedAt": "2026-10-23T08:39:26.265Z",
+  "status": "verified",
+  "attempts": 0,
+  "nextRetryAt": null,
+  "blocker": null,
+  "evidence": {
+    "url": "https://zenn.dev/yukamiya/articles/321ab2fc937f0d",
+    "checkedAt": "2026-10-23T08:42:22.601Z",
+    "sha256": "48e63517850c9ea9cf712f8014b9fff7c9d8dbe2bfb8674ed32145efca43abe1",
+    "sourceTitle": "失敗ゼロを目指す！複数モデルで作り込むGammaスライド必勝法",
+    "sourceDate": {
+      "value": "2025-04-05",
+      "precision": "day"
+    },
+    "identity": "yukamiya",
+    "identityMethod": "author-metadata",
+    "canonicalMethod": "canonical",
+    "adapter": "zenn-author"
+  }
+}

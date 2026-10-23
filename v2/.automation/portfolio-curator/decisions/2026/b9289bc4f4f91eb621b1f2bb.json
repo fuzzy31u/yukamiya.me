@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "b9289bc4f4f91eb621b1f2bb",
+  "canonicalUrl": "https://developers.cyberagent.co.jp/blog/archives/65298/",
+  "occurrenceKey": "legacy-unspecified",
+  "decision": "legacy-rejected",
+  "legacyKey": "https://developers.cyberagent.co.jp/blog/archives/65298/",
+  "legacy": {
+    "title": "新旧MetricKitの共存 – iOS 27を見据えたタップルの戦略",
+    "rejected_at": "2026-08-31T00:00:00Z",
+    "reason": "Not Yu Kamiya. Verified from source with egress restored: <meta name=\"author\" content=\"Kanta Oikawa\">, og:url https://developers.cyberagent.co.jp/blog/archives/65298/. Absent from /blog/archives/author/yukamiya/, which enumerates 44530 / 51796 / 63720 / 65345 and nothing else. The attribution came only from `site:developers.cyberagent.co.jp/blog yukamiya` search prose, the evidence class documented to invent author attributions. Do not re-investigate."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "media",
+  "title": {
+    "ja": "CyberAgent Way: 発足4年目のTech DE&I プロジェクトが紡ぐ、女性エンジニアの新たな繋がり",
+    "en": "CyberAgent Way: New Connections Among Women Engineers Fostered by the Tech DE&I Project in Its Fourth Year"
+  },
+  "date": {
+    "value": "2026",
+    "precision": "year"
+  },
+  "url": "https://www.cyberagent.co.jp/way/list/detail/id=33323",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#media[4]"
+}

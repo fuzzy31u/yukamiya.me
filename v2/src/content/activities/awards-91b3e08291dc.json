@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "awards",
+  "title": {
+    "ja": "サイバーエージェントグループ総会 ベストコントリビューター賞",
+    "en": "CyberAgent Group General Meeting Best Contributor Award"
+  },
+  "date": {
+    "value": "2024",
+    "precision": "year"
+  },
+  "venue": "CyberAgent",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#awards[3]"
+}

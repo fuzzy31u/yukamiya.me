@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "キャリアパスの多様性",
+    "en": "Diversity in Career Paths"
+  },
+  "date": {
+    "value": "2023-01",
+    "precision": "month"
+  },
+  "url": "https://www.ai-gakkai.or.jp/siai/program/lecture",
+  "venue": "第3回インダストリアルAIシンポジウム",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[21]"
+}

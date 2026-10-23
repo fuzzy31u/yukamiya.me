@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "ジェンダーギャップの\"今\"と\"これから\" 〜テック業界で私たちが切り拓く新しい未来〜",
+    "en": "Gender Gap: Present and Future in Tech Industry"
+  },
+  "date": {
+    "value": "2025-06",
+    "precision": "month"
+  },
+  "url": "https://www.box-events.jp/boxworks2025_tokyo/day1_timetable",
+  "venue": "BoxWorks TOKYO 2025",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[8]"
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "mode": "shadow",
+  "allowedHosts": ["developers.cyberagent.co.jp", "zenn.dev"],
+  "maxCandidates": 250,
+  "maxFetchesPerRun": 12,
+  "maxProposals": 3,
+  "maxBytes": 2000000,
+  "timeoutMs": 15000,
+  "maxRedirects": 4,
+  "sources": [
+    {"id":"cyberagent-author","url":"https://developers.cyberagent.co.jp/blog/archives/author/yukamiya/","adapter":"cyberagent-author"},
+    {"id":"zenn-author","url":"https://zenn.dev/api/articles?username=yukamiya","adapter":"zenn-author"}
+  ]
+}

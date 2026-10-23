@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "多事業展開を成功させる横断開発の秘訣",
+    "en": "Secrets of Cross-Functional Development for Multi-Business Success"
+  },
+  "date": {
+    "value": "2024-11",
+    "precision": "month"
+  },
+  "url": "https://lp-prohis.youtrust.jp/",
+  "venue": "プロダクトヒストリーカンファレンス",
+  "role": "モデレーター",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[10]"
+}

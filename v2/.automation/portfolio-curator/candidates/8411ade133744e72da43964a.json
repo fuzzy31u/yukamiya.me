@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "8411ade133744e72da43964a",
+  "canonicalUrl": "https://zenn.dev/yukamiya/articles/963c397e678737",
+  "aliases": [],
+  "occurrenceKey": "artifact",
+  "sourceId": "zenn-author",
+  "title": "生成AIハッカソンに参加してジェンダー平等可視化ツールを作った話",
+  "detectedAt": "2026-10-23T08:39:26.265Z",
+  "status": "verified",
+  "attempts": 1,
+  "nextRetryAt": null,
+  "blocker": null,
+  "evidence": {
+    "url": "https://zenn.dev/yukamiya/articles/963c397e678737",
+    "checkedAt": "2026-10-23T08:48:08.878Z",
+    "sha256": "606425c18b565297e773604e680ea1cd50d33d6f9fa51b5b9db809bc7af09113",
+    "sourceTitle": "生成AIハッカソンに参加してジェンダー平等可視化ツールを作った話",
+    "sourceDate": {
+      "value": "2024-12-23",
+      "precision": "day"
+    },
+    "identity": "yukamiya",
+    "identityMethod": "author-metadata",
+    "canonicalMethod": "canonical",
+    "adapter": "zenn-author"
+  }
+}

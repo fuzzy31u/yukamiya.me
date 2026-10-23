@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "b2dea4a76f5509c90987a958",
+  "legacyKey": "qa-broken-link:cadc-2024",
+  "title": "cadc.cyberagent.co.jp/2024/ reported unreachable (recurring false positive)",
+  "status": "resolved",
+  "firstSeen": "2026-08-09T13:25:07Z",
+  "lastSeen": "2026-09-06T07:37:09Z",
+  "recurrenceCount": 3,
+  "recentRecurrences": [
+    {
+      "issue_number": 96,
+      "reported_as": "404 Not Found",
+      "resolved_at": "2026-08-09T13:25:07Z",
+      "resolution": "Did not reproduce: 200 with and without a browser User-Agent, no redirect. Closed as not planned."
+    },
+    {
+      "issue_number": 102,
+      "reported_as": "404 Not Found (QA Post Deploy run 31315858254)",
+      "resolved_at": "2026-08-10T00:00:00Z",
+      "resolution": "Did not reproduce: 200 on 3 consecutive requests, real page content, og:url matches. Environment-dependent false positive from GitHub Actions US egress. Closed as not planned."
+    },
+    {
+      "issue_number": 111,
+      "reported_as": "404 Not Found (source PR #110)",
+      "resolved_at": "2026-09-06T07:37:09Z",
+      "resolution": "Opened by claude[bot] off PR #110 and closed directly by the site owner the same day, before this run. Re-verified independently this run (2026-09-20): 200 with and without a browser User-Agent, no redirect. Fourth non-reproduction of the same recurring false positive."
+    }
+  ],
+  "legacy": {
+    "content_type": "qa-broken-link",
+    "title": "cadc.cyberagent.co.jp/2024/ reported unreachable (recurring false positive)",
+    "canonical_url": "https://cadc.cyberagent.co.jp/2024/",
+    "detected_at": "2026-08-09T13:25:07Z",
+    "status": "merged",
+    "issue_number": 96,
+    "pr_number": null,
+    "last_review_status": null,
+    "merged_at": "2026-08-09T13:25:07Z",
+    "blocker": null
+  }
+}

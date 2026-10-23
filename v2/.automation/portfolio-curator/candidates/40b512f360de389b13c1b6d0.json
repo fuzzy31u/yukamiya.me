@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "40b512f360de389b13c1b6d0",
+  "canonicalUrl": "https://zenn.dev/yukamiya/articles/claude-harness-engineering-three-repos",
+  "aliases": [],
+  "occurrenceKey": "artifact",
+  "sourceId": "zenn-author",
+  "title": "AI前提の開発組織をつくる — 3つの個人リポジトリで検証した権限設計・マージ条件・ガードレール",
+  "detectedAt": "2026-10-18T12:13:16Z",
+  "status": "verified",
+  "attempts": 1,
+  "nextRetryAt": null,
+  "blocker": null,
+  "evidence": {
+    "url": "https://zenn.dev/yukamiya/articles/claude-harness-engineering-three-repos",
+    "checkedAt": "2026-10-23T08:48:08.878Z",
+    "sha256": "5f71f4765a75ac8939ac4969e4628743752da781a5738c63f31c62fe22cfa2ed",
+    "sourceTitle": "AI前提の開発組織をつくる — 3つの個人リポジトリで検証した権限設計・マージ条件・ガードレール",
+    "sourceDate": {
+      "value": "2026-10-16",
+      "precision": "day"
+    },
+    "identity": "yukamiya",
+    "identityMethod": "author-metadata",
+    "canonicalMethod": "canonical",
+    "adapter": "zenn-author"
+  },
+  "legacy": {
+    "key": "https://zenn.dev/yukamiya/articles/claude-harness-engineering-three-repos",
+    "status": "detected",
+    "record": {
+      "content_type": "writing",
+      "title": "AI前提の開発組織をつくる — 3つの個人リポジトリで検証した権限設計・マージ条件・ガードレール",
+      "canonical_url": "https://zenn.dev/yukamiya/articles/claude-harness-engineering-three-repos",
+      "detected_at": "2026-10-18T12:13:16Z",
+      "status": "detected",
+      "issue_number": null,
+      "pr_number": null,
+      "last_review_status": null,
+      "merged_at": null,
+      "blocker": "Not actionable as a site edit, for the same reason as the other parked Zenn articles (zenn.dev/yukamiya/articles/baf9872a13a176, .../pm-ssot-claude-skills): Zenn is represented in about-content.js `links` as a profile link only, and individual articles are not enumerated. Adding one arbitrarily is an editorial/taxonomy decision, not a deterministic content change. Published 2026-10-16 per zenn.dev/api/articles?username=yukamiya. Escalate to the site owner if individual Zenn articles should be listed."
+    }
+  }
+}

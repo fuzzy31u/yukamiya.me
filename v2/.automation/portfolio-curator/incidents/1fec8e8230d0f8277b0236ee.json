@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "1fec8e8230d0f8277b0236ee",
+  "legacyKey": "qa-broken-link:fukabori-129",
+  "title": "fukabori.fm が 403 Forbidden を返す",
+  "status": "resolved",
+  "firstSeen": "2026-08-09T13:25:07Z",
+  "lastSeen": "2026-08-09T13:25:07Z",
+  "recurrenceCount": 0,
+  "recentRecurrences": [],
+  "legacy": {
+    "content_type": "qa-broken-link",
+    "title": "fukabori.fm が 403 Forbidden を返す",
+    "canonical_url": "https://fukabori.fm/episode/129",
+    "detected_at": "2026-08-09T13:25:07Z",
+    "status": "merged",
+    "issue_number": 93,
+    "pr_number": null,
+    "last_review_status": null,
+    "merged_at": "2026-08-09T13:25:07Z",
+    "blocker": "No longer reproduces: re-verified this run at 200 both with and without a browser User-Agent, no redirect. Issue closed as not planned; no code change was required."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "media",
+  "title": {
+    "ja": "Forbes: サイバーエージェントが挑む「Tech DE&I」の舞台裏",
+    "en": "Forbes: Behind CyberAgent's Tech DE&I Initiatives"
+  },
+  "date": {
+    "value": "2024",
+    "precision": "year"
+  },
+  "url": "https://forbesjapan.com/articles/detail/74649",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#media[10]"
+}

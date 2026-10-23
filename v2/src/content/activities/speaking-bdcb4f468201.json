@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "AIエージェントの力で切り拓く、誰もが活躍できるインクルーシブな未来",
+    "en": "Creating an Inclusive Future with AI Agents"
+  },
+  "date": {
+    "value": "2025-06",
+    "precision": "month"
+  },
+  "url": "https://event.shoeisha.jp/devsumi/20250627/session/5829",
+  "venue": "Women Developers Summit 2025",
+  "originalLanguage": "ja",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "selected",
+  "publicationStatus": "published",
+  "legacyRef": "src/data/about-content.js#speaking[7]",
+  "summary": {
+    "en": "AI agents and the possibility of a more inclusive future.",
+    "ja": "AIエージェントと、誰もが活躍できる未来。"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "アプリ甲子園2025 審査員",
+    "en": "App Koshien 2025 Judge"
+  },
+  "date": {
+    "value": "2025-11",
+    "precision": "month"
+  },
+  "url": "https://techkoshien.jp/",
+  "venue": "アプリ甲子園",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[6]"
+}

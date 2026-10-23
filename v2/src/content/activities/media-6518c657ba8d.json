@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "media",
+  "title": {
+    "ja": "CyberAgent Way: 「競争ではなく共闘」AIドリブン推進室が語る、エンジニア版「AI番付」の熱量と裏側",
+    "en": "CyberAgent Way: The AI-Driven Office on the Momentum and Inside Story of the Engineering AI Banzuke"
+  },
+  "date": {
+    "value": "2026",
+    "precision": "year"
+  },
+  "url": "https://www.cyberagent.co.jp/way/list/detail/id=33439",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#media[1]"
+}

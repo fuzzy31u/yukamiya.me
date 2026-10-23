@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "research",
+  "title": {
+    "ja": "IT技術者のジェンダーギャップ解消のための志望者・現役技術者に対する調査",
+    "en": "Survey on Gender Gap in IT: Aspirants and Professionals"
+  },
+  "date": {
+    "value": "2024",
+    "precision": "year"
+  },
+  "url": "https://www.ipsj.or.jp/dp/contents/publication/61/TR0601-13.html",
+  "venue": "情報処理学会デジタルプラクティス",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#research[0]"
+}

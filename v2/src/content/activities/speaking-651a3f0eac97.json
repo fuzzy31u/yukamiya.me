@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "WOMAN×AI「私たちはどうAIと向き合う？」〜AIエキスパートたちに聞く、キャリアが変わる60分〜",
+    "en": "WOMAN×AI: How Should We Engage with AI? — 60 Minutes with AI Experts That Can Change Your Career"
+  },
+  "date": {
+    "value": "2026-07",
+    "precision": "month"
+  },
+  "url": "https://peatix.com/event/5090126",
+  "venue": "Ms.Engineerオンラインイベント",
+  "role": "ゲスト",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[2]"
+}

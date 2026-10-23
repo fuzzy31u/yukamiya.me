@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "writing",
+  "title": {
+    "ja": "技術書典19「わたしのすごいAI活用技術大全」（第20章「AI エージェント協働入門：Claude Code で実現する新しいワークフロー」担当）",
+    "en": "TechBookFest19: \"My Amazing AI Techniques\" (Chapter 20: \"Intro to AI Agent Collaboration: New Workflows with Claude Code\")"
+  },
+  "date": {
+    "value": "2025",
+    "precision": "year"
+  },
+  "url": "https://techbookfest.org/product/iJBWBGsy6UW6sNuZyxEbzJ?productVariantID=4x8B2dQg8M7btZs11s2GXX",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#writing[3]"
+}

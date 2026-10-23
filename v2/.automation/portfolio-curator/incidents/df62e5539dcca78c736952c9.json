@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "df62e5539dcca78c736952c9",
+  "legacyKey": "qa-broken-link:code-or-jp-20230615",
+  "title": "code.or.jp event page unreachable (QA Post Deploy false positive)",
+  "status": "resolved",
+  "firstSeen": "2026-08-10T00:00:00Z",
+  "lastSeen": "2026-08-10T00:00:00Z",
+  "recurrenceCount": 0,
+  "recentRecurrences": [],
+  "legacy": {
+    "content_type": "qa-broken-link",
+    "title": "code.or.jp event page unreachable (QA Post Deploy false positive)",
+    "canonical_url": "https://code.or.jp/event/20230615/",
+    "detected_at": "2026-08-10T00:00:00Z",
+    "status": "merged",
+    "issue_number": 103,
+    "pr_number": null,
+    "last_review_status": null,
+    "merged_at": "2026-08-10T00:00:00Z",
+    "blocker": "Environment-dependent false positive from the `QA Post Deploy` workflow (GitHub Actions, US cloud egress). Re-verified from a Japanese consumer connection: 200 on 3 consecutive requests with a browser User-Agent, no redirect, real page content and matching og:url. Closed as not planned; no code change required."
+  }
+}

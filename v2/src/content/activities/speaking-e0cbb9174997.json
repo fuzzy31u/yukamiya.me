@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "グローバル展開を見据えたサービスにおける機械翻訳プラクティス",
+    "en": "Machine Translation Practices for Global Services"
+  },
+  "date": {
+    "value": "2024-10",
+    "precision": "month"
+  },
+  "url": "https://cadc.cyberagent.co.jp/2024/",
+  "venue": "CADC 2024",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[12]"
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "未来の学校 FES 理系女子のミライ",
+    "en": "Future School FES: Future of Women in STEM"
+  },
+  "date": {
+    "value": "2022-03",
+    "precision": "month"
+  },
+  "url": "https://www.youtube.com/watch?app=desktop&v=PQr7XGH0hOg",
+  "venue": "神山まるごと高専",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[25]"
+}

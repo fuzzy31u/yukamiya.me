@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "b34e2a306b9e39293a3469e7",
+  "canonicalUrl": "https://zenn.dev/yukamiya/articles/reduce-review-cost-human-in-loop-ai",
+  "aliases": [],
+  "occurrenceKey": "artifact",
+  "sourceId": "zenn-author",
+  "title": "レビュー工数50%削減を目指す、LLMベンチマークとHuman-in-the-loop設計",
+  "detectedAt": "2026-10-18T12:13:16Z",
+  "status": "proposed",
+  "attempts": 1,
+  "nextRetryAt": null,
+  "blocker": null,
+  "evidence": {
+    "url": "https://zenn.dev/yukamiya/articles/reduce-review-cost-human-in-loop-ai",
+    "checkedAt": "2026-10-23T08:42:22.601Z",
+    "sha256": "3758decd605dc3b2c69f19f0144beb2086537f4578c2ce60d743759ae346ac83",
+    "sourceTitle": "レビュー工数50%削減を目指す、LLMベンチマークとHuman-in-the-loop設計",
+    "sourceDate": {
+      "value": "2026-10-16",
+      "precision": "day"
+    },
+    "identity": "yukamiya",
+    "identityMethod": "author-metadata",
+    "canonicalMethod": "canonical",
+    "adapter": "zenn-author"
+  },
+  "proposal": {
+    "candidateId": "b34e2a306b9e39293a3469e7",
+    "title": {
+      "en": "Toward a 50% reduction in review effort: LLM benchmarking and human-in-the-loop design",
+      "ja": "レビュー工数50%削減を目指す、LLMベンチマークとHuman-in-the-loop設計"
+    },
+    "summary": {
+      "en": "Comparing models and designing review assistance with people retaining the final decision. The 50% reduction is a target, not a measured result.",
+      "ja": "複数モデルの評価と、人が最終判断を担うレビュー支援の設計。50%削減は目標であり、実測された成果ではありません。"
+    },
+    "relevance": {
+      "policyVersion": 1,
+      "contribution": 2,
+      "substance": 2,
+      "fit": 2,
+      "evidence": 2,
+      "distinctness": 1,
+      "rationale": "An authored, substantive evaluation article directly relevant to applied AI and workflow design. It supports the existing evaluation case study rather than representing a new accomplishment; keep it out of homepage selection unless the owner chooses otherwise. English title and summary are editorial translations requiring human review."
+    },
+    "kind": "writing",
+    "originalLanguage": "ja"
+  },
+  "legacy": {
+    "key": "https://zenn.dev/yukamiya/articles/reduce-review-cost-human-in-loop-ai",
+    "status": "detected",
+    "record": {
+      "content_type": "writing",
+      "title": "レビュー工数50%削減を目指す、LLMベンチマークとHuman-in-the-loop設計",
+      "canonical_url": "https://zenn.dev/yukamiya/articles/reduce-review-cost-human-in-loop-ai",
+      "detected_at": "2026-10-18T12:13:16Z",
+      "status": "detected",
+      "issue_number": null,
+      "pr_number": null,
+      "last_review_status": null,
+      "merged_at": null,
+      "blocker": "Not actionable as a site edit, for the same reason as the other parked Zenn articles (zenn.dev/yukamiya/articles/baf9872a13a176, .../pm-ssot-claude-skills): Zenn is represented in about-content.js `links` as a profile link only, and individual articles are not enumerated. Adding one arbitrarily is an editorial/taxonomy decision, not a deterministic content change. Published 2026-10-16 per zenn.dev/api/articles?username=yukamiya. Escalate to the site owner if individual Zenn articles should be listed."
+    }
+  }
+}

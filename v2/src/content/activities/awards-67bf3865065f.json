@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "awards",
+  "title": {
+    "ja": "Women Developers Summit 2025 ベストスピーカー賞 1位",
+    "en": "Women Developers Summit 2025 Best Speaker Award #1"
+  },
+  "date": {
+    "value": "2025",
+    "precision": "year"
+  },
+  "url": "https://www.cyberagent.co.jp/techinfo/news/detail/id=32274",
+  "venue": "Shoeisha",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#awards[1]"
+}
