@@ -4,8 +4,9 @@ import { getWork } from "../lib/content";
 import { pathFor, type Locale } from "../lib/i18n";
 interface Props {
   locale: Locale;
+  showOrganization?: boolean;
 }
-const { locale } = Astro.props;
+const { locale, showOrganization = true } = Astro.props;
 const work = await getWork(locale);
 ---
 
@@ -27,7 +28,7 @@ const work = await getWork(locale);
           </h3>
           <p>{d.summary}</p>
           <div class="work-meta">
-            <span>{d.organization}</span>
+            {showOrganization && <span>{d.organization}</span>}
             <span>{d.timeframe}</span>
           </div>
         </div>

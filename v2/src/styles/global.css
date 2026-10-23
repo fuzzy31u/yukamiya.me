@@ -957,9 +957,6 @@ html[lang="ja"] .perspective h2 {
     margin: 26px 0;
     gap: 24px;
   }
-  .hero .current-role {
-    font-size: 11px;
-  }
   .hero-portrait img {
     aspect-ratio: 5/4;
     object-position: center 35%;
