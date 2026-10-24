@@ -1,4 +1,5 @@
 ---
+import { contactEnabled } from "../config/contact.mjs";
 import { Image } from "astro:assets";
 import workplace from "../assets/workplace.jpg";
 import WorkList from "./WorkList.astro";
@@ -177,7 +178,7 @@ const selected = activities.filter(
     ))}
   </section>
 )}
-{page === "contact" && (
+{page === "contact" && contactEnabled && (
   <section class="shell section contact-page">
     <header class="page-heading">
       <p class="eyebrow">
@@ -262,7 +263,7 @@ const selected = activities.filter(
     </div>
   </section>
 )}
-{page === "thanks" && (
+{page === "thanks" && contactEnabled && (
   <section class="shell section">
     <header class="page-heading">
       <p class="eyebrow">
@@ -281,6 +282,26 @@ const selected = activities.filter(
       <a class="button" href={pathFor(locale)}>
         {locale === "en" ? "Back home" : "ホームに戻る"}{" "}
         <span aria-hidden="true">↗</span>
+      </a>
+    </header>
+  </section>
+)}
+
+{!contactEnabled && ["contact", "thanks"].includes(page) && (
+  <section class="shell section contact-page">
+    <header class="page-heading">
+      <h1>
+        {locale === "en"
+          ? "Inquiries are temporarily closed."
+          : "お問い合わせの受付を一時休止しています。"}
+      </h1>
+      <p class="deck">
+        {locale === "en"
+          ? "I’m currently focusing on existing commitments. If I reopen inquiries, I’ll update this page."
+          : "現在は進行中の活動に専念しています。受付を再開する際は、このページでお知らせします。"}
+      </p>
+      <a class="text-link" href={pathFor(locale)}>
+        {locale === "en" ? "Back home" : "ホームに戻る"} ↗
       </a>
     </header>
   </section>

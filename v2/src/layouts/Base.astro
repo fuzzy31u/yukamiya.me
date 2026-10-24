@@ -1,4 +1,5 @@
 ---
+import { contactEnabled } from "../config/contact.mjs";
 import "../styles/global.css";
 import "@fontsource/dm-sans/latin-400.css";
 import "@fontsource/dm-sans/latin-500.css";
@@ -128,9 +129,11 @@ const person = {
             {label}
           </a>
         ))}
-        <a class="nav-contact" href={pathFor(locale, "contact")}>
-          {t.contact} <span aria-hidden="true">↗</span>
-        </a>
+        {contactEnabled && (
+          <a class="nav-contact" href={pathFor(locale, "contact")}>
+            {t.contact} <span aria-hidden="true">↗</span>
+          </a>
+        )}
       </nav>
       <div class="nav-tools">
         {alternate && (
@@ -159,7 +162,9 @@ const person = {
             {nav.map(([slug, label]) => (
               <a href={pathFor(locale, slug)}>{label}</a>
             ))}
-            <a href={pathFor(locale, "contact")}>{t.contact} ↗</a>
+            {contactEnabled && (
+              <a href={pathFor(locale, "contact")}>{t.contact} ↗</a>
+            )}
           </nav>
         </details>
       </div>
@@ -183,7 +188,7 @@ const person = {
       </div>
       <div class="footer-bottom">
         <span>© {new Date().getFullYear()} Yu Kamiya</span>
-        <a href={pathFor(locale, "contact")}>{t.contact}</a>
+        {contactEnabled && <a href={pathFor(locale, "contact")}>{t.contact}</a>}
       </div>
     </footer>
   </body>

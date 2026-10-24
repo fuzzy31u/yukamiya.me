@@ -1,4 +1,5 @@
 ---
+import { contactEnabled } from "../config/contact.mjs";
 import { Image } from "astro:assets";
 import portrait from "../assets/portrait.jpg";
 import { getProfile, getActivities } from "../lib/content";
@@ -101,17 +102,19 @@ const selected = p.featuredActivities
   </div>
   <ActivityList items={selected} locale={locale} />
 </section>
-<section class="contact-band shell">
-  <p class="eyebrow">
-    {locale === "en" ? "Start a conversation" : "対話から、次の一歩へ"}
-  </p>
-  <h2>
-    {locale === "en"
-      ? "What are you working on?"
-      : "いま、どんな課題に向き合っていますか。"}
-  </h2>
-  <a href={pathFor(locale, "contact")} class="large-link">
-    {t.contact}
-    <span aria-hidden="true">↗</span>
-  </a>
-</section>
+{contactEnabled && (
+  <section class="contact-band shell">
+    <p class="eyebrow">
+      {locale === "en" ? "Start a conversation" : "対話から、次の一歩へ"}
+    </p>
+    <h2>
+      {locale === "en"
+        ? "What are you working on?"
+        : "いま、どんな課題に向き合っていますか。"}
+    </h2>
+    <a href={pathFor(locale, "contact")} class="large-link">
+      {t.contact}
+      <span aria-hidden="true">↗</span>
+    </a>
+  </section>
+)}

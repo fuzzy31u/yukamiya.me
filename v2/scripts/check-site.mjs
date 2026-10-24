@@ -2,6 +2,7 @@ import { readdir, readFile, stat } from "node:fs/promises";
 import path from "node:path";
 import assert from "node:assert/strict";
 import { parseHTML } from "linkedom";
+import { contactEnabled } from "../src/config/contact.mjs";
 const root = path.resolve("dist");
 async function files(dir) {
   return (
@@ -47,6 +48,40 @@ for (const file of pages) {
       !document.querySelector(`[data-activity-id="${id}"]`),
       `unpublished activity leaked: ${id}`,
     );
+  if (!contactEnabled) {
+    check(
+      !document.querySelector("form"),
+      "closed contact must not emit a submission form",
+    );
+    check(
+      !document.querySelector(".contact-band, .nav-contact"),
+      "closed contact must not invite inquiries",
+    );
+    check(
+      ![...document.querySelectorAll("nav a, footer a")].some((a) =>
+        /\/contact\/?$/.test(a.getAttribute("href")),
+      ),
+      "closed contact must not appear in navigation",
+    );
+    if (/^(ja\/)?(contact|thanks)\/index.html$/.test(relative)) {
+      check(
+        document
+          .querySelector('meta[name="robots"]')
+          ?.content.includes("noindex"),
+        "closed contact noindex",
+      );
+      check(
+        document
+          .querySelector("h1")
+          ?.textContent.includes(
+            document.documentElement.lang === "ja"
+              ? "一時休止"
+              : "temporarily closed",
+          ),
+        "closed contact notice",
+      );
+    }
+  }
   const canonical = document.querySelector('link[rel="canonical"]')?.href;
   check(canonical?.startsWith("https://yukamiya.me/"), "canonical");
   check(!canonicals.has(canonical), "unique canonical");
@@ -99,6 +134,16 @@ for (const file of pages) {
       check(false, `missing internal target ${raw}`);
     }
   }
+}
+if (!contactEnabled) {
+  const sitemapFiles = (await files(root)).filter((f) =>
+    /sitemap.*\.xml$/.test(f),
+  );
+  for (const file of sitemapFiles)
+    assert(
+      !/\/contact\//.test(await readFile(file, "utf8")),
+      "closed contact omitted from sitemap",
+    );
 }
 assert(pages.length >= 22, "Expected route inventory");
 assert.equal(failures.length, 0, failures.join("\n"));

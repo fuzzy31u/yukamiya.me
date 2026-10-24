@@ -36,7 +36,9 @@ The import and seed scripts are one-time migration tools. They can overwrite edi
 
 Builds default to noindex: HTML metadata, robots.txt, and `public/_headers`. Setting `PUBLIC_RELEASE=production` changes HTML/robots but deliberately does not remove the header safety latch. Production cutover must explicitly review and update that header, root Netlify settings, redirects, service-worker retirement, form processing, and required review gates. Do not point production at this directory before those tasks are complete.
 
-The contact form preserves the `contact` Netlify form name, adds a real honeypot and locale field, and has translated confirmations. Local static hosting does not process submissions. Verify form detection and delivery on a Netlify preview without sending unsolicited mail.
+Inquiries are temporarily closed. `src/config/contact.mjs` sets `contactEnabled = false`: the homepage invitation and all navigation/footer contact links are omitted, no form is emitted, and both contact and confirmation URLs show a bilingual pause notice. Contact URLs are noindex and excluded from the sitemap while paused. Static HTML validation checks these behaviors.
+
+To reopen, first review the invitation and form copy for the intended scope (for example, speaking invitations), then set `contactEnabled = true`, validate, and review the preview. The retained form uses the `contact` Netlify form name, honeypot, locale field, and translated confirmations. Verify Netlify detection and delivery before reopening. This switch controls the Astro site's UI and generated form markup; it does not delete historical Netlify forms or alter the legacy production site or its submission backend.
 
 ## Still to implement before cutover
 
