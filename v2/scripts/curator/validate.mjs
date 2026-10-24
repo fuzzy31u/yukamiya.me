@@ -79,7 +79,21 @@ export async function validate(
         (r) => r.data.id === name.replace(/^curated-|\.json$/g, ""),
       );
       assert(c, "Candidate provenance required");
-      assert.equal(c.data.canonicalUrl, a.canonicalUrl);
+      const changedSourceDraft =
+        c.data.status === "held" &&
+        c.data.blocker === "source-facts-changed; human-reconcile" &&
+        a.publicationStatus === "draft" &&
+        a.editorialStatus === "hold";
+      if (!changedSourceDraft)
+        assert.equal(c.data.canonicalUrl, a.canonicalUrl);
+      if (a.publicationStatus === "draft") {
+        assert(c.data.proposal, "Draft requires candidate proposal");
+        assert.deepEqual(
+          c.data.proposal.relevance,
+          a.relevance,
+          "Draft and editorial decision disagree",
+        );
+      }
     }
   }
   const sources = await readJson(path.join(root, "sources.json"), {});

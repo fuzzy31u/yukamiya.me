@@ -1,6 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { mkdtemp, readFile, rm } from "node:fs/promises";
+import { mkdtemp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { execFileSync } from "node:child_process";
 import os from "node:os";
 import path from "node:path";
 import {
@@ -13,10 +14,11 @@ import {
 } from "./curator/core.mjs";
 import { publicAddress, allowedUrl, fetchPublic } from "./curator/network.mjs";
 import { verify, discover } from "./curator/adapters.mjs";
-import { sweep, propose } from "./curator/run.mjs";
+import { sweep, propose, reverify } from "./curator/run.mjs";
 import { migrate } from "./curator/migrate.mjs";
+import { validate } from "./curator/validate.mjs";
 import { readJson, writeJson, readRecords, locked } from "./curator/store.mjs";
-import { assertScope } from "./curator/scope.mjs";
+import { assertScope, inspectPublisherChanges } from "./curator/scope.mjs";
 import { curatedActivity } from "../src/schemas/activity.mjs";
 const now = "2026-10-23T00:00:00Z";
 const target = "https://developers.cyberagent.co.jp/blog/archives/99999/";
@@ -304,6 +306,145 @@ test("proposal refuses changed source facts and unknown editorial keys", async (
   );
   assert.equal((await readRecords(opts.contentDir)).length, 0);
 });
+test("rescoring a proposed draft keeps its relevance aligned and protects human edits", async (t) => {
+  const opts = await sandbox(t);
+  const c = {
+    ...freshCandidate(target, source.id, now),
+    status: "verified",
+    evidence: verify(source, fixture(), now),
+  };
+  const candidateFile = path.join(opts.root, "candidates", c.id + ".json");
+  const draftFile = path.join(opts.contentDir, "curated-" + c.id + ".json");
+  await writeJson(candidateFile, c);
+  const args = {
+    ...opts,
+    policy,
+    now,
+    fetcher: async () => fixture(),
+  };
+  await propose({ ...args, proposals: [editor(c.id)] });
+  const held = {
+    ...editor(c.id),
+    relevance: { ...relevance, fit: 0 },
+  };
+  await propose({ ...args, proposals: [held] });
+  assert.equal((await readJson(candidateFile)).status, "held");
+  assert.deepEqual((await readJson(draftFile)).relevance, held.relevance);
+  assert.equal((await readJson(draftFile)).publicationStatus, "draft");
+  await propose({ ...args, proposals: [held] });
+  const edited = {
+    ...(await readJson(draftFile)),
+    summary: { en: "Human edit.", ja: "編集" },
+  };
+  await writeJson(draftFile, edited);
+  const candidateBefore = await readFile(candidateFile, "utf8");
+  const draftBefore = await readFile(draftFile, "utf8");
+  await assert.rejects(
+    propose({
+      ...args,
+      proposals: [
+        {
+          ...held,
+          relevance: { ...held.relevance, substance: 0, evidence: 0 },
+        },
+      ],
+    }),
+    /human reconciliation/,
+  );
+  assert.equal(await readFile(candidateFile, "utf8"), candidateBefore);
+  assert.equal(await readFile(draftFile, "utf8"), draftBefore);
+});
+test("reverify refreshes corrected source facts without changing draft or published content", async (t) => {
+  const opts = await sandbox(t);
+  const c = {
+    ...freshCandidate(target, source.id, now),
+    status: "verified",
+    evidence: verify(source, fixture(), now),
+  };
+  const candidateFile = path.join(opts.root, "candidates", c.id + ".json");
+  const draftFile = path.join(opts.contentDir, "curated-" + c.id + ".json");
+  await writeJson(candidateFile, c);
+  const corrected = {
+    ...fixture(),
+    body: fixture().body.replaceAll("Fixture article", "Corrected article"),
+  };
+  const result = await reverify({
+    ...opts,
+    policy,
+    id: c.id,
+    now: "2026-10-24T00:00:00Z",
+    fetcher: async () => corrected,
+  });
+  assert.equal(result.status, "verified");
+  const refreshed = await readJson(candidateFile);
+  assert.equal(refreshed.evidence.sourceTitle, "Corrected article");
+  assert.equal(refreshed.title, "Corrected article");
+  assert.equal(refreshed.proposal, undefined);
+  const correctedProposal = {
+    ...editor(c.id),
+    title: { en: "Corrected article", ja: "修正された記事" },
+  };
+  await propose({
+    ...opts,
+    policy,
+    now,
+    proposals: [correctedProposal],
+    fetcher: async () => corrected,
+  });
+  const draftBefore = await readFile(draftFile, "utf8");
+  const sameSource = await reverify({
+    ...opts,
+    policy,
+    id: c.id,
+    fetcher: async () => corrected,
+  });
+  assert.equal(sameSource.status, "proposed");
+  assert.equal(sameSource.needsEditorialReview, false);
+  const correctedCanonical =
+    "https://developers.cyberagent.co.jp/blog/archives/99998/";
+  const furtherCorrection = {
+    ...fixture("yukamiya", correctedCanonical),
+    body: fixture("yukamiya", correctedCanonical)
+      .body.replaceAll("Fixture article", "Further correction")
+      .replace("2026-10-16", "2026-10-17"),
+  };
+  const held = await reverify({
+    ...opts,
+    policy,
+    id: c.id,
+    fetcher: async () => furtherCorrection,
+  });
+  assert.equal(held.status, "held");
+  assert.equal(held.needsEditorialReview, true);
+  assert.equal(held.canonicalUrl, correctedCanonical);
+  assert.equal(await readFile(draftFile, "utf8"), draftBefore);
+  const heldCandidate = await readJson(candidateFile);
+  assert.equal(heldCandidate.evidence.sourceTitle, "Further correction");
+  assert.equal(heldCandidate.evidence.sourceDate.value, "2026-10-17");
+  assert(heldCandidate.aliases.includes(target));
+  await writeJson(path.join(opts.root, "policy.json"), policy);
+  await validate(opts.root, opts.contentDir);
+  await assert.rejects(
+    propose({
+      ...opts,
+      policy,
+      now,
+      proposals: [correctedProposal],
+      fetcher: async () => furtherCorrection,
+    }),
+    /Source-changed draft requires human reconciliation/,
+  );
+  await writeJson(draftFile, {
+    ...(await readJson(draftFile)),
+    publicationStatus: "published",
+    editorialStatus: "selected",
+  });
+  await assert.rejects(
+    reverify({ ...opts, policy, id: c.id, fetcher: async () => corrected }),
+    /Never overwrite published content/,
+  );
+  assert.equal((await readJson(candidateFile)).status, "held");
+});
 test("locking rejects overlapping runs and releases after failure", async (t) => {
   const { root } = await sandbox(t);
   await locked(root, async () => {
@@ -332,6 +473,38 @@ test("write allowlist rejects UI, workflows, policies and legacy content", () =>
     "v2/.automation/portfolio-curator/../policy.json",
   ])
     assert.throws(() => assertScope([file]));
+});
+test("publisher scope includes a staged file hidden by the worktree diff", async (t) => {
+  const repo = await mkdtemp(path.join(os.tmpdir(), "curator-git-test-"));
+  t.after(() => rm(repo, { recursive: true, force: true }));
+  const git = (cmd, args) =>
+    execFileSync(cmd, args, {
+      cwd: repo,
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "pipe"],
+    }).trim();
+  git("git", ["init", "-q"]);
+  git("git", ["config", "user.email", "test@example.com"]);
+  git("git", ["config", "user.name", "Fixture"]);
+  const forbidden = path.join(repo, "v2/scripts/curator/publish.mjs");
+  const allowed = path.join(
+    repo,
+    "v2/src/content/activities/curated-" + "a".repeat(24) + ".json",
+  );
+  await mkdir(path.dirname(forbidden), { recursive: true });
+  await mkdir(path.dirname(allowed), { recursive: true });
+  await writeFile(forbidden, "original\n");
+  git("git", ["add", "--", "v2/scripts/curator/publish.mjs"]);
+  git("git", ["commit", "-qm", "fixture"]);
+  await writeFile(forbidden, "staged forbidden change\n");
+  git("git", ["add", "--", "v2/scripts/curator/publish.mjs"]);
+  await writeFile(forbidden, "original\n");
+  await writeFile(allowed, "{}\n");
+  assert.equal(git("git", ["diff", "--name-only", "HEAD"]), "");
+  assert.throws(
+    () => inspectPublisherChanges(git, "HEAD"),
+    /Forbidden curator write: v2\/scripts\/curator\/publish\.mjs/,
+  );
 });
 test("migration preserves every legacy entry and timestamp, separates QA, caps recurrence detail", async (t) => {
   const { root } = await sandbox(t);

@@ -14,10 +14,10 @@ import { fetchPublic } from "./network.mjs";
 import { discover, verify } from "./adapters.mjs";
 import { policySchema } from "./validate.mjs";
 import { curatedActivity } from "../../src/schemas/activity.mjs";
-export async function knownUrls(root, contentDir) {
+export async function knownUrls(root, contentDir, ignoredContentName = null) {
   const keys = new Set();
-  for (const { data } of await readRecords(contentDir))
-    if (data.url)
+  for (const { name, data } of await readRecords(contentDir))
+    if (name !== ignoredContentName && data.url)
       keys.add(
         canonicalize(data.url) + "\n" + (data.occurrenceKey ?? "artifact"),
       );
@@ -158,10 +158,39 @@ export async function propose({
       const c = candidate.parse(
         await readJson(path.join(root, "candidates", p.candidateId + ".json")),
       );
-      if (!["verified", "held", "proposed"].includes(c.status) || !c.evidence)
+      if (
+        !["verified", "held", "declined", "proposed"].includes(c.status) ||
+        !c.evidence
+      )
         throw new Error("Candidate requires verified source");
+      if (c.blocker === "source-facts-changed; human-reconcile")
+        throw new Error("Source-changed draft requires human reconciliation");
       const decision = disposition(p.relevance);
       if (decision !== "propose") {
+        const file = path.join(contentDir, "curated-" + c.id + ".json");
+        const previous = await readJson(file, null);
+        let activity = null;
+        if (previous) {
+          if (previous.publicationStatus !== "draft")
+            throw new Error("Never overwrite published content");
+          if (
+            !c.proposal ||
+            !sameEditorialCopy(previous, c.proposal) ||
+            !sameEditorialCopy(previous, p) ||
+            ![c.proposal.relevance, p.relevance].some(
+              (r) => JSON.stringify(r) === JSON.stringify(previous.relevance),
+            )
+          )
+            throw new Error(
+              "Existing draft was edited; human reconciliation required before rescoring",
+            );
+          // Keep the hidden draft and its editorial copy, while making its
+          // score agree with the new candidate decision.
+          activity = curatedActivity.parse({
+            ...previous,
+            relevance: p.relevance,
+          });
+        }
         planned.push({
           c: {
             ...c,
@@ -169,7 +198,8 @@ export async function propose({
             status: decision === "hold" ? "held" : "declined",
             blocker: "editorial-" + decision,
           },
-          activity: null,
+          activity,
+          file,
         });
         continue;
       }
@@ -242,8 +272,92 @@ export async function propose({
       );
     }
     return {
-      drafts: planned.filter((p) => p.activity).length,
-      heldOrDeclined: planned.filter((p) => !p.activity).length,
+      drafts: planned.filter((p) => p.c.status === "proposed").length,
+      heldOrDeclined: planned.filter((p) => p.c.status !== "proposed").length,
+    };
+  });
+}
+function sameEditorialCopy(activity, proposal) {
+  return (
+    activity.kind === proposal.kind &&
+    activity.originalLanguage === proposal.originalLanguage &&
+    JSON.stringify(activity.title) === JSON.stringify(proposal.title) &&
+    JSON.stringify(activity.summary) === JSON.stringify(proposal.summary)
+  );
+}
+
+export async function reverify({
+  root,
+  contentDir,
+  policy,
+  id,
+  now = new Date().toISOString(),
+  fetcher = fetchPublic,
+}) {
+  policy = policySchema.parse(policy);
+  if (!/^[a-f0-9]{24}$/.test(id)) throw new Error("Invalid candidate ID");
+  return locked(root, async () => {
+    const file = path.join(root, "candidates", id + ".json");
+    const c = candidate.parse(await readJson(file));
+    if (!["verified", "held", "declined", "proposed"].includes(c.status))
+      throw new Error("Only verified candidates can be reverified");
+    const activityName = "curated-" + id + ".json";
+    const activity = await readJson(path.join(contentDir, activityName), null);
+    if (activity && activity.publicationStatus !== "draft")
+      throw new Error("Never overwrite published content");
+    if (activity) curatedActivity.parse(activity);
+    const source = policy.sources.find((s) => s.id === c.sourceId);
+    if (!source) throw new Error("Unknown source");
+    const current = verify(source, await fetcher(c.canonicalUrl, policy), now);
+    const otherCandidates = (await readRecords(path.join(root, "candidates")))
+      .filter(({ data }) => data.id !== id)
+      .map(({ data }) => candidate.parse(data));
+    if (
+      (await knownUrls(root, contentDir, activityName)).has(
+        current.url + "\n" + c.occurrenceKey,
+      ) ||
+      otherCandidates.some(
+        (other) =>
+          other.canonicalUrl === current.url &&
+          other.occurrenceKey === c.occurrenceKey,
+      )
+    )
+      throw new Error("Canonical duplicate requires human reconciliation");
+    const sourceFactsChanged =
+      current.url !== c.evidence?.url ||
+      current.sourceTitle !== c.evidence?.sourceTitle ||
+      current.sourceDate.value !== c.evidence?.sourceDate.value ||
+      current.sourceDate.precision !== c.evidence?.sourceDate.precision ||
+      current.identity !== c.evidence?.identity;
+    const needsEditorialReview =
+      !!activity &&
+      (sourceFactsChanged ||
+        c.blocker === "source-facts-changed; human-reconcile");
+    const updated = candidate.parse({
+      ...c,
+      canonicalUrl: current.url,
+      aliases:
+        current.url === c.canonicalUrl
+          ? c.aliases
+          : [...new Set([...c.aliases, c.canonicalUrl])],
+      title: current.sourceTitle,
+      status: needsEditorialReview ? "held" : activity ? c.status : "verified",
+      attempts: 0,
+      nextRetryAt: null,
+      blocker: needsEditorialReview
+        ? "source-facts-changed; human-reconcile"
+        : activity
+          ? c.blocker
+          : null,
+      evidence: current,
+      proposal: activity ? c.proposal : undefined,
+    });
+    await writeJson(file, updated);
+    return {
+      id,
+      status: updated.status,
+      canonicalUrl: updated.canonicalUrl,
+      needsEditorialReview,
     };
   });
 }
@@ -286,8 +400,16 @@ if (
       });
     });
     console.log("Candidate queued for re-verification.");
+  } else if (command === "reverify" && /^[a-f0-9]{24}$/.test(file ?? "")) {
+    console.log(
+      JSON.stringify(
+        await reverify({ root, contentDir, policy, id: file }),
+        null,
+        2,
+      ),
+    );
   } else
     throw new Error(
-      "Usage: run.mjs sweep | propose <editorial-proposals.json> | retry <blocked-id>",
+      "Usage: run.mjs sweep | propose <editorial-proposals.json> | retry <blocked-id> | reverify <candidate-id>",
     );
 }

@@ -5,9 +5,18 @@ import { pathFor, type Locale } from "../lib/i18n";
 interface Props {
   locale: Locale;
   showOrganization?: boolean;
+  featuredIds?: string[];
 }
-const { locale, showOrganization = true } = Astro.props;
-const work = await getWork(locale);
+const { locale, showOrganization = true, featuredIds } = Astro.props;
+const allWork = await getWork(locale);
+const work = featuredIds
+  ? featuredIds
+      .map((id) => allWork.find((entry) => entry.data.translationKey === id))
+      .filter(
+        (entry): entry is (typeof allWork)[number] =>
+          !!entry && entry.data.featured,
+      )
+  : allWork;
 ---
 
 <div class="work-list">

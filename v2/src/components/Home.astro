@@ -73,7 +73,11 @@ const selected = p.featuredActivities
         : "組織の仕組みから、システムの中にある一つひとつの判断まで。"}
     </p>
   </div>
-  <WorkList locale={locale} showOrganization={false} />
+  <WorkList
+    locale={locale}
+    showOrganization={false}
+    featuredIds={p.featuredWork}
+  />
 </section>
 <section class="perspective">
   <div class="shell perspective-inner">

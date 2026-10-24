@@ -2,7 +2,7 @@ import { execFileSync } from "node:child_process";
 import { writeFile, mkdtemp, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
-import { assertScope } from "./scope.mjs";
+import { inspectPublisherChanges } from "./scope.mjs";
 const run = (cmd, args) =>
   execFileSync(cmd, args, {
     encoding: "utf8",
@@ -32,23 +32,15 @@ if (
   run("git", ["rev-parse", baseRef])
 )
   throw new Error("Branch must be based on current remote base");
-const committed = run("git", ["diff", "--name-only", baseRef, "HEAD"])
-  .split("\n")
-  .filter(Boolean);
-const changed = run("git", ["diff", "--name-only", "HEAD"])
-  .split("\n")
-  .filter(Boolean);
-const untracked = run("git", ["ls-files", "--others", "--exclude-standard"])
-  .split("\n")
-  .filter(Boolean);
-const files = [...new Set([...committed, ...changed, ...untracked])];
-assertScope(files);
-if (run("git", ["diff", "--name-only", "--diff-filter=D", baseRef]).trim())
-  throw new Error("Curator cannot delete records");
+const { changed, staged, untracked } = inspectPublisherChanges(run, baseRef);
 // Paths are checked before any staging. No shell interpolation; no force push or merge operation.
 run("npm", ["--prefix", "v2", "run", "validate"]);
-if (changed.length || untracked.length) {
-  run("git", ["add", "--", ...changed, ...untracked]);
+if (changed.length || staged.length || untracked.length) {
+  if (changed.length || untracked.length)
+    run("git", ["add", "--", ...changed, ...untracked]);
+  // Recheck the index immediately before committing, including paths staged
+  // before this command ran.
+  inspectPublisherChanges(run, baseRef);
   run("git", ["commit", "-m", "Propose curated portfolio content"]);
 }
 run("git", ["push", "--set-upstream", "origin", branch]);

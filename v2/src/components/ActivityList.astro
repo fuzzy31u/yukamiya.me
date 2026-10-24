@@ -7,6 +7,11 @@ interface Props {
   compact?: boolean;
 }
 const { items, locale, compact = false } = Astro.props;
+const translatedRoles: Record<string, string> = {
+  事例講演: "Case study speaker",
+  モデレーター: "Moderator",
+  ゲスト: "Guest",
+};
 ---
 
 <div class:list={["activity-list", { compact }]}>
@@ -36,6 +41,11 @@ const { items, locale, compact = false } = Astro.props;
         {d.summary && <p>{d.summary[locale]}</p>}
         <div class="activity-source">
           {d.venue && <span>{d.venue}</span>}
+          {d.role && (
+            <span>
+              {locale === "en" ? (translatedRoles[d.role] ?? d.role) : d.role}
+            </span>
+          )}
           {d.originalLanguage === "ja" && locale === "en" && (
             <span>{ui[locale].original}</span>
           )}

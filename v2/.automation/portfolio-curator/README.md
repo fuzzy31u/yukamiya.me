@@ -21,6 +21,16 @@ npm run validate
 
 The example proposal is a real, source-verified article draft, not dummy content. It explicitly describes the 50% reduction as a target. Re-running it is idempotent if the source facts and draft are unchanged. Edited drafts require manual reconciliation. Published records are never overwritten.
 
+Rescoring a proposed item to hold or decline updates its candidate and hidden draft together when the editorial copy has not been edited. The draft remains hidden and carries the new score. If a human has edited the draft, the command refuses the rescore before writing either record; reconcile those edits in the PR first.
+
+If a verified article's source title, date, or canonical URL changes before a draft exists, refresh its evidence explicitly, then submit a corrected editorial proposal:
+
+```sh
+node scripts/curator/run.mjs reverify <candidate-id>
+```
+
+This rechecks the source. Without an existing draft, it resets the candidate to `verified` and clears its old editorial proposal. If a hidden draft exists and the source facts changed, it keeps that draft untouched, holds the candidate with `source-facts-changed; human-reconcile`, and records the newly verified facts. The old draft remains excluded from the site; a human must reconcile its title, translation, date, URL and summary in a maintenance PR before another proposal can proceed. Published content is never overwritten and requires a separate editorial correction PR.
+
 Only to requeue a blocked candidate after diagnosing its blocker:
 
 ```sh
@@ -58,7 +68,7 @@ Metadata verification confirms author/title/date/canonical facts, not the truth 
 node v2/scripts/curator/publish.mjs --base main --execute
 ```
 
-The publisher checks the exact repository, branch prefix, remote base ancestry and every changed path before staging. It runs validation, commits only permitted candidate/state/content paths, performs a normal push, and opens/reuses a draft PR. It cannot change UI, schemas, policy, workflows, deployment settings, legacy content, or published activities through its normal proposal command. It never merges or force-pushes. New content remains `draft`/`hold` and is absent from generated activity lists.
+The publisher checks the exact repository, branch prefix, remote base ancestry and every changed path in committed history, the worktree, the Git index, and untracked files before staging. It rechecks the index before committing. It runs validation, commits only permitted candidate/state/content paths, performs a normal push, and opens/reuses a draft PR. It cannot change UI, schemas, policy, workflows, deployment settings, legacy content, or published activities through its normal proposal command. It never merges or force-pushes. New content remains `draft`/`hold` and is absent from generated activity lists.
 
 The path-check workflow provides another review check. Before activating the scheduler, protect the base and workflow/policy files, require this check and deterministic validation, require latest-head human approval with stale approvals dismissed, and retain Greptile 5/5 and Claude pass gates. These repository settings have not been changed or verified here. A JSON `approved: true` field is rejected, not interpreted as authorization. Do not grant the routine production secrets or permission to bypass branch protection.
 

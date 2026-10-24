@@ -19,6 +19,16 @@ test("every legacy activity remains traceable without duplicate IDs", () => {
     assert(a, m.source);
     assert.equal(a.legacyRef, m.source);
     assert.deepEqual(a.title, m.original.title);
+    assert.equal(a.url ?? null, m.original.url ?? null, `${m.source}: URL`);
+    if (m.original.role) assert.equal(a.role, m.original.role, `${m.source}: role`);
+    if (m.original.venue) assert.equal(a.venue, m.original.venue, `${m.source}: venue`);
+    const { year, month } = m.original;
+    const expected = year
+      ? month && month !== "00"
+        ? { value: `${year}-${month}`, precision: "month" }
+        : { value: year, precision: "year" }
+      : { value: null, precision: "unknown" };
+    assert.deepEqual(a.date, expected, `${m.source}: date`);
   }
 });
 test("date precision matches supplied evidence", () => {
@@ -42,5 +52,18 @@ test("featured references resolve to intentionally selected content", async () =
     assert.equal(a.editorialStatus, "selected");
     assert.equal(a.publicationStatus, "published");
     assert(a.summary?.en && a.summary?.ja);
+  }
+  const work = await Promise.all(
+    (await readdir("src/content/work")).map(async (file) => ({
+      file,
+      source: await readFile(`src/content/work/${file}`, "utf8"),
+    })),
+  );
+  for (const id of profile.featuredWork) {
+    for (const locale of ["en", "ja"]) {
+      const item = work.find(({ file }) => file === `${id}.${locale}.md`);
+      assert(item, `Missing ${locale} featured work: ${id}`);
+      assert.match(item.source, /^\s*"featured": true,?$/m, item.file);
+    }
   }
 });
