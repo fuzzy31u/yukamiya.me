@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "9782bda2a902c24cc4f1234a",
+  "canonicalUrl": "https://zenn.dev/yukamiya/articles/45dadd72bcacd4",
+  "aliases": [],
+  "occurrenceKey": "artifact",
+  "sourceId": "zenn-author",
+  "title": "AutoML Translationで実践『カスタム翻訳モデル』利用ガイド",
+  "detectedAt": "2026-10-23T08:39:26.265Z",
+  "status": "verified",
+  "attempts": 0,
+  "nextRetryAt": null,
+  "blocker": null,
+  "evidence": {
+    "url": "https://zenn.dev/yukamiya/articles/45dadd72bcacd4",
+    "checkedAt": "2026-10-23T08:42:22.601Z",
+    "sha256": "6463a1ac1abf6070798d2f2cf8df182f7c2ba3cd054004940f71bf424fbc419c",
+    "sourceTitle": "AutoML Translationで実践『カスタム翻訳モデル』利用ガイド",
+    "sourceDate": {
+      "value": "2023-12-22",
+      "precision": "day"
+    },
+    "identity": "yukamiya",
+    "identityMethod": "author-metadata",
+    "canonicalMethod": "canonical",
+    "adapter": "zenn-author"
+  }
+}

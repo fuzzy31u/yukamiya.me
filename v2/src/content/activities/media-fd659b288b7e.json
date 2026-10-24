@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "media",
+  "title": {
+    "ja": "CyberAgent: Women Techmakers Ambassador 選出",
+    "en": "CyberAgent: Selected as Women Techmakers Ambassador"
+  },
+  "date": {
+    "value": "2022",
+    "precision": "year"
+  },
+  "url": "https://web.archive.org/web/2023/https://www.cyberagent.co.jp/techinfo/news/detail/id=27684",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#media[19]"
+}

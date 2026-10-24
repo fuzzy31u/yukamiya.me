@@ -1,0 +1,446 @@
+{
+  "schemaVersion": 1,
+  "sourceSha256": "f9d8a73c6e2b4af570d0b5f9d99c52ef99ca3e3ccd8de0e86e8ab1af71f21269",
+  "sources": {
+    "https://www.sbbit.jp/eventinfo/dx-ai": {
+      "last_checked_at": "2026-07-23T12:08:53Z"
+    },
+    "https://peatix.com/event/5090126": {
+      "last_checked_at": "2026-07-23T11:00:45Z"
+    },
+    "サイバーエージェント 神谷優": {
+      "last_checked_at": "2026-10-18T12:13:16Z"
+    },
+    "神谷優 登壇 記事 インタビュー 受賞": {
+      "last_checked_at": "2026-05-23T05:26:17Z"
+    },
+    "神谷優 登壇": {
+      "last_checked_at": "2026-10-18T12:13:16Z"
+    },
+    "神谷優 記事": {
+      "last_checked_at": "2026-10-18T12:13:16Z"
+    },
+    "神谷優 インタビュー": {
+      "last_checked_at": "2026-10-18T12:13:16Z"
+    },
+    "神谷優 受賞": {
+      "last_checked_at": "2026-10-18T12:13:16Z"
+    },
+    "神谷優 インタビュー OR 神谷優 受賞": {
+      "last_checked_at": "2026-06-21T00:11:09Z"
+    },
+    "Yu Kamiya CyberAgent interview award speaking": {
+      "last_checked_at": "2026-05-23T05:26:17Z"
+    },
+    "神谷優 Tech DE&I 2026": {
+      "last_checked_at": "2026-05-23T05:26:17Z"
+    },
+    "\"神谷優\" \"2026/05\"": {
+      "last_checked_at": "2026-05-23T05:26:17Z"
+    },
+    "fuzzy31u": {
+      "last_checked_at": "2026-10-18T12:13:16Z"
+    },
+    "yukamiya": {
+      "last_checked_at": "2026-10-18T12:13:16Z"
+    },
+    "Yu Kamiya fuzzy31u": {
+      "last_checked_at": "2026-10-18T12:13:16Z"
+    },
+    "\"Yu Kamiya\" fuzzy31u": {
+      "last_checked_at": "2026-05-31T00:03:28Z"
+    },
+    "神谷優 fuzzy31u": {
+      "last_checked_at": "2026-10-18T12:13:16Z"
+    },
+    "\"神谷優\" fuzzy31u OR yukamiya": {
+      "last_checked_at": "2026-06-21T00:11:09Z"
+    },
+    "神谷優 yukamiya": {
+      "last_checked_at": "2026-10-18T12:13:16Z"
+    },
+    "site:developers.cyberagent.co.jp/blog fuzzy31u": {
+      "last_checked_at": "2026-10-18T12:13:16Z"
+    },
+    "site:developers.cyberagent.co.jp/blog yukamiya": {
+      "last_checked_at": "2026-10-18T12:13:16Z"
+    },
+    "site:developers.cyberagent.co.jp/blog 神谷優": {
+      "last_checked_at": "2026-10-18T12:13:16Z"
+    },
+    "site:developers.cyberagent.co.jp/blog \"Yu Kamiya\" OR developers.cyberagent.co.jp/blog/archives/63720": {
+      "last_checked_at": "2026-07-26T13:13:15Z"
+    },
+    "site:developers.cyberagent.co.jp/blog \"Yu Kamiya\"": {
+      "last_checked_at": "2026-10-18T12:13:16Z"
+    },
+    "site:developers.cyberagent.co.jp/blog \"Yu Kamiya\" OR yukamiya OR 神谷優": {
+      "last_checked_at": "2026-10-04T00:00:00Z"
+    },
+    "fuzzy31u CyberAgent": {
+      "last_checked_at": "2026-07-12T00:43:03Z"
+    },
+    "yukamiya CyberAgent": {
+      "last_checked_at": "2026-09-20T00:00:00Z"
+    },
+    "developers.cyberagent.co.jp/blog/archives/63720": {
+      "last_checked_at": "2026-10-18T12:13:16Z"
+    },
+    "site:developers.cyberagent.co.jp/blog/archives/ CyberAgent Developers Blog 神谷優": {
+      "last_checked_at": "2026-10-18T12:13:16Z"
+    },
+    "\"神谷優\" \"2026/05\" OR \"2026-05\"": {
+      "last_checked_at": "2026-05-31T00:03:28Z"
+    },
+    "site:www.cyberagent.co.jp/way/list/detail/ 神谷優": {
+      "last_checked_at": "2026-06-21T00:11:09Z"
+    },
+    "site:www.sbbit.jp 神谷優": {
+      "last_checked_at": "2026-07-05T00:04:42Z"
+    },
+    "site:event.shoeisha.jp 神谷優": {
+      "last_checked_at": "2026-06-21T00:11:09Z"
+    },
+    "site:cyberagent.co.jp/techinfo/news 神谷優": {
+      "last_checked_at": "2026-06-14T00:12:54Z"
+    },
+    "site:cyberagent.co.jp/way/list/detail 神谷優 \"2026\"": {
+      "last_checked_at": "2026-07-05T00:04:42Z"
+    },
+    "site:cyberagent.co.jp 神谷優 AI番付": {
+      "last_checked_at": "2026-05-31T00:03:28Z"
+    },
+    "site:cyberagent.co.jp 神谷優 Women Tech Terrace OR Tech DE&I": {
+      "last_checked_at": "2026-05-31T00:03:28Z"
+    },
+    "site:sbbit.jp/article/sp 神谷優": {
+      "last_checked_at": "2026-05-31T00:03:28Z"
+    },
+    "site:sbbit.jp/movie/sp 神谷優": {
+      "last_checked_at": "2026-05-31T00:03:28Z"
+    },
+    "site:sbbit.jp/eventinfo 神谷優": {
+      "last_checked_at": "2026-05-31T00:03:28Z"
+    },
+    "site:findy-code.io/media 神谷優": {
+      "last_checked_at": "2026-06-14T00:12:54Z"
+    },
+    "\"神谷優\"": {
+      "last_checked_at": "2026-07-05T00:04:42Z"
+    },
+    "\"神谷優\" サイバーエージェント": {
+      "last_checked_at": "2026-07-05T00:04:42Z"
+    },
+    "\"神谷優\" AI": {
+      "last_checked_at": "2026-07-05T00:04:42Z"
+    },
+    "\"神谷優\" 登壇 OR 記事 OR インタビュー OR 受賞": {
+      "last_checked_at": "2026-07-05T00:04:42Z"
+    },
+    "\"Yu Kamiya\" CyberAgent": {
+      "last_checked_at": "2026-07-05T00:04:42Z"
+    },
+    "\"神谷優\" \"サイバーエージェント\" \"AIドリブン推進室\"": {
+      "last_checked_at": "2026-07-05T00:04:42Z"
+    },
+    "\"fuzzy31u\" CyberAgent": {
+      "last_checked_at": "2026-07-05T00:04:42Z"
+    },
+    "\"yukamiya\" CyberAgent": {
+      "last_checked_at": "2026-07-05T00:04:42Z"
+    },
+    "https://developers.cyberagent.co.jp/blog/archives/author/yukamiya/": {
+      "last_checked_at": "2026-10-18T12:13:16Z"
+    },
+    "https://zenn.dev/yukamiya": {
+      "last_checked_at": "2026-10-18T12:13:16Z",
+      "note": "Checked via zenn.dev/api/articles?username=yukamiya (reliable JSON enumeration, per memory.md). 19 articles as of 2026-10-18, up from 16 as of 2026-08-30. The 3 new ones (claude-harness-engineering-three-repos, reduce-review-cost-human-in-loop-ai, meeting-watcher-architecture; all published 2026-10-16) were parked as `detected` activities under the existing profile-link-only policy, same as the two already-parked Zenn entries."
+    },
+    "\"LT event for Women in Tech\" GitHub SmartNews ウエディングパーク サイバーエージェント": {
+      "last_checked_at": "2026-08-09T13:25:07Z"
+    },
+    "\"LT event for Women in Tech\" connpass 2024": {
+      "last_checked_at": "2026-08-09T13:25:07Z"
+    },
+    "\"CA BASE NEXT 2022\" サイバーエージェント若手流を轟かせる開発チームの裏側 マネジメント編": {
+      "last_checked_at": "2026-08-10T05:37:00Z"
+    },
+    "\"神谷優\" サイバーエージェント 2026年8月": {
+      "last_checked_at": "2026-08-13T09:13:56Z"
+    },
+    "\"神谷優\" AIドリブン推進室 登壇 OR 講演 OR イベント": {
+      "last_checked_at": "2026-08-13T09:13:56Z"
+    },
+    "日経xwoman 神谷優 サイバーエージェント woman.nikkei.com author 02667": {
+      "last_checked_at": "2026-08-16T12:21:05Z"
+    },
+    "site:woman.nikkei.com 神谷優 サイバーエージェント": {
+      "last_checked_at": "2026-08-16T12:21:05Z"
+    },
+    "\"神谷優\" サイバーエージェント 2026年 登壇 OR 講演 OR イベント OR 記事": {
+      "last_checked_at": "2026-08-16T12:21:05Z"
+    },
+    "site:cyberagent.co.jp/techinfo/news 神谷優 登壇 2026": {
+      "last_checked_at": "2026-08-16T12:21:05Z"
+    },
+    "\"神谷優\" AIドリブン推進室 2026年7月 OR 2026年8月": {
+      "last_checked_at": "2026-08-16T12:21:05Z"
+    },
+    "https://woman.nikkei.com/atcl/author/02667/": {
+      "last_checked_at": "2026-09-06T12:15:45Z",
+      "note": "Fetched directly for the first time 2026-09-06 (egress reachable). Enumerates exactly one article: atcl/column/22/061800109/092400021/, already tracked in about-content.js. No untracked articles on this author page."
+    },
+    "site:woman.nikkei.com 神谷優 サイバーエージェント AIドリブン": {
+      "last_checked_at": "2026-08-23T12:14:38Z"
+    },
+    "\"神谷優\" 日経xwoman 記事 2026": {
+      "last_checked_at": "2026-08-23T12:14:38Z"
+    },
+    "\"神谷優\" サイバーエージェント 2026年8月 登壇 OR イベント OR 記事": {
+      "last_checked_at": "2026-08-30T12:17:17Z"
+    },
+    "site:cyberagent.co.jp/techinfo/news 神谷優 2026": {
+      "last_checked_at": "2026-08-30T12:17:17Z"
+    },
+    "\"神谷優\" AIドリブン推進室 登壇 セッション 2026": {
+      "last_checked_at": "2026-08-23T12:14:38Z"
+    },
+    "\"神谷 優\" サイバーエージェント カンファレンス 講演 2026年": {
+      "last_checked_at": "2026-08-23T12:14:38Z"
+    },
+    "speakerdeck.com/fuzzy31u 2026 新着": {
+      "last_checked_at": "2026-08-23T12:14:38Z"
+    },
+    "\"神谷優\" OR \"kamiyaU\" AI番付 エンジニア 記事 インタビュー 8月": {
+      "last_checked_at": "2026-08-23T12:14:38Z"
+    },
+    "site:woman.nikkei.com 神谷優 サイバーエージェント AIドリブン 2026": {
+      "last_checked_at": "2026-08-30T12:17:17Z"
+    },
+    "新旧MetricKitの共存 iOS 27 タップル CyberAgent Developers Blog 著者": {
+      "last_checked_at": "2026-08-30T12:17:17Z"
+    },
+    "中高生のアプリ開発を支援 Tech DE&I Technovation Girls Teaching Assistant CyberAgent Developers Blog 執筆者": {
+      "last_checked_at": "2026-08-30T12:17:17Z"
+    },
+    "zenn.dev/yukamiya 記事 一覧 2026": {
+      "last_checked_at": "2026-08-30T12:17:17Z"
+    },
+    "\"神谷優\" AIドリブン推進室 登壇 セッション 2026年9月 OR 2026年10月": {
+      "last_checked_at": "2026-08-30T12:17:17Z"
+    },
+    "site:cyberagent.co.jp/way/list/detail 神谷優 AI番付 OR Tech DE&I 2026": {
+      "last_checked_at": "2026-08-30T12:17:17Z"
+    },
+    "\"神谷優\" OR \"kamiyaU\" サイバーエージェント 新着 記事 インタビュー 2026年8月下旬": {
+      "last_checked_at": "2026-08-30T12:17:17Z"
+    },
+    "サイバーエージェント 神谷優 2026年9月": {
+      "last_checked_at": "2026-09-27T00:00:00Z"
+    },
+    "神谷優 登壇 2026": {
+      "last_checked_at": "2026-09-20T00:00:00Z"
+    },
+    "神谷優 記事 2026": {
+      "last_checked_at": "2026-09-20T00:00:00Z"
+    },
+    "神谷優 インタビュー 2026": {
+      "last_checked_at": "2026-09-20T00:00:00Z"
+    },
+    "\"神谷優\" AIドリブン推進室 登壇 セッション 2026年9月": {
+      "last_checked_at": "2026-09-06T12:15:45Z"
+    },
+    "\"神谷優\" サイバーエージェント 2026年9月 記事 OR インタビュー OR イベント": {
+      "last_checked_at": "2026-09-06T12:15:45Z"
+    },
+    "speakerdeck.com/fuzzy31u 2026年9月 新着": {
+      "last_checked_at": "2026-09-27T00:00:00Z"
+    },
+    "DroidKaigi 2026 神谷優 レポート": {
+      "last_checked_at": "2026-09-20T00:00:00Z"
+    },
+    "神谷優 登壇 2026年9月": {
+      "last_checked_at": "2026-09-27T00:00:00Z"
+    },
+    "サイバーエージェント 神谷優 2026年9月 記事 OR インタビュー OR イベント": {
+      "last_checked_at": "2026-09-13T00:00:00Z"
+    },
+    "神谷優 CyberAgent CADC 2026": {
+      "last_checked_at": "2026-09-27T00:00:00Z"
+    },
+    "site:woman.nikkei.com 神谷優 サイバーエージェント 2026年9月": {
+      "last_checked_at": "2026-09-27T00:00:00Z"
+    },
+    "DroidKaigi 2026 神谷優 レポート 感想": {
+      "last_checked_at": "2026-09-13T00:00:00Z"
+    },
+    "\"神谷優\" OR \"kamiyaU\" サイバーエージェント 新着 2026年9月": {
+      "last_checked_at": "2026-09-13T00:00:00Z"
+    },
+    "神谷優 記事 2026年9月": {
+      "last_checked_at": "2026-09-27T00:00:00Z"
+    },
+    "神谷優 インタビュー 2026年9月": {
+      "last_checked_at": "2026-09-27T00:00:00Z"
+    },
+    "神谷優 受賞 2026": {
+      "last_checked_at": "2026-09-27T00:00:00Z"
+    },
+    "fuzzy31u yukamiya 2026年9月": {
+      "last_checked_at": "2026-09-27T00:00:00Z"
+    },
+    "Yu Kamiya fuzzy31u CyberAgent September 2026": {
+      "last_checked_at": "2026-09-27T00:00:00Z"
+    },
+    "\"神谷優\" AIドリブン推進室 登壇 セッション 2026年10月": {
+      "last_checked_at": "2026-10-11T12:12:15Z"
+    },
+    "神谷優 fuzzy31u yukamiya": {
+      "last_checked_at": "2026-09-27T00:00:00Z"
+    },
+    "サイバーエージェント 神谷優 2026年10月": {
+      "last_checked_at": "2026-10-04T00:00:00Z"
+    },
+    "神谷優 登壇 2026年10月": {
+      "last_checked_at": "2026-10-04T00:00:00Z"
+    },
+    "神谷優 記事 2026年10月": {
+      "last_checked_at": "2026-10-04T00:00:00Z"
+    },
+    "神谷優 インタビュー 2026年10月": {
+      "last_checked_at": "2026-10-04T00:00:00Z"
+    },
+    "神谷優 受賞 2026年10月": {
+      "last_checked_at": "2026-10-04T00:00:00Z"
+    },
+    "yukamiya CyberAgent 2026年10月": {
+      "last_checked_at": "2026-10-04T00:00:00Z"
+    },
+    "Yu Kamiya fuzzy31u CyberAgent October 2026": {
+      "last_checked_at": "2026-10-04T00:00:00Z"
+    },
+    "神谷優 fuzzy31u yukamiya 2026年10月": {
+      "last_checked_at": "2026-10-04T00:00:00Z"
+    },
+    "site:cyberagent.co.jp/way/list/detail 神谷優 2026年10月": {
+      "last_checked_at": "2026-10-11T12:12:15Z"
+    },
+    "speakerdeck.com/fuzzy31u 2026年10月 新着": {
+      "last_checked_at": "2026-10-11T12:12:15Z"
+    },
+    "site:cyberagent.co.jp/techinfo/news 神谷優 2026年10月": {
+      "last_checked_at": "2026-10-11T12:12:15Z"
+    },
+    "神谷優 CyberAgent 2026年10月": {
+      "last_checked_at": "2026-10-11T12:12:15Z"
+    },
+    "神谷優 CyberAgent 2026年10月 登壇 OR 記事": {
+      "last_checked_at": "2026-10-18T12:13:16Z"
+    },
+    "サイバーエージェント AIドリブン推進室 神谷優 2026年10月": {
+      "last_checked_at": "2026-10-18T12:13:16Z"
+    }
+  },
+  "mappings": [
+    {
+      "key": "https://developers.cyberagent.co.jp/blog/archives/65345/",
+      "destination": "decisions/2026/3bddef7eebfb410b193d89fb.json"
+    },
+    {
+      "key": "https://2026.droidkaigi.jp/timetable/1304891/",
+      "destination": "decisions/2026/3196019d2cd492eadca1080a.json"
+    },
+    {
+      "key": "qa-content:production-about-stale-2026-07-26",
+      "destination": "incidents/b767acb3814cf078de013a10.json"
+    },
+    {
+      "key": "qa-content:greptile-review-loop-2026-07-23",
+      "destination": "incidents/d13e415cfac00b350d5653a0.json"
+    },
+    {
+      "key": "https://www.sbbit.jp/eventinfo/dx-ai",
+      "destination": "decisions/2026/bfd3c6c04663a95cf146c49d.json"
+    },
+    {
+      "key": "https://peatix.com/event/5090126",
+      "destination": "decisions/2026/5252625575c8ff0a519e3b4b.json"
+    },
+    {
+      "key": "https://www.cyberagent.co.jp/way/list/detail/id=33323",
+      "destination": "decisions/2026/b8a5d7938ba8d66f4be3348d.json"
+    },
+    {
+      "key": "https://www.cyberagent.co.jp/way/list/detail/id=33333",
+      "destination": "decisions/2026/d08bf565506de5c1ba01f89a.json"
+    },
+    {
+      "key": "https://developers.cyberagent.co.jp/blog/archives/63720/",
+      "destination": "decisions/2026/320dec8e01a42a3120ba8e51.json"
+    },
+    {
+      "key": "qa-content:writing-year-51796",
+      "destination": "incidents/eab74041290aebc38cfab094.json"
+    },
+    {
+      "key": "https://www.cyberagent.co.jp/way/list/detail/id=33439",
+      "destination": "decisions/2026/840e84afeb9027f4712c1884.json"
+    },
+    {
+      "key": "https://developers.cyberagent.co.jp/blog/archives/52578/",
+      "destination": "decisions/2026/cfdb1c691d2ff09ef44abd4d.json"
+    },
+    {
+      "key": "https://zenn.dev/yukamiya/articles/baf9872a13a176",
+      "destination": "candidates/3f3ec50e56acb116b506ff05.json"
+    },
+    {
+      "key": "qa-broken-link:fukabori-129",
+      "destination": "incidents/1fec8e8230d0f8277b0236ee.json"
+    },
+    {
+      "key": "qa-broken-link:accredible-badge",
+      "destination": "incidents/697ce32916e159ea3853c04c.json"
+    },
+    {
+      "key": "qa-broken-link:code-or-jp-20230615",
+      "destination": "incidents/df62e5539dcca78c736952c9.json"
+    },
+    {
+      "key": "qa-broken-link:cadc-2024",
+      "destination": "incidents/b2dea4a76f5509c90987a958.json"
+    },
+    {
+      "key": "https://zenn.dev/yukamiya/articles/pm-ssot-claude-skills",
+      "destination": "candidates/cba7b06a3d5a7f36ab81a65a.json"
+    },
+    {
+      "key": "https://zenn.dev/yukamiya/articles/claude-harness-engineering-three-repos",
+      "destination": "candidates/40b512f360de389b13c1b6d0.json"
+    },
+    {
+      "key": "https://zenn.dev/yukamiya/articles/reduce-review-cost-human-in-loop-ai",
+      "destination": "candidates/b34e2a306b9e39293a3469e7.json"
+    },
+    {
+      "key": "https://zenn.dev/yukamiya/articles/meeting-watcher-architecture",
+      "destination": "candidates/187f16a623acc0074bd5bd58.json"
+    },
+    {
+      "key": "https://developers.cyberagent.co.jp/blog/archives/39730/",
+      "destination": "decisions/2026/554efdadf5294753ce6b140f.json"
+    },
+    {
+      "key": "https://developers.cyberagent.co.jp/blog/archives/65298/",
+      "destination": "decisions/2026/b9289bc4f4f91eb621b1f2bb.json"
+    },
+    {
+      "key": "https://developers.cyberagent.co.jp/blog/archives/55718/",
+      "destination": "decisions/2026/5ed775569beede8bdaf72d44.json"
+    },
+    {
+      "key": "https://developers.cyberagent.co.jp/blog/archives/66153/",
+      "destination": "decisions/2026/f6b3212545ef7ef77c89a93f.json"
+    }
+  ]
+}

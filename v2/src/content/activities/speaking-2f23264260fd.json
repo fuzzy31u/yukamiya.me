@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "Women Techmakers Ambassador -Empowering the Next Generation of Global Tech Leaders-",
+    "en": "Women Techmakers Ambassador - Empowering the Next Generation of Global Tech Leaders"
+  },
+  "date": {
+    "value": "2024",
+    "precision": "year"
+  },
+  "url": "https://developers.cyberagent.co.jp/blog/archives/52578/",
+  "venue": "LT event for Women in Tech",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[16]"
+}

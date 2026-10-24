@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "research",
+  "title": {
+    "ja": "IT製品の開発に携わる従業員に対する、就労環境の包摂度調査について",
+    "en": "Survey on Inclusivity in IT Product Development Environments"
+  },
+  "date": {
+    "value": "2023",
+    "precision": "year"
+  },
+  "url": "https://www.cyberagent.co.jp/techinfo/news/detail/id=29456",
+  "venue": "経営情報学会 2023",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#research[2]"
+}

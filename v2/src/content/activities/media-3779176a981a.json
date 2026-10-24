@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "media",
+  "title": {
+    "ja": "モアキャリー: ライフステージが変わっても仕事とやりたいことを両立するワーキングママ",
+    "en": "MoreCareer: Working Mom Balancing Work and Life Through Life Stage Changes"
+  },
+  "date": {
+    "value": "2019",
+    "precision": "year"
+  },
+  "url": "https://web.archive.org/web/20200215010838/https://www.morecareee.jp/trend/style027/",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#media[23]"
+}

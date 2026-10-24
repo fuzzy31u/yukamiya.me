@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "awards",
+  "title": {
+    "ja": "サイバーエージェントグループ総会 最優秀ベストプロジェクト賞「AI番付」",
+    "en": "CyberAgent Group General Meeting Best Project Award \"AI Banzuke\""
+  },
+  "date": {
+    "value": "2026",
+    "precision": "year"
+  },
+  "venue": "CyberAgent",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#awards[0]"
+}

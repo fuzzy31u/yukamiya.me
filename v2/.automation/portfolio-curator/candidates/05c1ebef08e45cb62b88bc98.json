@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "05c1ebef08e45cb62b88bc98",
+  "canonicalUrl": "https://zenn.dev/yukamiya/articles/f74e46cca2ffbd",
+  "aliases": [],
+  "occurrenceKey": "artifact",
+  "sourceId": "zenn-author",
+  "title": "Moltbook で自分の AI Agent （分身）を作る方法",
+  "detectedAt": "2026-10-23T08:39:26.265Z",
+  "status": "verified",
+  "attempts": 0,
+  "nextRetryAt": null,
+  "blocker": null,
+  "evidence": {
+    "url": "https://zenn.dev/yukamiya/articles/f74e46cca2ffbd",
+    "checkedAt": "2026-10-23T08:42:22.601Z",
+    "sha256": "ad13f7fab95ae650fdb6e6613d383f61a20de9f051d5df5d8b54ea77887a549f",
+    "sourceTitle": "Moltbook で自分の AI Agent （分身）を作る方法",
+    "sourceDate": {
+      "value": "2026-02-02",
+      "precision": "day"
+    },
+    "identity": "yukamiya",
+    "identityMethod": "author-metadata",
+    "canonicalMethod": "canonical",
+    "adapter": "zenn-author"
+  }
+}

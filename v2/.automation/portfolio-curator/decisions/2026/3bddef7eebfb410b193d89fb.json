@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "3bddef7eebfb410b193d89fb",
+  "canonicalUrl": "https://developers.cyberagent.co.jp/blog/archives/65345/",
+  "occurrenceKey": "legacy-unspecified",
+  "decision": "legacy-merged",
+  "legacyKey": "https://developers.cyberagent.co.jp/blog/archives/65345/",
+  "legacy": {
+    "content_type": "writing",
+    "title": "参加者約 5,000 人が UC Berkeley に集結 — Agentic AI Summit 2026 参加レポート",
+    "canonical_url": "https://developers.cyberagent.co.jp/blog/archives/65345/",
+    "detected_at": "2026-08-31T00:00:00Z",
+    "status": "merged",
+    "issue_number": null,
+    "pr_number": 110,
+    "last_review_status": "pass",
+    "merged_at": "2026-09-06T07:28:37Z",
+    "blocker": null,
+    "evidence": "Verified from source with egress restored: og:url https://developers.cyberagent.co.jp/blog/archives/65345/, <meta name=\"author\" content=\"yukamiya\">, author link /blog/archives/author/yukamiya/, published 2026-08-19T08:00:55+09:00 (entry-date published). Also enumerated on the author page alongside 44530 / 51796 / 63720. Re-confirmed live on the author page 2026-09-06."
+  }
+}

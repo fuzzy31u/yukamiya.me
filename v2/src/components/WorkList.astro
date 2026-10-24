@@ -1,0 +1,64 @@
+---
+import { metricLabel } from "../lib/i18n";
+import { getWork } from "../lib/content";
+import { pathFor, type Locale } from "../lib/i18n";
+interface Props {
+  locale: Locale;
+  showOrganization?: boolean;
+  featuredIds?: string[];
+}
+const { locale, showOrganization = true, featuredIds } = Astro.props;
+const allWork = await getWork(locale);
+const work = featuredIds
+  ? featuredIds
+      .map((id) => allWork.find((entry) => entry.data.translationKey === id))
+      .filter(
+        (entry): entry is (typeof allWork)[number] =>
+          !!entry && entry.data.featured,
+      )
+  : allWork;
+---
+
+<div class="work-list">
+  {work.map((entry, index) => {
+    const d = entry.data;
+    return (
+      <article class:list={["work-row", { lead: index === 0 }]}>
+        <div class="work-number">0{index + 1}</div>
+        <div class="work-copy">
+          <p class="eyebrow">{d.category}</p>
+          <h3>
+            <a href={pathFor(locale, `work/${d.translationKey}`)}>
+              {d.title}
+              <span class="work-arrow" aria-hidden="true">
+                ↗
+              </span>
+            </a>
+          </h3>
+          <p>{d.summary}</p>
+          <div class="work-meta">
+            {showOrganization && <span>{d.organization}</span>}
+            <span>{d.timeframe}</span>
+          </div>
+        </div>
+        <div class="work-evidence">
+          {d.metrics.length > 0 ? (
+            <>
+              <span class="evidence-number">{d.metrics[0].value}</span>
+              <span>{d.metrics[0].label}</span>
+              <span class="evidence-type">
+                {metricLabel(locale, d.metrics[0].kind)}
+              </span>
+            </>
+          ) : (
+            <div class="translation-mark" aria-hidden="true">
+              <span>あ</span>
+              <span>→</span>
+              <span>A</span>
+            </div>
+          )}
+        </div>
+      </article>
+    );
+  })}
+</div>

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "870b2d817579f521a81cb5ca",
+  "canonicalUrl": "https://zenn.dev/yukamiya/articles/c563e8b1af5cb3",
+  "aliases": [],
+  "occurrenceKey": "artifact",
+  "sourceId": "zenn-author",
+  "title": "EmacsでClaude Code：AI駆動の文書作成・情報整理術",
+  "detectedAt": "2026-10-23T08:39:26.265Z",
+  "status": "verified",
+  "attempts": 0,
+  "nextRetryAt": null,
+  "blocker": null,
+  "evidence": {
+    "url": "https://zenn.dev/yukamiya/articles/c563e8b1af5cb3",
+    "checkedAt": "2026-10-23T08:42:22.601Z",
+    "sha256": "921d358eee0b9f535f8eb4264372ecb94a087cb2302a0e39fc84857e1f2dd549",
+    "sourceTitle": "EmacsでClaude Code：AI駆動の文書作成・情報整理術",
+    "sourceDate": {
+      "value": "2025-08-18",
+      "precision": "day"
+    },
+    "identity": "yukamiya",
+    "identityMethod": "author-metadata",
+    "canonicalMethod": "canonical",
+    "adapter": "zenn-author"
+  }
+}

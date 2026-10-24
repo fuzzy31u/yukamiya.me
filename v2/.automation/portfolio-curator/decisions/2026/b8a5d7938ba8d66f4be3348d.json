@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "b8a5d7938ba8d66f4be3348d",
+  "canonicalUrl": "https://www.cyberagent.co.jp/way/list/detail/id=33323",
+  "occurrenceKey": "legacy-unspecified",
+  "decision": "legacy-merged",
+  "legacyKey": "https://www.cyberagent.co.jp/way/list/detail/id=33323",
+  "legacy": {
+    "content_type": "media",
+    "title": "CyberAgent Way: 発足4年目のTech DE&I プロジェクトが紡ぐ、女性エンジニアの新たな繋がり",
+    "canonical_url": "https://www.cyberagent.co.jp/way/list/detail/id=33323",
+    "detected_at": "2026-05-10T01:30:52Z",
+    "status": "merged",
+    "issue_number": 69,
+    "pr_number": 71,
+    "last_review_status": "pass",
+    "merged_at": "2026-05-10T02:08:45Z",
+    "blocker": null
+  }
+}

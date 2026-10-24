@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "ab1c56c3665fb4ecdd37fa8b",
+  "canonicalUrl": "https://zenn.dev/yukamiya/articles/1400aa0ee8a5ae",
+  "aliases": [],
+  "occurrenceKey": "artifact",
+  "sourceId": "zenn-author",
+  "title": "『エンジニアリングリーダー』読了：DEIの視点があるとより刺さる実践ガイド",
+  "detectedAt": "2026-10-23T08:39:26.265Z",
+  "status": "verified",
+  "attempts": 0,
+  "nextRetryAt": null,
+  "blocker": null,
+  "evidence": {
+    "url": "https://zenn.dev/yukamiya/articles/1400aa0ee8a5ae",
+    "checkedAt": "2026-10-23T08:42:22.601Z",
+    "sha256": "fc610deb5c2943120145ca5c8c93632a332b828b8751bf60cb0bdc2fe86f7775",
+    "sourceTitle": "『エンジニアリングリーダー』読了：DEIの視点があるとより刺さる実践ガイド",
+    "sourceDate": {
+      "value": "2026-01-13",
+      "precision": "day"
+    },
+    "identity": "yukamiya",
+    "identityMethod": "author-metadata",
+    "canonicalMethod": "canonical",
+    "adapter": "zenn-author"
+  }
+}

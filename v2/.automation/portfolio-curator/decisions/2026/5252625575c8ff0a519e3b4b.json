@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "5252625575c8ff0a519e3b4b",
+  "canonicalUrl": "https://peatix.com/event/5090126",
+  "occurrenceKey": "legacy-unspecified",
+  "decision": "legacy-merged",
+  "legacyKey": "https://peatix.com/event/5090126",
+  "legacy": {
+    "content_type": "speaking",
+    "title": "WOMAN×AI「私たちはどうAIと向き合う？」〜AIエキスパートたちに聞く、キャリアが変わる60分〜",
+    "canonical_url": "https://peatix.com/event/5090126",
+    "detected_at": "2026-07-23T11:00:45Z",
+    "status": "merged",
+    "issue_number": 91,
+    "pr_number": 92,
+    "last_review_status": "pass",
+    "merged_at": "2026-07-23T01:59:57Z",
+    "blocker": null
+  }
+}

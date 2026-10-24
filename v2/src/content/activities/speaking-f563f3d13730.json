@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "CyberAgentにおける多様性の価値とは？",
+    "en": "The Value of Diversity at CyberAgent"
+  },
+  "date": {
+    "value": "2023-06",
+    "precision": "month"
+  },
+  "url": "https://web.archive.org/web/2023/https://resources.github.com/galaxy/tokyo/",
+  "venue": "GitHub Galaxy Tokyo",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[18]"
+}

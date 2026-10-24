@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "media",
+  "title": {
+    "ja": "CyberAgent Way: 多様性を受容する開発組織には、社会を変える力がある。「Tech DE&I プロジェクト」始動。",
+    "en": "CyberAgent Way: Tech DE&I Project Launch"
+  },
+  "date": {
+    "value": "2023",
+    "precision": "year"
+  },
+  "url": "https://www.cyberagent.co.jp/way/list/detail/id=28637",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#media[16]"
+}

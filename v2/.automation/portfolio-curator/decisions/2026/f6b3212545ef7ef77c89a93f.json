@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "f6b3212545ef7ef77c89a93f",
+  "canonicalUrl": "https://developers.cyberagent.co.jp/blog/archives/66153/",
+  "occurrenceKey": "legacy-unspecified",
+  "decision": "legacy-rejected",
+  "legacyKey": "https://developers.cyberagent.co.jp/blog/archives/66153/",
+  "legacy": {
+    "title": "DroidKaigi 2026に参加しました",
+    "rejected_at": "2026-09-13T00:00:00Z",
+    "reason": "Not Yu Kamiya's writing. Verified from source (canonical URL and og:url both https://developers.cyberagent.co.jp/blog/archives/66153/): byline is nozo_mi and Yu Muramatsu, a general CyberAgent/タップル sponsor-booth trip report about DroidKaigi 2026 (published 2026-09-10). Kamiya's own DroidKaigi 2026 talk is already tracked separately (2026.droidkaigi.jp/timetable/1304891/, merged PR #110). This report surfaces on `神谷優` / conference searches only because it covers the same event, not because she wrote or is quoted in it. Do not re-investigate."
+  }
+}

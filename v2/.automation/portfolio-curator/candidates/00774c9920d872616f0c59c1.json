@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "00774c9920d872616f0c59c1",
+  "canonicalUrl": "https://zenn.dev/yukamiya/articles/3b31622a0a3b08",
+  "aliases": [],
+  "occurrenceKey": "artifact",
+  "sourceId": "zenn-author",
+  "title": "Connect Walletボタンの設置とカスタマイズ方法",
+  "detectedAt": "2026-10-23T08:39:26.265Z",
+  "status": "verified",
+  "attempts": 0,
+  "nextRetryAt": null,
+  "blocker": null,
+  "evidence": {
+    "url": "https://zenn.dev/yukamiya/articles/3b31622a0a3b08",
+    "checkedAt": "2026-10-23T08:42:22.601Z",
+    "sha256": "3da030fcf1486366240513f7a5161adaab01b9ead278a3f569a8fdfb12cf4578",
+    "sourceTitle": "Connect Walletボタンの設置とカスタマイズ方法",
+    "sourceDate": {
+      "value": "2022-12-09",
+      "precision": "day"
+    },
+    "identity": "yukamiya",
+    "identityMethod": "author-metadata",
+    "canonicalMethod": "canonical",
+    "adapter": "zenn-author"
+  }
+}

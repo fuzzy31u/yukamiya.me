@@ -1,0 +1,30 @@
+name: Curator write scope
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+permissions:
+  contents: read
+  pull-requests: read
+jobs:
+  scope:
+    runs-on: ubuntu-latest
+    steps:
+      # Runs no PR code. The same allowlist is intentionally duplicated here as an independent boundary.
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            if (!context.payload.pull_request.head.ref.startsWith('automation/portfolio-curator-')) {
+              core.info('Not a curator branch.');
+              return;
+            }
+            const files = await github.paginate(github.rest.pulls.listFiles, {
+              owner: context.repo.owner, repo: context.repo.repo,
+              pull_number: context.issue.number, per_page: 100
+            });
+            const allowed = p => /^v2\/src\/content\/activities\/curated-[a-f0-9]{24}\.json$/.test(p)
+              || /^v2\/\.automation\/portfolio-curator\/(candidates\/[a-f0-9]{24}\.json|decisions\/\d{4}\/[a-f0-9]{24}\.json|sources\.json)$/.test(p);
+            for (const file of files) {
+              if (!allowed(file.filename) || file.status === 'removed' || file.status === 'renamed') {
+                core.setFailed(`Curator change outside allowed scope: ${file.filename} (${file.status})`);
+              }
+            }

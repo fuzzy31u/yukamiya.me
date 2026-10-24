@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "IT分野のジェンダーギャップの現在地とアクション",
+    "en": "Current State and Actions on Gender Gap in IT"
+  },
+  "date": {
+    "value": "2021-11",
+    "precision": "month"
+  },
+  "url": "https://event.shoeisha.jp/devsumi/20211117/session/3515/",
+  "venue": "Women Developers Summit",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[26]"
+}

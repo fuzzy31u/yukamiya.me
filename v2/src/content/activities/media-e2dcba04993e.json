@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "media",
+  "title": {
+    "ja": "Tech Team Journal: IT業界の偏りを解消する「Tech DE&I プロジェクト」とは？",
+    "en": "Tech Team Journal: What is the Tech DE&I Project?"
+  },
+  "date": {
+    "value": "2023",
+    "precision": "year"
+  },
+  "url": "https://ttj.paiza.jp/archives/2023/07/28/9971/",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#media[15]"
+}

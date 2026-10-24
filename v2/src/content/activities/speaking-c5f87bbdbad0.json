@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "Waffle Camp キャリアトーク",
+    "en": "Waffle Camp Career Talk"
+  },
+  "date": {
+    "value": "2020",
+    "precision": "year"
+  },
+  "url": "https://www.camp.waffle-waffle.org/",
+  "venue": "Waffle Camp",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[30]"
+}

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "554efdadf5294753ce6b140f",
+  "canonicalUrl": "https://developers.cyberagent.co.jp/blog/archives/39730/",
+  "occurrenceKey": "legacy-unspecified",
+  "decision": "legacy-rejected",
+  "legacyKey": "https://developers.cyberagent.co.jp/blog/archives/39730/",
+  "legacy": {
+    "title": "【CA BASE NEXT 2022】 サイバーエージェント若手流を轟かせる開発チームの裏側 -マネジメント編-",
+    "rejected_at": "2026-08-10T05:37:00Z",
+    "reason": "Not Yu Kamiya. Verified from source: <meta name=\"author\" content=\"syuta\">, byline 'WRITER: syuta' (菅原シュウタ @sugawara_syuta), author link /author/syuta/, and 0 occurrences of 神谷 / yukamiya / fuzzy31u in the page. Web-search summaries repeatedly misattribute this post to yukamiya — it is a search-engine hallucination. Do not re-investigate."
+  }
+}

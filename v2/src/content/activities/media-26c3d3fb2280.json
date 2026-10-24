@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "media",
+  "title": {
+    "ja": "NTT コムウェア C+: デジタル人材のためのブックレビュー",
+    "en": "NTT Comware C+: Book Review for Digital Talent"
+  },
+  "date": {
+    "value": "2021",
+    "precision": "year"
+  },
+  "url": "https://www.nttcom.co.jp/comware_plus/column/book_review/202107.html",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#media[21]"
+}

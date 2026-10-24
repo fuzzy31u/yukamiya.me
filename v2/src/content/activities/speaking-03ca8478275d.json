@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "未来の仕事を知ろう：女子と保護者のための進路セミナー",
+    "en": "Career Seminar for Girls and Parents"
+  },
+  "date": {
+    "value": "2024-07",
+    "precision": "month"
+  },
+  "url": "https://web.archive.org/web/2024/https://www.shinfdn.org/posts/IqchcA6x",
+  "venue": "山田進太郎 D&I 財団",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[14]"
+}

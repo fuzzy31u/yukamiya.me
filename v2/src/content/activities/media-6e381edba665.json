@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "media",
+  "title": {
+    "ja": "日経クロスウーマン：「頑張りたいのに」育休復帰後に悩み…技術職で男女格差なくすには",
+    "en": "Nikkei xWoman: Struggles after parental leave - Eliminating gender gap in tech"
+  },
+  "date": {
+    "value": "2025",
+    "precision": "year"
+  },
+  "url": "https://woman.nikkei.com/atcl/column/22/061800109/092400021/",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#media[5]"
+}

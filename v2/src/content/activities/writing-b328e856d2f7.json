@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "writing",
+  "title": {
+    "ja": "サイバーエージェントのディベロッパーコミュニティ活性化とDE&Iの取り組み",
+    "en": "CyberAgent Developer Community and DE&I Initiatives"
+  },
+  "date": {
+    "value": "2024",
+    "precision": "year"
+  },
+  "url": "https://developers.cyberagent.co.jp/blog/archives/51796/",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#writing[4]"
+}

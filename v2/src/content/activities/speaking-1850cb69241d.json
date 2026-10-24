@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "テックカンファレンスに女性登壇者を増やす意義",
+    "en": "Importance of Increasing Female Speakers at Tech Conferences"
+  },
+  "date": {
+    "value": "2024-08",
+    "precision": "month"
+  },
+  "url": "https://wake-career.connpass.com/event/327617/",
+  "venue": "WAKE Career",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[13]"
+}

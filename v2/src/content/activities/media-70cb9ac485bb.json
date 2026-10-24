@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "media",
+  "title": {
+    "ja": "CyberAgent Way: 全社のAI活用レベルを可視化して底上げする、サイバーエージェント流「AI番付」とは",
+    "en": "CyberAgent Way: What Is CyberAgent's AI Banzuke, Visualizing and Raising AI Utilization Levels Across the Company?"
+  },
+  "date": {
+    "value": "2026",
+    "precision": "year"
+  },
+  "url": "https://www.cyberagent.co.jp/way/list/detail/id=33333",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#media[0]"
+}

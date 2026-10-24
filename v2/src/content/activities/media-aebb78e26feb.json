@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "media",
+  "title": {
+    "ja": "Ms.Engineer プレスリリース",
+    "en": "Ms.Engineer Press Release"
+  },
+  "date": {
+    "value": "2021",
+    "precision": "year"
+  },
+  "url": "https://prtimes.jp/main/html/rd/p/000000004.000065982.html",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#media[22]"
+}

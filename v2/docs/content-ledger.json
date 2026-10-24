@@ -1,0 +1,1334 @@
+{
+  "sourceSha": "8c6b1e18bfbedebf2dcbcb1ac33f28ccccb4a67b",
+  "mappings": [
+    {
+      "source": "src/data/about-content.js#awards[0]",
+      "id": "awards-b2a8c341a2c2",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2026",
+        "title": {
+          "ja": "サイバーエージェントグループ総会 最優秀ベストプロジェクト賞「AI番付」",
+          "en": "CyberAgent Group General Meeting Best Project Award \"AI Banzuke\""
+        },
+        "org": "CyberAgent"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#awards[1]",
+      "id": "awards-67bf3865065f",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2025",
+        "title": {
+          "ja": "Women Developers Summit 2025 ベストスピーカー賞 1位",
+          "en": "Women Developers Summit 2025 Best Speaker Award #1"
+        },
+        "org": "Shoeisha",
+        "url": "https://www.cyberagent.co.jp/techinfo/news/detail/id=32274"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#awards[2]",
+      "id": "awards-76d654cebf6e",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2024",
+        "title": {
+          "ja": "Forbes JAPAN Women In Tech 30 選出",
+          "en": "Forbes JAPAN Women In Tech 30"
+        },
+        "org": "Forbes JAPAN",
+        "url": "https://forbesjapan.com/articles/detail/74347/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#awards[3]",
+      "id": "awards-91b3e08291dc",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2024",
+        "title": {
+          "ja": "サイバーエージェントグループ総会 ベストコントリビューター賞",
+          "en": "CyberAgent Group General Meeting Best Contributor Award"
+        },
+        "org": "CyberAgent"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#certifications[0]",
+      "id": "certifications-6ceb10ff69b1",
+      "disposition": "retained in archive",
+      "original": {
+        "title": {
+          "ja": "Google Cloud \"Cloud Technical Series - OnBoard Edition\"",
+          "en": "Google Cloud \"Cloud Technical Series - OnBoard Edition\""
+        },
+        "url": "https://googlecloudapac.accredible.com/29ef7949-e74c-4f17-8137-f8de969c8e4a"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#certifications[1]",
+      "id": "certifications-ec43a1fede8f",
+      "disposition": "retained in archive",
+      "original": {
+        "title": {
+          "ja": "GoogleCloud \"Generative AI Leader\"",
+          "en": "GoogleCloud \"Generative AI Leader\""
+        },
+        "url": "https://www.credly.com/badges/13e8956d-6ff4-4bb1-990b-f1a835965d0c/public_url"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[0]",
+      "id": "speaking-52afd86ffbe3",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2026",
+        "month": "09",
+        "title": {
+          "ja": "DX&AI Forum 2026 秋 東京",
+          "en": "DX&AI Forum 2026 Autumn Tokyo"
+        },
+        "venue": "ビジネス＋IT",
+        "role": "事例講演",
+        "url": "https://www.sbbit.jp/eventinfo/dx-ai"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[1]",
+      "id": "speaking-4939e2acdb0e",
+      "disposition": "selected; retained in archive",
+      "original": {
+        "year": "2026",
+        "month": "09",
+        "title": {
+          "ja": "変革を、一部の人の熱量で終わらせないために ― 開発組織のAI活用推進とDE&I推進を率いて学んだこと",
+          "en": "Making Transformation More Than the Passion of a Few — Lessons from Leading AI Adoption and DE&I in Engineering Organizations"
+        },
+        "venue": "DroidKaigi 2026",
+        "url": "https://2026.droidkaigi.jp/timetable/1304891/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[2]",
+      "id": "speaking-651a3f0eac97",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2026",
+        "month": "07",
+        "title": {
+          "ja": "WOMAN×AI「私たちはどうAIと向き合う？」〜AIエキスパートたちに聞く、キャリアが変わる60分〜",
+          "en": "WOMAN×AI: How Should We Engage with AI? — 60 Minutes with AI Experts That Can Change Your Career"
+        },
+        "venue": "Ms.Engineerオンラインイベント",
+        "role": "ゲスト",
+        "url": "https://peatix.com/event/5090126"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[3]",
+      "id": "speaking-5444b1611eee",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2026",
+        "month": "06",
+        "title": {
+          "ja": "開発組織のAI活用レベルを可視化する「エンジニア版AI番付」の取り組み",
+          "en": "Initiatives Behind the \"Engineering AI Banzuke\" for Visualizing AI Utilization in Development Organizations"
+        },
+        "venue": "プロダクトヒストリーカンファレンス 2026",
+        "url": "https://lp-prohis.youtrust.jp/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[4]",
+      "id": "speaking-29c16026f26e",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2026",
+        "month": "03",
+        "title": {
+          "ja": "AIフレンドリーな組織を創る。変革を促す推進室の試行錯誤",
+          "en": "Building an AI-Friendly Organization: Trial and Error in Driving Change"
+        },
+        "venue": "@IT Architect Live 2026 冬",
+        "url": "https://members05.live.itmedia.co.jp/library/OTg4Mjg%253D?group=2603_Architect2026w"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[5]",
+      "id": "speaking-19e23020bb18",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2025",
+        "month": "11",
+        "title": {
+          "ja": "AIエージェント時代のチームコラボレーション 働き方を変えるツール最前線2025",
+          "en": "Team Collaboration in the AI Agent Era: Cutting-edge Tools Transforming Work 2025"
+        },
+        "venue": "ビジネス＋IT",
+        "url": "https://www.sbbit.jp/eventinfo/86199"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[6]",
+      "id": "speaking-347a7bc333a8",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2025",
+        "month": "11",
+        "title": {
+          "ja": "アプリ甲子園2025 審査員",
+          "en": "App Koshien 2025 Judge"
+        },
+        "venue": "アプリ甲子園",
+        "url": "https://techkoshien.jp/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[7]",
+      "id": "speaking-bdcb4f468201",
+      "disposition": "selected; retained in archive",
+      "original": {
+        "year": "2025",
+        "month": "06",
+        "title": {
+          "ja": "AIエージェントの力で切り拓く、誰もが活躍できるインクルーシブな未来",
+          "en": "Creating an Inclusive Future with AI Agents"
+        },
+        "venue": "Women Developers Summit 2025",
+        "url": "https://event.shoeisha.jp/devsumi/20250627/session/5829"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[8]",
+      "id": "speaking-83f8f26441d3",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2025",
+        "month": "06",
+        "title": {
+          "ja": "ジェンダーギャップの\"今\"と\"これから\" 〜テック業界で私たちが切り拓く新しい未来〜",
+          "en": "Gender Gap: Present and Future in Tech Industry"
+        },
+        "venue": "BoxWorks TOKYO 2025",
+        "url": "https://www.box-events.jp/boxworks2025_tokyo/day1_timetable"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[9]",
+      "id": "speaking-0c4fb3002955",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2025",
+        "month": "04",
+        "title": {
+          "ja": "International Women's Day 2025",
+          "en": "International Women's Day 2025"
+        },
+        "venue": "OutSystems Japan Community",
+        "url": "https://usergroups.outsystems.com/events/details/outsystems-inc-tokyo-presents-iwd-international-womens-day-2025-outsystems-japan-community/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[10]",
+      "id": "speaking-ebaa5b46e93d",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2024",
+        "month": "11",
+        "title": {
+          "ja": "多事業展開を成功させる横断開発の秘訣",
+          "en": "Secrets of Cross-Functional Development for Multi-Business Success"
+        },
+        "venue": "プロダクトヒストリーカンファレンス",
+        "role": "モデレーター",
+        "url": "https://lp-prohis.youtrust.jp/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[11]",
+      "id": "speaking-43eeda562965",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2024",
+        "month": "11",
+        "title": {
+          "ja": "アプリ甲子園 審査員",
+          "en": "App Koshien Judge"
+        },
+        "venue": "アプリ甲子園",
+        "url": "https://techkoshien.jp/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[12]",
+      "id": "speaking-e0cbb9174997",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2024",
+        "month": "10",
+        "title": {
+          "ja": "グローバル展開を見据えたサービスにおける機械翻訳プラクティス",
+          "en": "Machine Translation Practices for Global Services"
+        },
+        "venue": "CADC 2024",
+        "url": "https://cadc.cyberagent.co.jp/2024/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[13]",
+      "id": "speaking-1850cb69241d",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2024",
+        "month": "08",
+        "title": {
+          "ja": "テックカンファレンスに女性登壇者を増やす意義",
+          "en": "Importance of Increasing Female Speakers at Tech Conferences"
+        },
+        "venue": "WAKE Career",
+        "url": "https://wake-career.connpass.com/event/327617/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[14]",
+      "id": "speaking-03ca8478275d",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2024",
+        "month": "07",
+        "title": {
+          "ja": "未来の仕事を知ろう：女子と保護者のための進路セミナー",
+          "en": "Career Seminar for Girls and Parents"
+        },
+        "venue": "山田進太郎 D&I 財団",
+        "url": "https://web.archive.org/web/2024/https://www.shinfdn.org/posts/IqchcA6x"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[15]",
+      "id": "speaking-f50f8df1d620",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2024",
+        "month": "04",
+        "title": {
+          "ja": "子育てエンジニアのためのキャリア会議",
+          "en": "Career Conference for Parent Engineers"
+        },
+        "venue": "Forkwell",
+        "url": "https://forkwell.connpass.com/event/313545/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[16]",
+      "id": "speaking-2f23264260fd",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2024",
+        "month": "00",
+        "title": {
+          "ja": "Women Techmakers Ambassador -Empowering the Next Generation of Global Tech Leaders-",
+          "en": "Women Techmakers Ambassador - Empowering the Next Generation of Global Tech Leaders"
+        },
+        "venue": "LT event for Women in Tech",
+        "url": "https://developers.cyberagent.co.jp/blog/archives/52578/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[17]",
+      "id": "speaking-33d29b32c36d",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2023",
+        "month": "07",
+        "title": {
+          "ja": "生成AIの話題にイマイチついていけない人のためのChatGPT体験講座",
+          "en": "ChatGPT Workshop for Beginners"
+        },
+        "venue": "みんなのコード",
+        "url": "https://code.or.jp/event/20230615/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[18]",
+      "id": "speaking-f563f3d13730",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2023",
+        "month": "06",
+        "title": {
+          "ja": "CyberAgentにおける多様性の価値とは？",
+          "en": "The Value of Diversity at CyberAgent"
+        },
+        "venue": "GitHub Galaxy Tokyo",
+        "url": "https://web.archive.org/web/2023/https://resources.github.com/galaxy/tokyo/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[19]",
+      "id": "speaking-0a2387adbb24",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2023",
+        "month": "04",
+        "title": {
+          "ja": "My #DareToBe Story エンジニア組織のDE&I推進を目指して",
+          "en": "My #DareToBe Story: Promoting DE&I in Engineering Organizations"
+        },
+        "venue": "WTM Tokyo - IWD 2023",
+        "url": "https://gdg-tokyo.connpass.com/event/277960/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[20]",
+      "id": "speaking-93f73ba4d5c6",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2023",
+        "month": "03",
+        "title": {
+          "ja": "デジタル世界のDEI ～AIバイアスのリアル～",
+          "en": "DEI in Digital World: AI Bias Reality"
+        },
+        "venue": "日立社内セミナー"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[21]",
+      "id": "speaking-1948fd0b22c2",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2023",
+        "month": "01",
+        "title": {
+          "ja": "キャリアパスの多様性",
+          "en": "Diversity in Career Paths"
+        },
+        "venue": "第3回インダストリアルAIシンポジウム",
+        "url": "https://www.ai-gakkai.or.jp/siai/program/lecture"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[22]",
+      "id": "speaking-482959125392",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2022",
+        "month": "09",
+        "title": {
+          "ja": "技育展 2022「女性エンジニア」テーマ審査員",
+          "en": "Geekten 2022 \"Female Engineers\" Theme Judge"
+        },
+        "venue": "技育展",
+        "url": "https://talent.supporterz.jp/geekten/2022/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[23]",
+      "id": "speaking-44657214003b",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2022",
+        "month": "05",
+        "title": {
+          "ja": "文系女性の可能性を広げる、エンジニアという選択肢。",
+          "en": "Engineering as a Career Choice for Liberal Arts Women"
+        },
+        "venue": "Business with Attitude",
+        "url": "https://madamefigaro.jp/society-business/220525-bwa-yu-kamiya.html"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[24]",
+      "id": "speaking-4d874278b3b2",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2022",
+        "month": "04",
+        "title": {
+          "ja": "プログラミング教育、エンジニアへの道",
+          "en": "Programming Education and the Path to Engineering"
+        },
+        "venue": "母親アップデートラジオ",
+        "url": "https://voicy.jp/channel/989/312990"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[25]",
+      "id": "speaking-a66eb237d816",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2022",
+        "month": "03",
+        "title": {
+          "ja": "未来の学校 FES 理系女子のミライ",
+          "en": "Future School FES: Future of Women in STEM"
+        },
+        "venue": "神山まるごと高専",
+        "url": "https://www.youtube.com/watch?app=desktop&v=PQr7XGH0hOg"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[26]",
+      "id": "speaking-31e0c9a7c41f",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2021",
+        "month": "11",
+        "title": {
+          "ja": "IT分野のジェンダーギャップの現在地とアクション",
+          "en": "Current State and Actions on Gender Gap in IT"
+        },
+        "venue": "Women Developers Summit",
+        "url": "https://event.shoeisha.jp/devsumi/20211117/session/3515/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[27]",
+      "id": "speaking-5667459fedf5",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2021",
+        "month": "11",
+        "title": {
+          "ja": "副業で広がるキャリアの可能性と働き方の選択肢",
+          "en": "Career Possibilities Through Side Jobs"
+        },
+        "venue": "BIT VALLEY 2021",
+        "url": "https://web.archive.org/web/2022/https://2021.bit-valley.jp/program/career/35"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[28]",
+      "id": "speaking-0738f9853406",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2021",
+        "month": "02",
+        "title": {
+          "ja": "Women in Tech Meetup Vol.03",
+          "en": "Women in Tech Meetup Vol.03"
+        },
+        "venue": "Mercari",
+        "url": "https://connpass.com/event/201048/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[29]",
+      "id": "speaking-36e013c089c8",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2020",
+        "month": "12",
+        "title": {
+          "ja": "テクノロジー業界における女性のリーダーシップを支援するため",
+          "en": "Supporting Women's Leadership in Technology Industry"
+        },
+        "venue": "Wahl & Case",
+        "url": "https://buildplus.io/jp/webinar/women-leaders-in-the-technology-industry"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[30]",
+      "id": "speaking-c5f87bbdbad0",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2020",
+        "month": "00",
+        "title": {
+          "ja": "Waffle Camp キャリアトーク",
+          "en": "Waffle Camp Career Talk"
+        },
+        "venue": "Waffle Camp",
+        "url": "https://www.camp.waffle-waffle.org/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#speaking[31]",
+      "id": "speaking-4ac55e8ef0fe",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2019",
+        "month": "06",
+        "title": {
+          "ja": "Woman Tech Terrace LT",
+          "en": "Woman Tech Terrace LT"
+        },
+        "venue": "CyberAgent",
+        "url": "https://wtt.cyberagent.group/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#organizedEvents[0]",
+      "id": "organizedEvents-5987af79edbe",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2025",
+        "title": {
+          "ja": "Women Tech Terrace 2025",
+          "en": "Women Tech Terrace 2025"
+        },
+        "org": "CyberAgent",
+        "url": "https://www.cyberagent.co.jp/way/list/detail/id=32213"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#organizedEvents[1]",
+      "id": "organizedEvents-f6f276b5d5d4",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2025",
+        "title": {
+          "ja": "CA Women Tech Meetup",
+          "en": "CA Women Tech Meetup"
+        },
+        "org": "CyberAgent",
+        "url": "https://developers.cyberagent.co.jp/blog/archives/55660/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#organizedEvents[2]",
+      "id": "organizedEvents-965dafaeaac3",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2024",
+        "title": {
+          "ja": "Women Tech Terrace 2024",
+          "en": "Women Tech Terrace 2024"
+        },
+        "org": "CyberAgent",
+        "url": "https://www.cyberagent.co.jp/way/list/detail/id=30486"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#organizedEvents[3]",
+      "id": "organizedEvents-4a33983828cc",
+      "disposition": "retained in archive",
+      "original": {
+        "year": "2023",
+        "title": {
+          "ja": "Women Tech Terrace 2023",
+          "en": "Women Tech Terrace 2023"
+        },
+        "org": "CyberAgent",
+        "url": "https://www.cyberagent.co.jp/way/list/detail/id=28827"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#research[0]",
+      "id": "research-5847e51fd5dc",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "📄",
+        "title": {
+          "ja": "IT技術者のジェンダーギャップ解消のための志望者・現役技術者に対する調査",
+          "en": "Survey on Gender Gap in IT: Aspirants and Professionals"
+        },
+        "venue": "情報処理学会デジタルプラクティス",
+        "year": "2024",
+        "url": "https://www.ipsj.or.jp/dp/contents/publication/61/TR0601-13.html"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#research[1]",
+      "id": "research-ed576941c864",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "🎤",
+        "title": {
+          "ja": "ソフトウェアエンジニア志望者における男女差: ロールモデル・会社選びの基準・興味関心",
+          "en": "Gender Differences in Software Engineering Aspirants"
+        },
+        "venue": "人工知能学会全国大会（JSAI2024）",
+        "year": "2024",
+        "url": "https://www.cyberagent.co.jp/techinfo/news/detail/id=30165"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#research[2]",
+      "id": "research-7d18c5bc89d6",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "📊",
+        "title": {
+          "ja": "IT製品の開発に携わる従業員に対する、就労環境の包摂度調査について",
+          "en": "Survey on Inclusivity in IT Product Development Environments"
+        },
+        "venue": "経営情報学会 2023",
+        "year": "2023",
+        "url": "https://www.cyberagent.co.jp/techinfo/news/detail/id=29456"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#writing[0]",
+      "id": "writing-9a8d135fa73f",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "✍️",
+        "title": {
+          "ja": "参加者約 5,000 人が UC Berkeley に集結 — Agentic AI Summit 2026 参加レポート",
+          "en": "Nearly 5,000 Attendees Gathered at UC Berkeley — Agentic AI Summit 2026 Report"
+        },
+        "year": "2026",
+        "url": "https://developers.cyberagent.co.jp/blog/archives/65345/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#writing[1]",
+      "id": "writing-f7d32c4161ef",
+      "disposition": "selected; retained in archive",
+      "original": {
+        "icon": "✍️",
+        "title": {
+          "ja": "開発組織のAI活用レベルを可視化する「エンジニア版AI番付」の設計と運営",
+          "en": "Designing and Operating the Engineering AI Banzuke to Visualize AI Utilization Levels in Development Organizations"
+        },
+        "year": "2026",
+        "url": "https://developers.cyberagent.co.jp/blog/archives/63720/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#writing[2]",
+      "id": "writing-620f3c22bb70",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "📝",
+        "title": {
+          "ja": "Findy media：コンテキストスイッチを減らすために、3児の母エンジニアが辿り着いた\"やらないこと\"",
+          "en": "Findy media: What a mother engineer of 3 kids stopped doing to reduce context switching"
+        },
+        "year": "2025",
+        "url": "https://findy-code.io/media/articles/list-_yukamiya"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#writing[3]",
+      "id": "writing-8560af9f48e1",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "📚",
+        "title": {
+          "ja": "技術書典19「わたしのすごいAI活用技術大全」（第20章「AI エージェント協働入門：Claude Code で実現する新しいワークフロー」担当）",
+          "en": "TechBookFest19: \"My Amazing AI Techniques\" (Chapter 20: \"Intro to AI Agent Collaboration: New Workflows with Claude Code\")"
+        },
+        "year": "2025",
+        "url": "https://techbookfest.org/product/iJBWBGsy6UW6sNuZyxEbzJ?productVariantID=4x8B2dQg8M7btZs11s2GXX"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#writing[4]",
+      "id": "writing-b328e856d2f7",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "✍️",
+        "title": {
+          "ja": "サイバーエージェントのディベロッパーコミュニティ活性化とDE&Iの取り組み",
+          "en": "CyberAgent Developer Community and DE&I Initiatives"
+        },
+        "year": "2024",
+        "url": "https://developers.cyberagent.co.jp/blog/archives/51796/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#writing[5]",
+      "id": "writing-cbe2db382cf3",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "🌐",
+        "title": {
+          "ja": "グローバル展開を見据えたサービスにおける機械翻訳プラクティス",
+          "en": "Machine Translation Practices for Global Services"
+        },
+        "year": "2024",
+        "url": "https://developers.cyberagent.co.jp/blog/archives/50516/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#writing[6]",
+      "id": "writing-ac1853c12044",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "🤖",
+        "title": {
+          "ja": "子ども向けプログラミング学習サービスの多言語翻訳における生成AI活用の可能性",
+          "en": "Potential of Generative AI in Multilingual Translation for Kids' Programming Services"
+        },
+        "year": "2023",
+        "url": "https://developers.cyberagent.co.jp/blog/archives/44530/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#writing[7]",
+      "id": "writing-c9c24ce41441",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "👩‍💻",
+        "title": {
+          "ja": "ママエンジニアのワークライフ",
+          "en": "Work-Life of a Mother Engineer"
+        },
+        "year": "2015",
+        "url": "https://ameblo.jp/principia-ca/entry-12071778409.html"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[0]",
+      "id": "media-70cb9ac485bb",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "💼",
+        "title": {
+          "ja": "CyberAgent Way: 全社のAI活用レベルを可視化して底上げする、サイバーエージェント流「AI番付」とは",
+          "en": "CyberAgent Way: What Is CyberAgent's AI Banzuke, Visualizing and Raising AI Utilization Levels Across the Company?"
+        },
+        "year": "2026",
+        "url": "https://www.cyberagent.co.jp/way/list/detail/id=33333"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[1]",
+      "id": "media-6518c657ba8d",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "👩‍💼",
+        "title": {
+          "ja": "CyberAgent Way: 「競争ではなく共闘」AIドリブン推進室が語る、エンジニア版「AI番付」の熱量と裏側",
+          "en": "CyberAgent Way: The AI-Driven Office on the Momentum and Inside Story of the Engineering AI Banzuke"
+        },
+        "year": "2026",
+        "url": "https://www.cyberagent.co.jp/way/list/detail/id=33439"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[2]",
+      "id": "media-a96e7b2ab502",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "📺",
+        "title": {
+          "ja": "ビジネス＋IT：生成AIを会社の競争力に。サイバーエージェントの全社をあげた取り組み",
+          "en": "Business+IT: Turning Generative AI into a Competitive Advantage Across CyberAgent"
+        },
+        "year": "2026",
+        "url": "https://www.sbbit.jp/movie/sp/15810"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[3]",
+      "id": "media-da94c3d078d3",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "📰",
+        "title": {
+          "ja": "ビジネス＋IT：サイバーエージェント流「AI活用組織」の作り方、開発\"完全自動化\"へのロードマップ",
+          "en": "Business+IT: CyberAgent's Approach to Building an AI-Driven Organization: Roadmap to Complete Development Automation"
+        },
+        "year": "2026",
+        "url": "https://www.sbbit.jp/article/sp/176481"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[4]",
+      "id": "media-b318cdd23a39",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "💼",
+        "title": {
+          "ja": "CyberAgent Way: 発足4年目のTech DE&I プロジェクトが紡ぐ、女性エンジニアの新たな繋がり",
+          "en": "CyberAgent Way: New Connections Among Women Engineers Fostered by the Tech DE&I Project in Its Fourth Year"
+        },
+        "year": "2026",
+        "url": "https://www.cyberagent.co.jp/way/list/detail/id=33323"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[5]",
+      "id": "media-6e381edba665",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "👩‍💼",
+        "title": {
+          "ja": "日経クロスウーマン：「頑張りたいのに」育休復帰後に悩み…技術職で男女格差なくすには",
+          "en": "Nikkei xWoman: Struggles after parental leave - Eliminating gender gap in tech"
+        },
+        "year": "2025",
+        "url": "https://woman.nikkei.com/atcl/column/22/061800109/092400021/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[6]",
+      "id": "media-834b6293bdff",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "📰",
+        "title": {
+          "ja": "朝日新聞：（凄腕ものがたり）神谷優さん　エンジニアの男女格差解消に挑む",
+          "en": "Asahi Shimbun: Yu Kamiya Tackles Gender Gap in Engineering"
+        },
+        "year": "2025",
+        "url": "https://www.asahi.com/articles/DA3S16241559.html"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[7]",
+      "id": "media-e56b85bd0fd1",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "💼",
+        "title": {
+          "ja": "サイバーエージェント Tech DE&I プロジェクトの今",
+          "en": "CyberAgent Tech DE&I Project Update"
+        },
+        "year": "2025",
+        "url": "https://www.cyberagent.co.jp/way/list/detail/id=31500"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[8]",
+      "id": "media-3a11f71e64f5",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "🎤",
+        "title": {
+          "ja": "YOUTRUST: 多事業展開を成功させる横断開発の秘訣｜プロダクトヒストリーカンファレンス 2024",
+          "en": "YOUTRUST: Secrets of Cross-Functional Development for Multi-Business Success"
+        },
+        "year": "2025",
+        "url": "https://youtrust.jp/articles/categories/career_development/phc2024-report04"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[9]",
+      "id": "media-fc2d8627023c",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "📄",
+        "title": {
+          "ja": "サイバーエージェント: 「デジタルプラクティス」に論文が採択されました",
+          "en": "CyberAgent: Paper Accepted in Digital Practice"
+        },
+        "year": "2025",
+        "url": "https://www.cyberagent.co.jp/techinfo/news/detail/id=31309"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[10]",
+      "id": "media-509713789df2",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "🏆",
+        "title": {
+          "ja": "Forbes: サイバーエージェントが挑む「Tech DE&I」の舞台裏",
+          "en": "Forbes: Behind CyberAgent's Tech DE&I Initiatives"
+        },
+        "year": "2024",
+        "url": "https://forbesjapan.com/articles/detail/74649"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[11]",
+      "id": "media-03fa0ad88bb1",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "🎯",
+        "title": {
+          "ja": "CyberAgent Way: 「Women Tech Terrace 2024」で考える、IT業界ジェンダーギャップ解消の未来地図と現在地",
+          "en": "CyberAgent Way: Future Map and Current State of Gender Gap in IT at Women Tech Terrace 2024"
+        },
+        "year": "2024",
+        "url": "https://www.cyberagent.co.jp/way/list/detail/id=30579"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[12]",
+      "id": "media-acf4757db6f0",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "🤝",
+        "title": {
+          "ja": "CyberAgent Way: 「あなたならできるよ、と背中を押す大人を増やしたい」Waffleと歩む、IT業界のジェンダーギャップ解消への道のり",
+          "en": "CyberAgent Way: Walking with Waffle to Close the Gender Gap in IT"
+        },
+        "year": "2024",
+        "url": "https://www.cyberagent.co.jp/way/list/detail/id=29926"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[13]",
+      "id": "media-59e09755caec",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "📖",
+        "title": {
+          "ja": "SELECK: IT業界のジェンダーギャップ解消に挑む",
+          "en": "SELECK: Tackling Gender Gap in IT Industry"
+        },
+        "year": "2023",
+        "url": "https://web.archive.org/web/2023/https://seleck.cc/1608"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[14]",
+      "id": "media-2efde3a5515f",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "👩‍🎓",
+        "title": {
+          "ja": "CyberAgent Way: \"女性にもエンジニアという選択肢を\"「Women Go College」でプログラミングの機会を提供",
+          "en": "CyberAgent Way: Providing Programming Opportunities through Women Go College"
+        },
+        "year": "2023",
+        "url": "https://www.cyberagent.co.jp/way/list/detail/id=29169"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[15]",
+      "id": "media-e2dcba04993e",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "💻",
+        "title": {
+          "ja": "Tech Team Journal: IT業界の偏りを解消する「Tech DE&I プロジェクト」とは？",
+          "en": "Tech Team Journal: What is the Tech DE&I Project?"
+        },
+        "year": "2023",
+        "url": "https://ttj.paiza.jp/archives/2023/07/28/9971/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[16]",
+      "id": "media-379ec91674d2",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "🌈",
+        "title": {
+          "ja": "CyberAgent Way: 多様性を受容する開発組織には、社会を変える力がある。「Tech DE&I プロジェクト」始動。",
+          "en": "CyberAgent Way: Tech DE&I Project Launch"
+        },
+        "year": "2023",
+        "url": "https://www.cyberagent.co.jp/way/list/detail/id=28637"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[17]",
+      "id": "media-679be26aed74",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "📚",
+        "title": {
+          "ja": "「わたし×IT 最強説」インタビュー",
+          "en": "Interview in \"Me x IT: The Strongest Theory\""
+        },
+        "year": "2023",
+        "url": "https://www.hanmoto.com/bd/isbn/9784898155707"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[18]",
+      "id": "media-fc525c311b68",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "📝",
+        "title": {
+          "ja": "CodeZine: 女性エンジニアが増えたほうが良い理由とは？",
+          "en": "CodeZine: Why We Need More Female Engineers"
+        },
+        "year": "2023",
+        "url": "https://codezine.jp/article/detail/16896"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[19]",
+      "id": "media-fd659b288b7e",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "🌐",
+        "title": {
+          "ja": "CyberAgent: Women Techmakers Ambassador 選出",
+          "en": "CyberAgent: Selected as Women Techmakers Ambassador"
+        },
+        "year": "2022",
+        "url": "https://web.archive.org/web/2023/https://www.cyberagent.co.jp/techinfo/news/detail/id=27684"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[20]",
+      "id": "media-c78335ea68d4",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "🎨",
+        "title": {
+          "ja": "CyberAgent Way: エンジニア・クリエイター発 ダイバーシティ推進プロジェクト「CAlorful」が誕生",
+          "en": "CyberAgent Way: Launch of CAlorful Diversity Project"
+        },
+        "year": "2021",
+        "url": "https://web.archive.org/web/20211127203307/https://www.cyberagent.co.jp/way/features/list/detail/id=26859"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[21]",
+      "id": "media-26c3d3fb2280",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "📖",
+        "title": {
+          "ja": "NTT コムウェア C+: デジタル人材のためのブックレビュー",
+          "en": "NTT Comware C+: Book Review for Digital Talent"
+        },
+        "year": "2021",
+        "url": "https://www.nttcom.co.jp/comware_plus/column/book_review/202107.html"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[22]",
+      "id": "media-aebb78e26feb",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "🚀",
+        "title": {
+          "ja": "Ms.Engineer プレスリリース",
+          "en": "Ms.Engineer Press Release"
+        },
+        "year": "2021",
+        "url": "https://prtimes.jp/main/html/rd/p/000000004.000065982.html"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[23]",
+      "id": "media-3779176a981a",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "💼",
+        "title": {
+          "ja": "モアキャリー: ライフステージが変わっても仕事とやりたいことを両立するワーキングママ",
+          "en": "MoreCareer: Working Mom Balancing Work and Life Through Life Stage Changes"
+        },
+        "year": "2019",
+        "url": "https://web.archive.org/web/20200215010838/https://www.morecareee.jp/trend/style027/"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[24]",
+      "id": "media-49ac38dde038",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "👩‍💻",
+        "title": {
+          "ja": "IT media News 今週のITガール: 国境を超えるエンジニア 神谷優さん",
+          "en": "IT media News: Engineer Crossing Borders - Yu Kamiya"
+        },
+        "year": "2013",
+        "url": "https://web.archive.org/web/20140627190411/http://news.itmedia.co.jp/20130416/003760"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#media[25]",
+      "id": "media-e5bfdeb0440b",
+      "disposition": "retained in archive",
+      "original": {
+        "icon": "📰",
+        "title": {
+          "ja": "WEB+DB PRESS vol.64: サイバーエージェントを支える技術者たち",
+          "en": "WEB+DB PRESS vol.64: Engineers Supporting CyberAgent"
+        },
+        "year": "2011",
+        "url": "https://gihyo.jp/dev/serial/01/cyberagent/0017"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#podcasts[0]",
+      "id": "podcasts-8a0fa0d5a03c",
+      "disposition": "retained in archive",
+      "original": {
+        "title": {
+          "ja": "fukabori.fm #129: Tech業界のDE&Iの現状と課題",
+          "en": "fukabori.fm #129: DE&I in Tech Industry"
+        },
+        "featured": true,
+        "url": "https://fukabori.fm/episode/129"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#podcasts[1]",
+      "id": "podcasts-28b9da2ce37d",
+      "disposition": "retained in archive",
+      "original": {
+        "title": {
+          "ja": "SKO radio ゲスト出演 Part1",
+          "en": "SKO radio Guest Appearance Part1"
+        },
+        "url": "https://open.spotify.com/episode/40E0B50d4s8qg9YSrvfFak"
+      }
+    },
+    {
+      "source": "src/data/about-content.js#podcasts[2]",
+      "id": "podcasts-c2ba9653bd9c",
+      "disposition": "retained in archive",
+      "original": {
+        "title": {
+          "ja": "SKO radio ゲスト出演 Part2",
+          "en": "SKO radio Guest Appearance Part2"
+        },
+        "url": "https://open.spotify.com/episode/43LcwLt7qKsZG6ev4qAdMZ"
+      }
+    }
+  ],
+  "profileSource": {
+    "workHistory": [
+      {
+        "period": "2025 - 現在",
+        "periodEn": "2025 - Present",
+        "title": {
+          "ja": "AIドリブン推進室 マネージャー",
+          "en": "Manager, AI Driven Office"
+        },
+        "company": "CyberAgent, Inc."
+      },
+      {
+        "period": "2024 - 2025",
+        "periodEn": "2024 - 2025",
+        "title": {
+          "ja": "DevRel Team Manager",
+          "en": "DevRel Team Manager"
+        },
+        "company": "CyberAgent, Inc."
+      },
+      {
+        "period": "2023 - 現在",
+        "periodEn": "2023 - Present",
+        "title": {
+          "ja": "Tech DE&I Lead",
+          "en": "Tech DE&I Lead"
+        },
+        "company": "CyberAgent, Inc."
+      },
+      {
+        "period": "2020 - 2025",
+        "periodEn": "2020 - 2025",
+        "title": {
+          "ja": "Technical Assistant（pro bono）",
+          "en": "Technical Assistant (pro bono)"
+        },
+        "company": "Waffle.org NPO"
+      },
+      {
+        "period": "2020 - 2023",
+        "periodEn": "2020 - 2023",
+        "title": {
+          "ja": "Project Manager",
+          "en": "Project Manager"
+        },
+        "company": "QUREO, Inc."
+      },
+      {
+        "period": "2020 - 2021",
+        "periodEn": "2020 - 2021",
+        "title": {
+          "ja": "Co-Founder",
+          "en": "Co-Founder"
+        },
+        "company": "Ms.Engineer"
+      },
+      {
+        "period": "2014 - 2019",
+        "periodEn": "2014 - 2019",
+        "title": {
+          "ja": "Data Management Engineer",
+          "en": "Data Management Engineer"
+        },
+        "company": "AWA Co. Ltd."
+      },
+      {
+        "period": "2008 - 2013",
+        "periodEn": "2008 - 2013",
+        "title": {
+          "ja": "Engineer → Lead Engineer",
+          "en": "Engineer → Lead Engineer"
+        },
+        "company": "CyberAgent, Inc."
+      }
+    ],
+    "education": [
+      {
+        "period": "2011 - 2013",
+        "degree": {
+          "ja": "修士課程",
+          "en": "Master's Degree"
+        },
+        "field": {
+          "ja": "国際情報通信研究科",
+          "en": "Global Information and Telecommunication Studies"
+        },
+        "school": {
+          "ja": "早稲田大学 大学院",
+          "en": "Waseda University"
+        }
+      }
+    ],
+    "links": [
+      {
+        "name": {
+          "ja": "はてなブログ",
+          "en": "Hatena Blog"
+        },
+        "url": "https://fuzzy31u.hatenablog.com/",
+        "icon": "hatena"
+      },
+      {
+        "name": {
+          "ja": "Qiita",
+          "en": "Qiita"
+        },
+        "url": "https://qiita.com/fuzzy31u",
+        "icon": "qiita"
+      },
+      {
+        "name": {
+          "ja": "SpeakerDeck",
+          "en": "SpeakerDeck"
+        },
+        "url": "https://speakerdeck.com/fuzzy31u",
+        "icon": "speakerdeck"
+      },
+      {
+        "name": {
+          "ja": "Zenn",
+          "en": "Zenn"
+        },
+        "url": "https://zenn.dev/yukamiya",
+        "icon": "zenn"
+      }
+    ],
+    "highlights": [
+      {
+        "ja": "Women Developers Summit 2025 ベストスピーカー賞 1位",
+        "en": "Best Speaker Award #1, Women Developers Summit 2025"
+      },
+      {
+        "ja": "Forbes JAPAN Women In Tech 30 選出",
+        "en": "Forbes JAPAN Women In Tech 30"
+      },
+      {
+        "ja": "Women Techmakers Ambassador",
+        "en": "Women Techmakers Ambassador"
+      },
+      {
+        "ja": "AIドリブン推進室 マネージャー 兼 Tech DE&I リード",
+        "en": "AI-Driven Office Manager & Tech DE&I Lead"
+      },
+      {
+        "ja": "情報処理学会デジタルプラクティス論文採択",
+        "en": "Published in IPSJ Digital Practice"
+      }
+    ]
+  },
+  "otherSources": [
+    "src/data/home-content.js",
+    "src/content/pages/index.md",
+    "src/content/pages/contact.md",
+    "src/content/posts/20210128.md"
+  ]
+}

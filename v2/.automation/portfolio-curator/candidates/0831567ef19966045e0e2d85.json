@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "0831567ef19966045e0e2d85",
+  "canonicalUrl": "https://zenn.dev/yukamiya/articles/e05112f196bbca",
+  "aliases": [],
+  "occurrenceKey": "artifact",
+  "sourceId": "zenn-author",
+  "title": "【2023年】読んだ本と思考のアップデート",
+  "detectedAt": "2026-10-23T08:39:26.265Z",
+  "status": "verified",
+  "attempts": 0,
+  "nextRetryAt": null,
+  "blocker": null,
+  "evidence": {
+    "url": "https://zenn.dev/yukamiya/articles/e05112f196bbca",
+    "checkedAt": "2026-10-23T08:42:22.601Z",
+    "sha256": "f02c77d22eb1c5463db78571762ab18f8df0b862152dcca1bba77449d169371e",
+    "sourceTitle": "【2023年】読んだ本と思考のアップデート",
+    "sourceDate": {
+      "value": "2023-12-30",
+      "precision": "day"
+    },
+    "identity": "yukamiya",
+    "identityMethod": "author-metadata",
+    "canonicalMethod": "canonical",
+    "adapter": "zenn-author"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "media",
+  "title": {
+    "ja": "CodeZine: 女性エンジニアが増えたほうが良い理由とは？",
+    "en": "CodeZine: Why We Need More Female Engineers"
+  },
+  "date": {
+    "value": "2023",
+    "precision": "year"
+  },
+  "url": "https://codezine.jp/article/detail/16896",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#media[18]"
+}

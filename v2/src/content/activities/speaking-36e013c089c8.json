@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "テクノロジー業界における女性のリーダーシップを支援するため",
+    "en": "Supporting Women's Leadership in Technology Industry"
+  },
+  "date": {
+    "value": "2020-12",
+    "precision": "month"
+  },
+  "url": "https://buildplus.io/jp/webinar/women-leaders-in-the-technology-industry",
+  "venue": "Wahl & Case",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[29]"
+}

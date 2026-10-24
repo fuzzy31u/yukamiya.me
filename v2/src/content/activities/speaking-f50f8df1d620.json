@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "子育てエンジニアのためのキャリア会議",
+    "en": "Career Conference for Parent Engineers"
+  },
+  "date": {
+    "value": "2024-04",
+    "precision": "month"
+  },
+  "url": "https://forkwell.connpass.com/event/313545/",
+  "venue": "Forkwell",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[15]"
+}

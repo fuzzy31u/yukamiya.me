@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "media",
+  "title": {
+    "ja": "ビジネス＋IT：サイバーエージェント流「AI活用組織」の作り方、開発\"完全自動化\"へのロードマップ",
+    "en": "Business+IT: CyberAgent's Approach to Building an AI-Driven Organization: Roadmap to Complete Development Automation"
+  },
+  "date": {
+    "value": "2026",
+    "precision": "year"
+  },
+  "url": "https://www.sbbit.jp/article/sp/176481",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#media[3]"
+}

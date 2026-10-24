@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "840e84afeb9027f4712c1884",
+  "canonicalUrl": "https://www.cyberagent.co.jp/way/list/detail/id=33439",
+  "occurrenceKey": "legacy-unspecified",
+  "decision": "legacy-merged",
+  "legacyKey": "https://www.cyberagent.co.jp/way/list/detail/id=33439",
+  "legacy": {
+    "content_type": "media",
+    "title": "CyberAgent Way: 「競争ではなく共闘」AIドリブン推進室が語る、エンジニア版「AI番付」の熱量と裏側",
+    "canonical_url": "https://www.cyberagent.co.jp/way/list/detail/id=33439",
+    "detected_at": "2026-06-21T00:11:09Z",
+    "status": "merged",
+    "issue_number": 86,
+    "pr_number": 87,
+    "last_review_status": "pass",
+    "merged_at": "2026-06-21T00:10:32Z",
+    "blocker": null
+  }
+}

@@ -1,0 +1,96 @@
+---
+import { metricLabel } from "../lib/i18n";
+import { render, type CollectionEntry } from "astro:content";
+import { ui, pathFor, type Locale } from "../lib/i18n";
+interface Props {
+  entry: CollectionEntry<"work">;
+  locale: Locale;
+}
+const { entry, locale } = Astro.props;
+const d = entry.data;
+const t = ui[locale];
+const { Content } = await render(entry);
+---
+
+<article class="case-study shell">
+  <header class="page-heading">
+    <a class="back-link" href={pathFor(locale, "work")}>
+      ← {t.back}
+    </a>
+    <p class="eyebrow">{d.category}</p>
+    <h1>{d.title}</h1>
+    <p class="deck">{d.summary}</p>
+  </header>
+  <dl class="case-meta">
+    <div>
+      <dt>{t.role}</dt>
+      <dd>{d.role}</dd>
+    </div>
+    <div>
+      <dt>{t.organization}</dt>
+      <dd>{d.organization}</dd>
+    </div>
+    <div>
+      <dt>{t.timeframe}</dt>
+      <dd>{d.timeframe}</dd>
+    </div>
+  </dl>
+  <div class="case-body">
+    <aside>
+      <p class="eyebrow">
+        {locale === "en" ? "Inside the work" : "取り組みの内容"}
+      </p>
+      <nav aria-label={locale === "en" ? "On this page" : "このページの目次"}>
+        <a href="#context">{t.context}</a>
+        <a href="#approach">{t.approach}</a>
+        <a href="#outcome">{t.outcome}</a>
+        <a href="#sources">{t.sources}</a>
+      </nav>
+    </aside>
+    <div class="prose">
+      <section id="context">
+        <h2>{t.context}</h2>
+        <p>{d.context}</p>
+        <h2>{t.problem}</h2>
+        <p>{d.problem}</p>
+      </section>
+      <section id="approach">
+        <h2>{t.approach}</h2>
+        <ol class="approach-list">
+          {d.approach.map((step) => (
+            <li>{step}</li>
+          ))}
+        </ol>
+      </section>
+      <Content />
+      <section id="outcome" class="outcome">
+        <p class="eyebrow">{t.outcome}</p>
+        <p class="outcome-statement">{d.outcome}</p>
+        {d.metrics.map((m) => (
+          <div class="case-metric">
+            <strong>{m.value}</strong>
+            <span>
+              {m.label}
+              <small>{metricLabel(locale, m.kind)}</small>
+            </span>
+          </div>
+        ))}
+      </section>
+      <section class="limitations">
+        <h2>{t.limitations}</h2>
+        <p>{d.limitations}</p>
+      </section>
+      <section id="sources">
+        <h2>{t.sources}</h2>
+        <ul class="source-list">
+          {d.evidence.map((e) => (
+            <li>
+              <a href={e.url}>{e.title} ↗</a>
+              {e.note && <p>{e.note}</p>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    </div>
+  </div>
+</article>

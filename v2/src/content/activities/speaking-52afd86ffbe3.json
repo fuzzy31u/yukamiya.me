@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "DX&AI Forum 2026 秋 東京",
+    "en": "DX&AI Forum 2026 Autumn Tokyo"
+  },
+  "date": {
+    "value": "2026-09",
+    "precision": "month"
+  },
+  "url": "https://www.sbbit.jp/eventinfo/dx-ai",
+  "venue": "ビジネス＋IT",
+  "role": "事例講演",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[0]"
+}

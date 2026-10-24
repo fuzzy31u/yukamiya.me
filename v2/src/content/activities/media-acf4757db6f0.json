@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "media",
+  "title": {
+    "ja": "CyberAgent Way: 「あなたならできるよ、と背中を押す大人を増やしたい」Waffleと歩む、IT業界のジェンダーギャップ解消への道のり",
+    "en": "CyberAgent Way: Walking with Waffle to Close the Gender Gap in IT"
+  },
+  "date": {
+    "value": "2024",
+    "precision": "year"
+  },
+  "url": "https://www.cyberagent.co.jp/way/list/detail/id=29926",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#media[12]"
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "candidateId": "b34e2a306b9e39293a3469e7",
+    "kind": "writing",
+    "originalLanguage": "ja",
+    "title": {
+      "ja": "レビュー工数50%削減を目指す、LLMベンチマークとHuman-in-the-loop設計",
+      "en": "Toward a 50% reduction in review effort: LLM benchmarking and human-in-the-loop design"
+    },
+    "summary": {
+      "ja": "複数モデルの評価と、人が最終判断を担うレビュー支援の設計。50%削減は目標であり、実測された成果ではありません。",
+      "en": "Comparing models and designing review assistance with people retaining the final decision. The 50% reduction is a target, not a measured result."
+    },
+    "relevance": {
+      "policyVersion": 1,
+      "contribution": 2,
+      "substance": 2,
+      "fit": 2,
+      "evidence": 2,
+      "distinctness": 1,
+      "rationale": "An authored, substantive evaluation article directly relevant to applied AI and workflow design. It supports the existing evaluation case study rather than representing a new accomplishment; keep it out of homepage selection unless the owner chooses otherwise. English title and summary are editorial translations requiring human review."
+    }
+  }
+]

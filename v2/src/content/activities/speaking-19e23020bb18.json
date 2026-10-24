@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "AIエージェント時代のチームコラボレーション 働き方を変えるツール最前線2025",
+    "en": "Team Collaboration in the AI Agent Era: Cutting-edge Tools Transforming Work 2025"
+  },
+  "date": {
+    "value": "2025-11",
+    "precision": "month"
+  },
+  "url": "https://www.sbbit.jp/eventinfo/86199",
+  "venue": "ビジネス＋IT",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[5]"
+}

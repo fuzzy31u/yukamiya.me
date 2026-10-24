@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "開発組織のAI活用レベルを可視化する「エンジニア版AI番付」の取り組み",
+    "en": "Initiatives Behind the \"Engineering AI Banzuke\" for Visualizing AI Utilization in Development Organizations"
+  },
+  "date": {
+    "value": "2026-06",
+    "precision": "month"
+  },
+  "url": "https://lp-prohis.youtrust.jp/",
+  "venue": "プロダクトヒストリーカンファレンス 2026",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[3]"
+}

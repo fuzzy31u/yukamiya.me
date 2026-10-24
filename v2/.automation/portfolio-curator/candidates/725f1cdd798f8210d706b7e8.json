@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "725f1cdd798f8210d706b7e8",
+  "canonicalUrl": "https://zenn.dev/yukamiya/articles/e94d5807a46df9",
+  "aliases": [],
+  "occurrenceKey": "artifact",
+  "sourceId": "zenn-author",
+  "title": "Moltbook に AI Agent を登録してみた：何が起こっているのか技術的に解説",
+  "detectedAt": "2026-10-23T08:39:26.265Z",
+  "status": "verified",
+  "attempts": 1,
+  "nextRetryAt": null,
+  "blocker": null,
+  "evidence": {
+    "url": "https://zenn.dev/yukamiya/articles/e94d5807a46df9",
+    "checkedAt": "2026-10-23T08:48:08.878Z",
+    "sha256": "a1ff6725d256c2df201210eda0f506a7c89151b36b40f4f1ec4c5c0bd7697e01",
+    "sourceTitle": "Moltbook に AI Agent を登録してみた：何が起こっているのか技術的に解説",
+    "sourceDate": {
+      "value": "2026-02-01",
+      "precision": "day"
+    },
+    "identity": "yukamiya",
+    "identityMethod": "author-metadata",
+    "canonicalMethod": "canonical",
+    "adapter": "zenn-author"
+  }
+}

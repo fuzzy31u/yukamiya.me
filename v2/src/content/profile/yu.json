@@ -1,0 +1,177 @@
+{
+  "name": {
+    "en": "Yu Kamiya",
+    "ja": "神谷 優"
+  },
+  "headline": {
+    "en": "Advancing AI adoption across engineering organizations.",
+    "ja": "AIを、開発組織の実践へ。"
+  },
+  "intro": {
+    "en": "I connect applied AI, technical leadership, and organizational change—helping teams rethink how they build, evaluate, and deliver.",
+    "ja": "AIの実装と評価、そして組織の変革。技術と人の両面から、チームのつくり方・働き方を考えています。"
+  },
+  "role": {
+    "en": "Manager, AI Driven Office · Tech DE&I Lead at CyberAgent",
+    "ja": "サイバーエージェント AIドリブン推進室 マネージャー / Tech DE&I Lead"
+  },
+  "biography": {
+    "en": [
+      "My work sits between engineering practice and organizational change. At CyberAgent, I work on AI adoption and lead Tech DE&I, drawing on a career in product development, project management, and developer relations.",
+      "Earlier work includes data management at AWA, project management at QUREO, and co-founding Ms.Engineer. These experiences shape how I think about technology: the quality of a system depends on the people and practices around it.",
+      "I also speak, write, and co-host momit.fm. As a mother of three, I care about making a technical career sustainable—and creating more ways for people to take part."
+    ],
+    "ja": [
+      "技術の実践と組織の変革、その間にある仕事に取り組んでいます。サイバーエージェントでAI活用を推進し、Tech DE&Iをリード。プロダクト開発、プロジェクトマネジメント、DevRelでの経験をつなげています。",
+      "AWAでのデータマネジメント、QUREOでのプロジェクトマネジメント、Ms.Engineerの共同創設などを経験してきました。システムの良さは、それを支える人や仕組みと切り離せないと考えています。",
+      "登壇・執筆に加え、momit.fmでポッドキャストを配信しています。3児の母として、技術と関わり続けられる働き方や、多様な人が参加できる環境づくりも大切にしています。"
+    ]
+  },
+  "philosophy": {
+    "en": "Better systems. More people able to contribute.",
+    "ja": "より良い仕組みを。より多くの人が活躍できる環境を。"
+  },
+  "career": [
+    {
+      "period": {
+        "ja": "2025 - 現在",
+        "en": "2025 - Present"
+      },
+      "title": {
+        "ja": "AIドリブン推進室 マネージャー",
+        "en": "Manager, AI Driven Office"
+      },
+      "company": "CyberAgent, Inc."
+    },
+    {
+      "period": {
+        "ja": "2024 - 2025",
+        "en": "2024 - 2025"
+      },
+      "title": {
+        "ja": "DevRel Team Manager",
+        "en": "DevRel Team Manager"
+      },
+      "company": "CyberAgent, Inc."
+    },
+    {
+      "period": {
+        "ja": "2023 - 現在",
+        "en": "2023 - Present"
+      },
+      "title": {
+        "ja": "Tech DE&I Lead",
+        "en": "Tech DE&I Lead"
+      },
+      "company": "CyberAgent, Inc."
+    },
+    {
+      "period": {
+        "ja": "2020 - 2025",
+        "en": "2020 - 2025"
+      },
+      "title": {
+        "ja": "Technical Assistant（pro bono）",
+        "en": "Technical Assistant (pro bono)"
+      },
+      "company": "Waffle.org NPO"
+    },
+    {
+      "period": {
+        "ja": "2020 - 2023",
+        "en": "2020 - 2023"
+      },
+      "title": {
+        "ja": "Project Manager",
+        "en": "Project Manager"
+      },
+      "company": "QUREO, Inc."
+    },
+    {
+      "period": {
+        "ja": "2020 - 2021",
+        "en": "2020 - 2021"
+      },
+      "title": {
+        "ja": "Co-Founder",
+        "en": "Co-Founder"
+      },
+      "company": "Ms.Engineer"
+    },
+    {
+      "period": {
+        "ja": "2014 - 2019",
+        "en": "2014 - 2019"
+      },
+      "title": {
+        "ja": "Data Management Engineer",
+        "en": "Data Management Engineer"
+      },
+      "company": "AWA Co. Ltd."
+    },
+    {
+      "period": {
+        "ja": "2008 - 2013",
+        "en": "2008 - 2013"
+      },
+      "title": {
+        "ja": "Engineer → Lead Engineer",
+        "en": "Engineer → Lead Engineer"
+      },
+      "company": "CyberAgent, Inc."
+    }
+  ],
+  "education": [
+    {
+      "period": "2011 - 2013",
+      "degree": {
+        "ja": "修士課程",
+        "en": "Master's Degree"
+      },
+      "field": {
+        "ja": "国際情報通信研究科",
+        "en": "Global Information and Telecommunication Studies"
+      },
+      "school": {
+        "ja": "早稲田大学 大学院",
+        "en": "Waseda University"
+      }
+    }
+  ],
+  "links": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/yu-kamiya-0641952a/"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/fuzzy31u"
+    },
+    {
+      "label": "Zenn",
+      "url": "https://zenn.dev/yukamiya"
+    },
+    {
+      "label": "Speaker Deck",
+      "url": "https://speakerdeck.com/fuzzy31u"
+    },
+    {
+      "label": "X",
+      "url": "https://twitter.com/_yukamiya"
+    }
+  ],
+  "featuredWork": [
+    "engineering-ai-adoption",
+    "ai-review-evaluation",
+    "qureo-translation"
+  ],
+  "featuredActivities": [
+    "speaking-4939e2acdb0e",
+    "writing-f7d32c4161ef",
+    "speaking-bdcb4f468201"
+  ],
+  "philosophyBody": {
+    "en": "Technical change lasts when people can take part in it. My work in AI adoption, developer relations, and Tech DE&I is connected by that belief.",
+    "ja": "技術による変化を続けていくには、人が参加できることが大切です。AI活用推進、DevRel、Tech DE&I。これらの仕事は、その考えでつながっています。"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "media",
+  "title": {
+    "ja": "「わたし×IT 最強説」インタビュー",
+    "en": "Interview in \"Me x IT: The Strongest Theory\""
+  },
+  "date": {
+    "value": "2023",
+    "precision": "year"
+  },
+  "url": "https://www.hanmoto.com/bd/isbn/9784898155707",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#media[17]"
+}

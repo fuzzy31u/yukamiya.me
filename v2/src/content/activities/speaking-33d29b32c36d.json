@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "生成AIの話題にイマイチついていけない人のためのChatGPT体験講座",
+    "en": "ChatGPT Workshop for Beginners"
+  },
+  "date": {
+    "value": "2023-07",
+    "precision": "month"
+  },
+  "url": "https://code.or.jp/event/20230615/",
+  "venue": "みんなのコード",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[17]"
+}

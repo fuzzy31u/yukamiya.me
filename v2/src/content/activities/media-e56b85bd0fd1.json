@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "media",
+  "title": {
+    "ja": "サイバーエージェント Tech DE&I プロジェクトの今",
+    "en": "CyberAgent Tech DE&I Project Update"
+  },
+  "date": {
+    "value": "2025",
+    "precision": "year"
+  },
+  "url": "https://www.cyberagent.co.jp/way/list/detail/id=31500",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#media[7]"
+}

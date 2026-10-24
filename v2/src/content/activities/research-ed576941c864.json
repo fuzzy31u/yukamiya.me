@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "research",
+  "title": {
+    "ja": "ソフトウェアエンジニア志望者における男女差: ロールモデル・会社選びの基準・興味関心",
+    "en": "Gender Differences in Software Engineering Aspirants"
+  },
+  "date": {
+    "value": "2024",
+    "precision": "year"
+  },
+  "url": "https://www.cyberagent.co.jp/techinfo/news/detail/id=30165",
+  "venue": "人工知能学会全国大会（JSAI2024）",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#research[1]"
+}

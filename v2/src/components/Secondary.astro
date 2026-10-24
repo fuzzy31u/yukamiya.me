@@ -1,0 +1,308 @@
+---
+import { contactEnabled } from "../config/contact.mjs";
+import { Image } from "astro:assets";
+import workplace from "../assets/workplace.jpg";
+import WorkList from "./WorkList.astro";
+import ActivityList from "./ActivityList.astro";
+import { getProfile, getActivities } from "../lib/content";
+import { ui, pathFor, categoryLabels, type Locale } from "../lib/i18n";
+interface Props {
+  locale: Locale;
+  page: string;
+}
+const { locale, page } = Astro.props;
+const t = ui[locale];
+const p = await getProfile();
+const activities = await getActivities();
+const selected = activities.filter(
+  (a) => a.data.editorialStatus === "selected",
+);
+---
+
+{page === "work" && (
+  <section class="shell section">
+    <header class="page-heading">
+      <p class="eyebrow">
+        {locale === "en" ? "Practice, in context" : "実践と、その背景"}
+      </p>
+      <h1>{t.work}</h1>
+      <p class="deck">
+        {locale === "en"
+          ? "The problems, decisions, and practices behind the work."
+          : "課題にどう向き合い、何を選び、どんな仕組みをつくってきたか。"}
+      </p>
+    </header>
+    <WorkList locale={locale} />
+  </section>
+)}
+{page === "about" && (
+  <article class="shell section about-page">
+    <header class="page-heading">
+      <p class="eyebrow">{t.about}</p>
+      <h1>
+        {locale === "en"
+          ? "Technical work.\nHuman perspective."
+          : "技術と人の、\n両方から考える。"}
+      </h1>
+    </header>
+    <div class="about-intro">
+      <div class="prose">
+        <p class="intro-name">{p.name[locale]}</p>
+        <p class="current-role">{p.role[locale]}</p>
+        {p.biography[locale].map((text) => (
+          <p>{text}</p>
+        ))}
+      </div>
+      <Image
+        src={workplace}
+        alt={
+          locale === "en"
+            ? "Yu Kamiya working at a laptop"
+            : "ノートパソコンに向かう神谷 優"
+        }
+        width={700}
+        widths={[350, 700]}
+        sizes="(max-width: 760px) 100vw, 40vw"
+        format="webp"
+        loading="lazy"
+      />
+    </div>
+    <section class="about-section">
+      <h2>{t.history}</h2>
+      <ol class="career">
+        {p.career.map((job) => (
+          <li>
+            <span>{job.period[locale]}</span>
+            <div>
+              <h3>{job.title[locale]}</h3>
+              <p>{job.company}</p>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </section>
+    <section class="about-section">
+      <h2>{t.recognition}</h2>
+      <ActivityList
+        items={activities.filter((a) =>
+          ["awards", "certifications"].includes(a.data.kind),
+        )}
+        locale={locale}
+        compact
+      />
+    </section>
+    <section class="about-section">
+      <h2>{t.education}</h2>
+      {p.education.map((edu) => (
+        <div class="education">
+          <span>{edu.period}</span>
+          <h3>{edu.school[locale]}</h3>
+          <p>
+            {edu.degree[locale]} · {edu.field[locale]}
+          </p>
+        </div>
+      ))}
+    </section>
+  </article>
+)}
+{page === "speaking-writing" && (
+  <section class="shell section">
+    <header class="page-heading">
+      <p class="eyebrow">
+        {locale === "en" ? "Ideas, shared" : "知見を共有する"}
+      </p>
+      <h1>{t.notes}</h1>
+      <p class="deck">
+        {locale === "en"
+          ? "Conversations and writing on AI adoption, engineering practice, and the people behind technology."
+          : "AI活用、開発の実践、そして技術を支える人について。登壇や執筆を通して考えを共有しています。"}
+      </p>
+    </header>
+    <ActivityList items={selected} locale={locale} />
+    <section class="archive-callout" id="writing">
+      <div>
+        <h2>{locale === "en" ? "More to explore" : "これまでの記録"}</h2>
+        <p>
+          {locale === "en"
+            ? "Earlier talks, publications, interviews, and community work."
+            : "過去の登壇、出版、インタビュー、コミュニティでの活動。"}
+        </p>
+      </div>
+      <a class="text-link" href={pathFor(locale, "speaking-writing/archive")}>
+        {t.archive} ↗
+      </a>
+    </section>
+    <div class="legacy-writing">
+      <p class="eyebrow">
+        {locale === "en"
+          ? "From the archive · 2021 · Japanese"
+          : "アーカイブから・2021年"}
+      </p>
+      <a href="/bookreview-edtech/">Book Review『EdTech エドテック』 ↗</a>
+    </div>
+  </section>
+)}
+{page === "speaking-writing/archive" && (
+  <section class="shell section">
+    <header class="page-heading">
+      <a class="back-link" href={pathFor(locale, "speaking-writing")}>
+        ← {t.notes}
+      </a>
+      <p class="eyebrow">
+        {locale === "en" ? "The longer record" : "活動の記録"}
+      </p>
+      <h1>{locale === "en" ? "Archive" : "アーカイブ"}</h1>
+      <p class="deck">
+        {locale === "en"
+          ? "A record of talks, writing, research, and community participation."
+          : "登壇、執筆、研究、コミュニティでの活動をまとめています。"}
+      </p>
+    </header>
+    <nav
+      class="archive-nav"
+      aria-label={locale === "en" ? "Archive sections" : "アーカイブのカテゴリ"}
+    >
+      {Object.entries(categoryLabels).map(([key, label]) => (
+        <a href={`#${key}`}>{label[locale]}</a>
+      ))}
+    </nav>
+    {Object.entries(categoryLabels).map(([key, label]) => (
+      <section class="archive-section" id={key}>
+        <h2>{label[locale]}</h2>
+        <ActivityList
+          items={activities.filter((a) => a.data.kind === key)}
+          locale={locale}
+          compact
+        />
+      </section>
+    ))}
+  </section>
+)}
+{page === "contact" && contactEnabled && (
+  <section class="shell section contact-page">
+    <header class="page-heading">
+      <p class="eyebrow">
+        {locale === "en" ? "Let’s talk" : "まずは、お話ししましょう"}
+      </p>
+      <h1>
+        {t.contact}
+        <span class="heading-arrow" aria-hidden="true">
+          ↗
+        </span>
+      </h1>
+      <p class="deck">
+        {locale === "en"
+          ? "For conversations about AI adoption, technical leadership, speaking, or working together."
+          : "AI活用、技術組織、登壇や協働について。お気軽にご連絡ください。"}
+      </p>
+    </header>
+    <div class="contact-layout">
+      <aside>
+        <h2>{locale === "en" ? "A good place to start" : "こんなご相談を"}</h2>
+        <p>
+          {locale === "en"
+            ? "Tell me what you’re working on, what you’re hoping to change, and how I might contribute."
+            : "取り組んでいること、変えたいこと、私に期待することをお聞かせください。"}
+        </p>
+        <a href="https://twitter.com/_yukamiya" class="text-link">
+          {locale === "en" ? "Find me on X" : "Xでつながる"} ↗
+        </a>
+      </aside>
+      <form
+        name="contact"
+        method="POST"
+        action={pathFor(locale, "thanks")}
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+      >
+        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="locale" value={locale} />
+        <p hidden>
+          <label>
+            Leave this empty
+            <input name="bot-field" tabindex="-1" autocomplete="off" />
+          </label>
+        </p>
+        <p class="form-help">{t.required}</p>
+        <label for="name">{t.formName}</label>
+        <input
+          id="name"
+          name="name"
+          autocomplete="name"
+          required
+          maxlength="120"
+        />
+        <label for="email">{t.email}</label>
+        <input
+          id="email"
+          type="email"
+          name="email"
+          autocomplete="email"
+          required
+          maxlength="254"
+        />
+        <label for="subject">{t.subject}</label>
+        <input id="subject" name="subject" required maxlength="200" />
+        <label for="message">{t.message}</label>
+        <textarea
+          id="message"
+          name="message"
+          required
+          rows="6"
+          maxlength="5000"
+        ></textarea>
+        <p class="form-help">
+          {locale === "en"
+            ? "Your details will be used to respond to your message. Please don’t include sensitive information."
+            : "ご入力いただいた情報は、お問い合わせへの返信に使用します。機密情報は含めないでください。"}
+        </p>
+        <button class="button" type="submit">
+          {t.send} <span aria-hidden="true">↗</span>
+        </button>
+      </form>
+    </div>
+  </section>
+)}
+{page === "thanks" && contactEnabled && (
+  <section class="shell section">
+    <header class="page-heading">
+      <p class="eyebrow">
+        {locale === "en" ? "Thank you" : "ありがとうございます"}
+      </p>
+      <h1>
+        {locale === "en"
+          ? "Your message is on its way."
+          : "メッセージを送信しました。"}
+      </h1>
+      <p class="deck">
+        {locale === "en"
+          ? "Thank you for getting in touch."
+          : "お問い合わせいただき、ありがとうございます。"}
+      </p>
+      <a class="button" href={pathFor(locale)}>
+        {locale === "en" ? "Back home" : "ホームに戻る"}{" "}
+        <span aria-hidden="true">↗</span>
+      </a>
+    </header>
+  </section>
+)}
+
+{!contactEnabled && ["contact", "thanks"].includes(page) && (
+  <section class="shell section contact-page">
+    <header class="page-heading">
+      <h1>
+        {locale === "en"
+          ? "Inquiries are temporarily closed."
+          : "お問い合わせの受付を一時休止しています。"}
+      </h1>
+      <p class="deck">
+        {locale === "en"
+          ? "I’m currently focusing on existing commitments. If I reopen inquiries, I’ll update this page."
+          : "現在は進行中の活動に専念しています。受付を再開する際は、このページでお知らせします。"}
+      </p>
+      <a class="text-link" href={pathFor(locale)}>
+        {locale === "en" ? "Back home" : "ホームに戻る"} ↗
+      </a>
+    </header>
+  </section>
+)}

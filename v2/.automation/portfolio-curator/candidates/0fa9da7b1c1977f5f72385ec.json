@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "0fa9da7b1c1977f5f72385ec",
+  "canonicalUrl": "https://zenn.dev/yukamiya/articles/23ea252db2353d",
+  "aliases": [],
+  "occurrenceKey": "artifact",
+  "sourceId": "zenn-author",
+  "title": "ChatGPTでPDFをコード化しSlidevで魅力的なスライドを作成する方法",
+  "detectedAt": "2026-10-23T08:39:26.265Z",
+  "status": "verified",
+  "attempts": 1,
+  "nextRetryAt": null,
+  "blocker": null,
+  "evidence": {
+    "url": "https://zenn.dev/yukamiya/articles/23ea252db2353d",
+    "checkedAt": "2026-10-23T08:48:08.878Z",
+    "sha256": "36b543b7fabf58e3fc0c9fdde21136348a106d15da089bfed304905369e8ed3f",
+    "sourceTitle": "ChatGPTでPDFをコード化しSlidevで魅力的なスライドを作成する方法",
+    "sourceDate": {
+      "value": "2025-02-19",
+      "precision": "day"
+    },
+    "identity": "yukamiya",
+    "identityMethod": "author-metadata",
+    "canonicalMethod": "canonical",
+    "adapter": "zenn-author"
+  }
+}

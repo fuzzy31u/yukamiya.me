@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "bfd3c6c04663a95cf146c49d",
+  "canonicalUrl": "https://www.sbbit.jp/eventinfo/dx-ai",
+  "occurrenceKey": "legacy-unspecified",
+  "decision": "legacy-merged",
+  "legacyKey": "https://www.sbbit.jp/eventinfo/dx-ai",
+  "legacy": {
+    "content_type": "speaking",
+    "title": "DX&AI Forum 2026 秋 東京",
+    "canonical_url": "https://www.sbbit.jp/eventinfo/dx-ai",
+    "detected_at": "2026-07-23T11:41:07Z",
+    "status": "merged",
+    "issue_number": 94,
+    "pr_number": 95,
+    "last_review_status": "pass",
+    "merged_at": "2026-07-23T02:40:13Z",
+    "blocker": null
+  }
+}

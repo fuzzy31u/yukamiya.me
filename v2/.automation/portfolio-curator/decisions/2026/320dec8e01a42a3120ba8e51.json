@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "320dec8e01a42a3120ba8e51",
+  "canonicalUrl": "https://developers.cyberagent.co.jp/blog/archives/63720/",
+  "occurrenceKey": "legacy-unspecified",
+  "decision": "legacy-merged",
+  "legacyKey": "https://developers.cyberagent.co.jp/blog/archives/63720/",
+  "legacy": {
+    "content_type": "writing",
+    "title": "開発組織のAI活用レベルを可視化する「エンジニア版AI番付」の設計と運営",
+    "canonical_url": "https://developers.cyberagent.co.jp/blog/archives/63720/",
+    "detected_at": "2026-05-23T05:55:16Z",
+    "status": "merged",
+    "issue_number": 79,
+    "pr_number": 80,
+    "last_review_status": "pass",
+    "merged_at": "2026-05-23T05:54:47Z",
+    "blocker": null
+  }
+}

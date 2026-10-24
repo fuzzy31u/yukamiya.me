@@ -67,3 +67,7 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+# Astro's public directory contains source assets, not generated Gatsby output.
+!v2/public/
+!v2/public/**

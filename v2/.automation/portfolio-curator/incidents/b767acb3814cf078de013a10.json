@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "b767acb3814cf078de013a10",
+  "legacyKey": "qa-content:production-about-stale-2026-07-26",
+  "title": "Production About page omits merged 2026 updates",
+  "status": "resolved",
+  "firstSeen": "2026-07-26T13:13:15Z",
+  "lastSeen": "2026-08-09T00:05:50Z",
+  "recurrenceCount": 0,
+  "recentRecurrences": [],
+  "legacy": {
+    "content_type": "qa-content",
+    "title": "Production About page omits merged 2026 updates",
+    "canonical_url": "https://yukamiya.me/about/",
+    "detected_at": "2026-07-26T13:13:15Z",
+    "status": "merged",
+    "issue_number": 99,
+    "pr_number": null,
+    "last_review_status": "pass",
+    "merged_at": "2026-08-09T00:05:50Z",
+    "blocker": "Resolved without a PR: production https://yukamiya.me/about/ was re-verified this run and now serves the merged 2026 updates (DX&AI Forum 2026, WOMAN×AI, エンジニア版AI番付). Issue #99 closed 2026-08-09T00:05:50Z."
+  }
+}

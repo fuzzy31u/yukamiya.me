@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "media",
+  "title": {
+    "ja": "SELECK: IT業界のジェンダーギャップ解消に挑む",
+    "en": "SELECK: Tackling Gender Gap in IT Industry"
+  },
+  "date": {
+    "value": "2023",
+    "precision": "year"
+  },
+  "url": "https://web.archive.org/web/2023/https://seleck.cc/1608",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#media[13]"
+}

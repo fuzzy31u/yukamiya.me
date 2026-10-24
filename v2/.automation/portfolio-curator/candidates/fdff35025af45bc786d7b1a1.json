@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "fdff35025af45bc786d7b1a1",
+  "canonicalUrl": "https://zenn.dev/yukamiya/articles/8e1cafa056cb84",
+  "aliases": [],
+  "occurrenceKey": "artifact",
+  "sourceId": "zenn-author",
+  "title": "Vertex AI Agent Builderでノーコードの対話型AIエージェントを構築しRAGを実現する",
+  "detectedAt": "2026-10-23T08:39:26.265Z",
+  "status": "verified",
+  "attempts": 0,
+  "nextRetryAt": null,
+  "blocker": null,
+  "evidence": {
+    "url": "https://zenn.dev/yukamiya/articles/8e1cafa056cb84",
+    "checkedAt": "2026-10-23T08:48:08.878Z",
+    "sha256": "d537cdee8a53a00401e1cb4619eea69629bc4473474703352f4eac866853d233",
+    "sourceTitle": "Vertex AI Agent Builderでノーコードの対話型AIエージェントを構築しRAGを実現する",
+    "sourceDate": {
+      "value": "2024-07-20",
+      "precision": "day"
+    },
+    "identity": "yukamiya",
+    "identityMethod": "author-metadata",
+    "canonicalMethod": "canonical",
+    "adapter": "zenn-author"
+  }
+}

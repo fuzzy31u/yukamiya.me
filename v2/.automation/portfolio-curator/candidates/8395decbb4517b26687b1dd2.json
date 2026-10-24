@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "8395decbb4517b26687b1dd2",
+  "canonicalUrl": "https://zenn.dev/yukamiya/articles/hanamaru-slack-gemini-calendar",
+  "aliases": [],
+  "occurrenceKey": "artifact",
+  "sourceId": "zenn-author",
+  "title": "🌸【学校プリントを Slack に投げるだけ】Gemini で家族カレンダーを自動更新する AI エージェント Hanamaru を作った",
+  "detectedAt": "2026-10-23T08:39:26.265Z",
+  "status": "verified",
+  "attempts": 1,
+  "nextRetryAt": null,
+  "blocker": null,
+  "evidence": {
+    "url": "https://zenn.dev/yukamiya/articles/hanamaru-slack-gemini-calendar",
+    "checkedAt": "2026-10-23T08:48:08.878Z",
+    "sha256": "0083418d75322a883a070cbd32c99cdd9920da56cf6fee4391b278f0667b9cf9",
+    "sourceTitle": "🌸【学校プリントを Slack に投げるだけ】Gemini で家族カレンダーを自動更新する AI エージェント Hanamaru を作った",
+    "sourceDate": {
+      "value": "2026-10-20",
+      "precision": "day"
+    },
+    "identity": "yukamiya",
+    "identityMethod": "author-metadata",
+    "canonicalMethod": "canonical",
+    "adapter": "zenn-author"
+  }
+}

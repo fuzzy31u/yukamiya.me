@@ -1,0 +1,135 @@
+---
+import { contactEnabled } from "../config/contact.mjs";
+import { getCollection, render, type CollectionEntry } from "astro:content";
+import Base from "../layouts/Base.astro";
+import Home from "../components/Home.astro";
+import Secondary from "../components/Secondary.astro";
+import CaseStudy from "../components/CaseStudy.astro";
+import { getProfile } from "../lib/content";
+import { ui, type Locale } from "../lib/i18n";
+interface Props {
+  locale: Locale;
+  page: string;
+  entry?: CollectionEntry<"work"> | CollectionEntry<"writing">;
+}
+export async function getStaticPaths() {
+  const pages = [
+    "",
+    "work",
+    "about",
+    "speaking-writing",
+    "speaking-writing/archive",
+    "contact",
+    "thanks",
+  ];
+  const routes: { params: { route: string | undefined }; props: Props }[] = (
+    ["en", "ja"] as Locale[]
+  ).flatMap((locale) =>
+    pages.map((page) => ({
+      params: {
+        route:
+          [locale === "ja" ? "ja" : "", page].filter(Boolean).join("/") ||
+          undefined,
+      },
+      props: { locale, page },
+    })),
+  );
+  const work = await getCollection(
+    "work",
+    ({ data }) => data.visibility === "published",
+  );
+  for (const entry of work)
+    routes.push({
+      params: {
+        route: `${entry.data.locale === "ja" ? "ja/" : ""}work/${entry.data.translationKey}`,
+      },
+      props: {
+        locale: entry.data.locale,
+        page: `work/${entry.data.translationKey}`,
+        entry,
+      },
+    });
+  const writing = await getCollection("writing");
+  for (const entry of writing)
+    routes.push({
+      params: { route: entry.data.legacyPath.replace(/^\/+|\/+$/g, "") },
+      props: { locale: "ja", page: "legacy", entry },
+    });
+  return routes;
+}
+const { locale, page, entry } = Astro.props;
+const profile = await getProfile();
+const t = ui[locale];
+const label =
+  page === "work"
+    ? t.work
+    : page === "about"
+      ? t.about
+      : page === "contact"
+        ? t.contact
+        : page === "thanks"
+          ? locale === "en"
+            ? "Thank you"
+            : "ありがとうございます"
+          : page.includes("archive")
+            ? locale === "en"
+              ? "Archive"
+              : "アーカイブ"
+            : t.notes;
+const title = entry
+  ? `${entry.data.title} — Yu Kamiya`
+  : page
+    ? `${label} — Yu Kamiya`
+    : locale === "ja"
+      ? "神谷 優 — Applied AI・テクニカルリーダーシップ"
+      : "Yu Kamiya — Applied AI & Technical Leadership";
+const inquiriesClosed = !contactEnabled && ["contact", "thanks"].includes(page);
+const closedDescription =
+  locale === "en"
+    ? "Inquiries are temporarily closed while I focus on existing commitments. This page will be updated when inquiries reopen."
+    : "現在は進行中の活動に専念するため、お問い合わせの受付を一時休止しています。受付を再開する際は、このページでお知らせします。";
+const description = inquiriesClosed
+  ? closedDescription
+  : entry
+    ? entry.collection === "work"
+      ? entry.data.seoDescription
+      : entry.data.description
+    : page === "about"
+      ? profile.biography[locale][0]
+      : profile.intro[locale];
+const legacy = entry?.collection === "writing" ? await render(entry) : null;
+---
+
+<Base
+  title={
+    inquiriesClosed
+      ? `${locale === "en" ? "Inquiries temporarily closed" : "お問い合わせ受付休止中"} — Yu Kamiya`
+      : title
+  }
+  description={description}
+  locale={locale}
+  path={page}
+  noindex={page === "thanks" || (page === "contact" && !contactEnabled)}
+  alternate={page !== "legacy"}
+  article={!!entry}
+>
+  {page === "" ? (
+    <Home locale={locale} />
+  ) : page === "legacy" && legacy ? (
+    <article class="shell section legacy-article">
+      <header class="page-heading">
+        <p class="eyebrow">
+          2021 / {locale === "ja" ? "読書の記録" : "Reading notes"}
+        </p>
+        <h1>{entry?.data.title}</h1>
+      </header>
+      <div class="prose">
+        <legacy.Content />
+      </div>
+    </article>
+  ) : entry?.collection === "work" ? (
+    <CaseStudy locale={locale} entry={entry} />
+  ) : (
+    <Secondary locale={locale} page={page} />
+  )}
+</Base>

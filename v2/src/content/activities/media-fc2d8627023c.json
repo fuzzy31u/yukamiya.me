@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "media",
+  "title": {
+    "ja": "サイバーエージェント: 「デジタルプラクティス」に論文が採択されました",
+    "en": "CyberAgent: Paper Accepted in Digital Practice"
+  },
+  "date": {
+    "value": "2025",
+    "precision": "year"
+  },
+  "url": "https://www.cyberagent.co.jp/techinfo/news/detail/id=31309",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#media[9]"
+}

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "5ed775569beede8bdaf72d44",
+  "canonicalUrl": "https://developers.cyberagent.co.jp/blog/archives/55718/",
+  "occurrenceKey": "legacy-unspecified",
+  "decision": "legacy-rejected",
+  "legacyKey": "https://developers.cyberagent.co.jp/blog/archives/55718/",
+  "legacy": {
+    "title": "中高生のアプリ開発を支援！Tech DE&Iの活動でTechnovation Girls のTeaching Assistantを担当してみました",
+    "rejected_at": "2026-08-31T00:00:00Z",
+    "reason": "Not Yu Kamiya's activity. Verified from source with egress restored: <meta name=\"author\" content=\"清水 良一\">, og:url https://developers.cyberagent.co.jp/blog/archives/55718/. A Tech DE&I project post written by the technical-PR author who served as the TA himself; it surfaces on `site:...blog 神谷優` only because Kamiya leads that project, and a project mention is not an activity. Do not re-investigate."
+  }
+}

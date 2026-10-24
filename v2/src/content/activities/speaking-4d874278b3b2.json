@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "プログラミング教育、エンジニアへの道",
+    "en": "Programming Education and the Path to Engineering"
+  },
+  "date": {
+    "value": "2022-04",
+    "precision": "month"
+  },
+  "url": "https://voicy.jp/channel/989/312990",
+  "venue": "母親アップデートラジオ",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[24]"
+}

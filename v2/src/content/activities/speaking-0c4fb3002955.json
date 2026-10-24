@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "kind": "speaking",
+  "title": {
+    "ja": "International Women's Day 2025",
+    "en": "International Women's Day 2025"
+  },
+  "date": {
+    "value": "2025-04",
+    "precision": "month"
+  },
+  "url": "https://usergroups.outsystems.com/events/details/outsystems-inc-tokyo-presents-iwd-international-womens-day-2025-outsystems-japan-community/",
+  "venue": "OutSystems Japan Community",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#speaking[9]"
+}

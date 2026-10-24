@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "kind": "media",
+  "title": {
+    "ja": "朝日新聞：（凄腕ものがたり）神谷優さん　エンジニアの男女格差解消に挑む",
+    "en": "Asahi Shimbun: Yu Kamiya Tackles Gender Gap in Engineering"
+  },
+  "date": {
+    "value": "2025",
+    "precision": "year"
+  },
+  "url": "https://www.asahi.com/articles/DA3S16241559.html",
+  "originalLanguage": "unknown",
+  "verificationStatus": "legacy-import",
+  "editorialStatus": "retained",
+  "publicationStatus": "archived",
+  "legacyRef": "src/data/about-content.js#media[6]"
+}
